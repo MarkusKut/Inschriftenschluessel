@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Inschriftenschlüssel"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Start"
+      - href: pages/formeln.qmd
+        text: "Formeln"
+      - href: pages/slots.qmd
+        text: "Slots"
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: assets/css/site.css
+    toc: true
+    toc-location: left
+    page-layout: full
+    code-fold: true
+    code-tools: false
+
+execute:
+  freeze: auto
+

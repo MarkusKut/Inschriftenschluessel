@@ -1,0 +1,7 @@
+---
+title: "Formel: Denkmälerformel"
+---
+
+
+
+[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}

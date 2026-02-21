@@ -1,0 +1,80 @@
+---
+title: "Slot: Gottheit"
+---
+
+Gottesname + Epitheton/-a
+
+
+Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Namen, durch sein Epitheton, seine Epitheta oder durch eine Kombination dieser Möglichkeiten genannt werden.
+
+
+## Typische Determinative
+
+<table class="table table-sm table-striped table-tight">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> männlich </th>
+   <th style="text-align:left;"> weiblich </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0001_A40_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0001_B7_01.png){.glyph} </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0010_G7_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0010_I64_01.png){.glyph} </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0020_R8_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0020_H8_01.png){.glyph} </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0030_H8_02.png){.glyph} </td>
+  </tr>
+</tbody>
+</table>
+
+
+## Göttertabellen
+
+<table class="table table-sm table-striped table-tight">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Spezifische Determinative </th>
+   <th style="text-align:left;"> Name </th>
+   <th style="text-align:left;"> Spezifische Epitheta </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *ꞽmn* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0001_Jmn_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/det/0001_Jmn_det_01.png){.glyph} </td>
+   <td style="text-align:left;"> Amun </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0010_Jmn_GR_01.png){.glyph} </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0020_Jmn_GR_02.png){.glyph} </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}
