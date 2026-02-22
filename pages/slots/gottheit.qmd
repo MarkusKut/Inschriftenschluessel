@@ -10,7 +10,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 
 ## Typische Determinative
 
-<table class="table table-sm table-striped table-tight">
+<table class="tableFixHead">
  <thead>
   <tr>
    <th style="text-align:left;"> männlich </th>
@@ -19,20 +19,8 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0001_A40_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0001_B7_01.png){.glyph} </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0010_G7_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0010_I64_01.png){.glyph} </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0020_R8_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0020_H8_01.png){.glyph} </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0030_H8_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0001_A40_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0010_G7_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/01_m/0020_R8_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0001_B7_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0010_I64_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0020_H8_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0030_H8_02.png){.glyph} </td>
   </tr>
 </tbody>
 </table>
@@ -40,7 +28,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 
 ## Göttertabellen
 
-<table class="table table-sm table-striped table-tight">
+<table class="tableFixHead">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -53,23 +41,317 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 <tbody>
   <tr>
    <td style="text-align:left;"> *ꞽmn* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0001_Jmn_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0001_Jmn_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0010_Jmn_GR_01.png){.glyph} (Gr.) &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0020_Jmn_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/det/0001_Jmn_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Amun </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0001_m-jp.t_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0010_m-jp.t_02.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0020_m-jp.t_SP_01.png){.glyph} (Spät.) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ꞽmn-ra* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0010_Amun-Re/0001_Jmn-Ra_01.png){.glyph} </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Amun-Re </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0010_Jmn_GR_01.png){.glyph} </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Bastet </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0020_Jmn_GR_02.png){.glyph} </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Behedeti </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Götterneunheit </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Ptah </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Maat </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Min </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Mut </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Month </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Neith </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Nut </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Amun-Re-Harachte </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Nephthys </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Nefertem </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Nechbet </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Re </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Re-Harachte </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Renenutet </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Hapi (Nilgott) </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Hathor </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Apis </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Hapi (Horussohn) </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Amset </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Horus </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Harachte </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Heqet </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Chnum </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Chons </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Sobek </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Selkis </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Sachmet </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Sokar </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Isis </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Onuris </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Seth </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Schu </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Qebehsenuef </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Duamutef </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Thot </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Anubis </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Atum </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Aton </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Wepwaut </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Osiris </td>
    <td style="text-align:left;">  </td>
   </tr>
 </tbody>

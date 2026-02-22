@@ -21,7 +21,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.badge-slot} gibt. E
 
 ## Aufbau
 
-<table class="table table-sm table-striped table-tight">
+<table class="tableFixHead">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -33,20 +33,20 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.badge-slot} gibt. E
 <tbody>
   <tr>
    <td style="text-align:left;"> *ḥtp-dꞽ-nsw (n)* </td>
-   <td style="text-align:left;"> Ein Opfer, das der König gibt </td>
-   <td style="text-align:left;"> III, 186, 187 </td>
+   <td style="text-align:left;"> Ein Opfer &ensp; das der König gibt </td>
+   <td style="text-align:left;"> III &ensp; 186 &ensp; 187 </td>
    <td style="text-align:left;"> häufige Schreibung; ab 19. Dyn. auch mit „n“ vor Gottheit geschrieben </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *dꞽ⸗f / ⸗s / ⸗sn pr.t-ḫrw* </td>
    <td style="text-align:left;"> Er/Sie (Sg. & Pl.) möge(n) geben </td>
-   <td style="text-align:left;"> III, 186, 187 </td>
+   <td style="text-align:left;"> III &ensp; 186 &ensp; 187 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *n / n kꜣ n* </td>
    <td style="text-align:left;"> für / für den Ka des/der </td>
-   <td style="text-align:left;"> III, 186 </td>
+   <td style="text-align:left;"> III &ensp; 186 </td>
    <td style="text-align:left;">  </td>
   </tr>
 </tbody>

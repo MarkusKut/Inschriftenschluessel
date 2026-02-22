@@ -125,11 +125,19 @@ gen_slot_pages <- function(content) {
         tbl <- kable_html(df)
         
         if (isTRUE(s$collapsible)) {
-          tbl <- as.character(details_wrap(s$heading %||% "Tabelle", tbl))
-          return(tbl)
+          heading <- s$heading %||% "Tabelle"
+          tbl_md  <- kable_html(df) #tbl  # tbl is HTML from kable_html(escape=FALSE)
+          
+          return(paste0(
+            "::: {.callout collapse=\"true\"}\n",
+            "## ", heading, "\n\n",
+            tbl_md, "\n",
+            ":::\n\n"
+          ))
         } else {
           part <- paste0(part, tbl, "\n\n")
         }
+        
       }
       
       if (!is.na(s$heading) && s$heading != "" && !isTRUE(s$collapsible)) {

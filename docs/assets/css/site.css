@@ -36,3 +36,14 @@ h1 a, h2 a, h3 a {
 h1 a:hover, h2 a:hover, h3 a:hover {
   text-decoration: underline;
 }
+
+
+
+.tableFixHead          { overflow: auto; height: 100px; }
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+

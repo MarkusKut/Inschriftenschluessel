@@ -50,30 +50,43 @@ as_raw_html <- function(x) {
   paste0("\n\n```{=html}\n", x, "\n```\n\n")
 }
 
+
 read_long_table <- function(df_tables, table_id) {
- df_tables %>%
-   filter(table_id == !!table_id) %>%
-   select(row, col, value) %>%
-   arrange(row) %>%
-   pivot_wider(names_from = col, values_from = value) %>%
-   mutate(across(everything(), function(x) {
-     x <- ifelse(is.na(x), "", x)
-
-     # convert glyph paths to markdown images
-     x <- ifelse(
-       grepl("\\.png$", x, ignore.case = TRUE),
-       paste0("![](/assets/glyphs/", x, "){.glyph}"),
-       x
-     )
-
-     x
-   })) %>%
-   select(-row)
+  df_tables %>%
+    filter(table_id == !!table_id) %>%
+    select(row, col, value) %>%
+    arrange(row) %>%
+    pivot_wider(names_from = col, values_from = value) %>%
+    mutate(across(everything(), function(x) {
+      x <- ifelse(is.na(x), "", x)
+      if (is.list(x)) {
+        x <- vapply(x, function(cell) paste(cell, collapse = ", "), character(1))
+      } else {
+        x <- as.character(x)
+      }
+      
+      #x <- paste(x, collapse = ", ")
+      # replace every occurrence of a png path with a markdown image
+      x <- gsub(
+        "([^\\s,]+\\.png)",
+        "![](/assets/glyphs/\\1){.glyph}",
+        x,
+        ignore.case = TRUE,
+        perl = TRUE
+      )
+      
+      # turn comma separators into spacing between glyphs
+      x <- gsub("\\s*,\\s*", " &ensp; ", x, perl = TRUE)
+      
+      x
+    })) %>%
+    select(-row)
 }
 
 
 
-kable_html <- function(df, class = "table table-sm table-striped table-tight") {
+
+kable_html <- function(df, class = "tableFixHead") {
   knitr::kable(df, format = "html", escape = FALSE,
                table.attr = paste0('class="', class, '"'))
 }
@@ -236,10 +249,6 @@ rewrite_slot_links_for_landing <- function(md) {
   # Formula pages use ../slots/..., landing page must use pages/slots/...
   gsub("\\(\\.\\./slots/", "(pages/slots/", md)
 }
-
-
-
-
 
 
 
