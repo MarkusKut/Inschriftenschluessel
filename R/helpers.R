@@ -50,8 +50,55 @@ as_raw_html <- function(x) {
   paste0("\n\n```{=html}\n", x, "\n```\n\n")
 }
 
+read_long_table_base <- function(df_tables, table_id) {
+  df_tables %>%
+    dplyr::filter(table_id == !!table_id) %>%
+    dplyr::select(row, col, value) %>%
+    dplyr::arrange(as.numeric(row)) %>%
+    tidyr::pivot_wider(names_from = col, values_from = value)
+}
+# 
+# read_long_table <- function(df_tables, table_id) {
+#   df_tables %>%
+#     filter(table_id == !!table_id) %>%
+#     select(row, col, value) %>%
+#     arrange(row) %>%
+#     pivot_wider(names_from = col, values_from = value) %>%
+#     mutate(across(everything(), function(x) {
+#       x <- ifelse(is.na(x), "", x)
+#       if (is.list(x)) {
+#         x <- vapply(x, function(cell) paste(cell, collapse = ", "), character(1))
+#       } else {
+#         x <- as.character(x)
+#       }
+#       
+#       #x <- paste(x, collapse = ", ")
+#       # replace every occurrence of a png path with a markdown image
+#       x <- gsub(
+#         "([^\\s,]+\\.png)",
+#         "![](/assets/glyphs/\\1){.glyph}",
+#         x,
+#         ignore.case = TRUE,
+#         perl = TRUE
+#       )
+#       
+#       # turn comma separators into spacing between glyphs
+#       x <- gsub("\\s*,\\s*", " &ensp; ", x, perl = TRUE)
+#       
+#       x
+#     })) %>%
+#     select(-row)
+# }
 
-read_long_table <- function(df_tables, table_id) {
+
+
+read_long_table <- function(df_tables, table_id, visited = character()) {
+  
+  if (table_id %in% visited) {
+    stop("Cycle in nested tables: ", paste(c(visited, table_id), collapse = " -> "))
+  }
+  visited <- c(visited, table_id)
+  
   df_tables %>%
     filter(table_id == !!table_id) %>%
     select(row, col, value) %>%
@@ -64,7 +111,8 @@ read_long_table <- function(df_tables, table_id) {
       } else {
         x <- as.character(x)
       }
-      
+    
+
       #x <- paste(x, collapse = ", ")
       # replace every occurrence of a png path with a markdown image
       x <- gsub(
@@ -74,23 +122,20 @@ read_long_table <- function(df_tables, table_id) {
         ignore.case = TRUE,
         perl = TRUE
       )
-      
+
       # turn comma separators into spacing between glyphs
       x <- gsub("\\s*,\\s*", " &ensp; ", x, perl = TRUE)
-      
+
       x
     })) %>%
     select(-row)
 }
 
 
-
-
-kable_html <- function(df, class = "tableFixHead") {
-  knitr::kable(df, format = "html", escape = FALSE,
-               table.attr = paste0('class="', class, '"'))
+kable_html <- function(df, class = "table") {
+  tbl <- knitr::kable(df, format = "html", escape = FALSE, table.attr = paste0('class="', class, '"'))
+  paste0("<div class='tableFixHead'>", tbl, "</div>")
 }
-
 
 
 

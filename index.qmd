@@ -4,7 +4,7 @@ title: "Inschriftenschlüssel"
 
 ## [Opferformel](pages/formeln/opferformel.qmd)
 
-![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-dꞽ-nsw* [Gottheit](pages/slots/gottheit.qmd){.badge-slot} ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*dꞽ*) [Gaben](pages/slots/gaben.qmd){.badge-slot} ![](/assets/glyphs/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](pages/slots/person.qmd){.badge-slot}   
+![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-dꞽ-nsw* [Gottheit](pages/slots/gottheit.qmd){.badge-slot} ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*dꞽ*) [Gaben](pages/slots/gaben.qmd){.badge-slot} ![](/assets/glyphs/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](pages/slots/person.qmd){.badge-slot}   
 
 
 

@@ -10,7 +10,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 
 ## Typische Determinative
 
-<table class="tableFixHead">
+<div class='tableFixHead'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> männlich </th>
@@ -23,12 +23,12 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0001_B7_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0010_I64_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0020_H8_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Determinative_typisch/02_f/0030_H8_02.png){.glyph} </td>
   </tr>
 </tbody>
-</table>
+</table></div>
 
 
 ## Göttertabellen
 
-<table class="tableFixHead">
+<details><summary>Öffne Göttertabellen</summary><div class='tableFixHead'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -44,7 +44,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0001_Jmn_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0010_Jmn_GR_01.png){.glyph} (Gr.) &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0020_Jmn_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/det/0001_Jmn_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Amun </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0001_m-jp.t_01.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0010_m-jp.t_02.png){.glyph} &ensp; ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0020_m-jp.t_SP_01.png){.glyph} (Spät.) </td>
+   <td style="text-align:left;"> [[table:tb_epith_001]] </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ꞽmn-ra* </td>
@@ -355,8 +355,6 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;">  </td>
   </tr>
 </tbody>
-</table>
-
-
+</table></div></details>
 
 [Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}

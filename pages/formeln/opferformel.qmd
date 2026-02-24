@@ -21,7 +21,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.badge-slot} gibt. E
 
 ## Aufbau
 
-<table class="tableFixHead">
+<div class='tableFixHead'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -50,7 +50,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.badge-slot} gibt. E
    <td style="text-align:left;">  </td>
   </tr>
 </tbody>
-</table>
+</table></div>
 
 ## Schreibvarianten
 
