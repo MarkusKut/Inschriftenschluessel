@@ -1,3 +1,38 @@
+/* noto-sans-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v42-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/noto-sans-v42-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-sans-v42-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+/* noto-sans-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v42-latin_latin-ext-italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/noto-sans-v42-latin_latin-ext-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-sans-v42-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+       url('../fonts/noto-sans-v42-latin_latin-ext-italic.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+
+html * {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
 .glyph {
   height: 30px;
   width: auto;
