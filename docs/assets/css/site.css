@@ -54,6 +54,9 @@ th     { background:#eee; }
 
 html *
 {
-   font-size: 1em !important;
-   font-family: Noto Sans !important;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-variation-settings:
+    "wdth" 100;
 }
