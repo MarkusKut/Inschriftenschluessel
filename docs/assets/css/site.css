@@ -52,11 +52,3 @@ th, td { padding: 8px 16px; }
 th     { background:#eee; }
 
 
-html *
-{
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-variation-settings:
-    "wdth" 100;
-}
