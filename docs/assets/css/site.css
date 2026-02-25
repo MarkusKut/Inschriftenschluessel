@@ -1,9 +1,3 @@
-html *
-{
-   font-size: 1em !important;
-   font-family: "New Athena Unicode" !important;
-}
-
 .glyph {
   height: 30px;
   width: auto;
