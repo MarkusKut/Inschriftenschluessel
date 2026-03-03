@@ -25,49 +25,84 @@
     "href": "pages/slots/gaben.html",
     "title": "Slot: Gaben",
     "section": "",
-    "text": "Anfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
+    "text": "Anfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
   },
   {
-    "objectID": "pages/slots/gaben.html#ubliche-form",
-    "href": "pages/slots/gaben.html#ubliche-form",
+    "objectID": "pages/slots/gaben.html#übliche-form",
+    "href": "pages/slots/gaben.html#übliche-form",
     "title": "Slot: Gaben",
     "section": "",
-    "text": "Anfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
+    "text": "Anfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
   },
   {
     "objectID": "pages/slots/gaben.html#anfangsformel",
     "href": "pages/slots/gaben.html#anfangsformel",
     "title": "Slot: Gaben",
     "section": "Anfangsformel",
-    "text": "Anfangsformel\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\npr.t-ḫrw\n\n\n       (AR)\n\n\n\n\n\nein Anrufungsopfer bestehend aus"
+    "text": "Anfangsformel\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\npr.t-ḫrw\n\n\n       (AR)\n\n\n\n\n\nein Anrufungsopfer bestehend aus"
   },
   {
-    "objectID": "pages/slots/gaben.html#aufzahlung",
-    "href": "pages/slots/gaben.html#aufzahlung",
+    "objectID": "pages/slots/gaben.html#aufzählung",
+    "href": "pages/slots/gaben.html#aufzählung",
     "title": "Slot: Gaben",
-    "section": "Aufzählung:",
-    "text": "Aufzählung:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nAbkürzung\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\nḥnq.t\n\n\n    (Gr.)\n\n\n\n\n\n   \n\n\nBier\n\n\n\n\nt\n\n\n\n\n\n\n\n\n         \n\n\nBrot\n\n\n\n\nꜣpd\n\n\n    (Abk.)\n\n\n\n\n\n\n\n\nGeflügel\n\n\n\n\nkꜣ\n\n\n    (MR)    (NR)    (NR)\n\n\n\n\n\n\n\n\nRinder\n\n\n\n\nšs\n\n\n (AR   MR)\n\n\n    (MR)\n\n\n\n\n\nAlabaster\n\n\n\n\nmnḫ.t\n\n\n    (NR)\n\n\n    (NR)    (Gr.)    (Gr.)\n\n\n       (NR)    (NR)\n\n\nLeinen\n\n\n\n\nmrḥ.t\n\n\n\n\n\n   \n\n\n      \n\n\nSalböl\n\n\n\n\nsnṯr\n\n\n    (AR)    (AR)    (AR)    (Ende AR)    (MR)    (MR)    (MR)    (Dyn. 18)    (Dyn. 19)\n\n\n      \n\n\n          (MR)\n\n\nWeihrauch\n\n\n\n\nirp\n\n\n\n\n\n       (NR)\n\n\n    (AR)\n\n\nWein"
+    "section": "Aufzählung:",
+    "text": "Aufzählung:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nAbkürzung\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\nḥnq.t\n\n\n    (Gr.)\n\n\n\n\n\n   \n\n\nBier\n\n\n\n\nt\n\n\n\n\n\n\n\n\n         \n\n\nBrot\n\n\n\n\nꜣpd\n\n\n    (Abk.)\n\n\n\n\n\n\n\n\nGeflügel\n\n\n\n\nkꜣ\n\n\n    (MR)    (NR)    (NR)\n\n\n\n\n\n\n\n\nRinder\n\n\n\n\nšs\n\n\n (AR   MR)\n\n\n    (MR)\n\n\n\n\n\nAlabaster\n\n\n\n\nmnḫ.t\n\n\n    (NR)\n\n\n    (NR)    (Gr.)    (Gr.)\n\n\n       (NR)    (NR)\n\n\nLeinen\n\n\n\n\nmrḥ.t\n\n\n\n\n\n   \n\n\n      \n\n\nSalböl\n\n\n\n\nsnṯr\n\n\n    (AR)    (AR)    (AR)    (Ende AR)    (MR)    (MR)    (MR)    (Dyn. 18)    (Dyn. 19)\n\n\n      \n\n\n          (MR)\n\n\nWeihrauch\n\n\n\n\nirp\n\n\n\n\n\n       (NR)\n\n\n    (AR)\n\n\nWein"
   },
   {
     "objectID": "pages/slots/gaben.html#attribut",
     "href": "pages/slots/gaben.html#attribut",
     "title": "Slot: Gaben",
     "section": "Attribut:",
-    "text": "Attribut:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nḫꜣ m/n\n\n\n\n\n\ntausend an"
+    "text": "Attribut:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nḫꜣ m/n\n\n\n\n\n\ntausend an"
   },
   {
     "objectID": "pages/slots/gaben.html#schlussformel",
     "href": "pages/slots/gaben.html#schlussformel",
     "title": "Slot: Gaben",
     "section": "Schlussformel:",
-    "text": "Schlussformel:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\ndd.t p.t\n\n\n\n\n\nwas der Himmel gibt\n\n\n\n\nqmꜣ.t tꜣ\n\n\n   \n\n\nwas die Erde hervorbringt\n\n\n\n\ninn.t ḥꜥpy\n\n\n   \n\n\nwas der Nil bringt\n\n\n\n\nꜥnḫ.t nṯr im\n\n\n\n\n\nwovon ein Gott lebt\n\n\n\n\nmrr.t ꜣḫ.w wnm im\n\n\n\n\n\nwovon die Ach-Geister sich zu ernähren lieben\n\n\n\n\n(i)ḫ.t nb.t nfr.t wꜥb.t\n\n\n      \n\n\nalle schönen reinen Dinge\n\n\n\n\n\nZurück zur Hauptseite"
+    "text": "Schlussformel:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\ndd.t p.t\n\n\n\n\n\nwas der Himmel gibt\n\n\n\n\nqmꜣ.t tꜣ\n\n\n   \n\n\nwas die Erde hervorbringt\n\n\n\n\ninn.t ḥꜥpy\n\n\n   \n\n\nwas der Nil bringt\n\n\n\n\nꜥnḫ.t nṯr im\n\n\n\n\n\nwovon ein Gott lebt\n\n\n\n\nmrr.t ꜣḫ.w wnm im\n\n\n\n\n\nwovon die Ach-Geister sich zu ernähren lieben\n\n\n\n\n(i)ḫ.t nb.t nfr.t wꜥb.t\n\n\n      \n\n\nalle schönen reinen Dinge\n\n\n\n\n\nZurück zur Hauptseite"
   },
   {
     "objectID": "pages/formeln/denkmaelerformel.html",
     "href": "pages/formeln/denkmaelerformel.html",
     "title": "Formel: Denkmälerformel",
     "section": "",
-    "text": "Zurück zur Hauptseite"
+    "text": "König / Person  ir.n⸗f mnw⸗f Gottheit"
+  },
+  {
+    "objectID": "pages/formeln/denkmaelerformel.html#übersetzung",
+    "href": "pages/formeln/denkmaelerformel.html#übersetzung",
+    "title": "Formel: Denkmälerformel",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nKönig NN / Person NN: Er hat als sein Denkmal / sein Denkmal für Gottheit NN gemacht."
+  },
+  {
+    "objectID": "pages/formeln/denkmaelerformel.html#kommentare",
+    "href": "pages/formeln/denkmaelerformel.html#kommentare",
+    "title": "Formel: Denkmälerformel",
+    "section": "Kommentare",
+    "text": "Kommentare\nPerson NN: selten, traditionelle Übersetzung"
+  },
+  {
+    "objectID": "pages/formeln/denkmaelerformel.html#literatur",
+    "href": "pages/formeln/denkmaelerformel.html#literatur",
+    "title": "Formel: Denkmälerformel",
+    "section": "Literatur",
+    "text": "Literatur\nGrallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurierungsinschriften von den Anfängen bis zur 30. Dynastie. Abhandlungen des Deutschen Archäologischen Instituts Kairo, Ägyptologische Reihe 18. Berlin: Achet."
+  },
+  {
+    "objectID": "pages/formeln/denkmaelerformel.html#aufbau",
+    "href": "pages/formeln/denkmaelerformel.html#aufbau",
+    "title": "Formel: Denkmälerformel",
+    "section": "Aufbau",
+    "text": "Aufbau\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\nWB\n\n\nKommentar\n\n\n\n\n\n\nir.n⸗f mnw⸗f\n\n\ner hat als sein Denkmal gemacht für\n\n\nII: 70\n\n\nspäter auch ohne m geschrieben"
+  },
+  {
+    "objectID": "pages/formeln/denkmaelerformel.html#schreibvarianten",
+    "href": "pages/formeln/denkmaelerformel.html#schreibvarianten",
+    "title": "Formel: Denkmälerformel",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\nir.n⸗f mnw⸗f:\n\n\n\n\n\n\n\n\n\nZurück zur Hauptseite"
   },
   {
     "objectID": "pages/formeln/beischrift.html",
@@ -110,6 +145,20 @@
     "title": "Inschriftenschlüssel",
     "section": "",
     "text": "ḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
+  },
+  {
+    "objectID": "index.html#denkmälerformel",
+    "href": "index.html#denkmälerformel",
+    "title": "Inschriftenschlüssel",
+    "section": "Denkmälerformel",
+    "text": "Denkmälerformel\nKönig / Person  ir.n⸗f mnw⸗f Gottheit"
+  },
+  {
+    "objectID": "index.html#hymnus",
+    "href": "index.html#hymnus",
+    "title": "Inschriftenschlüssel",
+    "section": "Hymnus",
+    "text": "Hymnus\n dwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn*"
   },
   {
     "objectID": "pages/formeln/opferformel.html",
@@ -172,7 +221,21 @@
     "href": "pages/formeln/hymnus.html",
     "title": "Formel: Hymnus",
     "section": "",
-    "text": "Zurück zur Hauptseite"
+    "text": "dwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn*"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#ubersetzung",
+    "href": "pages/formeln/hymnus.html#ubersetzung",
+    "title": "Formel: Hymnus",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nVerehren/Anbeten Gottheit NN, Lobpreis geben den/der Gottheit NN, den Boden küssen für Gottheit NN von Person NN – er sagt: Lobpreis dir/euch, sei gegrut/gegrüßst seist du …"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#uberschrift",
+    "href": "pages/formeln/hymnus.html#uberschrift",
+    "title": "Formel: Hymnus",
+    "section": "Überschrift",
+    "text": "Überschrift\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\n\n\n\n\ndwꜣ\n\n\nverehren/anbeten [Gottheit] NN\n\n\n\n\n\nZurück zur Hauptseite"
   },
   {
     "objectID": "pages/slots.html",
