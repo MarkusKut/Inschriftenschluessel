@@ -218,4 +218,6 @@ html[data-theme="dark"] .btn-back {
 .badge-gottheit { color: #f59f00; } /* orange */
 .badge-gaben    { color: #51cf66;  } /* green */
 .badge-person   { color: #74c0fc; } /* blue */
-.badge-k-nig   { color: #c20000;  } /* blue */
+.badge-k-nig   { color: #c20000;  } /* red */
+.badge-datum   { color: #8219bf;  } /* lila */
+.badge-w-rtliche-rede { color: #ad139e;  } /* pink */

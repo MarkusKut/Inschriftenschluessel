@@ -1,66 +1,101 @@
 [
   {
-    "objectID": "pages/slots/gottheit.html",
-    "href": "pages/slots/gottheit.html",
-    "title": "Slot: Gottheit",
-    "section": "",
-    "text": "A− A A+\nGottesname + Epitheton/-a\nBeide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Namen, durch sein Epitheton, seine Epitheta oder durch eine Kombination dieser Möglichkeiten genannt werden."
-  },
-  {
-    "objectID": "pages/slots/gottheit.html#typische-determinative",
-    "href": "pages/slots/gottheit.html#typische-determinative",
-    "title": "Slot: Gottheit",
-    "section": "Typische Determinative",
-    "text": "Typische Determinative\n\n\n\n\n\nmännlich\n\n\nweiblich"
-  },
-  {
-    "objectID": "pages/slots/gottheit.html#göttertabellen",
-    "href": "pages/slots/gottheit.html#göttertabellen",
-    "title": "Slot: Gottheit",
-    "section": "Göttertabellen",
-    "text": "Göttertabellen\n\n\nÖffne Göttertabellen\n\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nSpezifische Determinative\n\n\nName\n\n\nSpezifische Epitheta\n\n\n\n\n\n\nimn\n\n\n    (Gr.)    (Gr.)\n\n\n\n\n\nAmun\n\n\n[[table:tb_epith_001]]\n\n\n\n\nimn-rꜥ\n\n\n\n\n\n\n\nAmun-Re\n\n\n\n\n\n\n\n\n\n\n\n\nBastet\n\n\n\n\n\n\n\n\n\n\n\n\nBehedeti\n\n\n\n\n\n\n\n\n\n\n\n\nGötterneunheit\n\n\n\n\n\n\n\n\n\n\n\n\nPtah\n\n\n\n\n\n\n\n\n\n\n\n\nMaat\n\n\n\n\n\n\n\n\n\n\n\n\nMin\n\n\n\n\n\n\n\n\n\n\n\n\nMut\n\n\n\n\n\n\n\n\n\n\n\n\nMonth\n\n\n\n\n\n\n\n\n\n\n\n\nNeith\n\n\n\n\n\n\n\n\n\n\n\n\nNut\n\n\n\n\n\n\n\n\n\n\n\n\nAmun-Re-Harachte\n\n\n\n\n\n\n\n\n\n\n\n\nNephthys\n\n\n\n\n\n\n\n\n\n\n\n\nNefertem\n\n\n\n\n\n\n\n\n\n\n\n\nNechbet\n\n\n\n\n\n\n\n\n\n\n\n\nRe\n\n\n\n\n\n\n\n\n\n\n\n\nRe-Harachte\n\n\n\n\n\n\n\n\n\n\n\n\nRenenutet\n\n\n\n\n\n\n\n\n\n\n\n\nHapi (Nilgott)\n\n\n\n\n\n\n\n\n\n\n\n\nHathor\n\n\n\n\n\n\n\n\n\n\n\n\nApis\n\n\n\n\n\n\n\n\n\n\n\n\nHapi (Horussohn)\n\n\n\n\n\n\n\n\n\n\n\n\nAmset\n\n\n\n\n\n\n\n\n\n\n\n\nHorus\n\n\n\n\n\n\n\n\n\n\n\n\nHarachte\n\n\n\n\n\n\n\n\n\n\n\n\nHeqet\n\n\n\n\n\n\n\n\n\n\n\n\nChnum\n\n\n\n\n\n\n\n\n\n\n\n\nChons\n\n\n\n\n\n\n\n\n\n\n\n\nSobek\n\n\n\n\n\n\n\n\n\n\n\n\nSelkis\n\n\n\n\n\n\n\n\n\n\n\n\nSachmet\n\n\n\n\n\n\n\n\n\n\n\n\nSokar\n\n\n\n\n\n\n\n\n\n\n\n\nIsis\n\n\n\n\n\n\n\n\n\n\n\n\nOnuris\n\n\n\n\n\n\n\n\n\n\n\n\nSeth\n\n\n\n\n\n\n\n\n\n\n\n\nSchu\n\n\n\n\n\n\n\n\n\n\n\n\nQebehsenuef\n\n\n\n\n\n\n\n\n\n\n\n\nDuamutef\n\n\n\n\n\n\n\n\n\n\n\n\nThot\n\n\n\n\n\n\n\n\n\n\n\n\nAnubis\n\n\n\n\n\n\n\n\n\n\n\n\nAtum\n\n\n\n\n\n\n\n\n\n\n\n\nAton\n\n\n\n\n\n\n\n\n\n\n\n\nWepwaut\n\n\n\n\n\n\n\n\n\n\n\n\nOsiris\n\n\n\n\n\n\n\n\n\nHome ← Zurück"
-  },
-  {
-    "objectID": "pages/slots/gaben.html",
-    "href": "pages/slots/gaben.html",
-    "title": "Slot: Gaben",
+    "objectID": "pages/slots/wortlRede.html",
+    "href": "pages/slots/wortlRede.html",
+    "title": "Slot: Wörtliche Rede",
     "section": "",
     "text": "A− A A+"
   },
   {
-    "objectID": "pages/slots/gaben.html#übliche-form",
-    "href": "pages/slots/gaben.html#übliche-form",
-    "title": "Slot: Gaben",
+    "objectID": "pages/slots/wortlRede.html#übliche-form",
+    "href": "pages/slots/wortlRede.html#übliche-form",
+    "title": "Slot: Wörtliche Rede",
     "section": "Übliche Form",
-    "text": "Übliche Form\nAnfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
+    "text": "Übliche Form"
   },
   {
-    "objectID": "pages/slots/gaben.html#anfangsformel",
-    "href": "pages/slots/gaben.html#anfangsformel",
-    "title": "Slot: Gaben",
-    "section": "Anfangsformel",
-    "text": "Anfangsformel\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\npr.t-ḫrw\n\n\n       (AR)\n\n\n\n\n\nein Anrufungsopfer bestehend aus"
+    "objectID": "pages/slots/wortlRede.html#übersetzung",
+    "href": "pages/slots/wortlRede.html#übersetzung",
+    "title": "Slot: Wörtliche Rede",
+    "section": "Übersetzung:",
+    "text": "Übersetzung:\nWorte zu sprechen durch NN: Ich habe dir gegeben [Gaben], die bei mir sind."
   },
   {
-    "objectID": "pages/slots/gaben.html#aufzählung",
-    "href": "pages/slots/gaben.html#aufzählung",
-    "title": "Slot: Gaben",
-    "section": "Aufzählung:",
-    "text": "Aufzählung:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nAbkürzung\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\nḥnq.t\n\n\n    (Gr.)\n\n\n\n\n\n   \n\n\nBier\n\n\n\n\nt\n\n\n\n\n\n\n\n\n         \n\n\nBrot\n\n\n\n\nꜣpd\n\n\n    (Abk.)\n\n\n\n\n\n\n\n\nGeflügel\n\n\n\n\nkꜣ\n\n\n    (MR)    (NR)    (NR)\n\n\n\n\n\n\n\n\nRinder\n\n\n\n\nšs\n\n\n (AR   MR)\n\n\n    (MR)\n\n\n\n\n\nAlabaster\n\n\n\n\nmnḫ.t\n\n\n    (NR)\n\n\n    (NR)    (Gr.)    (Gr.)\n\n\n       (NR)    (NR)\n\n\nLeinen\n\n\n\n\nmrḥ.t\n\n\n\n\n\n   \n\n\n      \n\n\nSalböl\n\n\n\n\nsnṯr\n\n\n    (AR)    (AR)    (AR)    (Ende AR)    (MR)    (MR)    (MR)    (Dyn. 18)    (Dyn. 19)\n\n\n      \n\n\n          (MR)\n\n\nWeihrauch\n\n\n\n\nirp\n\n\n\n\n\n       (NR)\n\n\n    (AR)\n\n\nWein"
+    "objectID": "pages/slots/wortlRede.html#aufbau",
+    "href": "pages/slots/wortlRede.html#aufbau",
+    "title": "Slot: Wörtliche Rede",
+    "section": "Aufbau:",
+    "text": "Aufbau:\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\nWB\n\n\nKommentar\n\n\n\n\n\n\nḏd-mdw in\n\n\nWorte zu sprechen durch\n\n\nII: 180\n\n\nTeil 1: wörtliche Rede\n\n\n\n\nḏj(⸗i) n⸗k\n\n\nIch habe dir gegeben\n\n\nII: 465\n\n\nTeil 2: häufig Gott zu König\n\n\n\n\nḫri(⸗i)\n\n\ndas bei mir ist\n\n\nII: 318\n\n\n\n\n\n\n\n\nHome ← Zurück"
   },
   {
-    "objectID": "pages/slots/gaben.html#attribut",
-    "href": "pages/slots/gaben.html#attribut",
-    "title": "Slot: Gaben",
-    "section": "Attribut:",
-    "text": "Attribut:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nḫꜣ m/n\n\n\n\n\n\ntausend an"
+    "objectID": "pages/slots/koenig.html",
+    "href": "pages/slots/koenig.html",
+    "title": "Slot: König",
+    "section": "",
+    "text": "A− A A+"
   },
   {
-    "objectID": "pages/slots/gaben.html#schlussformel",
-    "href": "pages/slots/gaben.html#schlussformel",
-    "title": "Slot: Gaben",
-    "section": "Schlussformel:",
-    "text": "Schlussformel:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\ndd.t p.t\n\n\n\n\n\nwas der Himmel gibt\n\n\n\n\nqmꜣ.t tꜣ\n\n\n   \n\n\nwas die Erde hervorbringt\n\n\n\n\ninn.t ḥꜥpy\n\n\n   \n\n\nwas der Nil bringt\n\n\n\n\nꜥnḫ.t nṯr im\n\n\n\n\n\nwovon ein Gott lebt\n\n\n\n\nmrr.t ꜣḫ.w wnm im\n\n\n\n\n\nwovon die Ach-Geister sich zu ernähren lieben\n\n\n\n\n(i)ḫ.t nb.t nfr.t wꜥb.t\n\n\n      \n\n\nalle schönen reinen Dinge\n\n\n\n\n\n\nHome ← Zurück"
+    "objectID": "pages/slots/koenig.html#übliche-form",
+    "href": "pages/slots/koenig.html#übliche-form",
+    "title": "Slot: König",
+    "section": "Übliche Form",
+    "text": "Übliche Form\nTitulatur + Name + Epitheton/-a"
+  },
+  {
+    "objectID": "pages/slots/koenig.html#titulatur",
+    "href": "pages/slots/koenig.html#titulatur",
+    "title": "Slot: König",
+    "section": "Titulatur:",
+    "text": "Titulatur:\n\n\n\n\n\nBezeichnung\n\n\nHieroglyphen\n\n\nTranskription\n\n\nWB\n\n\nKommentar\n\n\n\n\n\n\nHorusname\n\n\n\n\n\nḥr\n\n\nIII: 124\n\n\n\n\n\n\nHerrinnenname\n\n\n\n\n\nnb.ty\n\n\nII: 233\n\n\n\n\n\n\nGoldhorusname\n\n\n\n\n\nḥr n nbw / bik n nbw\n\n\nII: 240; I: 445\n\n\nUmschrift und Übersetzung konventionell\n\n\n\n\nThronname\n\n\n    (Gr.)\n\n\nnsw-bit\n\n\nII: 330\n\n\n\n\n\n\nEigenname\n\n\n   \n\n\nsꜣ rꜥ\n\n\nIII: 440"
+  },
+  {
+    "objectID": "pages/slots/koenig.html#name",
+    "href": "pages/slots/koenig.html#name",
+    "title": "Slot: König",
+    "section": "Name:",
+    "text": "Name:\nsiehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern."
+  },
+  {
+    "objectID": "pages/slots/koenig.html#typische-epitheta",
+    "href": "pages/slots/koenig.html#typische-epitheta",
+    "title": "Slot: König",
+    "section": "Typische Epitheta",
+    "text": "Typische Epitheta\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nnsw\n\n\n      \n\n\nKönig\n\n\n\n\nḥm\n\n\n      \n\n\nMajestät\n\n\n\n\nnb tꜣ.wi\n\n\n\n\n\nHerr der beiden Länder\n\n\n\n\nnṯr-nfr\n\n\n\n\n\nvollkommender Gott\n\n\n\n\n\n\nHome ← Zurück"
+  },
+  {
+    "objectID": "pages/slots/datum.html",
+    "href": "pages/slots/datum.html",
+    "title": "Slot: Datum",
+    "section": "",
+    "text": "A− A A+"
+  },
+  {
+    "objectID": "pages/slots/datum.html#jahr",
+    "href": "pages/slots/datum.html#jahr",
+    "title": "Slot: Datum",
+    "section": "Jahr:",
+    "text": "Jahr:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nḥꜣ.t-sp\n\n\n\n\n\nRegierungsjahr"
+  },
+  {
+    "objectID": "pages/slots/datum.html#monat",
+    "href": "pages/slots/datum.html#monat",
+    "title": "Slot: Datum",
+    "section": "Monat:",
+    "text": "Monat:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣbd-1\n\n\n\n\n\nerster Monat\n\n\n\n\ntpy\n\n\n\n\n\nerster Monat\n\n\n\n\nꜣbd-4\n\n\n\n\n\nvierter Monat"
+  },
+  {
+    "objectID": "pages/slots/datum.html#jahreszeiten",
+    "href": "pages/slots/datum.html#jahreszeiten",
+    "title": "Slot: Datum",
+    "section": "Jahreszeiten:",
+    "text": "Jahreszeiten:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣḫ.t\n\n\n\n\n\nÜberschwemmungszeit\n\n\n\n\npr.t\n\n\n\n\n\nWinter\n\n\n\n\nšm.w\n\n\n\n\n\nSommer"
+  },
+  {
+    "objectID": "pages/slots/datum.html#tag",
+    "href": "pages/slots/datum.html#tag",
+    "title": "Slot: Datum",
+    "section": "Tag:",
+    "text": "Tag:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nsw\n\n\n\n\n\nTag\n\n\n\n\n\n\nHome ← Zurück"
   },
   {
     "objectID": "pages/formeln/denkmaelerformel.html",
@@ -109,7 +144,35 @@
     "href": "pages/formeln/beischrift.html",
     "title": "Formel: Beischrift",
     "section": "",
-    "text": "A− A A+\n\n\n\nHome ← Zurück"
+    "text": "A− A A+\nBeziehung Beziehung Wörtliche Rede Rückenschutzformel\nName des dargestellten Wesens: Gottheit / König / Person / Sonstiges"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#inschrift",
+    "href": "pages/formeln/beischrift.html#inschrift",
+    "title": "Formel: Beischrift",
+    "section": "Inschrift:",
+    "text": "Inschrift:\nBlickt in die selbe Richtung wie das Dargestellte"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#szenentitel",
+    "href": "pages/formeln/beischrift.html#szenentitel",
+    "title": "Formel: Beischrift",
+    "section": "Szenentitel:",
+    "text": "Szenentitel:\nim Infinitiv"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#wörtliche-rede",
+    "href": "pages/formeln/beischrift.html#wörtliche-rede",
+    "title": "Formel: Beischrift",
+    "section": "Wörtliche Rede:",
+    "text": "Wörtliche Rede:\nmit und ohne Einleitung"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#rückenschutzformel",
+    "href": "pages/formeln/beischrift.html#rückenschutzformel",
+    "title": "Formel: Beischrift",
+    "section": "Rückenschutzformel:",
+    "text": "Rückenschutzformel:\nam häufigsten bei König, auch bei Gottheit\n\nHome ← Zurück"
   },
   {
     "objectID": "pages/formeln/anruf-an-die-lebenden.html",
@@ -158,7 +221,28 @@
     "href": "index.html#hymnus",
     "title": "Inschriftenschlüssel",
     "section": "Hymnus",
-    "text": "Hymnus\n dwꜣ Gottheit  rdi.t iw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn*"
+    "text": "Hymnus\n dwꜣ Gottheit  rdi.t iw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
+  },
+  {
+    "objectID": "index.html#konig-geliebt-von-gottheit-formel",
+    "href": "index.html#konig-geliebt-von-gottheit-formel",
+    "title": "Inschriftenschlüssel",
+    "section": "König-geliebt-von-Gottheit-Formel",
+    "text": "König-geliebt-von-Gottheit-Formel\nKönig Gottheit  mry"
+  },
+  {
+    "objectID": "index.html#historische-konigsinschrift",
+    "href": "index.html#historische-konigsinschrift",
+    "title": "Inschriftenschlüssel",
+    "section": "„Historische“ Königsinschrift",
+    "text": "„Historische“ Königsinschrift\nDatum  ḫr ḥm n König NN"
+  },
+  {
+    "objectID": "index.html#beischrift",
+    "href": "index.html#beischrift",
+    "title": "Inschriftenschlüssel",
+    "section": "Beischrift",
+    "text": "Beischrift\nBeziehung Beziehung Wörtliche Rede Rückenschutzformel"
   },
   {
     "objectID": "pages/formeln/opferformel.html",
@@ -207,21 +291,42 @@
     "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
     "title": "Formel: König-geliebt-von-Gottheit-Formel",
     "section": "",
-    "text": "A− A A+\n\n\n\nHome ← Zurück"
+    "text": "A− A A+\nKönig Gottheit  mry"
+  },
+  {
+    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
+    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
+    "title": "Formel: König-geliebt-von-Gottheit-Formel",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\nmry:\n\n\n\n\n\n\n AR\n\n\nHome ← Zurück"
   },
   {
     "objectID": "pages/formeln/koenigsinschrift.html",
     "href": "pages/formeln/koenigsinschrift.html",
     "title": "Formel: „Historische“ Königsinschrift",
     "section": "",
-    "text": "A− A A+\n\n\n\nHome ← Zurück"
+    "text": "A− A A+\nDatum  ḫr ḥm n König NN"
+  },
+  {
+    "objectID": "pages/formeln/koenigsinschrift.html#übersetzung",
+    "href": "pages/formeln/koenigsinschrift.html#übersetzung",
+    "title": "Formel: „Historische“ Königsinschrift",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nDatum unter der Majestät / Regierung des König"
+  },
+  {
+    "objectID": "pages/formeln/koenigsinschrift.html#schreibvarianten",
+    "href": "pages/formeln/koenigsinschrift.html#schreibvarianten",
+    "title": "Formel: „Historische“ Königsinschrift",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\n[ḫr] ḥm n:\n\n\n\n\n\n\nnsw bit:\n\n\n Gr.\n\n\nHome ← Zurück"
   },
   {
     "objectID": "pages/formeln/hymnus.html",
     "href": "pages/formeln/hymnus.html",
     "title": "Formel: Hymnus",
     "section": "",
-    "text": "A− A A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn*"
+    "text": "A− A A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
   },
   {
     "objectID": "pages/formeln/hymnus.html#übersetzung",
@@ -235,27 +340,125 @@
     "href": "pages/formeln/hymnus.html#überschrift",
     "title": "Formel: Hymnus",
     "section": "Überschrift",
-    "text": "Überschrift\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\n\n\n\n\ndwꜣ\n\n\nverehren/anbeten [Gottheit] NN\n\n\n\n\n\n\nHome ← Zurück"
+    "text": "Überschrift\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\n\n\n\n\ndwꜣ\n\n\nverehren / anbeten [Gottheit] NN\n\n\n\n\nrdi.t iꜣw n\n\n\nLobpreis geben den/der [Gottheit] NN\n\n\n\n\nsn tꜣ n\n\n\nden Boden küssen für [Gottheit] NN"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#beter",
+    "href": "pages/formeln/hymnus.html#beter",
+    "title": "Formel: Hymnus",
+    "section": "Beter",
+    "text": "Beter\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\n\n\n\n\nin\n\n\nvon / durch [Person] NN\n\n\n\n\nḏd⸗f\n\n\ner sagt"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#hauptteil",
+    "href": "pages/formeln/hymnus.html#hauptteil",
+    "title": "Formel: Hymnus",
+    "section": "Hauptteil",
+    "text": "Hauptteil\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\n\n\n\n\ninḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn\n\n\nLobpreis dir / euch; sei(d) gegrüßt / gegrüßst seist/d du / ihr [Gottheit] NN\n\n\n\n\n\n\nHome ← Zurück"
   },
   {
     "objectID": "pages/slots.html",
     "href": "pages/slots.html",
-    "title": "Inschriftenschluessel_v2",
+    "title": "Slots",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+    "text": "Gottheit\n\n\nKönig\n\n\nGaben\n\n\nPerson\n\n\nDatum\n\n\nWörtliche Rede"
   },
   {
     "objectID": "pages/slots/person.html",
     "href": "pages/slots/person.html",
     "title": "Slot: Person",
     "section": "",
-    "text": "A− A A+\n\n\n\nHome ← Zurück"
+    "text": "A− A A+\n[Titel] + Personenname + [Determinativ] + [Epitheta]"
   },
   {
-    "objectID": "pages/slots/koenig.html",
-    "href": "pages/slots/koenig.html",
-    "title": "Slot: König",
+    "objectID": "pages/slots/person.html#titel",
+    "href": "pages/slots/person.html#titel",
+    "title": "Slot: Person",
+    "section": "Titel:",
+    "text": "Titel:\nAllgemein:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nimi-rꜣ\n\n\n   \n\n\nVorsteher\n\n\n\n\nḥry\n\n\n (MR)\n\n\nOberer\n\n\n\n\nimꜣḫ\n\n\n                (MR)\n\n\nEhrwürdiger / Versorgter\n\n\n\n\nnb imꜣḫ\n\n\n\n\n\nHerr der Erwürdigkeit\n\n\n\n\nwsir\n\n\n      \n\n\nOsiris\n\n\n\n\n\nweiblich:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nnb.t pr\n\n\n\n\n\nHerrin des Hauses\n\n\n\n\nḥm.t-nṯr ḥw.t-ḥr\n\n\n (AR)\n\n\nPriesterin der Hathor\n\n\n\n\nḥw.t-ḥr\n\n\n (röm.)\n\n\nHathor\n\n\n\n\nšmꜥy.t-imn\n\n\n (NR; 3. Zw.Zt.)\n\n\nSängerin des Amun"
+  },
+  {
+    "objectID": "pages/slots/person.html#personenname",
+    "href": "pages/slots/person.html#personenname",
+    "title": "Slot: Person",
+    "section": "Personenname:",
+    "text": "Personenname:\nwichtiges Bildungsmuster für weibliche Namen:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\n“+”\n\n\nGottheit\n\n\n\n\n\n\ntꜣ di\n\n\n   \n\n\n“+”\n\n\n[Gottheit]\n\n\n\n\n\nwichtiges Bildungsmuster für männliche Namen:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\n“+”\n\n\nGottheit\n\n\n\n\n\n\npꜣ di\n\n\n   \n\n\n“+”\n\n\n[Gottheit]"
+  },
+  {
+    "objectID": "pages/slots/person.html#determinative",
+    "href": "pages/slots/person.html#determinative",
+    "title": "Slot: Person",
+    "section": "Determinative:",
+    "text": "Determinative:\n\n\n\n\n\nmännlich\n\n\nweiblich"
+  },
+  {
+    "objectID": "pages/slots/person.html#epitheta",
+    "href": "pages/slots/person.html#epitheta",
+    "title": "Slot: Person",
+    "section": "Epitheta:",
+    "text": "Epitheta:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nmꜣꜥ-ḫrw\n\n\n          (NR)    (Spät.)    (Spät.)\n\n\nGerechtfertigter\n\n\n\n\n\n\nHome ← Zurück"
+  },
+  {
+    "objectID": "pages/slots/gaben.html",
+    "href": "pages/slots/gaben.html",
+    "title": "Slot: Gaben",
     "section": "",
-    "text": "A− A A+\n\n\n\nHome ← Zurück"
+    "text": "A− A A+"
+  },
+  {
+    "objectID": "pages/slots/gaben.html#übliche-form",
+    "href": "pages/slots/gaben.html#übliche-form",
+    "title": "Slot: Gaben",
+    "section": "Übliche Form",
+    "text": "Übliche Form\nAnfangsformel + Aufzählung mit/ohne Attribut + Schlussformel"
+  },
+  {
+    "objectID": "pages/slots/gaben.html#anfangsformel",
+    "href": "pages/slots/gaben.html#anfangsformel",
+    "title": "Slot: Gaben",
+    "section": "Anfangsformel",
+    "text": "Anfangsformel\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\npr.t-ḫrw\n\n\n       (AR)\n\n\n\n\n\nein Anrufungsopfer bestehend aus"
+  },
+  {
+    "objectID": "pages/slots/gaben.html#aufzählung",
+    "href": "pages/slots/gaben.html#aufzählung",
+    "title": "Slot: Gaben",
+    "section": "Aufzählung:",
+    "text": "Aufzählung:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nAbkürzung\n\n\nDeterminativ\n\n\nÜbersetzung\n\n\n\n\n\n\nḥnq.t\n\n\n    (Gr.)\n\n\n\n\n\n   \n\n\nBier\n\n\n\n\nt\n\n\n\n\n\n\n\n\n         \n\n\nBrot\n\n\n\n\nꜣpd\n\n\n    (Abk.)\n\n\n\n\n\n\n\n\nGeflügel\n\n\n\n\nkꜣ\n\n\n    (MR)    (NR)    (NR)\n\n\n\n\n\n\n\n\nRinder\n\n\n\n\nšs\n\n\n (AR   MR)\n\n\n    (MR)\n\n\n\n\n\nAlabaster\n\n\n\n\nmnḫ.t\n\n\n    (NR)\n\n\n    (NR)    (Gr.)    (Gr.)\n\n\n       (NR)    (NR)\n\n\nLeinen\n\n\n\n\nmrḥ.t\n\n\n\n\n\n   \n\n\n      \n\n\nSalböl\n\n\n\n\nsnṯr\n\n\n    (AR)    (AR)    (AR)    (Ende AR)    (MR)    (MR)    (MR)    (Dyn. 18)    (Dyn. 19)\n\n\n      \n\n\n          (MR)\n\n\nWeihrauch\n\n\n\n\nirp\n\n\n\n\n\n       (NR)\n\n\n    (AR)\n\n\nWein"
+  },
+  {
+    "objectID": "pages/slots/gaben.html#attribut",
+    "href": "pages/slots/gaben.html#attribut",
+    "title": "Slot: Gaben",
+    "section": "Attribut:",
+    "text": "Attribut:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nḫꜣ m/n\n\n\n\n\n\ntausend an"
+  },
+  {
+    "objectID": "pages/slots/gaben.html#schlussformel",
+    "href": "pages/slots/gaben.html#schlussformel",
+    "title": "Slot: Gaben",
+    "section": "Schlussformel:",
+    "text": "Schlussformel:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\ndd.t p.t\n\n\n\n\n\nwas der Himmel gibt\n\n\n\n\nqmꜣ.t tꜣ\n\n\n   \n\n\nwas die Erde hervorbringt\n\n\n\n\ninn.t ḥꜥpy\n\n\n   \n\n\nwas der Nil bringt\n\n\n\n\nꜥnḫ.t nṯr im\n\n\n\n\n\nwovon ein Gott lebt\n\n\n\n\nmrr.t ꜣḫ.w wnm im\n\n\n\n\n\nwovon die Ach-Geister sich zu ernähren lieben\n\n\n\n\n(i)ḫ.t nb.t nfr.t wꜥb.t\n\n\n      \n\n\nalle schönen reinen Dinge\n\n\n\n\n\n\nHome ← Zurück"
+  },
+  {
+    "objectID": "pages/slots/gottheit.html",
+    "href": "pages/slots/gottheit.html",
+    "title": "Slot: Gottheit",
+    "section": "",
+    "text": "A− A A+\nGottesname + Epitheton/-a\nBeide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Namen, durch sein Epitheton, seine Epitheta oder durch eine Kombination dieser Möglichkeiten genannt werden."
+  },
+  {
+    "objectID": "pages/slots/gottheit.html#typische-determinative",
+    "href": "pages/slots/gottheit.html#typische-determinative",
+    "title": "Slot: Gottheit",
+    "section": "Typische Determinative",
+    "text": "Typische Determinative\n\n\n\n\n\nmännlich\n\n\nweiblich"
+  },
+  {
+    "objectID": "pages/slots/gottheit.html#göttertabellen",
+    "href": "pages/slots/gottheit.html#göttertabellen",
+    "title": "Slot: Gottheit",
+    "section": "Göttertabellen",
+    "text": "Göttertabellen\n\n\nÖffne Göttertabellen\n\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nSpezifische Determinative\n\n\nName\n\n\nSpezifische Epitheta\n\n\n\n\n\n\nimn\n\n\n    (Gr.)    (Gr.)\n\n\n\n\n\nAmun\n\n\n[[table:tb_epith_001]]\n\n\n\n\nimn-rꜥ\n\n\n\n\n\n\n\nAmun-Re\n\n\n\n\n\n\n\n\n\n\n\n\nBastet\n\n\n\n\n\n\n\n\n\n\n\n\nBehedeti\n\n\n\n\n\n\n\n\n\n\n\n\nGötterneunheit\n\n\n\n\n\n\n\n\n\n\n\n\nPtah\n\n\n\n\n\n\n\n\n\n\n\n\nMaat\n\n\n\n\n\n\n\n\n\n\n\n\nMin\n\n\n\n\n\n\n\n\n\n\n\n\nMut\n\n\n\n\n\n\n\n\n\n\n\n\nMonth\n\n\n\n\n\n\n\n\n\n\n\n\nNeith\n\n\n\n\n\n\n\n\n\n\n\n\nNut\n\n\n\n\n\n\n\n\n\n\n\n\nAmun-Re-Harachte\n\n\n\n\n\n\n\n\n\n\n\n\nNephthys\n\n\n\n\n\n\n\n\n\n\n\n\nNefertem\n\n\n\n\n\n\n\n\n\n\n\n\nNechbet\n\n\n\n\n\n\n\n\n\n\n\n\nRe\n\n\n\n\n\n\n\n\n\n\n\n\nRe-Harachte\n\n\n\n\n\n\n\n\n\n\n\n\nRenenutet\n\n\n\n\n\n\n\n\n\n\n\n\nHapi (Nilgott)\n\n\n\n\n\n\n\n\n\n\n\n\nHathor\n\n\n\n\n\n\n\n\n\n\n\n\nApis\n\n\n\n\n\n\n\n\n\n\n\n\nHapi (Horussohn)\n\n\n\n\n\n\n\n\n\n\n\n\nAmset\n\n\n\n\n\n\n\n\n\n\n\n\nHorus\n\n\n\n\n\n\n\n\n\n\n\n\nHarachte\n\n\n\n\n\n\n\n\n\n\n\n\nHeqet\n\n\n\n\n\n\n\n\n\n\n\n\nChnum\n\n\n\n\n\n\n\n\n\n\n\n\nChons\n\n\n\n\n\n\n\n\n\n\n\n\nSobek\n\n\n\n\n\n\n\n\n\n\n\n\nSelkis\n\n\n\n\n\n\n\n\n\n\n\n\nSachmet\n\n\n\n\n\n\n\n\n\n\n\n\nSokar\n\n\n\n\n\n\n\n\n\n\n\n\nIsis\n\n\n\n\n\n\n\n\n\n\n\n\nOnuris\n\n\n\n\n\n\n\n\n\n\n\n\nSeth\n\n\n\n\n\n\n\n\n\n\n\n\nSchu\n\n\n\n\n\n\n\n\n\n\n\n\nQebehsenuef\n\n\n\n\n\n\n\n\n\n\n\n\nDuamutef\n\n\n\n\n\n\n\n\n\n\n\n\nThot\n\n\n\n\n\n\n\n\n\n\n\n\nAnubis\n\n\n\n\n\n\n\n\n\n\n\n\nAtum\n\n\n\n\n\n\n\n\n\n\n\n\nAton\n\n\n\n\n\n\n\n\n\n\n\n\nWepwaut\n\n\n\n\n\n\n\n\n\n\n\n\nOsiris\n\n\n\n\n\n\n\n\n\nHome ← Zurück"
   }
 ]
