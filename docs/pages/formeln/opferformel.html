@@ -431,15 +431,39 @@ III: 186
 <section id="literatur" class="level2">
 <h2 class="anchored" data-anchor-id="literatur">Literatur</h2>
 <p>Barta, Winfried. 1968. Aufbau und Bedeutung der altägyptischen Opferformel. Ägyptologische forschungen 24. J. J. Augustin.<br> Lapp, Günther. 1986. Die Opferformel des Alten Reiches: unter Berücksichtigung einiger späterer Formen. Sonderschrift, Deutsches Archäologisches Institut, Abteilung Kairo 21. Philipp von Zabern.</p>
-<div class="nav-buttons">
-<p><a href="../../index.html" class="btn-home">Home</a> <button onclick="
-    if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
-      history.back();
-    } else {
-      window.location.href = '/index.html';
-    }
-  " class="btn-back">← Zurück</button></p>
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="../../index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
 </div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
 
 
 </section>

@@ -339,15 +339,39 @@ document.addEventListener("DOMContentLoaded", function() {
 <li><p><img src="../../assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0040_mry_05.png" class="glyph img-fluid"></p></li>
 <li><p><img src="../../assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0050_mry_AR_02.png" class="glyph img-fluid"> AR</p></li>
 </ul>
-<div class="nav-buttons">
-<p><a href="../../index.html" class="btn-home">Home</a> <button onclick="
-    if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
-      history.back();
-    } else {
-      window.location.href = '/index.html';
-    }
-  " class="btn-back">← Zurück</button></p>
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="../../index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
 </div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
 
 
 </section>

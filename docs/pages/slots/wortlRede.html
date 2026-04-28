@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slot: Wörtliche Rede – Inschriftenschlüssel</title>
+<title>Slot: Wörtliche Rede – Inschriftenschlüssel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -280,8 +280,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ubliche-form" id="toc-ubliche-form" class="nav-link active" data-scroll-target="#ubliche-form">Übliche Form</a></li>
-  <li><a href="#ubersetzung" id="toc-ubersetzung" class="nav-link" data-scroll-target="#ubersetzung">Übersetzung:</a></li>
+  <li><a href="#übliche-form" id="toc-übliche-form" class="nav-link active" data-scroll-target="#übliche-form">Übliche Form</a></li>
+  <li><a href="#übersetzung" id="toc-übersetzung" class="nav-link" data-scroll-target="#übersetzung">Übersetzung:</a></li>
   <li><a href="#aufbau" id="toc-aufbau" class="nav-link" data-scroll-target="#aufbau">Aufbau:</a></li>
   </ul>
 </nav>
@@ -296,7 +296,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slot: Wörtliche Rede</h1>
+<h1 class="title">Slot: Wörtliche Rede</h1>
 </div>
 
 
@@ -329,11 +329,11 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
-<section id="ubliche-form" class="level2">
-<h2 class="anchored" data-anchor-id="ubliche-form">Übliche Form</h2>
+<section id="übliche-form" class="level2">
+<h2 class="anchored" data-anchor-id="übliche-form">Übliche Form</h2>
 </section>
-<section id="ubersetzung" class="level2">
-<h2 class="anchored" data-anchor-id="ubersetzung">Übersetzung:</h2>
+<section id="übersetzung" class="level2">
+<h2 class="anchored" data-anchor-id="übersetzung">Übersetzung:</h2>
 <p>Worte zu sprechen durch NN: Ich habe dir gegeben <a href="../../pages/slots/gaben.html" class="badge-slot-badge-gaben">Gaben</a>, die bei mir sind.</p>
 </section>
 <section id="aufbau" class="level2">
@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", function() {
 Transkription
 </th>
 <th style="text-align:left;">
-Übersetzung
+Übersetzung
 </th>
 <th style="text-align:left;">
 WB
@@ -359,7 +359,7 @@ Kommentar
 <tbody>
 <tr>
 <td style="text-align:left;">
-<em>ḏd-mdw in</em>
+<em>ḏd-mdw in</em>
 </td>
 <td style="text-align:left;">
 Worte zu sprechen durch
@@ -368,12 +368,12 @@ Worte zu sprechen durch
 II: 180
 </td>
 <td style="text-align:left;">
-Teil 1: wörtliche Rede
+Teil 1: wörtliche Rede
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>ḏj(⸗i) n⸗k</em>
+<em>ḏj(⸗i) n⸗k</em>
 </td>
 <td style="text-align:left;">
 Ich habe dir gegeben
@@ -382,12 +382,12 @@ Ich habe dir gegeben
 II: 465
 </td>
 <td style="text-align:left;">
-Teil 2: häufig Gott zu König
+Teil 2: häufig Gott zu König
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>ḫri(⸗i)</em>
+<em>ḫri(⸗i)</em>
 </td>
 <td style="text-align:left;">
 das bei mir ist
@@ -401,15 +401,39 @@ II: 318
 </tbody>
 </table>
 </div>
-<div class="nav-buttons">
-<p><a href="../../index.html" class="btn-home">Home</a> <button onclick="
-    if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
-      history.back();
-    } else {
-      window.location.href = '/index.html';
-    }
-  " class="btn-back">← Zurück</button></p>
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="../../index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer &amp;&amp; document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
 </div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
 
 
 </section>

@@ -170,38 +170,6 @@ body.quarto-dark .zoom-btn,
   border-color: #5c636a !important;
 }
 
-.nav-buttons {
-  margin-bottom: 1rem;
-}
-
-.nav-buttons a,
-.nav-buttons button {
-  padding: 6px 12px;
-  margin-right: 8px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-.btn-home {
-  background: #666;
-  color: #fff;
-}
-
-.btn-back {
-  background: #999;
-  color: #fff;
-}
-
-html[data-theme="dark"] .btn-home {
-  background: #444;
-}
-
-html[data-theme="dark"] .btn-back {
-  background: #666;
-}
 
 
 
@@ -221,3 +189,115 @@ html[data-theme="dark"] .btn-back {
 .badge-k-nig   { color: #c20000;  } /* red */
 .badge-datum   { color: #8219bf;  } /* lila */
 .badge-w-rtliche-rede { color: #ad139e;  } /* pink */
+
+
+
+.footer-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: white;
+  border-top: 1px solid #cfd8dc;
+  padding: 0.5rem 1rem;
+  transition: transform 0.25s ease;
+}
+
+.footer-nav.footer-hidden {
+  transform: translateY(100%);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.btn-home,
+.btn-back {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cfd8dc;
+  background: #eef3f7;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  padding-bottom: 4rem;
+}
+
+/* dark mode */
+html[data-bs-theme="dark"] .footer-nav,
+html[data-theme="dark"] .footer-nav,
+body.quarto-dark .footer-nav,
+.quarto-dark .footer-nav {
+  background: #1e1e1e;
+  border-top-color: #555;
+}
+
+html[data-bs-theme="dark"] .btn-home,
+html[data-bs-theme="dark"] .btn-back,
+html[data-theme="dark"] .btn-home,
+html[data-theme="dark"] .btn-back,
+body.quarto-dark .btn-home,
+body.quarto-dark .btn-back,
+.quarto-dark .btn-home,
+.quarto-dark .btn-back {
+  background: #2b2f33;
+  border-color: #666;
+  color: #f1f3f5;
+}
+
+
+
+/* desktop */
+.glyph {
+  height: 30px;
+}
+
+.footer-nav {
+  padding: 0.5rem 1rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .glyph {
+    height: 22px;
+  }
+
+  .footer-nav {
+    padding: 0.4rem 0.6rem;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .btn-home,
+  .btn-back {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+  .tableFixHead {
+    max-height: 45vh;
+  }
+
+  th, td {
+    padding: 4px 6px;
+  }
+
+  .zoom-controls {
+    display: none;
+  }
+}
