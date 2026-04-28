@@ -79,12 +79,12 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 
-
+/* Tables: */
 
 .tableFixHead { 
   overflow: auto;
   max-height: calc(100% - 60px); 
-   overflow-x: auto;
+  overflow-x: auto;
   overflow-y: auto;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
@@ -98,21 +98,54 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .tableFixHead table { 
   border-collapse: collapse;
   width: 100%; 
-  table-layout: fixed; }
-  
-/* allow text to break inside cells */
-.tableFixHead th,
-.tableFixHead td {
-  white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  /*table-layout: fixed;*/
 }
 
+
+  
+
+
+
+/* mobile */
+@media (max-width: 768px) {
+  .glyph {
+    height: 30px;
+  }
+
+  .footer-nav {
+    padding: 0.4rem 0.6rem;
+  }
+
+  .nav-buttons {
+    flex-direction: row; 
+    justify-content: center;
+  }
+
+  .btn-home,
+  .btn-back {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+ tableFixHead table {
+    width: 100%;
+   /* table-layout: fixed; */
+  }
+
+  .tableFixHead th,
+  .tableFixHead td {
+    padding: 6px 8px;
+    font-size: 0.95rem;
+  }
+
+}
 
 /* Just common table stuff. Really. */
 /* table  { border-collapse: collapse; width: 100%; } */
 /* th, td { padding: 8px 16px; } */
 /* th     { background:#eee; } */
+
+
 
 
 /* Invert glyph PNGs in dark mode (Quarto/Bootstrap variants) */
@@ -383,36 +416,3 @@ body.quarto-dark .btn-back,
 
 
 
-/* mobile */
-@media (max-width: 768px) {
-  .glyph {
-    height: 30px;
-  }
-
-  .footer-nav {
-    padding: 0.4rem 0.6rem;
-  }
-
-  .nav-buttons {
-    flex-direction: row; 
-    justify-content: center;
-  }
-
-  .btn-home,
-  .btn-back {
-    font-size: 0.9rem;
-    padding: 0.35rem 0.6rem;
-  }
-
- tableFixHead table {
-    width: 100%;
-    table-layout: fixed;
-  }
-
-  .tableFixHead th,
-  .tableFixHead td {
-    padding: 6px 8px;
-    font-size: 0.95rem;
-  }
-
-}
