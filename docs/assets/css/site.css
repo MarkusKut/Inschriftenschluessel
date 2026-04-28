@@ -130,6 +130,78 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
   
+/* fixed tables with 3 columns: text | glyphs | text */
+.table-glyph-middle table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* text columns may break */
+.table-glyph-middle th:nth-child(1),
+.table-glyph-middle td:nth-child(1),
+.table-glyph-middle th:nth-child(3),
+.table-glyph-middle td:nth-child(3) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  vertical-align: top;
+}
+
+/* middle glyph column stays protected */
+.table-glyph-middle th:nth-child(2),
+.table-glyph-middle td:nth-child(2) {
+  text-align: center;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: break-word;
+}
+
+/* glyphs can wrap as whole items, but images themselves do not get broken */
+.table-glyph-middle td:nth-child(2) .glyph {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/* optional width balance */
+.table-glyph-middle th:nth-child(1),
+.table-glyph-middle td:nth-child(1) {
+  width: 28%;
+}
+
+.table-glyph-middle th:nth-child(2),
+.table-glyph-middle td:nth-child(2) {
+  width: 28%;
+}
+
+.table-glyph-middle th:nth-child(3),
+.table-glyph-middle td:nth-child(3) {
+  width: 44%;
+}
+
+/* mobile tuning */
+@media (max-width: 768px) {
+  .table-glyph-middle th:nth-child(1),
+  .table-glyph-middle td:nth-child(1) {
+    width: 26%;
+  }
+
+  .table-glyph-middle th:nth-child(2),
+  .table-glyph-middle td:nth-child(2) {
+    width: 26%;
+  }
+
+  .table-glyph-middle th:nth-child(3),
+  .table-glyph-middle td:nth-child(3) {
+    width: 48%;
+  }
+
+  .table-glyph-middle td:nth-child(2) .glyph {
+    height: 30px;
+  }
+}
 
 
 
