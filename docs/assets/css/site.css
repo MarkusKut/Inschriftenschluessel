@@ -133,7 +133,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* fixed tables with 3 columns: text | glyphs | text */
 .table-glyph-middle table {
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 /* text columns may break */
@@ -154,7 +154,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   vertical-align: top;
   white-space: normal;
   overflow-wrap: normal;
-  word-break: break-word;
+  word-break: normal;
 }
 
 /* glyphs can wrap as whole items, but images themselves do not get broken */
