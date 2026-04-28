@@ -172,23 +172,99 @@ body.quarto-dark .zoom-btn,
 
 
 
-
+/* default light mode */
 .badge-slot {
+  display: inline-block;
   padding: 0.15rem 0.45rem;
   border-radius: 0.5rem;
   font-weight: 600;
   text-decoration: none;
+  border: 1px solid #cfd8dc;
   color: #111;
   background: #e9ecef;
+  margin-right: 0.25rem;
 }
 
+
+/* dark mode: same background as the site */
+
 /* per-type colors */
-.badge-gottheit { color: #f59f00; } /* orange */
-.badge-gaben    { color: #51cf66;  } /* green */
-.badge-person   { color: #74c0fc; } /* blue */
-.badge-k-nig   { color: #c20000;  } /* red */
-.badge-datum   { color: #8219bf;  } /* lila */
-.badge-w-rtliche-rede { color: #ad139e;  } /* pink */
+.badge-gottheit { background: #c77c00;
+  color: #fff;
+  border-color: #c77c00; } /* orange */
+.badge-gaben    { background: #2f9e44;
+  color: #fff;
+  border-color: #2f9e44;  } /* green */
+.badge-person   { background: #1c7ed6;
+  color: #fff;
+  border-color: #1c7ed6; } /* blue */
+.badge-k-nig   { background: #c20000;
+  color: #fff;
+  border-color: #c20000;;  } /* red */
+.badge-datum   {  background: #8219bf;
+  color: #fff;
+  border-color: #8219bf;  } /* lila */
+.badge-w-rtliche-rede {  background: #ad139e;
+  color: #fff;
+  border-color: #ad139e;  } /* pink */
+
+html[data-bs-theme="dark"] .badge-gottheit,
+html[data-theme="dark"] .badge-gottheit,
+body.quarto-dark .badge-gottheit,
+.quarto-dark .badge-gottheit {
+  background: #c77c00;
+  color: #fff;
+  border-color: #c77c00;
+}
+
+html[data-bs-theme="dark"] .badge-gaben,
+html[data-theme="dark"] .badge-gaben,
+body.quarto-dark .badge-gaben,
+.quarto-dark .badge-gaben {
+  background: #2f9e44;
+  color: #fff;
+  border-color: #2f9e44;
+}
+
+html[data-bs-theme="dark"] .badge-person,
+html[data-theme="dark"] .badge-person,
+body.quarto-dark .badge-person,
+.quarto-dark .badge-person {
+  background: #1c7ed6;
+  color: #fff;
+  border-color: #1c7ed6;
+}
+
+
+html[data-bs-theme="dark"] .badge-k-nig,
+html[data-theme="dark"] .badge-k-nig,
+body.quarto-dark .badge-k-nig,
+.quarto-dark .badge-k-nig {
+  background: #c20000;
+  color: #fff;
+  border-color: #c20000;
+}
+
+html[data-bs-theme="dark"] .badge-datum,
+html[data-theme="dark"] .badge-datum,
+body.quarto-dark .badge-datum,
+.quarto-dark .badge-datum {
+  background: #8219bf;
+  color: #fff;
+  border-color: #8219bf;
+}
+
+
+html[data-bs-theme="dark"] .badge-w-rtliche-rede,
+html[data-theme="dark"] .badge-w-rtliche-rede,
+body.quarto-dark .badge-w-rtliche-rede,
+.quarto-dark .badge-w-rtliche-rede {
+  background: #ad139e;
+  color: #fff;
+  border-color: #ad139e;
+}
+
+
 
 
 
@@ -251,23 +327,6 @@ body.quarto-dark .btn-back,
   color: #f1f3f5;
 }
 
-
-
-/* desktop */
-.glyph {
-  height: 30px;
-}
-
-.footer-nav {
-  padding: 0.5rem 1rem;
-}
-
-.nav-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
 /* mobile */
 @media (max-width: 768px) {
   .glyph {
@@ -279,8 +338,8 @@ body.quarto-dark .btn-back,
   }
 
   .nav-buttons {
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row; 
+    justify-content: center;
   }
 
   .btn-home,
@@ -289,8 +348,9 @@ body.quarto-dark .btn-back,
     padding: 0.35rem 0.6rem;
   }
 
-  .tableFixHead {
-    max-height: 45vh;
+ .tableFixHead {
+    overflow: auto;
+    max-width: 100%;
   }
 
   th, td {
