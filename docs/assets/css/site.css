@@ -81,26 +81,53 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 /* Tables: */
 
-.tableFixHead { 
-  overflow: auto;
-  max-height: calc(100% - 60px); 
+
+.tableFixHead {
   overflow-x: auto;
   overflow-y: auto;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
 }
-  
-.tableFixHead thead th {
-  position: sticky;
-  top: 0;
-  z-index: 2; }
-  
-.tableFixHead table { 
+
+.tableFixHead table {
   border-collapse: collapse;
-  width: 100%; 
-  /*table-layout: fixed;*/
 }
 
+/* for small/simple tables */
+.table-fixed table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* for large/complex tables like the gods table */
+.table-wide table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: auto;
+}
+
+.table-wide th,
+.table-wide td {
+  white-space: normal;
+  vertical-align: top;
+}
+
+/* give the last column more room if needed */
+.table-wide th:last-child,
+.table-wide td:last-child {
+  min-width: 18rem;
+}
+
+/* nested tables inside a cell */
+.table-wide td details .tableFixHead {
+  max-width: 100%;
+}
+
+.table-wide td details table {
+  width: max-content;
+  min-width: 28rem;
+  table-layout: auto;
+}
 
   
 
