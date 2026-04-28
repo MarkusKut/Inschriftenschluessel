@@ -101,7 +101,6 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 /* for large/complex tables like the gods table */
 .table-wide table {
-  width: max-content;
   min-width: 100%;
   table-layout: auto;
 }
@@ -159,48 +158,16 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 /* glyphs can wrap as whole items, but images themselves do not get broken */
 .table-glyph-middle td:nth-child(2) .glyph {
-  display: inline-block;
-  vertical-align: middle;
+  max-width: none;
+  width: auto;
+  height: 30px;
+}
+
+.table-glyph-middle {
+  overflow-x: auto;
+  overflow-y: auto;
   max-width: 100%;
-  height: auto;
-}
-
-/* optional width balance */
-.table-glyph-middle th:nth-child(1),
-.table-glyph-middle td:nth-child(1) {
-  width: 28%;
-}
-
-.table-glyph-middle th:nth-child(2),
-.table-glyph-middle td:nth-child(2) {
-  width: 28%;
-}
-
-.table-glyph-middle th:nth-child(3),
-.table-glyph-middle td:nth-child(3) {
-  width: 44%;
-}
-
-/* mobile tuning */
-@media (max-width: 768px) {
-  .table-glyph-middle th:nth-child(1),
-  .table-glyph-middle td:nth-child(1) {
-    width: 26%;
-  }
-
-  .table-glyph-middle th:nth-child(2),
-  .table-glyph-middle td:nth-child(2) {
-    width: 26%;
-  }
-
-  .table-glyph-middle th:nth-child(3),
-  .table-glyph-middle td:nth-child(3) {
-    width: 48%;
-  }
-
-  .table-glyph-middle td:nth-child(2) .glyph {
-    height: 30px;
-  }
+  -webkit-overflow-scrolling: touch;
 }
 
 
