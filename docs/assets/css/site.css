@@ -83,16 +83,30 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 .tableFixHead { 
   overflow: auto;
-  max-height: calc(100% - 60px); }
+  max-height: calc(100% - 60px); 
+   overflow-x: auto;
+  overflow-y: auto;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+  
 .tableFixHead thead th {
   position: sticky;
   top: 0;
   z-index: 2; }
+  
 .tableFixHead table { 
   border-collapse: collapse;
-  width: 100%; }
-.tableFixHead th, .tableFixHead td { 
-  padding: 8px 16px; }
+  width: 100%; 
+  table-layout: fixed; }
+  
+/* allow text to break inside cells */
+.tableFixHead th,
+.tableFixHead td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 
 /* Just common table stuff. Really. */
@@ -189,9 +203,9 @@ body.quarto-dark .zoom-btn,
 /* dark mode: same background as the site */
 
 /* per-type colors */
-.badge-gottheit { background: #c77c00;
+.badge-gottheit { background: #f59f00;
   color: #fff;
-  border-color: #c77c00; } /* orange */
+  border-color: #f59f00; } /* orange */
 .badge-gaben    { background: #2f9e44;
   color: #fff;
   border-color: #2f9e44;  } /* green */
@@ -212,9 +226,9 @@ html[data-bs-theme="dark"] .badge-gottheit,
 html[data-theme="dark"] .badge-gottheit,
 body.quarto-dark .badge-gottheit,
 .quarto-dark .badge-gottheit {
-  background: #c77c00;
+  background: #f59f00;
   color: #fff;
-  border-color: #c77c00;
+  border-color: #f59f00;
 }
 
 html[data-bs-theme="dark"] .badge-gaben,
@@ -265,6 +279,46 @@ body.quarto-dark .badge-w-rtliche-rede,
 }
 
 
+/* base style for slot links in running text */
+.slot-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* light mode */
+.slot-gottheit { color: #f59f00; }
+.slot-gaben    { color: #2f9e44; }
+.slot-person   { color: #1c7ed6; }
+.slot-k-nig    { color: #c20000; }
+
+/* dark mode */
+html[data-bs-theme="dark"] .slot-gottheit,
+html[data-theme="dark"] .slot-gottheit,
+body.quarto-dark .slot-gottheit,
+.quarto-dark .slot-gottheit {
+  color: #f59f00;
+}
+
+html[data-bs-theme="dark"] .slot-gaben,
+html[data-theme="dark"] .slot-gaben,
+body.quarto-dark .slot-gaben,
+.quarto-dark .slot-gaben {
+  color: #2f9e44;
+}
+
+html[data-bs-theme="dark"] .slot-person,
+html[data-theme="dark"] .slot-person,
+body.quarto-dark .slot-person,
+.quarto-dark .slot-person {
+  color: #74c0fc;
+}
+
+html[data-bs-theme="dark"] .slot-k-nig,
+html[data-theme="dark"] .slot-k-nig,
+body.quarto-dark .slot-k-nig,
+.quarto-dark .slot-k-nig {
+  color: #c20000;
+}
 
 
 
@@ -327,10 +381,12 @@ body.quarto-dark .btn-back,
   color: #f1f3f5;
 }
 
+
+
 /* mobile */
 @media (max-width: 768px) {
   .glyph {
-    height: 22px;
+    height: 30px;
   }
 
   .footer-nav {
@@ -348,16 +404,15 @@ body.quarto-dark .btn-back,
     padding: 0.35rem 0.6rem;
   }
 
- .tableFixHead {
-    overflow: auto;
-    max-width: 100%;
+ tableFixHead table {
+    width: 100%;
+    table-layout: fixed;
   }
 
-  th, td {
-    padding: 4px 6px;
+  .tableFixHead th,
+  .tableFixHead td {
+    padding: 6px 8px;
+    font-size: 0.95rem;
   }
 
-  .zoom-controls {
-    display: none;
-  }
 }

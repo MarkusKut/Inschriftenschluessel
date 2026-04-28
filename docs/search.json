@@ -4,7 +4,7 @@
     "href": "pages/slots/wortlRede.html",
     "title": "Slot: Wörtliche Rede",
     "section": "",
-    "text": "A− A A+"
+    "text": "A−\n  A\n  A+"
   },
   {
     "objectID": "pages/slots/wortlRede.html#übliche-form",
@@ -32,7 +32,7 @@
     "href": "pages/slots/koenig.html",
     "title": "Slot: König",
     "section": "",
-    "text": "A− A A+"
+    "text": "A−\n  A\n  A+"
   },
   {
     "objectID": "pages/slots/koenig.html#übliche-form",
@@ -67,7 +67,7 @@
     "href": "pages/slots/datum.html",
     "title": "Slot: Datum",
     "section": "",
-    "text": "A− A A+"
+    "text": "A−\n  A\n  A+"
   },
   {
     "objectID": "pages/slots/datum.html#jahr",
@@ -102,7 +102,7 @@
     "href": "pages/formeln/denkmaelerformel.html",
     "title": "Formel: Denkmälerformel",
     "section": "",
-    "text": "A− A A+\nKönig / Person  ir.n⸗f mnw⸗f Gottheit"
+    "text": "A−\n  A\n  A+\nKönig / Person  ir.n⸗f mnw⸗f Gottheit"
   },
   {
     "objectID": "pages/formeln/denkmaelerformel.html#übersetzung",
@@ -144,7 +144,7 @@
     "href": "pages/formeln/beischrift.html",
     "title": "Formel: Beischrift",
     "section": "",
-    "text": "A− A A+\nBeziehung Szenentitel Wörtliche Rede Rückenschutzformel"
+    "text": "A−\n  A\n  A+\nBeziehung Szenentitel Wörtliche Rede Rückenschutzformel"
   },
   {
     "objectID": "pages/formeln/beischrift.html#inschrift",
@@ -179,14 +179,14 @@
     "href": "pages/formeln/anruf-an-die-lebenden.html",
     "title": "Formel: Anruf an die Lebenden",
     "section": "",
-    "text": "A− A A+\n\n\n\n  \n    Home\n    ← Zurück"
+    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
   },
   {
     "objectID": "pages/formeln/saiten-formel.html",
     "href": "pages/formeln/saiten-formel.html",
     "title": "Formel: Saïten-Formel",
     "section": "",
-    "text": "A− A A+\n\n\n\n  \n    Home\n    ← Zurück"
+    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
   },
   {
     "objectID": "about.html",
@@ -200,7 +200,7 @@
     "href": "index.html",
     "title": "Inschriftenschlüssel",
     "section": "",
-    "text": "A− A A+"
+    "text": "A−\n  A\n  A+"
   },
   {
     "objectID": "index.html#opferformel",
@@ -249,7 +249,7 @@
     "href": "pages/formeln/opferformel.html",
     "title": "Formel: Opferformel",
     "section": "",
-    "text": "A− A A+\nḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
+    "text": "A−\n  A\n  A+\nḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
   },
   {
     "objectID": "pages/formeln/opferformel.html#übersetzung",
@@ -291,7 +291,7 @@
     "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
     "title": "Formel: König-geliebt-von-Gottheit-Formel",
     "section": "",
-    "text": "A− A A+\nKönig Gottheit  mry"
+    "text": "A−\n  A\n  A+\nKönig Gottheit  mry"
   },
   {
     "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
@@ -305,7 +305,7 @@
     "href": "pages/formeln/koenigsinschrift.html",
     "title": "Formel: „Historische“ Königsinschrift",
     "section": "",
-    "text": "A− A A+\nDatum  ḫr ḥm n König NN"
+    "text": "A−\n  A\n  A+\nDatum  ḫr ḥm n König NN"
   },
   {
     "objectID": "pages/formeln/koenigsinschrift.html#übersetzung",
@@ -326,7 +326,7 @@
     "href": "pages/formeln/hymnus.html",
     "title": "Formel: Hymnus",
     "section": "",
-    "text": "A− A A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
+    "text": "A−\n  A\n  A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
   },
   {
     "objectID": "pages/formeln/hymnus.html#übersetzung",
@@ -368,7 +368,7 @@
     "href": "pages/slots/person.html",
     "title": "Slot: Person",
     "section": "",
-    "text": "A− A A+\n[Titel] + Personenname + [Determinativ] + [Epitheta]"
+    "text": "A−\n  A\n  A+\n[Titel] + Personenname + [Determinativ] + [Epitheta]"
   },
   {
     "objectID": "pages/slots/person.html#titel",
@@ -403,7 +403,7 @@
     "href": "pages/slots/gaben.html",
     "title": "Slot: Gaben",
     "section": "",
-    "text": "A− A A+"
+    "text": "A−\n  A\n  A+"
   },
   {
     "objectID": "pages/slots/gaben.html#übliche-form",
@@ -445,7 +445,7 @@
     "href": "pages/slots/gottheit.html",
     "title": "Slot: Gottheit",
     "section": "",
-    "text": "A− A A+\nGottesname + Epitheton/-a\nBeide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Namen, durch sein Epitheton, seine Epitheta oder durch eine Kombination dieser Möglichkeiten genannt werden."
+    "text": "A−\n  A\n  A+\nGottesname + Epitheton/-a\nBeide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Namen, durch sein Epitheton, seine Epitheta oder durch eine Kombination dieser Möglichkeiten genannt werden."
   },
   {
     "objectID": "pages/slots/gottheit.html#typische-determinative",
