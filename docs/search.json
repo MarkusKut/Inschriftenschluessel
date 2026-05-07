@@ -60,7 +60,7 @@
     "href": "pages/slots/koenig.html#typische-epitheta",
     "title": "Slot: König",
     "section": "Typische Epitheta",
-    "text": "Typische Epitheta\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nnsw\n\n\n      \n\n\nKönig\n\n\n\n\nḥm\n\n\n      \n\n\nMajestät\n\n\n\n\nnb tꜣ.wi\n\n\n\n\n\nHerr der beiden Länder\n\n\n\n\nnṯr-nfr\n\n\n\n\n\nvollkommender Gott\n\n\n\n\n\n\n  \n    Home\n    ← Zurück"
+    "text": "Typische Epitheta\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nnsw\n\n\n      \n\n\nKönig\n\n\n\n\nḥm\n\n\n      \n\n\nMajestät\n\n\n\n\nḥm⸗f\n\n\n      \n\n\nMajestät\n\n\n\n\nnb tꜣ.wi\n\n\n\n\n\nHerr der beiden Länder\n\n\n\n\nnṯr nfr\n\n\n\n\n\nvollkommender Gott\n\n\n\n\n\n\n  \n    Home\n    ← Zurück"
   },
   {
     "objectID": "pages/slots/datum.html",
@@ -81,7 +81,7 @@
     "href": "pages/slots/datum.html#monat",
     "title": "Slot: Datum",
     "section": "Monat:",
-    "text": "Monat:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣbd-1\n\n\n\n\n\nerster Monat\n\n\n\n\ntpy\n\n\n\n\n\nerster Monat\n\n\n\n\nꜣbd-4\n\n\n\n\n\nvierter Monat"
+    "text": "Monat:\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣbd-1\n\n\n\n\n\nerster Monat\n\n\n\n\ndpy\n\n\n\n\n\nerster Monat\n\n\n\n\nꜣbd-4\n\n\n\n\n\nvierter Monat"
   },
   {
     "objectID": "pages/slots/datum.html#jahreszeiten",
@@ -289,14 +289,21 @@
   {
     "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
     "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
-    "title": "Formel: König-geliebt-von-Gottheit-Formel",
+    "title": "Formel: König-geliebt-von-Gottheit-Formel",
     "section": "",
-    "text": "A−\n  A\n  A+\nKönig Gottheit  mry"
+    "text": "A−\n  A\n  A+\nKönig Gottheit  mry"
+  },
+  {
+    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#ubersetzung",
+    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#ubersetzung",
+    "title": "Formel: König-geliebt-von-Gottheit-Formel",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nKönig geliebt von Gottheit"
   },
   {
     "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
     "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
-    "title": "Formel: König-geliebt-von-Gottheit-Formel",
+    "title": "Formel: König-geliebt-von-Gottheit-Formel",
     "section": "Schreibvarianten",
     "text": "Schreibvarianten\nmry:\n\n\n\n\n\n\n AR\n\n\n  \n    Home\n    ← Zurück"
   },
@@ -382,7 +389,7 @@
     "href": "pages/slots/person.html#personenname",
     "title": "Slot: Person",
     "section": "Personenname:",
-    "text": "Personenname:\nwichtiges Bildungsmuster für weibliche Namen:\n\ntꜣ di   + Gottheit\n\nwichtiges Bildungsmuster für männliche Namen:\n\npꜣ di   + Gottheit"
+    "text": "Personenname:\nwichtiges Bildungsmuster für weibliche Namen:\n\ntꜣ-di-   + Gottheit\n\nwichtiges Bildungsmuster für männliche Namen:\n\npꜣ-di-   + Gottheit"
   },
   {
     "objectID": "pages/slots/person.html#determinative",
