@@ -384,10 +384,12 @@ body.quarto-dark .badge-w-rtliche-rede,
 }
 
 /* light mode */
-.slot-gottheit { color: #f59f00; }
-.slot-gaben    { color: #2f9e44; }
-.slot-person   { color: #1c7ed6; }
-.slot-k-nig    { color: #c20000; }
+.slot-gottheit     { color: #f59f00; }
+.slot-gaben        { color: #2f9e44; }
+.slot-person       { color: #1c7ed6; }
+.slot-k-nig        { color: #c20000; }
+.slot-datum        { color: #8219bf; }
+.w-rtliche-rede    { color: #ad139e; }
 
 /* dark mode */
 html[data-bs-theme="dark"] .slot-gottheit,
@@ -416,6 +418,21 @@ html[data-theme="dark"] .slot-k-nig,
 body.quarto-dark .slot-k-nig,
 .quarto-dark .slot-k-nig {
   color: #c20000;
+}
+
+html[data-bs-theme="dark"] .slot-datum,
+html[data-theme="dark"] .slot-datum,
+body.quarto-dark .slot-datum,
+.quarto-dark .slot-datum {
+  color: #8219bf;
+}
+
+
+html[data-bs-theme="dark"] .w-rtliche-rede,
+html[data-theme="dark"] .w-rtliche-rede,
+body.quarto-dark .w-rtliche-rede,
+.quarto-dark .w-rtliche-rede {
+  color: #ad139e;
 }
 
 
