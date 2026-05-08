@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slot: Gaben – Inschriftenschlüssel</title>
+<title>Gaben – Inschriftenschlüssel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<meta name="site-base-path" content="/Inschriftenschluessel/">
+<link rel="manifest" href="../../Inschriftenschluessel/site.webmanifest">
+<link rel="apple-touch-icon" href="../../Inschriftenschluessel/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
 
 
 <link rel="stylesheet" href="../../assets/css/site.css">
@@ -282,9 +288,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#übliche-form" id="toc-übliche-form" class="nav-link active" data-scroll-target="#übliche-form">Übliche Form</a></li>
   <li><a href="#anfangsformel" id="toc-anfangsformel" class="nav-link" data-scroll-target="#anfangsformel">Anfangsformel</a></li>
-  <li><a href="#aufzählung" id="toc-aufzählung" class="nav-link" data-scroll-target="#aufzählung">Aufzählung:</a></li>
-  <li><a href="#attribut" id="toc-attribut" class="nav-link" data-scroll-target="#attribut">Attribut:</a></li>
-  <li><a href="#schlussformel" id="toc-schlussformel" class="nav-link" data-scroll-target="#schlussformel">Schlussformel:</a></li>
+  <li><a href="#aufzählung" id="toc-aufzählung" class="nav-link" data-scroll-target="#aufzählung">Aufzählung</a></li>
+  <li><a href="#attribut" id="toc-attribut" class="nav-link" data-scroll-target="#attribut">Attribut</a></li>
+  <li><a href="#schlussformel" id="toc-schlussformel" class="nav-link" data-scroll-target="#schlussformel">Schlussformel</a></li>
   </ul>
 </nav>
 </nav>
@@ -298,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slot: Gaben</h1>
+<h1 class="title">Gaben</h1>
 </div>
 
 
@@ -378,7 +384,7 @@ ein Anrufungsopfer bestehend aus
 </div>
 </section>
 <section id="aufzählung" class="level2">
-<h2 class="anchored" data-anchor-id="aufzählung">Aufzählung:</h2>
+<h2 class="anchored" data-anchor-id="aufzählung">Aufzählung</h2>
 <div class="tableFixHead table-wide">
 <table class="table">
 <thead>
@@ -559,7 +565,7 @@ Wein
 </div>
 </section>
 <section id="attribut" class="level2">
-<h2 class="anchored" data-anchor-id="attribut">Attribut:</h2>
+<h2 class="anchored" data-anchor-id="attribut">Attribut</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -592,7 +598,7 @@ tausend an
 </div>
 </section>
 <section id="schlussformel" class="level2">
-<h2 class="anchored" data-anchor-id="schlussformel">Schlussformel:</h2>
+<h2 class="anchored" data-anchor-id="schlussformel">Schlussformel</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -716,6 +722,18 @@ alle schönen reinen Dinge
 </section>
 
 </main> <!-- /main -->
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

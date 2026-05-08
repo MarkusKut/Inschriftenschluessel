@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slot: König – Inschriftenschlüssel</title>
+<title>König – Inschriftenschlüssel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<meta name="site-base-path" content="/Inschriftenschluessel/">
+<link rel="manifest" href="../../Inschriftenschluessel/site.webmanifest">
+<link rel="apple-touch-icon" href="../../Inschriftenschluessel/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
 
 
 <link rel="stylesheet" href="../../assets/css/site.css">
@@ -281,8 +287,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#übliche-form" id="toc-übliche-form" class="nav-link active" data-scroll-target="#übliche-form">Übliche Form</a></li>
-  <li><a href="#titulatur" id="toc-titulatur" class="nav-link" data-scroll-target="#titulatur">Titulatur:</a></li>
-  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name">Name:</a></li>
+  <li><a href="#titulatur" id="toc-titulatur" class="nav-link" data-scroll-target="#titulatur">Titulatur</a></li>
+  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name">Name</a></li>
   <li><a href="#typische-epitheta" id="toc-typische-epitheta" class="nav-link" data-scroll-target="#typische-epitheta">Typische Epitheta</a></li>
   </ul>
 </nav>
@@ -297,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slot: König</h1>
+<h1 class="title">König</h1>
 </div>
 
 
@@ -338,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Titulatur + Name + Epitheton/-a</p>
 </section>
 <section id="titulatur" class="level2">
-<h2 class="anchored" data-anchor-id="titulatur">Titulatur:</h2>
+<h2 class="anchored" data-anchor-id="titulatur">Titulatur</h2>
 <div class="tableFixHead table-wide">
 <table class="table">
 <thead>
@@ -447,7 +453,7 @@ III: 440
 </div>
 </section>
 <section id="name" class="level2">
-<h2 class="anchored" data-anchor-id="name">Name:</h2>
+<h2 class="anchored" data-anchor-id="name">Name</h2>
 <p>siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern.</p>
 </section>
 <section id="typische-epitheta" class="level2">
@@ -564,6 +570,18 @@ vollkommender Gott
 </section>
 
 </main> <!-- /main -->
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

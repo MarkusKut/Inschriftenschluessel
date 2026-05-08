@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slot: Person – Inschriftenschlüssel</title>
+<title>Person – Inschriftenschlüssel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<meta name="site-base-path" content="/Inschriftenschluessel/">
+<link rel="manifest" href="../../Inschriftenschluessel/site.webmanifest">
+<link rel="apple-touch-icon" href="../../Inschriftenschluessel/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
 
 
 <link rel="stylesheet" href="../../assets/css/site.css">
@@ -280,10 +286,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#titel" id="toc-titel" class="nav-link active" data-scroll-target="#titel">Titel:</a></li>
-  <li><a href="#personenname" id="toc-personenname" class="nav-link" data-scroll-target="#personenname">Personenname:</a></li>
-  <li><a href="#determinative" id="toc-determinative" class="nav-link" data-scroll-target="#determinative">Determinative:</a></li>
-  <li><a href="#epitheta" id="toc-epitheta" class="nav-link" data-scroll-target="#epitheta">Epitheta:</a></li>
+  <li><a href="#titel" id="toc-titel" class="nav-link active" data-scroll-target="#titel">Titel</a></li>
+  <li><a href="#personenname" id="toc-personenname" class="nav-link" data-scroll-target="#personenname">Personenname</a></li>
+  <li><a href="#determinative" id="toc-determinative" class="nav-link" data-scroll-target="#determinative">Determinative</a></li>
+  <li><a href="#epitheta" id="toc-epitheta" class="nav-link" data-scroll-target="#epitheta">Epitheta</a></li>
   </ul>
 </nav>
 </nav>
@@ -297,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slot: Person</h1>
+<h1 class="title">Person</h1>
 </div>
 
 
@@ -333,9 +339,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
-<p>[Titel] + Personenname + [Determinativ] + [Epitheta]</p>
+<p><a href="#titel">Titel</a> + Personenname + [Determinativ] + <a href="#epitheta">Epitheta</a></p>
 <section id="titel" class="level2">
-<h2 class="anchored" data-anchor-id="titel">Titel:</h2>
+<h2 class="anchored" data-anchor-id="titel">Titel</h2>
 <p>Allgemein:</p>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
@@ -477,7 +483,7 @@ Sängerin des Amun
 </div>
 </section>
 <section id="personenname" class="level2">
-<h2 class="anchored" data-anchor-id="personenname">Personenname:</h2>
+<h2 class="anchored" data-anchor-id="personenname">Personenname</h2>
 <p>wichtiges Bildungsmuster für weibliche Namen:</p>
 <ul>
 <li><em>tꜣ-di-</em> <img src="../../assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png" class="glyph img-fluid"> <img src="../../assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png" class="glyph img-fluid"> + <a href="../../pages/slots/gottheit.html" class="badge-slot badge-gottheit">Gottheit</a></li>
@@ -488,7 +494,7 @@ Sängerin des Amun
 </ul>
 </section>
 <section id="determinative" class="level2">
-<h2 class="anchored" data-anchor-id="determinative">Determinative:</h2>
+<h2 class="anchored" data-anchor-id="determinative">Determinative</h2>
 <div class="tableFixHead table-fixed">
 <table class="table">
 <thead>
@@ -515,7 +521,7 @@ weiblich
 </div>
 </section>
 <section id="epitheta" class="level2">
-<h2 class="anchored" data-anchor-id="epitheta">Epitheta:</h2>
+<h2 class="anchored" data-anchor-id="epitheta">Epitheta</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -584,6 +590,18 @@ Gerechtfertigter
 </section>
 
 </main> <!-- /main -->
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Slot: Datum – Inschriftenschlüssel</title>
+<title>Datum – Inschriftenschlüssel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<meta name="site-base-path" content="/Inschriftenschluessel/">
+<link rel="manifest" href="../../Inschriftenschluessel/site.webmanifest">
+<link rel="apple-touch-icon" href="../../Inschriftenschluessel/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
 
 
 <link rel="stylesheet" href="../../assets/css/site.css">
@@ -280,10 +286,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#jahr" id="toc-jahr" class="nav-link active" data-scroll-target="#jahr">Jahr:</a></li>
-  <li><a href="#monat" id="toc-monat" class="nav-link" data-scroll-target="#monat">Monat:</a></li>
-  <li><a href="#jahreszeiten" id="toc-jahreszeiten" class="nav-link" data-scroll-target="#jahreszeiten">Jahreszeiten:</a></li>
-  <li><a href="#tag" id="toc-tag" class="nav-link" data-scroll-target="#tag">Tag:</a></li>
+  <li><a href="#jahr" id="toc-jahr" class="nav-link active" data-scroll-target="#jahr">Jahr</a></li>
+  <li><a href="#monat" id="toc-monat" class="nav-link" data-scroll-target="#monat">Monat</a></li>
+  <li><a href="#jahreszeiten" id="toc-jahreszeiten" class="nav-link" data-scroll-target="#jahreszeiten">Jahreszeiten</a></li>
+  <li><a href="#tag" id="toc-tag" class="nav-link" data-scroll-target="#tag">Tag</a></li>
   </ul>
 </nav>
 </nav>
@@ -297,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Slot: Datum</h1>
+<h1 class="title">Datum</h1>
 </div>
 
 
@@ -334,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 <section id="jahr" class="level2">
-<h2 class="anchored" data-anchor-id="jahr">Jahr:</h2>
+<h2 class="anchored" data-anchor-id="jahr">Jahr</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -367,7 +373,7 @@ Regierungsjahr
 </div>
 </section>
 <section id="monat" class="level2">
-<h2 class="anchored" data-anchor-id="monat">Monat:</h2>
+<h2 class="anchored" data-anchor-id="monat">Monat</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -444,7 +450,7 @@ vierter Monat
 </div>
 </section>
 <section id="jahreszeiten" class="level2">
-<h2 class="anchored" data-anchor-id="jahreszeiten">Jahreszeiten:</h2>
+<h2 class="anchored" data-anchor-id="jahreszeiten">Jahreszeiten</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -499,7 +505,7 @@ Sommer
 </div>
 </section>
 <section id="tag" class="level2">
-<h2 class="anchored" data-anchor-id="tag">Tag:</h2>
+<h2 class="anchored" data-anchor-id="tag">Tag</h2>
 <div class="tableFixHead table-glyph-middle">
 <table class="table">
 <thead>
@@ -535,7 +541,7 @@ Tag
 <img src="../../assets/glyphs/02_Slots/Datum/04_Tag/0010_sw-arqy_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Datum/04_Tag/0020_sw-arqy_02.png" class="glyph img-fluid">
 </td>
 <td style="text-align:left;">
-{30.Tag}
+Tag 30
 </td>
 </tr>
 </tbody>
@@ -579,6 +585,18 @@ Tag
 </section>
 
 </main> <!-- /main -->
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

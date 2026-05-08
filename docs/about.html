@@ -107,6 +107,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Suchen"
   }
 }</script>
+<meta name="site-base-path" content="/Inschriftenschluessel/">
+<link rel="manifest" href="./Inschriftenschluessel/site.webmanifest">
+<link rel="apple-touch-icon" href="./Inschriftenschluessel/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#ffffff">
 
 
 <link rel="stylesheet" href="assets/css/site.css">
@@ -352,6 +358,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 </main> <!-- /main -->
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
