@@ -334,19 +334,29 @@ if ("serviceWorker" in navigator) {
       let hideTimer = null;
 
       function showLoading() {
+        clearTimeout(hideTimer);
         toast.classList.remove("ready");
         toast.innerHTML = 'Offline-Version wird geladen<span class="dots"></span>';
         toast.classList.add("show");
         localStorage.setItem("offline-cache-status", "loading");
+        localStorage.setItem("offline-cache-ready-shown", "false");
       }
 
-      function showReadyAndHide() {
+      function showReadyAndHideOnce() {
+        const alreadyShown = localStorage.getItem("offline-cache-ready-shown") === "true";
+        if (alreadyShown) {
+          toast.classList.remove("show");
+          return;
+        }
+
+        clearTimeout(hideTimer);
         toast.classList.add("ready");
         toast.textContent = "Offline-Version vollständig geladen";
         toast.classList.add("show");
-        localStorage.setItem("offline-cache-status", "ready");
 
-        clearTimeout(hideTimer);
+        localStorage.setItem("offline-cache-status", "ready");
+        localStorage.setItem("offline-cache-ready-shown", "true");
+
         hideTimer = setTimeout(() => {
           toast.classList.remove("show");
         }, 1800);
@@ -367,7 +377,7 @@ if ("serviceWorker" in navigator) {
         if (event.data?.type === "offline-ready") {
           if (event.data.ready) {
             document.documentElement.setAttribute("data-offline-ready", "true");
-            showReadyAndHide();
+            showReadyAndHideOnce();
           } else {
             document.documentElement.setAttribute("data-offline-ready", "false");
             showLoading();
@@ -375,11 +385,13 @@ if ("serviceWorker" in navigator) {
         }
       });
 
-      // On every new page load, restore visible loading state if download is still running
+      // restore only the loading state across page switches
       const savedStatus = localStorage.getItem("offline-cache-status");
+      const readyShown = localStorage.getItem("offline-cache-ready-shown") === "true";
+
       if (savedStatus === "loading") {
         showLoading();
-      } else if (savedStatus === "ready") {
+      } else if (savedStatus === "ready" && readyShown) {
         hideImmediately();
       }
 
