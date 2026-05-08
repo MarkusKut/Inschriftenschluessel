@@ -398,8 +398,37 @@ document.addEventListener("DOMContentLoaded", function() {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", async () => {
     try {
-      const basePath = document.querySelector('meta[name="site-base-path"]')?.content || "/";
-      await navigator.serviceWorker.register(`${basePath}sw.js`, { scope: basePath });
+      const basePath =
+        document.querySelector('meta[name="site-base-path"]')?.content || "/";
+      const reg = await navigator.serviceWorker.register(`${basePath}sw.js`, {
+        scope: basePath
+      });
+
+      function askReady() {
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage("offline-ready?");
+        }
+      }
+
+      navigator.serviceWorker.addEventListener("message", (event) => {
+        if (event.data?.type === "offline-ready") {
+          if (event.data.ready) {
+            console.log("Offline cache complete.");
+            document.documentElement.setAttribute("data-offline-ready", "true");
+          } else {
+            console.log("Offline cache not complete yet.");
+            document.documentElement.setAttribute("data-offline-ready", "false");
+          }
+        }
+      });
+
+      if (reg.waiting || reg.active) {
+        askReady();
+      }
+
+      navigator.serviceWorker.ready.then(() => {
+        askReady();
+      });
     } catch (err) {
       console.error("Service worker registration failed:", err);
     }
