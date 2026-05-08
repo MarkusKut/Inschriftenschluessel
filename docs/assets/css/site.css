@@ -210,7 +210,7 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 /* mobile tuning */
 @media (max-width: 768px) {
   .tableFixHead.table-wide {
-    max-height: 60vh;
+    max-height: 100vh;
   }
 
   .tableFixHead.table-wide th,
@@ -347,28 +347,19 @@ body.quarto-dark .zoom-btn,
   margin-right: 0.25rem;
 }
 
+/* base style for slot links in running text */
+.slot-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 
 /* dark mode: same background as the site */
 
-/* per-type colors */
+/* Gottheit */
 .badge-gottheit { background: #f59f00;
   color: #fff;
   border-color: #f59f00; } /* orange */
-.badge-gaben    { background: #2f9e44;
-  color: #fff;
-  border-color: #2f9e44;  } /* green */
-.badge-person   { background: #1c7ed6;
-  color: #fff;
-  border-color: #1c7ed6; } /* blue */
-.badge-k-nig   { background: #c20000;
-  color: #fff;
-  border-color: #c20000;;  } /* red */
-.badge-datum   {  background: #8219bf;
-  color: #fff;
-  border-color: #8219bf;  } /* lila */
-.badge-w-rtliche-rede {  background: #ad139e;
-  color: #fff;
-  border-color: #ad139e;  } /* pink */
 
 html[data-bs-theme="dark"] .badge-gottheit,
 html[data-theme="dark"] .badge-gottheit,
@@ -379,6 +370,31 @@ body.quarto-dark .badge-gottheit,
   border-color: #f59f00;
 }
 
+/* light mode */
+.slot-gottheit     { color: #f59f00; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-gottheit,
+html[data-theme="dark"] .slot-gottheit,
+body.quarto-dark .slot-gottheit,
+.quarto-dark .slot-gottheit {
+  color: #f59f00;
+}
+
+h1.title.slot-title-gottheit {
+  color: #f59f00;
+}
+
+
+
+
+
+/* Gaben */
+
+.badge-gaben    { background: #2f9e44;
+  color: #fff;
+  border-color: #2f9e44;  } /* green */
+  
+  
 html[data-bs-theme="dark"] .badge-gaben,
 html[data-theme="dark"] .badge-gaben,
 body.quarto-dark .badge-gaben,
@@ -388,6 +404,30 @@ body.quarto-dark .badge-gaben,
   border-color: #2f9e44;
 }
 
+/* light mode */
+.slot-gaben        { color: #2f9e44; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-gaben,
+html[data-theme="dark"] .slot-gaben,
+body.quarto-dark .slot-gaben,
+.quarto-dark .slot-gaben {
+  color: #2f9e44;
+}
+
+
+h1.title.slot-title-gaben {
+  color: #2f9e44;
+}
+
+
+
+/* Person */
+
+
+.badge-person   { background: #1c7ed6;
+  color: #fff;
+  border-color: #1c7ed6; } /* blue */
+
 html[data-bs-theme="dark"] .badge-person,
 html[data-theme="dark"] .badge-person,
 body.quarto-dark .badge-person,
@@ -395,8 +435,28 @@ body.quarto-dark .badge-person,
   background: #1c7ed6;
   color: #fff;
   border-color: #1c7ed6;
+}  
+
+/* light mode */
+.slot-person       { color: #1c7ed6; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-person,
+html[data-theme="dark"] .slot-person,
+body.quarto-dark .slot-person,
+.quarto-dark .slot-person {
+  color: #1c7ed6;
 }
 
+h1.title.slot-title-person {
+  color: #1c7ed6;
+}
+
+  
+/* König */
+
+.badge-k-nig   { background: #c20000;
+  color: #fff;
+  border-color: #c20000;;  } /* red */
 
 html[data-bs-theme="dark"] .badge-k-nig,
 html[data-theme="dark"] .badge-k-nig,
@@ -407,6 +467,33 @@ body.quarto-dark .badge-k-nig,
   border-color: #c20000;
 }
 
+/* light mode */
+.slot-k-nig        { color: #c20000; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-k-nig,
+html[data-theme="dark"] .slot-k-nig,
+body.quarto-dark .slot-k-nig,
+.quarto-dark .slot-k-nig {
+  color: #c20000;
+}
+
+h1.title.slot-title-k-nig {
+  color: #c20000;
+}
+
+
+
+
+
+
+/* Datum */
+
+.badge-datum   {  background: #8219bf;
+  color: #fff;
+  border-color: #8219bf;  } /* lila */
+
+
+
 html[data-bs-theme="dark"] .badge-datum,
 html[data-theme="dark"] .badge-datum,
 body.quarto-dark .badge-datum,
@@ -415,6 +502,28 @@ body.quarto-dark .badge-datum,
   color: #fff;
   border-color: #8219bf;
 }
+
+/* light mode */
+.slot-datum        { color: #8219bf; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-datum,
+html[data-theme="dark"] .slot-datum,
+body.quarto-dark .slot-datum,
+.quarto-dark .slot-datum {
+  color: #8219bf;
+}
+
+h1.title.slot-title-datum {
+  color: #8219bf;
+}
+
+
+
+/* Wörtliche Rede */
+
+.badge-w-rtliche-rede {  background: #ad139e;
+  color: #fff;
+  border-color: #ad139e;  } /* pink */
 
 
 html[data-bs-theme="dark"] .badge-w-rtliche-rede,
@@ -426,58 +535,9 @@ body.quarto-dark .badge-w-rtliche-rede,
   border-color: #ad139e;
 }
 
-
-/* base style for slot links in running text */
-.slot-link {
-  text-decoration: none;
-  font-weight: 600;
-}
-
 /* light mode */
-.slot-gottheit     { color: #f59f00; }
-.slot-gaben        { color: #2f9e44; }
-.slot-person       { color: #1c7ed6; }
-.slot-k-nig        { color: #c20000; }
-.slot-datum        { color: #8219bf; }
 .w-rtliche-rede    { color: #ad139e; }
-
 /* dark mode */
-html[data-bs-theme="dark"] .slot-gottheit,
-html[data-theme="dark"] .slot-gottheit,
-body.quarto-dark .slot-gottheit,
-.quarto-dark .slot-gottheit {
-  color: #f59f00;
-}
-
-html[data-bs-theme="dark"] .slot-gaben,
-html[data-theme="dark"] .slot-gaben,
-body.quarto-dark .slot-gaben,
-.quarto-dark .slot-gaben {
-  color: #2f9e44;
-}
-
-html[data-bs-theme="dark"] .slot-person,
-html[data-theme="dark"] .slot-person,
-body.quarto-dark .slot-person,
-.quarto-dark .slot-person {
-  color: #74c0fc;
-}
-
-html[data-bs-theme="dark"] .slot-k-nig,
-html[data-theme="dark"] .slot-k-nig,
-body.quarto-dark .slot-k-nig,
-.quarto-dark .slot-k-nig {
-  color: #c20000;
-}
-
-html[data-bs-theme="dark"] .slot-datum,
-html[data-theme="dark"] .slot-datum,
-body.quarto-dark .slot-datum,
-.quarto-dark .slot-datum {
-  color: #8219bf;
-}
-
-
 html[data-bs-theme="dark"] .w-rtliche-rede,
 html[data-theme="dark"] .w-rtliche-rede,
 body.quarto-dark .w-rtliche-rede,
@@ -485,32 +545,12 @@ body.quarto-dark .w-rtliche-rede,
   color: #ad139e;
 }
 
-
-
-h1.title.slot-title-gottheit {
-  color: #f59f00;
-}
-
-h1.title.slot-title-gaben {
-  color: #2f9e44;
-}
-
-h1.title.slot-title-person {
-  color: #74c0fc;
-}
-
-h1.title.slot-title-k-nig {
-  color: #c20000;
-}
-
-
-h1.title.slot-title-datum {
-  color: #8219bf;
-}
-
 h1.title.slot-title-w-rtliche-rede {
   color: #ad139e;
 }
+
+
+
 
 
 .footer-nav {
