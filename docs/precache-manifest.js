@@ -537,6 +537,7 @@ self.__PRECACHE = [
   'assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png',
   'assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png',
   'assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png',
+  'assets/glyphs/02_Slots/Koenig/Bezeichnungen/02.5_Hm=f_01.png',
   'assets/glyphs/02_Slots/Koenig/Bezeichnungen/03_nb-tA.wj_01.png',
   'assets/glyphs/02_Slots/Koenig/Bezeichnungen/04_nTr-nfr_01.png',
   'assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_01.png',

@@ -320,6 +320,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<meta name="slot-title-class" content="slot-title-k-nig">
 <div class="zoom-controls">
   <button onclick="setZoom(0.9)">A−</button>
   <button onclick="setZoom(1)">A</button>
@@ -337,6 +338,12 @@ document.addEventListener("DOMContentLoaded", function() {
   if (saved) {
     document.documentElement.style.setProperty('--base-scale', saved);
   }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
 });
 </script>
 <section id="übliche-form" class="level2">
@@ -345,7 +352,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 <section id="titulatur" class="level2">
 <h2 class="anchored" data-anchor-id="titulatur">Titulatur</h2>
-<div class="tableFixHead table-wide">
+<div class="tableFixHead table-fixed">
 <table class="table">
 <thead>
 <tr>
@@ -421,7 +428,7 @@ Umschrift und Übersetzung konventionell
 Thronname
 </td>
 <td style="text-align:left;">
-<img src="../../assets/glyphs/02_Slots/Koenig/04_Thronname_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png" class="glyph img-fluid"> (Gr.)
+<img src="../../assets/glyphs/02_Slots/Koenig/04_Thronname_01.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png" class="glyph img-fluid"> (Gr.)
 </td>
 <td style="text-align:left;">
 <em>nsw-bit</em>
@@ -437,7 +444,7 @@ II: 330
 Eigenname
 </td>
 <td style="text-align:left;">
-<img src="../../assets/glyphs/02_Slots/Koenig/05_Eigenname_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/05_Eigenname_02.png" class="glyph img-fluid">
+<img src="../../assets/glyphs/02_Slots/Koenig/05_Eigenname_01.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/05_Eigenname_02.png" class="glyph img-fluid">
 </td>
 <td style="text-align:left;">
 <em>sꜣ rꜥ</em>
@@ -479,7 +486,7 @@ Hieroglyphen
 <em>nsw</em>
 </td>
 <td style="text-align:left;">
-<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_02.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_03.png" class="glyph img-fluid">
+<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_01.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_02.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_03.png" class="glyph img-fluid">
 </td>
 <td style="text-align:left;">
 König
@@ -490,7 +497,7 @@ König
 <em>ḥm</em>
 </td>
 <td style="text-align:left;">
-<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png" class="glyph img-fluid">
+<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png" class="glyph img-fluid"> <br> <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png" class="glyph img-fluid">
 </td>
 <td style="text-align:left;">
 Majestät
@@ -501,10 +508,10 @@ Majestät
 <em>ḥm⸗f</em>
 </td>
 <td style="text-align:left;">
-<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png" class="glyph img-fluid">   <img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png" class="glyph img-fluid">
+<img src="../../assets/glyphs/02_Slots/Koenig/Bezeichnungen/02.5_Hm=f_01.png" class="glyph img-fluid">
 </td>
 <td style="text-align:left;">
-Majestät
+Seine Majestät
 </td>
 </tr>
 <tr>

@@ -169,6 +169,56 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   -webkit-overflow-scrolling: touch;
 }
 
+/* wide tables: horizontal + vertical scroll container */
+.tableFixHead.table-wide {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-width: 100%;
+  max-height: 70vh;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* important for sticky headers, especially Safari */
+.tableFixHead.table-wide table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* sticky header */
+.tableFixHead.table-wide thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--bs-body-bg, #fff);
+  color: var(--bs-body-color, #000);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* dark mode */
+html[data-bs-theme="dark"] .tableFixHead.table-wide thead th,
+html[data-theme="dark"] .tableFixHead.table-wide thead th,
+body.quarto-dark .tableFixHead.table-wide thead th,
+.quarto-dark .tableFixHead.table-wide thead th {
+  background: var(--bs-body-bg, #1e1e1e);
+  color: var(--bs-body-color, #f1f3f5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* mobile tuning */
+@media (max-width: 768px) {
+  .tableFixHead.table-wide {
+    max-height: 60vh;
+  }
+
+  .tableFixHead.table-wide th,
+  .tableFixHead.table-wide td {
+    padding: 6px 8px;
+  }
+}
+
 
 
 /* mobile */
@@ -435,6 +485,32 @@ body.quarto-dark .w-rtliche-rede,
   color: #ad139e;
 }
 
+
+
+h1.title.slot-title-gottheit {
+  color: #f59f00;
+}
+
+h1.title.slot-title-gaben {
+  color: #2f9e44;
+}
+
+h1.title.slot-title-person {
+  color: #74c0fc;
+}
+
+h1.title.slot-title-k-nig {
+  color: #c20000;
+}
+
+
+h1.title.slot-title-datum {
+  color: #8219bf;
+}
+
+h1.title.slot-title-w-rtliche-rede {
+  color: #ad139e;
+}
 
 
 .footer-nav {

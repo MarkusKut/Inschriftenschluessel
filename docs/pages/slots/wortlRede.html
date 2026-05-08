@@ -320,6 +320,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<meta name="slot-title-class" content="slot-title-w-rtliche-rede">
 <div class="zoom-controls">
   <button onclick="setZoom(0.9)">A−</button>
   <button onclick="setZoom(1)">A</button>
@@ -337,6 +338,12 @@ document.addEventListener("DOMContentLoaded", function() {
   if (saved) {
     document.documentElement.style.setProperty('--base-scale', saved);
   }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
 });
 </script>
 <section id="übliche-form" class="level2">
@@ -349,7 +356,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 <section id="aufbau" class="level2">
 <h2 class="anchored" data-anchor-id="aufbau">Aufbau</h2>
-<div class="tableFixHead table-wide">
+<div class="tableFixHead table-fixed">
 <table class="table">
 <thead>
 <tr>
