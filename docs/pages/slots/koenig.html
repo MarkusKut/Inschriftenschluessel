@@ -589,43 +589,28 @@ if ("serviceWorker" in navigator) {
       }
 
       let hideTimer = null;
+      let hasShownLoading = false;
 
       function showLoading() {
-        clearTimeout(hideTimer);
+        if (document.documentElement.getAttribute("data-offline-ready") === "true") return;
         toast.classList.remove("ready");
         toast.innerHTML = 'Offline-Version wird geladen<span class="dots"></span>';
         toast.classList.add("show");
-
-        localStorage.setItem("offline-cache-loading", "true");
-        localStorage.setItem("offline-cache-success-shown", "false");
+        hasShownLoading = true;
       }
 
-      function showReadyOnce() {
-        const loadingWasActive =
-          localStorage.getItem("offline-cache-loading") === "true";
-        const successShown =
-          localStorage.getItem("offline-cache-success-shown") === "true";
-
-        localStorage.setItem("offline-cache-loading", "false");
-
-        if (!loadingWasActive || successShown) {
-          toast.classList.remove("show");
-          return;
-        }
-
-        clearTimeout(hideTimer);
+      function showReadyAndHide() {
         toast.classList.add("ready");
         toast.textContent = "Offline-Version vollständig geladen";
         toast.classList.add("show");
 
-        localStorage.setItem("offline-cache-success-shown", "true");
-
+        clearTimeout(hideTimer);
         hideTimer = setTimeout(() => {
           toast.classList.remove("show");
         }, 1800);
       }
 
-      function hideToast() {
+      function hideImmediately() {
         clearTimeout(hideTimer);
         toast.classList.remove("show");
       }
@@ -640,7 +625,11 @@ if ("serviceWorker" in navigator) {
         if (event.data?.type === "offline-ready") {
           if (event.data.ready) {
             document.documentElement.setAttribute("data-offline-ready", "true");
-            showReadyOnce();
+            if (hasShownLoading) {
+              showReadyAndHide();
+            } else {
+              hideImmediately();
+            }
           } else {
             document.documentElement.setAttribute("data-offline-ready", "false");
             showLoading();
@@ -648,12 +637,12 @@ if ("serviceWorker" in navigator) {
         }
       });
 
-      // restore loading toast across page switches while caching is still running
-      if (localStorage.getItem("offline-cache-loading") === "true") {
-        showLoading();
-      } else {
-        hideToast();
-      }
+      // small delay so it does not flash on already-ready installs
+      setTimeout(() => {
+        if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+          showLoading();
+        }
+      }, 400);
 
       navigator.serviceWorker.ready.then(() => {
         askReady();
