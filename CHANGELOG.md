@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `87853b2` **[Data, PWA/Offline]** offline toast fix 2
+
+## 2026-05-13
+
 - `143433b` **[Templates/Pages, CSS, Data, PWA/Offline]** offline toast fix
 
 ## 2026-05-13
