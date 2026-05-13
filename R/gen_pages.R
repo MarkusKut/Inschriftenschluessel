@@ -129,8 +129,10 @@ gen_slot_pages <- function(content) {
       s <- sections[j, ]
       part <- ""
       
+      block_type <- s$block_type %||% ""
+      
       # prose
-      if (!is.na(s$body_md) && s$body_md != "") {
+      if (block_type == "prose" && !is.na(s$body_md) && s$body_md != "") {
         part <- paste0(
           part,
           link_slot_tokens(s$body_md, slot_map = slot_map, from_slug = p$slug),
@@ -139,7 +141,7 @@ gen_slot_pages <- function(content) {
       }
       
       # glyphline
-      if (!is.na(s$glyphline_id) && s$glyphline_id != "") {
+      if (block_type == "glyphline" && !is.na(s$glyphline_id) && s$glyphline_id != "") {
         line_df <- content$glyphlines %>%
           filter(line_id == s$glyphline_id) %>%
           arrange(seq)
@@ -147,14 +149,17 @@ gen_slot_pages <- function(content) {
         part <- paste0(part, render_glyphline_md(line_df), "\n\n")
       }
       
+      # glyphvariants
+      if (block_type == "glyphvariants" && !is.na(s$glyphline_id) && s$glyphline_id != "") {
+        line_df <- content$glyphlines %>%
+          filter(line_id == s$glyphline_id) %>%
+          arrange(seq)
+        
+        part <- paste0(part, render_glyphvariants_md(line_df), "\n\n")
+      }
+      
       # table
       if (!is.na(s$table_id) && s$table_id != "") {
-        # df <- read_long_table(content$tables, s$table_id)
-        # tbl <- kable_html(df)
-        
-        # df <- read_long_table(content$tables, s$table_id)
-        # tbl <- kable_html(df)
-        # tbl <- expand_nested_tables_in_html(tbl, content$tables, visited = s$table_id)
         
         df <- read_long_table(content$tables, s$table_id)
         
@@ -194,7 +199,6 @@ gen_slot_pages <- function(content) {
     })
     
     body <- paste(unlist(rendered_sections), collapse = "\n")
-    #out <- whisker.render(tmpl, list(title = p$title, body = body))
     out <- whisker.render(
       tmpl,
       list(
@@ -207,6 +211,93 @@ gen_slot_pages <- function(content) {
     write_qmd(out_path, out)
   }
 }
+
+# gen_slot_pages <- function(content) {
+#   tmpl <- readLines("templates/slot.qmd.tmpl", warn = FALSE) |> paste(collapse = "\n")
+#   
+#   slots <- content$pages %>% filter(type == "slot")
+#   
+#   for (i in seq_len(nrow(slots))) {
+#     p <- slots[i, ]
+#     slot_map <- make_slot_linker(content$pages)
+#     sections <- content$slot_content %>% filter(page_id == p$page_id) %>%
+#       arrange(id)
+#     
+#     rendered_sections <- lapply(seq_len(nrow(sections)), function(j) {
+#       s <- sections[j, ]
+#       part <- ""
+#       
+#       # prose
+#       if (!is.na(s$body_md) && s$body_md != "") {
+#         part <- paste0(
+#           part,
+#           link_slot_tokens(s$body_md, slot_map = slot_map, from_slug = p$slug),
+#           "\n\n"
+#         )
+#       }
+#       
+#       # glyphline
+#       if (!is.na(s$glyphline_id) && s$glyphline_id != "") {
+#         line_df <- content$glyphlines %>%
+#           filter(line_id == s$glyphline_id) %>%
+#           arrange(seq)
+#         
+#         part <- paste0(part, render_glyphline_md(line_df), "\n\n")
+#       }
+#       
+#       # table
+#       if (!is.na(s$table_id) && s$table_id != "") {
+#         
+#         df <- read_long_table(content$tables, s$table_id)
+#         
+#         wrapper_class <- s$table_wrapper_class %||% "tableFixHead table-fixed"
+#         
+#         tbl <- kable_html(
+#           df,
+#           class = "table",
+#           wrapper_class = wrapper_class
+#         )
+#         
+#         tbl <- expand_nested_tables_in_html(tbl, content$tables, visited = s$table_id)
+#         
+#         
+#         
+#         if (isTRUE(s$collapsible)) {
+#           heading <- s$heading %||% "Tabelle"
+#           return(paste0(
+#             "## ", heading, "\n\n",
+#             "<details>",
+#             "<summary>",
+#             as.character(s$`collapsible-heading`),
+#             "</summary>",
+#             tbl, 
+#             "</details>"
+#           ))
+#         } else {
+#           part <- paste0(part, tbl, "\n\n")
+#         }
+#       }
+#       
+#       if (!is.na(s$heading) && s$heading != "" && !isTRUE(s$collapsible)) {
+#         paste0("## ", s$heading, "\n\n", part)
+#       } else {
+#         part
+#       }
+#     })
+#     
+#     body <- paste(unlist(rendered_sections), collapse = "\n")
+#     out <- whisker.render(
+#       tmpl,
+#       list(
+#         title = p$title,
+#         body = body,
+#         title_class = paste0("slot-title-", slot_key(p$title))
+#       )
+#     )
+#     out_path <- paste0(trimws(p$slug), ".qmd")
+#     write_qmd(out_path, out)
+#   }
+# }
 
 generate_site_pages <- function() {
   content <- load_content()

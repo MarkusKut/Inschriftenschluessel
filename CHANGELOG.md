@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `9da5945` **[Templates/Pages, CSS, Data, PWA/Offline]** Tables hyphens only for headers
+
+## 2026-05-13
+
 - `815894d` **[Other]** Tables max height max-height: 70vh
 
 ## 2026-05-13

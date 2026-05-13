@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[Beziehung] [Szenentitel] [Wörtliche Rede](../slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel]
+Beziehung Szenentitel [Wörtliche Rede](../slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} Rückenschutzformel
 
 
 
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 Blickt in die selbe Richtung wie das Dargestellte
 
-Name des dargestellten Wesens: [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} / [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} / Sonstiges
+Name des dargestellten Wesens: [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} / [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} / Sonstiges
 
 
 
@@ -39,13 +39,13 @@ Name des dargestellten Wesens: [Gottheit](../slots/gottheit.qmd){.badge-slot .ba
 
 im Infinitiv
 
-## Wörtliche Rede
+## Wörtliche Rede
 
 mit und ohne Einleitung
 
-## Rückenschutzformel
+## Rückenschutzformel
 
-am häufigsten bei König, auch bei Gottheit
+am häufigsten bei König, auch bei Gottheit
 
 
 

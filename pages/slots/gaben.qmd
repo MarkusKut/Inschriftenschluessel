@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## Übliche Form
+## Übliche Form
 
-[Anfangsformel] + [Aufzählung] mit/ohne [Attribut] + [Schlussformel]
+[Anfangsformel] + [Aufzählung] mit/ohne [Attribut] + [Schlussformel]
 
 
 ## Anfangsformel
@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
    <th style="text-align:left;"> Determinativ </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *pr.t-ḫrw* </td>
+   <td style="text-align:left;"> *pr.t-ḫrw* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0001_pr.t-xrw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0010_pr.t-xrw_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0020_pr.t-xrw_AR_01.png){.glyph} (AR) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/det/0001_pr.t-xrw_det_01.png){.glyph} </td>
    <td style="text-align:left;"> ein Anrufungsopfer bestehend aus </td>
@@ -61,21 +61,21 @@ document.addEventListener("DOMContentLoaded", function() {
 </table></div>
 
 
-## Aufzählung
+## Aufzählung
 
 <div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Abkürzung </th>
+   <th style="text-align:left;"> Abkürzung </th>
    <th style="text-align:left;"> Determinativ </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḥnq.t* </td>
+   <td style="text-align:left;"> *ḥnq.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0001_Hnq.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0010_Hnq.t_GR_01.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0020_Hnq.t_Abk_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0001_Hnq.t_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0010_Hnq.t_det_02.png){.glyph} </td>
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph} (Abk.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/det/0001_Apd_det_01.png){.glyph} </td>
-   <td style="text-align:left;"> Geflügel </td>
+   <td style="text-align:left;"> Geflügel </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *kꜣ* </td>
@@ -103,28 +103,28 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> Rinder </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šs* </td>
+   <td style="text-align:left;"> *šs* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0050_Alabaster/0001_Ss_AR-MR_01.png){.glyph} (AR <br> MR) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0050_Alabaster/0010_Ss_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0050_Alabaster/0020_Ss_Abk_MR_01.png){.glyph} (MR) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0050_Alabaster/det/0001_Ss_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Alabaster </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *mnḫ.t* </td>
+   <td style="text-align:left;"> *mnḫ.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0001_mnx.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0010_mnx.t_NR_01.png){.glyph} (NR) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0030_mnx.t_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0040_mnx.t_Abk_NR_02.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0050_mnx.t_Abk_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/0060_mnx.t_Abk_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/det/0001_mnx.t_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/det/0010_mnx.t_det_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/det/0020_mnx.t_det_NR_01.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gaben/0060_Leinen/det/0030_mnx.t_det_NR_02.png){.glyph} (NR) </td>
    <td style="text-align:left;"> Leinen </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *mrḥ.t* </td>
+   <td style="text-align:left;"> *mrḥ.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/0001_mrH.t_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/0010_mrH.t_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/0020_mrH.t_Abk_02.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/det/0001_mrH.t_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/det/0010_mrH.t_det_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0070_Salboel/det/0020_mrH.t_det_03.png){.glyph} </td>
-   <td style="text-align:left;"> Salböl </td>
+   <td style="text-align:left;"> Salböl </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *snṯr* </td>
+   <td style="text-align:left;"> *snṯr* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0001_snTr_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0010_snTr_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0020_snTr_AR_02.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0030_snTr_AR_03.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0040_snTr_Ende-AR_01.png){.glyph} (Ende AR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0050_snTr_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0060_snTr_MR_02.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0070_snTr_MR_03.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0080_snTr_D.18_01.png){.glyph} (Dyn. 18) <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0090_snTr_D.19_01.png){.glyph} (Dyn. 19) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0100_snTr_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0100_snTr_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/0120_snTr_Abk_03.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/det/0001_snTr_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/det/0010_snTr_det_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/det/0020_snTr_det_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0080_Weihrauch/det/0030_snTr_det_MR_01.png){.glyph} (MR) </td>
@@ -148,12 +148,12 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḫꜣ (m/n)* </td>
+   <td style="text-align:left;"> *ḫꜣ (m/n)* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0100_tausend-an/0001_xA-m-n_01.png){.glyph} </td>
    <td style="text-align:left;"> tausend an </td>
   </tr>
@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
@@ -183,24 +183,24 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> was die Erde hervorbringt </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *inn.t ḥꜥpy* </td>
+   <td style="text-align:left;"> *inn.t ḥꜥpy* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0130_was-der-Nil-bringt/0001_jnn.t-Hapy_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0130_was-der-Nil-bringt/0010_jnn.t-Hapy_02.png){.glyph} </td>
    <td style="text-align:left;"> was der Nil bringt </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ꜥnḫ.t nṯr im* </td>
+   <td style="text-align:left;"> *ꜥnḫ.t nṯr im* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0140_wovon-ein-Gott-lebt/0001_anx.t-nTr-jm_01.png){.glyph} </td>
    <td style="text-align:left;"> wovon ein Gott lebt </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *mrr.t ꜣḫ.w wnm im* </td>
+   <td style="text-align:left;"> *mrr.t ꜣḫ.w wnm im* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0150_wovon-die-Ach-Geister/0001_mrr.t-Ax.w-wnm-jm_01.png){.glyph} </td>
-   <td style="text-align:left;"> wovon die Ach-Geister sich zu ernähren lieben </td>
+   <td style="text-align:left;"> wovon die Ach-Geister sich zu ernähren lieben </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *(i)ḫ.t nb.t nfr.t wꜥb.t* </td>
+   <td style="text-align:left;"> *(i)ḫ.t nb.t nfr.t wꜥb.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0160_Alles/0001_(j)x.t-nb.t-nfr.t-wab.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0160_Alles/0010_(j)x.t-nb.t-nfr.t-wab.t_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0160_Alles/0020_(j)x.t-nb.t_01.png){.glyph} </td>
-   <td style="text-align:left;"> alle schönen reinen Dinge </td>
+   <td style="text-align:left;"> alle schönen reinen Dinge </td>
   </tr>
 </tbody>
 </table></div>

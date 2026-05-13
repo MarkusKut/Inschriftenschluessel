@@ -40,8 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Titel
 
 
-Allgemein:
-
 <div class='tableFixHead table-glyph-middle'><table class="table">
  <thead>
   <tr>
@@ -80,8 +78,6 @@ Allgemein:
 </table></div>
 
 
-weiblich:
-
 <div class='tableFixHead table-glyph-middle'><table class="table">
  <thead>
   <tr>
@@ -118,12 +114,8 @@ weiblich:
 ## Personenname
 
 
-wichtiges Bildungsmuster für weibliche Namen:
-
 - *tꜣ-di-* ![](/assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png){.glyph} ![](/assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
 
-
-wichtiges Bildungsmuster für männliche Namen:
 
 - *pꜣ-di-* ![](/assets/glyphs/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_01.png){.glyph} ![](/assets/glyphs/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
 

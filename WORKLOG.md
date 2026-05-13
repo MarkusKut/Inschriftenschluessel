@@ -6,7 +6,10 @@
 
 - start worklog for actual version of "Inschriftenschlüssel":
 - make tables max-height: 70vh
-- add hyphenation to tables
+- added german hyphenation to table headers
+- added variants option to slot pages
+
+
 - actual version have: landing page with repeatition of gylph-line and badges (buttons)
 
 1. Opferformel
@@ -50,7 +53,8 @@
 - direct speech
 - "Rückenschutzformel"
 
-
+- off-line function for the whole website when downloading to phone
+- custom colors for same badges
 
 
 
