@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [Beischrift](pages/formeln/beischrift.qmd)
 
-Beziehung Szenentitel [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} Rückenschutzformel
+[Beziehung] [Szenentitel] [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel]
 
 
 

@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `815894d` **[Other]** Tables max height max-height: 70vh
+
+## 2026-05-13
+
 - `5129a31` **[Other]** Add hyphens for word breaks
 
 ## 2026-05-13

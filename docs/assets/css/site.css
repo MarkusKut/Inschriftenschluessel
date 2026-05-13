@@ -97,27 +97,18 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .table-fixed table {
   width: 100%;
   table-layout: fixed;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
 }
 
 /* for large/complex tables like the gods table */
 .table-wide table {
   min-width: 100%;
   table-layout: auto;
-   hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
 }
 
 .table-wide th,
 .table-wide td {
   white-space: normal;
   vertical-align: top;
-   hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
 }
 
 /* give the last column more room if needed */
@@ -141,6 +132,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .table-glyph-middle table {
   width: 100%;
   table-layout: auto;
+  
 }
 
 /* text columns may break */
@@ -149,10 +141,10 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .table-glyph-middle th:nth-child(3),
 .table-glyph-middle td:nth-child(3) {
   white-space: normal;
-  hyphens: auto;
+  vertical-align: top;
+   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
-  vertical-align: top;
 }
 
 /* middle glyph column stays protected */
@@ -206,6 +198,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   background: var(--bs-body-bg, #fff);
   color: var(--bs-body-color, #000);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+   hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 /* dark mode */
@@ -216,6 +210,8 @@ body.quarto-dark .tableFixHead.table-wide thead th,
   background: var(--bs-body-bg, #1e1e1e);
   color: var(--bs-body-color, #f1f3f5);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12);
+   hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 /* mobile tuning */
@@ -530,7 +526,7 @@ h1.title.slot-title-datum {
 
 
 
-/* Wortliche Rede */
+/* Wörtliche Rede */
 
 .badge-w-rtliche-rede {  background: #ad139e;
   color: #fff;

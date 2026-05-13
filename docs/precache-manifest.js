@@ -611,5 +611,6 @@ self.__PRECACHE = [
   'site_libs/quarto-search/autocomplete.umd.js',
   'site_libs/quarto-search/fuse.min.js',
   'site_libs/quarto-search/quarto-search.js',
-  'site.webmanifest'
+  'site.webmanifest',
+  'WORKLOG.html'
 ];
