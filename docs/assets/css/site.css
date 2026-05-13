@@ -217,7 +217,7 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 /* mobile tuning */
 @media (max-width: 768px) {
   .tableFixHead.table-wide {
-    max-height: 50vh;
+    max-height: 70vh;
   }
 
   .tableFixHead.table-wide th,
