@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-13
+
+- `9a4c44d` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** Add full project
+
 ## 2026-05-08
 
 - `6f29c97` **[CSS]** Publish site to docs/
