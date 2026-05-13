@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `143433b` **[Templates/Pages, CSS, Data, PWA/Offline]** offline toast fix
+
+## 2026-05-13
+
 - `36e03af` **[R code, Templates/Pages, Data]** added variants option to slot pages
 
 ## 2026-05-13

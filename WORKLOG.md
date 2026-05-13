@@ -14,45 +14,45 @@
 - actual version have: landing page with repeatition of gylph-line and badges (buttons)
 
 1. Opferformel
-- glyph-line
-- translation
-- content
-- commments
-- variants
-- bibliography
+  - glyph-line
+  - translation
+  - content
+  - commments
+  - variants
+  - bibliography
 
 2. Denkmälerformel
-- glyph-line
-- translation
-- content
-- comments
-- variants
-- bibliography
+  - glyph-line
+  - translation
+  - content
+  - comments
+  - variants
+  - bibliography
 
 3. Hymnus
-- glyph-line
-- translation
-- variants of:
-- - heading
-- - prayer
-- - main part
+  - glyph-line
+  - translation
+  - variants of:
+    - - heading
+    - - prayer
+    - - main part
 
 4. König-geliebt-von-Gottheit-Formel
-- glyph-line
-- translation
-- variants
+  - glyph-line
+  - translation
+  - variants
 
 5. „Historische“ Königsinschrift
-- glyph-line
-- translation
-- variants
+  - glyph-line
+  - translation
+  - variants
 
 6. Beischrift
-- glyph-line
-- inscription
-- scene title
-- direct speech
-- "Rückenschutzformel"
+  - glyph-line
+  - inscription
+  - scene title
+  - direct speech
+  - "Rückenschutzformel"
 
 - off-line function for the whole website when downloading to phone
 - custom colors for same badges
