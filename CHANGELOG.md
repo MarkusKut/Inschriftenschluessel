@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `5129a31` **[Other]** Add hyphens for word breaks
+
+## 2026-05-13
+
 - `9a4c44d` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** Add full project
 
 ## 2026-05-08
