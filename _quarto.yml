@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - Rscript R/make_precache.R
+    - Rscript R/make_changelog.R
+  resources:
+    - sw.js
+    - site.webmanifest
+    - offline.html
+
+lang: de # Sets language to German
 
 website:
   title: "Inschriftenschlüssel"
@@ -8,21 +17,25 @@ website:
     left:
       - href: index.qmd
         text: "Start"
-      - href: pages/formeln.qmd
-        text: "Formeln"
       - href: pages/slots.qmd
         text: "Slots"
+
+
 
 format:
   html:
     theme:
-      - cosmo
+      light: cosmo
+      dark: darkly
     css: assets/css/site.css
     toc: true
     toc-location: left
     page-layout: full
     code-fold: true
     code-tools: false
+    include-in-header: pwa-head.html
+    include-after-body: pwa-register.html
+    
 
 execute:
   freeze: auto

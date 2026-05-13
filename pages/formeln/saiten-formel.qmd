@@ -1,7 +1,63 @@
 ---
-title: "Formel: Saïten-Formel"
+title: "Saïten-Formel"
 ---
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+});
+</script>
+```
 
 
 
-[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

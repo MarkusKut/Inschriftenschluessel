@@ -53,52 +53,29 @@ as_raw_html <- function(x) {
 read_long_table_base <- function(df_tables, table_id) {
   df_tables %>%
     dplyr::filter(table_id == !!table_id) %>%
-    dplyr::select(row, col, value) %>%
-    dplyr::arrange(as.numeric(row)) %>%
-    tidyr::pivot_wider(names_from = col, values_from = value)
+    dplyr::transmute(
+      row   = as.numeric(row),
+      col   = as.character(col),
+      value = as.character(value)
+    ) %>%
+    dplyr::arrange(row) %>%
+    tidyr::pivot_wider(
+      names_from  = col,
+      values_from = value,
+      values_fn   = list(value = ~ paste(as.character(.x), collapse = ", ")),
+      values_fill = list(value = "")
+    )
 }
-# 
-# read_long_table <- function(df_tables, table_id) {
-#   df_tables %>%
-#     filter(table_id == !!table_id) %>%
-#     select(row, col, value) %>%
-#     arrange(row) %>%
-#     pivot_wider(names_from = col, values_from = value) %>%
-#     mutate(across(everything(), function(x) {
-#       x <- ifelse(is.na(x), "", x)
-#       if (is.list(x)) {
-#         x <- vapply(x, function(cell) paste(cell, collapse = ", "), character(1))
-#       } else {
-#         x <- as.character(x)
-#       }
-#       
-#       #x <- paste(x, collapse = ", ")
-#       # replace every occurrence of a png path with a markdown image
-#       x <- gsub(
-#         "([^\\s,]+\\.png)",
-#         "![](/assets/glyphs/\\1){.glyph}",
-#         x,
-#         ignore.case = TRUE,
-#         perl = TRUE
-#       )
-#       
-#       # turn comma separators into spacing between glyphs
-#       x <- gsub("\\s*,\\s*", " &ensp; ", x, perl = TRUE)
-#       
-#       x
-#     })) %>%
-#     select(-row)
-# }
 
 
 
 read_long_table <- function(df_tables, table_id, visited = character()) {
-  
+
   if (table_id %in% visited) {
     stop("Cycle in nested tables: ", paste(c(visited, table_id), collapse = " -> "))
   }
   visited <- c(visited, table_id)
-  
+
   df_tables %>%
     filter(table_id == !!table_id) %>%
     select(row, col, value) %>%
@@ -111,7 +88,7 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
       } else {
         x <- as.character(x)
       }
-    
+
 
       #x <- paste(x, collapse = ", ")
       # replace every occurrence of a png path with a markdown image
@@ -124,19 +101,84 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
       )
 
       # turn comma separators into spacing between glyphs
-      x <- gsub("\\s*,\\s*", " &ensp; ", x, perl = TRUE)
+      x <- gsub("\\s*,\\s*", " <br> ", x, perl = TRUE)
 
       x
     })) %>%
     select(-row)
 }
 
-
-kable_html <- function(df, class = "table") {
-  tbl <- knitr::kable(df, format = "html", escape = FALSE, table.attr = paste0('class="', class, '"'))
-  paste0("<div class='tableFixHead'>", tbl, "</div>")
+render_table_html_by_id <- function(df_tables, table_id) {
+  df <- read_long_table(df_tables, table_id)
+  kable_html(df)
 }
 
+expand_nested_tables_in_html <- function(html, df_tables, visited = character()) {
+  out <- html
+  pattern <- "\\[\\[table:([^\\]|]+)(\\|([^\\]]+))?\\]\\]"
+  
+  repeat {
+    m <- regexpr(pattern, out, perl = TRUE)
+    if (m[1] == -1) break
+    
+    match_text <- regmatches(out, m)[[1]]
+    
+    caps <- regmatches(match_text, regexec(pattern, match_text, perl = TRUE))[[1]]
+    nested_id <- caps[2]
+    summary_text <- if (length(caps) >= 4 && !is.na(caps[4]) && caps[4] != "") {
+      caps[4]
+    } else {
+      #paste0("Öffne ", nested_id)
+      "Öffne"
+    }
+    
+    if (nested_id %in% visited) {
+      stop("Cycle in nested tables: ", paste(c(visited, nested_id), collapse = " -> "))
+    }
+    
+    nested_html <- render_table_html_by_id(df_tables, nested_id)
+    nested_html <- expand_nested_tables_in_html(
+      nested_html,
+      df_tables,
+      visited = c(visited, nested_id)
+    )
+    
+    replacement <- paste0(
+      "<details><summary>",
+      htmltools::htmlEscape(summary_text),
+      "</summary>",
+      nested_html,
+      "</details>"
+    )
+    
+    start <- m[1]
+    len <- attr(m, "match.length")
+    
+    out <- paste0(
+      substr(out, 1, start - 1),
+      replacement,
+      substr(out, start + len, nchar(out))
+    )
+  }
+  
+  out
+}
+
+# 
+# kable_html <- function(df, class = "table") {
+#   tbl <- knitr::kable(df, format = "html", escape = FALSE, table.attr = paste0('class="', class, '"'))
+#   paste0("<div class='tableFixHead'>", tbl, "</div>")
+# }
+
+kable_html <- function(df, class = "table", wrapper_class = "tableFixHead table-fixed") {
+  tbl <- knitr::kable(
+    df,
+    format = "html",
+    escape = FALSE,
+    table.attr = paste0('class="', class, '"')
+  )
+  paste0("<div class='", wrapper_class, "'>", tbl, "</div>")
+}
 
 
 glyph_md <- function(glyph_path, alt = "", height = 30) {
@@ -147,22 +189,29 @@ glyph_md <- function(glyph_path, alt = "", height = 30) {
 
 text_md <- function(x) x
 
+
+
+badge_class <- function(label) {
+  key <- tolower(label)
+  key <- gsub("[^a-z0-9]+", "-", key)   # "Spezifische Epitheta" -> "spezifische-epitheta"
+  paste0("badge-slot badge-", key)
+}
+
+
 render_glyphline_md <- function(df_line) {
   parts <- vapply(seq_len(nrow(df_line)), function(i) {
     row <- df_line[i, ]
     if (row$kind == "glyph") {
       glyph_md(row$glyph_path)
     } else if (row$kind == "badge") {
-      label <- row$badge %||% row$text %||% ""
-      
-      # You must provide the target slug in the glyphlines data (recommended),
-      # otherwise we can only guess.
-      href <- row$href %||% ""
+      label <- row$text %||% ""
+      href  <- row$href %||% ""
+      cls   <- badge_class(label)
       
       if (href != "") {
-        paste0("[", label, "](", href, "){.badge-slot}")
+        paste0("[", label, "](", href, "){.", gsub(" ", " .", cls), "}")
       } else {
-        paste0("[", label, "]{.badge-slot}")
+        paste0("[", label, "]{.", gsub(" ", " .", cls), "}")
       }
     } else if (row$kind == "br") {
       "  \n"   # markdown line break
@@ -259,7 +308,16 @@ link_slot_tokens <- function(text, slot_map, from_slug) {
   for (label in names(slot_map)) {
     token <- paste0("\\[", stringr::fixed(label), "\\]")
     href  <- rel_href(slot_map[[label]])
-    repl  <- paste0("[", label, "](", href, "){.badge-slot}")
+    # cls  <- paste0("badge-slot badge-", tolower(label))
+    # cls  <- gsub("[^a-z0-9]+", "-", cls)
+    # repl <- paste0("[", label, "](", href, "){.", gsub(" ", " .", cls), "}")
+    
+    key <- tolower(label)
+    key <- gsub("[^a-z0-9]+", "-", key)
+    
+    cls <- paste0("slot-link slot-", key)
+    repl <- paste0("[", label, "](", href, "){.", gsub(" ", " .", cls), "}")
+    
     
     # replace only literal [Label]
     out <- gsub(paste0("\\[", label, "\\]"), repl, out, perl = TRUE)
@@ -297,5 +355,10 @@ rewrite_slot_links_for_landing <- function(md) {
 
 
 
-
+slot_key <- function(x) {
+  x <- gsub("^Slot:\\s*", "", x)
+  x <- tolower(x)
+  x <- gsub("[^a-z0-9]+", "-", x)
+  x
+}
 

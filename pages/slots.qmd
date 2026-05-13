@@ -1,11 +1,15 @@
 ---
-title: "Inschriftenschluessel_v2"
+title: "Slots"
 ---
 
-This is a Quarto website.
+### [Gottheit](slots/gottheit.qmd)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### [König](slots/koenig.qmd)
 
-```{r}
-1 + 1
-```
+### [Gaben](slots/gaben.qmd)
+
+### [Person](slots/person.qmd)
+
+### [Datum](slots/datum.qmd)
+
+### [Wörtliche Rede](slots/wortlRede.qmd)

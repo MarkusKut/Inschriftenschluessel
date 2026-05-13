@@ -1,7 +1,91 @@
 ---
-title: "Formel: „Historische“ Königsinschrift"
+title: "„Historische“ Königsinschrift"
 ---
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+});
+</script>
+```
+
+[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} NN
 
 
 
-[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}
+## Übersetzung
+
+[Datum](../slots/datum.qmd){.slot-link .slot-datum} unter der Majestät / Regierung des [König](../slots/koenig.qmd){.slot-link .slot-k-nig}
+
+## Schreibvarianten
+
+*[ḫr] ḥm n*:
+
+- ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0010_xr Hm n_02.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0020_Hm n_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
+
+*nsw bit*:
+
+- ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph}
+
+- ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} Gr.
+
+
+
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

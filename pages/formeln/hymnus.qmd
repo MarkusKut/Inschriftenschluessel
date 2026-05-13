@@ -1,7 +1,124 @@
 ---
-title: "Formel: Hymnus"
+title: "Hymnus"
 ---
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+});
+</script>
+```
+
+![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*   
 
 
 
-[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}
+
+## Übersetzung
+
+Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN, Lobpreis geben den/der [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN, den Boden küssen für [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN von [Person](../slots/person.qmd){.slot-link .slot-person} NN – er sagt: Lobpreis dir/euch, sei gegrüßt/gegrüßst seist du ...
+
+## Überschrift
+
+*dwꜣ*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0010_dwA_02.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_seit-MR_01.png){.glyph} (seit MR)
+
+*rdi.t iꜣw n*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0010_rDj.t-jAw_NR_01.png){.glyph} (NR)
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0020_rDj.t-jAw_NR_02.png){.glyph} (NR)
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0030_rDj.t-jAw_NR_03.png){.glyph} (NR)
+
+*sn tꜣ n*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} (NR)
+
+
+
+
+## Beter
+
+*in*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0010_jn_02.png){.glyph}
+
+*ḏd⸗f*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph}
+
+
+
+
+## Hauptteil
+
+*inḏ-ḥr⸗*:
+
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
+
+
+
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

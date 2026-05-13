@@ -9,12 +9,15 @@ load_content <- function(path = "data/content.xlsx") {
   list(
     pages         = read_excel(path, "pages"),
     landing_cards = read_excel(path, "landing_cards"),
-    formula_blocks= read_excel(path, "formula_blocks"),
-    slot_content  = read_excel(path, "slot_content"),
+    formula_blocks= read_excel(path, "formula_blocks") %>%
+      dplyr::mutate(id = as.numeric(id)),
+    slot_content  = read_excel(path, "slot_content") %>%
+      dplyr::mutate(id = as.numeric(id),
+                    collapsible = as.logical(collapsible)),
     tables        = read_excel(path, "tables") %>%
       dplyr::transmute(
         table_id = as.character(table_id),
-        row      = as.character(row),
+        row      = as.numeric(row),
         col      = as.character(col),
         value    = as.character(value)
       ) %>%
@@ -32,13 +35,17 @@ write_qmd <- function(path, text) {
   writeLines(text, path, useBytes = TRUE)
 }
 
+
 gen_landing <- function(content) {
-  tmpl <- readLines("templates/landing.qmd.tmpl", warn = FALSE) #|> paste(collapse = "\n")
+  tmpl <- readLines("templates/landing.qmd.tmpl", warn = FALSE) |> paste(collapse = "\n")
+  
+  pages1 <- content$pages %>%
+    dplyr::select(page_id, title, slug, type) %>%
+    dplyr::distinct(page_id, .keep_all = TRUE)
   
   cards <- content$landing_cards %>%
-    left_join(content$pages %>% select(page_id, title, slug, type),
-              by = c("href_page_id" = "page_id")) %>%
-    mutate(
+    dplyr::left_join(pages1, by = c("href_page_id" = "page_id")) %>%
+    dplyr::mutate(
       slug = trimws(slug),
       href = paste0(slug, ".qmd"),
       preview = dplyr::if_else(
@@ -48,15 +55,13 @@ gen_landing <- function(content) {
         }, character(1)),
         ""
       )
-    )
+    ) %>%
+    dplyr::arrange(id)
   
-  # hard fail if any row contains multiple targets
-  bad <- cards %>% filter(grepl(",", slug) | grepl("\\s", slug) & grepl(",", gsub("\\s+", "", slug)))
-  if (nrow(bad) > 0) {
-    stop("landing_cards joins to pages.slug containing multiple targets (comma). Fix Excel pages.slug to 1 target per row.")
-  }
+  # Convert tibble -> list of rows for whisker
+  cards_list <- lapply(seq_len(nrow(cards)), function(i) as.list(cards[i, , drop = FALSE]))
   
-  out <- whisker.render(tmpl, list(cards = cards))
+  out <- whisker.render(tmpl, list(cards = cards_list))
   write_qmd("index.qmd", out)
 }
 
@@ -67,7 +72,9 @@ gen_formula_pages <- function(content) {
   
   for (i in seq_len(nrow(formulas))) {
     p <- formulas[i, ]
-    blocks <- content$formula_blocks %>% filter(page_id == p$page_id) %>% arrange(match(block_type, c("glyphline","prose","table","glyphvariants")))
+    blocks <- content$formula_blocks %>%
+      filter(page_id == p$page_id) %>%
+      arrange(id)
     
     slot_map <- make_slot_linker(content$pages)
     
@@ -85,8 +92,9 @@ gen_formula_pages <- function(content) {
         paste0(render_glyphvariants_md(line_df), "\n")
         
       } else if (b$block_type == "table") {
-        df <- read_long_table(content$tables, b$table_id)
-        kable_html(df)
+         df <- read_long_table(content$tables, b$table_id)
+         kable_html(df)
+        #render_table_html_nested(content$tables, b$table_id)
       } else {
         link_slot_tokens(b$body_md %||% "", slot_map = slot_map, from_slug = p$slug)
       }
@@ -113,18 +121,56 @@ gen_slot_pages <- function(content) {
   
   for (i in seq_len(nrow(slots))) {
     p <- slots[i, ]
-    sections <- content$slot_content %>% filter(page_id == p$page_id)
+    slot_map <- make_slot_linker(content$pages)
+    sections <- content$slot_content %>% filter(page_id == p$page_id) %>%
+      arrange(id)
     
     rendered_sections <- lapply(seq_len(nrow(sections)), function(j) {
       s <- sections[j, ]
       part <- ""
-      if (!is.na(s$body_md) && s$body_md != "") part <- paste0(part, s$body_md, "\n\n")
       
-      if (!is.na(s$table_id) && s$table_id != "") {
-        df <- read_long_table(content$tables, s$table_id)
-        tbl <- kable_html(df)
+      # prose
+      if (!is.na(s$body_md) && s$body_md != "") {
+        part <- paste0(
+          part,
+          link_slot_tokens(s$body_md, slot_map = slot_map, from_slug = p$slug),
+          "\n\n"
+        )
+      }
+      
+      # glyphline
+      if (!is.na(s$glyphline_id) && s$glyphline_id != "") {
+        line_df <- content$glyphlines %>%
+          filter(line_id == s$glyphline_id) %>%
+          arrange(seq)
         
-        if (s$collapsible==TRUE) {
+        part <- paste0(part, render_glyphline_md(line_df), "\n\n")
+      }
+      
+      # table
+      if (!is.na(s$table_id) && s$table_id != "") {
+        # df <- read_long_table(content$tables, s$table_id)
+        # tbl <- kable_html(df)
+        
+        # df <- read_long_table(content$tables, s$table_id)
+        # tbl <- kable_html(df)
+        # tbl <- expand_nested_tables_in_html(tbl, content$tables, visited = s$table_id)
+        
+        df <- read_long_table(content$tables, s$table_id)
+        
+        wrapper_class <- s$table_wrapper_class %||% "tableFixHead table-fixed"
+        
+        tbl <- kable_html(
+          df,
+          class = "table",
+          wrapper_class = wrapper_class
+        )
+        
+        tbl <- expand_nested_tables_in_html(tbl, content$tables, visited = s$table_id)
+        
+        
+        
+        if (isTRUE(s$collapsible)) {
           heading <- s$heading %||% "Tabelle"
           return(paste0(
             "## ", heading, "\n\n",
@@ -138,7 +184,6 @@ gen_slot_pages <- function(content) {
         } else {
           part <- paste0(part, tbl, "\n\n")
         }
-        
       }
       
       if (!is.na(s$heading) && s$heading != "" && !isTRUE(s$collapsible)) {
@@ -149,7 +194,15 @@ gen_slot_pages <- function(content) {
     })
     
     body <- paste(unlist(rendered_sections), collapse = "\n")
-    out <- whisker.render(tmpl, list(title = p$title, body = body))
+    #out <- whisker.render(tmpl, list(title = p$title, body = body))
+    out <- whisker.render(
+      tmpl,
+      list(
+        title = p$title,
+        body = body,
+        title_class = paste0("slot-title-", slot_key(p$title))
+      )
+    )
     out_path <- paste0(trimws(p$slug), ".qmd")
     write_qmd(out_path, out)
   }
@@ -157,6 +210,8 @@ gen_slot_pages <- function(content) {
 
 generate_site_pages <- function() {
   content <- load_content()
+  dup <- content$pages %>% count(page_id) %>% filter(n > 1)
+  if (nrow(dup) > 0) stop("Duplicate page_id in pages sheet: ", paste(dup$page_id, collapse = ", "))
   
   # ---- VALIDATION GUARDS (PUT IT HERE) ----
   if (any(grepl("\\.qmd$", content$pages$slug))) {

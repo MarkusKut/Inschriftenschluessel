@@ -1,7 +1,174 @@
 ---
-title: "Slot: König"
+title: "König"
 ---
 
+<meta name="slot-title-class" content="slot-title-k-nig">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
 
 
-[Zurück zur Hauptseite](../../index.qmd){.btn .btn-secondary}
+
+## Übliche Form
+
+[Titulatur] + [Name] + [Epitheta]
+
+
+## Titulatur
+
+<div class='tableFixHead table-wide'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Bezeichnung </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> WB </th>
+   <th style="text-align:left;"> Kommentar </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Horusname </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01.png){.glyph} </td>
+   <td style="text-align:left;"> *ḥr* </td>
+   <td style="text-align:left;"> III: 124 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Herrinnenname </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/02_Herrinname_01.png){.glyph} </td>
+   <td style="text-align:left;"> *nb.ty* </td>
+   <td style="text-align:left;"> II: 233 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Goldhorusname </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/03_Goldhorus_01.png){.glyph} </td>
+   <td style="text-align:left;"> *ḥr n nbw* / *bik n nbw* </td>
+   <td style="text-align:left;"> II: 240; I: 445 </td>
+   <td style="text-align:left;"> Umschrift und Übersetzung konventionell </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Thronname </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} (Gr.) </td>
+   <td style="text-align:left;"> *nsw-bit* </td>
+   <td style="text-align:left;"> II: 330 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Eigenname </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_02.png){.glyph} </td>
+   <td style="text-align:left;"> *sꜣ rꜥ* </td>
+   <td style="text-align:left;"> III: 440 </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## Name
+
+siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern.
+
+
+## Typische Epitheta
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *nsw* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_03.png){.glyph} </td>
+   <td style="text-align:left;"> König </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ḥm* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png){.glyph} </td>
+   <td style="text-align:left;"> Majestät </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ḥm⸗f* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02.5_Hm=f_01.png){.glyph} </td>
+   <td style="text-align:left;"> Seine Majestät </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *nb tꜣ.wi* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/03_nb-tA.wj_01.png){.glyph} </td>
+   <td style="text-align:left;"> Herr der beiden Länder </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *nṯr nfr* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/04_nTr-nfr_01.png){.glyph} </td>
+   <td style="text-align:left;"> vollkommender Gott </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

@@ -1,0 +1,84 @@
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const basePath =
+        document.querySelector('meta[name="site-base-path"]')?.content || "/";
+
+      await navigator.serviceWorker.register(`${basePath}sw.js`, {
+        scope: basePath
+      });
+
+      let toast = document.getElementById("offline-toast");
+      if (!toast) {
+        toast = document.createElement("div");
+        toast.id = "offline-toast";
+        document.body.appendChild(toast);
+      }
+
+      let hideTimer = null;
+      let hasShownLoading = false;
+
+      function showLoading() {
+        if (document.documentElement.getAttribute("data-offline-ready") === "true") return;
+        toast.classList.remove("ready");
+        toast.innerHTML = 'Offline-Version wird geladen<span class="dots"></span>';
+        toast.classList.add("show");
+        hasShownLoading = true;
+      }
+
+      function showReadyAndHide() {
+        toast.classList.add("ready");
+        toast.textContent = "Offline-Version vollständig geladen";
+        toast.classList.add("show");
+
+        clearTimeout(hideTimer);
+        hideTimer = setTimeout(() => {
+          toast.classList.remove("show");
+        }, 1800);
+      }
+
+      function hideImmediately() {
+        clearTimeout(hideTimer);
+        toast.classList.remove("show");
+      }
+
+      function askReady() {
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage("offline-ready?");
+        }
+      }
+
+      navigator.serviceWorker.addEventListener("message", (event) => {
+        if (event.data?.type === "offline-ready") {
+          if (event.data.ready) {
+            document.documentElement.setAttribute("data-offline-ready", "true");
+            if (hasShownLoading) {
+              showReadyAndHide();
+            } else {
+              hideImmediately();
+            }
+          } else {
+            document.documentElement.setAttribute("data-offline-ready", "false");
+            showLoading();
+          }
+        }
+      });
+
+      // small delay so it does not flash on already-ready installs
+      setTimeout(() => {
+        if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+          showLoading();
+        }
+      }, 400);
+
+      navigator.serviceWorker.ready.then(() => {
+        askReady();
+      });
+
+    } catch (err) {
+      console.error("Service worker registration failed:", err);
+    }
+  });
+}
+</script>

@@ -97,18 +97,27 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .table-fixed table {
   width: 100%;
   table-layout: fixed;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 /* for large/complex tables like the gods table */
 .table-wide table {
   min-width: 100%;
   table-layout: auto;
+   hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 .table-wide th,
 .table-wide td {
   white-space: normal;
   vertical-align: top;
+   hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 /* give the last column more room if needed */
@@ -140,8 +149,9 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .table-glyph-middle th:nth-child(3),
 .table-glyph-middle td:nth-child(3) {
   white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
   vertical-align: top;
 }
 
@@ -151,8 +161,9 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   text-align: center;
   vertical-align: top;
   white-space: normal;
-  overflow-wrap: normal;
-  word-break: normal;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 /* glyphs can wrap as whole items, but images themselves do not get broken */
@@ -210,7 +221,7 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 /* mobile tuning */
 @media (max-width: 768px) {
   .tableFixHead.table-wide {
-    max-height: 100vh;
+    max-height: 50vh;
   }
 
   .tableFixHead.table-wide th,
@@ -519,7 +530,7 @@ h1.title.slot-title-datum {
 
 
 
-/* Wörtliche Rede */
+/* Wortliche Rede */
 
 .badge-w-rtliche-rede {  background: #ad139e;
   color: #fff;

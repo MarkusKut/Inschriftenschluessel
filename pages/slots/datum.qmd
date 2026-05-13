@@ -1,0 +1,187 @@
+---
+title: "Datum"
+---
+
+<meta name="slot-title-class" content="slot-title-datum">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+## Jahr
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *ḥꜣ.t-sp* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph} </td>
+   <td style="text-align:left;"> Regierungsjahr </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## Monat
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *ꜣbd-1* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0001_Abd-1_01.png){.glyph} </td>
+   <td style="text-align:left;"> erster Monat </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *dpy* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0010_tpy_01.png){.glyph} </td>
+   <td style="text-align:left;"> erster Monat </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ꜣbd-2* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0020_Abd-2_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0030_Abd-2_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0035_Abd-2_03.png){.glyph} </td>
+   <td style="text-align:left;"> zweiter Monat </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ꜣbd-3* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0040_Abd-3_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0050_Abd-3_02.png){.glyph} </td>
+   <td style="text-align:left;"> dritter Monat </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ꜣbd-4* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0060_Abd-4_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0070_Abd-4_02.png){.glyph} </td>
+   <td style="text-align:left;"> vierter Monat </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## Jahreszeiten
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *ꜣḫ.t* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0001_Ax.t_01.png){.glyph} </td>
+   <td style="text-align:left;"> Überschwemmungszeit </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *pr.t* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0010_pr.t_01.png){.glyph} </td>
+   <td style="text-align:left;"> Winter </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *šm.w* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0020_Smw_01.png){.glyph} </td>
+   <td style="text-align:left;"> Sommer </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## Tag
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Hieroglyphen </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> *sw* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0001_sw_01.png){.glyph} </td>
+   <td style="text-align:left;"> Tag </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *sw-ꜥrqy* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0010_sw-arqy_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0020_sw-arqy_02.png){.glyph} </td>
+   <td style="text-align:left;"> Tag 30 </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```
