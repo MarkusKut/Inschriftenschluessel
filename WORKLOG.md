@@ -8,6 +8,7 @@
 - make tables max-height: 70vh
 - added german hyphenation to table headers
 - added variants option to slot pages
+- offline toast fix
 
 
 - actual version have: landing page with repeatition of gylph-line and badges (buttons)

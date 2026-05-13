@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
 siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern.
 
 
-## Typische Epitheta
+## Epitheta
 
 <div class='tableFixHead table-glyph-middle'><table class="table">
  <thead>

@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `36e03af` **[R code, Templates/Pages, Data]** added variants option to slot pages
+
+## 2026-05-13
+
 - `9da5945` **[Templates/Pages, CSS, Data, PWA/Offline]** Tables hyphens only for headers
 
 ## 2026-05-13

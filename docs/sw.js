@@ -104,7 +104,11 @@ self.addEventListener('message', event => {
           ready = !!data.ready;
         } catch (_) {}
       }
-      event.source?.postMessage({ type: 'offline-ready', ready });
+      event.source?.postMessage({
+        type: 'offline-ready',
+        ready,
+        version: VERSION
+      });
     })());
   }
 });
