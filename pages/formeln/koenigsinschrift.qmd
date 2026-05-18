@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph}
 
-- ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} Gr.
+- ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} (Gr.)
 
 
 
