@@ -288,7 +288,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#worklog" id="toc-worklog" class="nav-link active" data-scroll-target="#worklog">Worklog</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-05-13</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-05-18</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2026-05-13</a>
+  <ul class="collapse">
+  <li><a href="#opferformel" id="toc-opferformel" class="nav-link" data-scroll-target="#opferformel">1. Opferformel</a></li>
+  <li><a href="#denkmalerformel" id="toc-denkmalerformel" class="nav-link" data-scroll-target="#denkmalerformel">2. Denkmälerformel</a></li>
+  <li><a href="#hymnus" id="toc-hymnus" class="nav-link" data-scroll-target="#hymnus">3. Hymnus</a></li>
+  <li><a href="#konig-geliebt-von-gottheit-formel" id="toc-konig-geliebt-von-gottheit-formel" class="nav-link" data-scroll-target="#konig-geliebt-von-gottheit-formel">4. König-geliebt-von-Gottheit-Formel</a></li>
+  <li><a href="#historische-konigsinschrift" id="toc-historische-konigsinschrift" class="nav-link" data-scroll-target="#historische-konigsinschrift">5. „Historische“ Königsinschrift</a></li>
+  <li><a href="#beischrift" id="toc-beischrift" class="nav-link" data-scroll-target="#beischrift">6. Beischrift</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -307,18 +316,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="worklog" class="level1">
 <h1>Worklog</h1>
 <section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2026-05-13</h2>
+<h2 class="anchored" data-anchor-id="section">2026-05-18</h2>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2026-05-13</h2>
 <ul>
-<li><p>start worklog for actual version of “Inschriftenschlüssel”:</p></li>
+<li><p>start worklog for current version of “Inschriftenschlüssel”:</p></li>
 <li><p>make tables max-height: 70vh</p></li>
 <li><p>added german hyphenation to table headers</p></li>
 <li><p>added variants option to slot pages</p></li>
 <li><p>offline toast fix</p></li>
 <li><p>actual version have: landing page with repeatition of gylph-line and badges (buttons)</p></li>
 </ul>
-<ol type="1">
-<li>Opferformel</li>
-</ol>
+<section id="opferformel" class="level3">
+<h3 class="anchored" data-anchor-id="opferformel">1. Opferformel</h3>
 <ul>
 <li>glyph-line</li>
 <li>translation</li>
@@ -327,9 +338,9 @@ ul.task-list li input[type="checkbox"] {
 <li>variants</li>
 <li>bibliography</li>
 </ul>
-<ol start="2" type="1">
-<li>Denkmälerformel</li>
-</ol>
+</section>
+<section id="denkmalerformel" class="level3">
+<h3 class="anchored" data-anchor-id="denkmalerformel">2. Denkmälerformel</h3>
 <ul>
 <li>glyph-line</li>
 <li>translation</li>
@@ -338,44 +349,38 @@ ul.task-list li input[type="checkbox"] {
 <li>variants</li>
 <li>bibliography</li>
 </ul>
-<ol start="3" type="1">
-<li>Hymnus</li>
-</ol>
+</section>
+<section id="hymnus" class="level3">
+<h3 class="anchored" data-anchor-id="hymnus">3. Hymnus</h3>
 <ul>
 <li>glyph-line</li>
 <li>translation</li>
 <li>variants of:
 <ul>
-<li><ul>
 <li>heading</li>
-</ul></li>
-<li><ul>
 <li>prayer</li>
-</ul></li>
-<li><ul>
 <li>main part</li>
 </ul></li>
-</ul></li>
 </ul>
-<ol start="4" type="1">
-<li>König-geliebt-von-Gottheit-Formel</li>
-</ol>
+</section>
+<section id="konig-geliebt-von-gottheit-formel" class="level3">
+<h3 class="anchored" data-anchor-id="konig-geliebt-von-gottheit-formel">4. König-geliebt-von-Gottheit-Formel</h3>
 <ul>
 <li>glyph-line</li>
 <li>translation</li>
 <li>variants</li>
 </ul>
-<ol start="5" type="1">
-<li>„Historische“ Königsinschrift</li>
-</ol>
+</section>
+<section id="historische-konigsinschrift" class="level3">
+<h3 class="anchored" data-anchor-id="historische-konigsinschrift">5. „Historische“ Königsinschrift</h3>
 <ul>
 <li>glyph-line</li>
 <li>translation</li>
 <li>variants</li>
 </ul>
-<ol start="6" type="1">
-<li>Beischrift</li>
-</ol>
+</section>
+<section id="beischrift" class="level3">
+<h3 class="anchored" data-anchor-id="beischrift">6. Beischrift</h3>
 <ul>
 <li><p>glyph-line</p></li>
 <li><p>inscription</p></li>
@@ -387,6 +392,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 </section>
 </section>
 
@@ -402,20 +408,32 @@ if ("serviceWorker" in navigator) {
         scope: basePath
       });
 
-      const STATE_KEY = "offline-cache-state";              // "loading" | "ready"
-      const READY_VERSION_KEY = "offline-cache-ready-version";
+      function isStandaloneApp() {
+        return (
+          window.matchMedia("(display-mode: standalone)").matches ||
+          window.navigator.standalone === true
+        );
+      }
+
+      // Do not show the toast in normal browser mode.
+      // Service worker + precache still continue in the background.
+      const shouldShowToast = isStandaloneApp();
 
       let toast = document.getElementById("offline-toast");
-      if (!toast) {
+      if (!toast && shouldShowToast) {
         toast = document.createElement("div");
         toast.id = "offline-toast";
         document.body.appendChild(toast);
       }
 
+      const STATE_KEY = "offline-cache-state";              // "loading" | "ready"
+      const READY_VERSION_KEY = "offline-cache-ready-version";
+
       let hideTimer = null;
       let loadingTimer = null;
 
       function showLoading() {
+        if (!shouldShowToast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.remove("ready");
@@ -425,6 +443,7 @@ if ("serviceWorker" in navigator) {
       }
 
       function showReadyAndHide() {
+        if (!shouldShowToast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.add("ready");
@@ -437,6 +456,7 @@ if ("serviceWorker" in navigator) {
       }
 
       function hideImmediately() {
+        if (!toast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.remove("show");
@@ -488,19 +508,19 @@ if ("serviceWorker" in navigator) {
         showLoading();
       });
 
-      // If a download was already running on another page, keep showing it here too.
-      if (localStorage.getItem(STATE_KEY) === "loading") {
-        showLoading();
-      } else {
-        hideImmediately();
-      }
-
-      // Fallback: if no answer comes quickly, show loading anyway.
-      loadingTimer = setTimeout(() => {
-        if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+      if (shouldShowToast) {
+        if (localStorage.getItem(STATE_KEY) === "loading") {
           showLoading();
+        } else {
+          hideImmediately();
         }
-      }, 500);
+
+        loadingTimer = setTimeout(() => {
+          if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+            showLoading();
+          }
+        }, 500);
+      }
 
       navigator.serviceWorker.ready.then(() => {
         askReady();

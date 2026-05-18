@@ -453,20 +453,32 @@ if ("serviceWorker" in navigator) {
         scope: basePath
       });
 
-      const STATE_KEY = "offline-cache-state";              // "loading" | "ready"
-      const READY_VERSION_KEY = "offline-cache-ready-version";
+      function isStandaloneApp() {
+        return (
+          window.matchMedia("(display-mode: standalone)").matches ||
+          window.navigator.standalone === true
+        );
+      }
+
+      // Do not show the toast in normal browser mode.
+      // Service worker + precache still continue in the background.
+      const shouldShowToast = isStandaloneApp();
 
       let toast = document.getElementById("offline-toast");
-      if (!toast) {
+      if (!toast && shouldShowToast) {
         toast = document.createElement("div");
         toast.id = "offline-toast";
         document.body.appendChild(toast);
       }
 
+      const STATE_KEY = "offline-cache-state";              // "loading" | "ready"
+      const READY_VERSION_KEY = "offline-cache-ready-version";
+
       let hideTimer = null;
       let loadingTimer = null;
 
       function showLoading() {
+        if (!shouldShowToast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.remove("ready");
@@ -476,6 +488,7 @@ if ("serviceWorker" in navigator) {
       }
 
       function showReadyAndHide() {
+        if (!shouldShowToast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.add("ready");
@@ -488,6 +501,7 @@ if ("serviceWorker" in navigator) {
       }
 
       function hideImmediately() {
+        if (!toast) return;
         clearTimeout(hideTimer);
         clearTimeout(loadingTimer);
         toast.classList.remove("show");
@@ -539,19 +553,19 @@ if ("serviceWorker" in navigator) {
         showLoading();
       });
 
-      // If a download was already running on another page, keep showing it here too.
-      if (localStorage.getItem(STATE_KEY) === "loading") {
-        showLoading();
-      } else {
-        hideImmediately();
-      }
-
-      // Fallback: if no answer comes quickly, show loading anyway.
-      loadingTimer = setTimeout(() => {
-        if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+      if (shouldShowToast) {
+        if (localStorage.getItem(STATE_KEY) === "loading") {
           showLoading();
+        } else {
+          hideImmediately();
         }
-      }, 500);
+
+        loadingTimer = setTimeout(() => {
+          if (document.documentElement.getAttribute("data-offline-ready") !== "true") {
+            showLoading();
+          }
+        }, 500);
+      }
 
       navigator.serviceWorker.ready.then(() => {
         askReady();

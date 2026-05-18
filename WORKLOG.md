@@ -1,10 +1,15 @@
 # Worklog
 
 
+## 2026-05-18
+
+
+
+
 
 ## 2026-05-13
 
-- start worklog for actual version of "Inschriftenschlüssel":
+- start worklog for current version of "Inschriftenschlüssel":
 - make tables max-height: 70vh
 - added german hyphenation to table headers
 - added variants option to slot pages
@@ -13,7 +18,7 @@
 
 - actual version have: landing page with repeatition of gylph-line and badges (buttons)
 
-1. Opferformel
+### 1. Opferformel
   - glyph-line
   - translation
   - content
@@ -21,7 +26,7 @@
   - variants
   - bibliography
 
-2. Denkmälerformel
+### 2. Denkmälerformel
   - glyph-line
   - translation
   - content
@@ -29,25 +34,25 @@
   - variants
   - bibliography
 
-3. Hymnus
+### 3. Hymnus
   - glyph-line
   - translation
   - variants of:
-    - - heading
-    - - prayer
-    - - main part
+    - heading
+    - prayer
+    - main part
 
-4. König-geliebt-von-Gottheit-Formel
+### 4. König-geliebt-von-Gottheit-Formel
   - glyph-line
   - translation
   - variants
 
-5. „Historische“ Königsinschrift
+### 5. „Historische“ Königsinschrift
   - glyph-line
   - translation
   - variants
 
-6. Beischrift
+### 6. Beischrift
   - glyph-line
   - inscription
   - scene title

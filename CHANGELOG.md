@@ -2,6 +2,10 @@
 
 ## 2026-05-13
 
+- `507abd2` **[CSS]** make tables max-height: 70vh
+
+## 2026-05-13
+
 - `85b92a0` **[Other]** offline toast fix 2
 
 ## 2026-05-13
