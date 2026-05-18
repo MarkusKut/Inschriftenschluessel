@@ -572,6 +572,7 @@ self.__PRECACHE = [
   'assets/glyphs/02_Slots/Titel/f/02_Hw.t-Hr_Roem._01.png',
   'assets/glyphs/02_Slots/Titel/f/03_Smay.t-jmn_NR-3.Zw.Zt._01.png',
   'CHANGELOG.html',
+  'favicon.ico',
   'icons/icon-16.png',
   'icons/icon-180.png',
   'icons/icon-192.png',

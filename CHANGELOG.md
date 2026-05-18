@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `d66fe63` **[Templates/Pages, PWA/Offline]** Added logo icon
+
+## 2026-05-18
+
 - `6294090` **[PWA/Offline]** toast only at download to home screen
 
 ## 2026-05-13

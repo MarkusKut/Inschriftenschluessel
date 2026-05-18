@@ -9,6 +9,7 @@ project:
     - site.webmanifest
     - offline.html
     - icons/**
+    - favicon.ico
 
 lang: de # Sets language to German
 
