@@ -278,6 +278,13 @@ body.quarto-dark img.glyph,
   filter: invert(1) brightness(1.25) contrast(1.1) !important;
 }
 
+html[data-bs-theme="dark"] .site-logo,
+html[data-theme="dark"] .site-logo,
+body.quarto-dark .site-logo,
+.quarto-dark .site-logo {
+  filter: invert(1) brightness(1.15) contrast(1.05);
+}
+
 :root {
   --base-scale: 1;
 }

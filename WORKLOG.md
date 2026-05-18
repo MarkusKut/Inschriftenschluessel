@@ -3,7 +3,7 @@
 
 ## 2026-05-18
 
-
+- added an app icon
 
 
 

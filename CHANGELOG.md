@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `e260ee1` **[Templates/Pages, PWA/Offline]** Added logo icon 3
+
+## 2026-05-18
+
 - `5aa64f8` **[Data, PWA/Offline]** Added logo icon 2
 
 ## 2026-05-18
