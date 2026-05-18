@@ -6,6 +6,8 @@
 - added an app icon
 - table header hyphination fix
 - datings in superscript
+- formula pages referencing fix
+
 
 
 
