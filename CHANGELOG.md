@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `6e940e1` **[Data, PWA/Offline]** Added logo for Android
+
+## 2026-05-18
+
 - `124f37e` **[CSS]** Added logo .ico
 
 ## 2026-05-18

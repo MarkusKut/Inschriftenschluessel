@@ -170,7 +170,7 @@ expand_nested_tables_in_html <- function(html, df_tables, visited = character())
 #   paste0("<div class='tableFixHead'>", tbl, "</div>")
 # }
 
-kable_html <- function(df, class = "table", wrapper_class = "tableFixHead table-fixed") {
+kable_html <- function(df, class = "table", wrapper_class = "tableFixHead table-wide") {
   tbl <- knitr::kable(
     df,
     format = "html",

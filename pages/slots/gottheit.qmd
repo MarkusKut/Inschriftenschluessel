@@ -76,7 +76,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0001_Jmn_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0010_Jmn_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/0020_Jmn_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/det/0001_Jmn_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Amun </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -126,7 +126,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/0001_Jnpw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/0010_Jnpw_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/0020_Jnpw_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/0030_Jnpw_04.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/0040_Jnpw_sp_01.png){.glyph} (Spät.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0050_Anubis/det/0001_Jnpw_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Anubis </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -163,7 +163,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0001_Jtm_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0010_Jtm_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0020_Jtm_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0030_Jtm_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0040_Jtm_MR_02.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0050_Jtm_NR_01.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0060_Atum/0060_Jtm_SP_01.png){.glyph} (Sp.) </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Atum </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -185,7 +185,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0070_Aton/0001_jtn_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0070_Aton/0010_jtn_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0070_Aton/0020_jtn_D.18_01.png){.glyph} (D.18) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0070_Aton/0030_jtn_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0070_Aton/0040_jtn_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Aton </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -249,7 +249,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0001_wsjr_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0010_wsjr_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0020_wsjr_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0030_wsjr_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0040_wsjr_MR_02.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0050_wsjr_MR_03.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0060_wsjr_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0070_wsjr_GR_02.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0080_wsjr_GR_03.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/0090_wsjr_GR_04.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Osiris/det/0001_wsjr_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Osiris </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -308,7 +308,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0110_Behedeti/0001_bHd.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0110_Behedeti/0010_bHd.t_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0110_Behedeti/0020_bHd.t_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0110_Behedeti/0030_bHd.t_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0110_Behedeti/det/0001_bHd.t_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Behedeti </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -335,7 +335,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0001_psD.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0010_psD.t_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0020_psD.t_AR_02.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0030_psD.t_AR_03.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0040_psD.t_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0050_psD.t_SP_01.png){.glyph} (Sp.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0060_psD.t_GR_01.png){.glyph} (Gr.) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/0070_psD.t_GR_02.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/det/0001_psD.t_det_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/det/0010_psD.t_det_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/det/0020_psD.t_det_MR_02.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0120_Goetterneunheit/det/0030_psD.t_det_SP_01.png){.glyph} (Sp.) </td>
    <td style="text-align:left;"> Götterneunheit </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -383,7 +383,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0160_Mut/0001_mw.t_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0160_Mut/0010_mw.t_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0160_Mut/0020_mw.t_03.png){.glyph} </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Mut </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -405,7 +405,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/0001_mnTw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/0010_mnTw_NR_01.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/0020_mnTw_NR_02.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/0030_mnTw_NR_03.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/0040_mnTw_GR_01.png){.glyph} (Gr.) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/det/0001_mnTw_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0170_Month/det/0010_mnTw_det_02.png){.glyph} </td>
    <td style="text-align:left;"> Month </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -497,7 +497,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/0001_Hp_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/0010_Hp_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/0020_Hp_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/0030_Hp_NR_01.png){.glyph} (NR) </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/det/0001_Hp_det_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/det/0010_Hp_det_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Apis/det/0020_Hp_det_AR-SP_01.png){.glyph} (AR/Sp.) </td>
    <td style="text-align:left;"> Apis </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -526,7 +526,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Horus/0001_Hr_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Horus/0010_Hr_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Horus/0020_Hr_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Horus/0030_Hr_MR_01.png){.glyph} (MR) </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Horus </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -629,7 +629,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Isis/0001_st_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Isis/0010_st_AR_01.png){.glyph} (AR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Isis/0020_st_MR_01.png){.glyph} (MR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Isis/0030_st_NR_01.png){.glyph} (NR) <br> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Isis/0040_st_SP_01.png){.glyph} (Sp.) </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Isis </td>
-   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-fixed'><table class="table">
+   <td style="text-align:left;"> <details><summary>Öffne</summary><div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>

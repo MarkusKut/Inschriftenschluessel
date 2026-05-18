@@ -1,6 +1,6 @@
 {
   "name": "Inschriftenschlüssel",
-  "short_name": "Inschrift",
+  "short_name": "Inschriftenschlüssel",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

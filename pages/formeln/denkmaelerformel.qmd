@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Aufbau
 
-<div class='tableFixHead table-fixed'><table class="table">
+<div class='tableFixHead table-wide'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
