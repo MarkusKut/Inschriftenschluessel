@@ -8,6 +8,7 @@ project:
     - sw.js
     - site.webmanifest
     - offline.html
+    - icons/**
 
 lang: de # Sets language to German
 

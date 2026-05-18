@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-18
+
+- `6294090` **[PWA/Offline]** toast only at download to home screen
+
 ## 2026-05-13
 
 - `507abd2` **[CSS]** make tables max-height: 70vh
