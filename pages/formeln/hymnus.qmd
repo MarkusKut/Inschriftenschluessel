@@ -40,23 +40,23 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0010_dwA_02.png){.glyph}
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_seit-MR_01.png){.glyph} (seit MR)
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_seit-MR_01.png){.glyph} <sup>(seit MR)</sup>
 
 *rdi.t iꜣw n*:
 
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0010_rDj.t-jAw_NR_01.png){.glyph} (NR)
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0010_rDj.t-jAw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0020_rDj.t-jAw_NR_02.png){.glyph} (NR)
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0020_rDj.t-jAw_NR_02.png){.glyph} <sup>(NR)</sup>
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0030_rDj.t-jAw_NR_03.png){.glyph} (NR)
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0030_rDj.t-jAw_NR_03.png){.glyph} <sup>(NR)</sup>
 
 *sn tꜣ n*:
 
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} (NR)
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} <sup>(NR)</sup>
 
 
 

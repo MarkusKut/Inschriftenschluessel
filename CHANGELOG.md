@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `ff49ba1` **[R code, Templates/Pages, Data, PWA/Offline]** Table header hyphenation fix
+
+## 2026-05-18
+
 - `6e940e1` **[Data, PWA/Offline]** Added logo for Android
 
 ## 2026-05-18

@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> Thronname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} (Gr.) </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> *nsw-bit* </td>
    <td style="text-align:left;"> II: 330 </td>
    <td style="text-align:left;">  </td>

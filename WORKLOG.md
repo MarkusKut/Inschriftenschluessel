@@ -4,6 +4,8 @@
 ## 2026-05-18
 
 - added an app icon
+- table header hyphination fix
+- datings in superscript
 
 
 
