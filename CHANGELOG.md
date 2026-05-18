@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `c14bd59` **[Templates/Pages, Data]** datings in superscript
+
+## 2026-05-18
+
 - `ff49ba1` **[R code, Templates/Pages, Data, PWA/Offline]** Table header hyphenation fix
 
 ## 2026-05-18
