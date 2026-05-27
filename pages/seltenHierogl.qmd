@@ -1,0 +1,386 @@
+---
+title: "Seltene Hieroglphen"
+---
+
+<meta name="slot-title-class" content="slot-title-seltene-hieroglphen">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+## A – Der Mann und seine Tätigkeiten
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## B – Die Frau und ihre Tätigkeiten
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## C – Gottheiten in Menschengestalt
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## D – Teile des menschlichen Körpers
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## E – Säugetiere
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## F – Teile von Säugetieren
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Gardiner-Nr. </th>
+   <th style="text-align:left;"> Hieroglyphe </th>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> F63 </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/03_Hieroglyphen-selten/F63_xnty_01.png){.glyph} </td>
+   <td style="text-align:left;"> *ḫnty* </td>
+   <td style="text-align:left;"> vorn befindlich </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## G – Vögel
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## H – Teile von Vögeln
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## I – Amphibien und Reptilien
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## K – Fische und Teile von Fischen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## L – Wirbellose und andere Tiere
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## M – Bäume und andere Pflanzen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## N – Himmel, Erde und Wasser
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Gardiner-Nr. </th>
+   <th style="text-align:left;"> Hieroglyphe </th>
+   <th style="text-align:left;"> Transkription </th>
+   <th style="text-align:left;"> Übersetzung </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> N6B </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/03_Hieroglyphen-selten/N6B_nsw-bjt_01.png){.glyph} </td>
+   <td style="text-align:left;"> *nsw-bit* </td>
+   <td style="text-align:left;"> König von Ober- und Unterägypten </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> N102 </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/03_Hieroglyphen-selten/N102_jmn_01.png){.glyph} </td>
+   <td style="text-align:left;"> *imn* </td>
+   <td style="text-align:left;"> Amun </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+## O – Gebäude und Teile von Gebäuden
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## P – Schiffe und Teile von Schiffen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## Q – Möbel
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## R – Tempel
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## S – Kronen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## T – Krieg, Jagd und Schlachterei
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## U – Landwirtschaft und Handwerk
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## V – Seil, Faser, Korb usw.
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## W – Stein- und Tongefäße
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## X – Laibe und Kuchen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## Y – Schreiben, Spiele und Musik
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## Z – Geometrische Figuren
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+## Aa – unklassifizierte Hieroglyphen
+
+<div class='tableFixHead table-glyph-middle'><table class="table">
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table></div>
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

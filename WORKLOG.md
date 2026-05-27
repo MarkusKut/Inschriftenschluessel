@@ -3,9 +3,11 @@
 
 ## 2026-05-27
 
-- changed order of "Gottheit"
-- added "Amun-Re-Harachte"
-- added "Filiationsangabe" for "Person"
+- changed order of page "Gottheit"
+- added "Amun-Re-Harachte" on page "Gottheit"
+- added "Filiationsangabe" on page "Person"
+- added page "Seltene Hieroglyphen"
+- added page "Projekt"
 - corrections
 - smaller changes
 
@@ -59,7 +61,7 @@
   - translation
   - variants
 
-### 5. „Historische Königsinschrift
+### 5. „Historische“ Königsinschrift
   - glyph-line
   - translation
   - variants

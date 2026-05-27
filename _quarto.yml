@@ -17,10 +17,12 @@ website:
   title: "Inschriftenschlüssel"
   navbar:
     left:
-      - href: index.qmd
-        text: "Start"
       - href: pages/slots.qmd
         text: "Slots"
+      - href: pages/seltenHierogl.qmd
+        text: "Seltene Hierogylphen"
+      - href: pages/projekt.qmd
+        text: "Projekt"
 
 
 

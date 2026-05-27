@@ -1,0 +1,109 @@
+---
+title: "Projekt"
+---
+
+<meta name="slot-title-class" content="slot-title-projekt">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+## Mitarbeiter:
+
+
+- **Projektleitung:** Prof. Friedhelm Hoffmann
+
+
+- **Recherche, Datengrundlage:** Iulia Comșa
+
+
+- **Programmierung, Hieroglyphensetzung:** Markus Kutschka
+
+
+## Version:
+
+Diese Website wurde mit Quarto unter R erstellt:
+
+
+RStudio 2025.09.1+401 "Cucumberleaf Sunflower" Release (20de356561bd58a6d88927cce948bd076d06e4ca, 2025-09-23) for macOS
+
+
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+
+
+AppleWebKit/537.36 (KHTML, like Gecko)
+
+
+RStudio/2025.09.1+401
+
+
+Chrome/138.0.7204.185
+
+
+## Github:
+
+<https://github.com/MarkusKut/Inschriftenschluessel.git>
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

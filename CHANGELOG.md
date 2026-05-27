@@ -2,6 +2,10 @@
 
 ## 2026-05-27
 
+- `1e42bef` **[Other]** added Filiationsangabe
+
+## 2026-05-27
+
 - `bda5589` **[Templates/Pages, Data]** added Filiationsangabe
 
 ## 2026-05-27
