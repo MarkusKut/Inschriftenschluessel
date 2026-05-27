@@ -2,6 +2,10 @@
 
 ## 2026-05-27
 
+- `607f268` **[Templates/Pages, Data]** corrections
+
+## 2026-05-27
+
 - `93a92d0` **[Templates/Pages, Data, PWA/Offline]** changed order of Gottheit
 
 ## 2026-05-18
