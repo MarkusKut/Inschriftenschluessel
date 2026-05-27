@@ -1,6 +1,11 @@
 # Worklog
 
 
+## 2026-05-27
+
+- changed order of "Gottheit"
+- added "Amun-Re-Harachte"
+
 ## 2026-05-18
 
 - added an app icon

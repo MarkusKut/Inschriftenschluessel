@@ -63,7 +63,7 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
    <td style="text-align:left;"> Teil 1: wörtliche Rede </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḏj(⸗i) n⸗k* </td>
+   <td style="text-align:left;"> *di(⸗i) n⸗k* </td>
    <td style="text-align:left;"> Ich habe dir gegeben </td>
    <td style="text-align:left;"> II: 465 </td>
    <td style="text-align:left;"> Teil 2: häufig Gott zu König </td>

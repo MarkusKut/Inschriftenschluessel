@@ -2,6 +2,10 @@
 
 ## 2026-05-18
 
+- `da9ca5a` **[Data]** formula pages referencing fix
+
+## 2026-05-18
+
 - `fa36931` **[Templates/Pages, Data]** formula pages referencing fix
 
 ## 2026-05-18
