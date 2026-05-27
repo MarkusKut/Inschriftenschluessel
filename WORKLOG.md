@@ -5,6 +5,7 @@
 
 - changed order of "Gottheit"
 - added "Amun-Re-Harachte"
+- corrections
 
 ## 2026-05-18
 

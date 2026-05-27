@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-27
+
+- `93a92d0` **[Templates/Pages, Data, PWA/Offline]** changed order of Gottheit
+
 ## 2026-05-18
 
 - `da9ca5a` **[Data]** formula pages referencing fix

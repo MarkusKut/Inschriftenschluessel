@@ -90,8 +90,8 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> *ꜣpd* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph} <sup>(Abk.)</sup> </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/det/0001_Apd_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Geflügel </td>
   </tr>
