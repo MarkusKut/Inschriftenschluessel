@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Schreibvarianten
 
+::: {.glyphvariants-block}
+
 *[ḫr] ḥm n*:
 
 - ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
@@ -49,6 +51,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup>
 
+
+:::
 
 
 

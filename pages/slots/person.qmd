@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *imi-rꜣ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_02.png){.glyph} </td>
    <td style="text-align:left;"> Vorsteher </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> *imꜣḫ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_MR_01.png){.glyph} <sup>(MR)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> Ehrwürdiger / Versorgter </td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> *wsir* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/05_wsjr_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/05_wsjr_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Titel/05_wsjr_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/05_wsjr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/05_wsjr_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/05_wsjr_03.png){.glyph} </td>
    <td style="text-align:left;"> Osiris </td>
   </tr>
 </tbody>
@@ -137,8 +137,8 @@ wichtiges Bildungsmuster für männliche Namen:
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/01_A1_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/02_A52_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/01_B1_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/02_B1G_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/03_B8_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/01_A1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/02_A52_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/01_B1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/02_B1G_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/03_B8_01.png){.glyph} </td>
   </tr>
 </tbody>
 </table></div>
@@ -157,7 +157,7 @@ wichtiges Bildungsmuster für männliche Namen:
 <tbody>
   <tr>
    <td style="text-align:left;"> *mꜣꜥ-ḫrw* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_03.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_NR_01.png){.glyph} <sup>(NR)</sup> <br> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._01.png){.glyph} <sup>(Spät.)</sup> <br> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._02.png){.glyph} <sup>(Spät.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._02.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> Gerechtfertigter </td>
   </tr>
 </tbody>

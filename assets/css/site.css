@@ -239,6 +239,10 @@ body.quarto-dark .tableFixHead.table-wide thead th,
   }
 }
 
+.glyph-row-break {
+  display: block;
+  height: 0.45rem;   /* change this value */
+}
 
 
 /* mobile */
@@ -275,10 +279,30 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 
 }
 
+
 /* Just common table stuff. Really. */
 /* table  { border-collapse: collapse; width: 100%; } */
 /* th, td { padding: 8px 16px; } */
 /* th     { background:#eee; } */
+
+
+
+.glyphvariants-block ul {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.glyphvariants-block li {
+  margin-bottom: 1rem;   /* change this value */
+  line-height: 1.5;
+}
+
+.glyphvariants-block li:last-child {
+  margin-bottom: 0;
+}
+
+
 
 
 

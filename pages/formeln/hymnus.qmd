@@ -34,6 +34,8 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 ## Überschrift
 
+::: {.glyphvariants-block}
+
 *dwꜣ*:
 
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
@@ -59,9 +61,13 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} <sup>(NR)</sup>
 
 
+:::
+
 
 
 ## Beter
+
+::: {.glyphvariants-block}
 
 *in*:
 
@@ -74,14 +80,20 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph}
 
 
+:::
+
 
 
 ## Hauptteil
+
+::: {.glyphvariants-block}
 
 *inḏ-ḥr⸗*:
 
 - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
 
+
+:::
 
 
 

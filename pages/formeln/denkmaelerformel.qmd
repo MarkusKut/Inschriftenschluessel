@@ -59,6 +59,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Schreibvarianten
 
+::: {.glyphvariants-block}
+
 *ir.n⸗f mnw⸗f*:
 
 - ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph}
@@ -75,6 +77,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0060_jr.t n=f_01.png){.glyph}
 
+
+:::
 
 
 

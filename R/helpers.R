@@ -101,7 +101,8 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
       )
 
       # turn comma separators into spacing between glyphs
-      x <- gsub("\\s*,\\s*", " <br> ", x, perl = TRUE)
+     # x <- gsub("\\s*,\\s*", " <br> ", x, perl = TRUE)
+      x <- gsub("\\s*,\\s*", "<span class='glyph-row-break'></span>", x, perl = TRUE)
 
       x
     })) %>%
@@ -274,7 +275,12 @@ render_glyphvariants_md <- function(df_line) {
     paste0(lbl, ":\n\n", paste0(bullet_md, collapse = ""))
   }, character(1))
   
-  paste0(out, collapse = "")
+  #paste0(out, collapse = "")
+  paste0(
+    "::: {.glyphvariants-block}\n\n",
+    paste0(out, collapse = ""),
+    "\n:::\n"
+  )
 }
 
 

@@ -80,6 +80,8 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 ## Schreibvarianten
 
+::: {.glyphvariants-block}
+
 *ḏd-md.w*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph}
@@ -100,6 +102,8 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0040_dj.n(=j)-n=T_01.png){.glyph}
 
+
+:::
 
 
 

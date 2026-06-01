@@ -1,6 +1,11 @@
 # Worklog
 
 
+## 2026-06-01
+
+- more spacing between hieroglyphs in table and variants 
+
+
 ## 2026-05-27
 
 - changed order of page "Gottheit"

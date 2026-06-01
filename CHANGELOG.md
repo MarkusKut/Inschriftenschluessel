@@ -2,6 +2,10 @@
 
 ## 2026-05-27
 
+- `78feafb` **[Templates/Pages, CSS, Data, PWA/Offline]** added Seltene Hieroglyphen and Projekt pages
+
+## 2026-05-27
+
 - `1e42bef` **[Other]** added Filiationsangabe
 
 ## 2026-05-27

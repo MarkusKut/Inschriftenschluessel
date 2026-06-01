@@ -75,14 +75,14 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> Thronname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> *nsw-bit* </td>
    <td style="text-align:left;"> II: 330 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Eigenname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_02.png){.glyph} </td>
    <td style="text-align:left;"> *sꜣ rꜥ* </td>
    <td style="text-align:left;"> III: 440 </td>
    <td style="text-align:left;">  </td>
@@ -109,12 +109,12 @@ siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Mün
 <tbody>
   <tr>
    <td style="text-align:left;"> *nsw* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/01_nsw_03.png){.glyph} </td>
    <td style="text-align:left;"> König </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥm* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Bezeichnungen/02_Hm_03.png){.glyph} </td>
    <td style="text-align:left;"> Majestät </td>
   </tr>
   <tr>

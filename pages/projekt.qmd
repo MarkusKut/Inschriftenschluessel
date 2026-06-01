@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Mitarbeiter:
 
 
-- **Projektleitung:** Prof. Friedhelm Hoffmann
+- **Projektleitung:** Prof. Dr. Friedhelm Hoffmann
 
 
 - **Recherche, Datengrundlage:** Iulia Comșa

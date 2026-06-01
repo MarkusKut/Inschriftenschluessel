@@ -77,17 +77,17 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> *ꜣbd-2* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0020_Abd-2_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0030_Abd-2_02.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0035_Abd-2_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0020_Abd-2_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/02_Monat/0030_Abd-2_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/02_Monat/0035_Abd-2_03.png){.glyph} </td>
    <td style="text-align:left;"> zweiter Monat </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ꜣbd-3* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0040_Abd-3_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0050_Abd-3_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0040_Abd-3_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/02_Monat/0050_Abd-3_02.png){.glyph} </td>
    <td style="text-align:left;"> dritter Monat </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ꜣbd-4* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0060_Abd-4_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0070_Abd-4_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/02_Monat/0060_Abd-4_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/02_Monat/0070_Abd-4_02.png){.glyph} </td>
    <td style="text-align:left;"> vierter Monat </td>
   </tr>
 </tbody>
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </tr>
   <tr>
    <td style="text-align:left;"> *sw-ꜥrqy* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0010_sw-arqy_01.png){.glyph} <br> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0020_sw-arqy_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0010_sw-arqy_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0020_sw-arqy_02.png){.glyph} </td>
    <td style="text-align:left;"> Tag 30 </td>
   </tr>
 </tbody>

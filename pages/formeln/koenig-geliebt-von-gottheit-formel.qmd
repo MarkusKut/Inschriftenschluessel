@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Schreibvarianten
 
+::: {.glyphvariants-block}
+
 *mry*:
 
 - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
@@ -47,6 +49,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0050_mry_AR_02.png){.glyph} <sup>(AR)</sup>
 
+
+:::
 
 
 
