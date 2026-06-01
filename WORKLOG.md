@@ -5,6 +5,7 @@
 
 - more spacing between hieroglyphs in table and variants 
 - fixed column width of wide tables
+- url's with linebreak
 
 
 ## 2026-05-27

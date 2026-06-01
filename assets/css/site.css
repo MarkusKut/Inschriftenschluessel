@@ -304,6 +304,24 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 
 
 
+/* long URLs may wrap instead of overflowing */
+a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+
+p, li, td, div, span {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+a[href^="http"],
+a[href^="https"],
+a[href^="www"] {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
 
 

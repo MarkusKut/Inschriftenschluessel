@@ -2,6 +2,10 @@
 
 ## 2026-06-01
 
+- `bde963e` **[CSS, Data]** fixed column width of wide tables
+
+## 2026-06-01
+
 - `b18e8d0` **[R code, Templates/Pages, CSS, Data]** more spacing between hieroglyphs in table and variants
 
 ## 2026-05-27
