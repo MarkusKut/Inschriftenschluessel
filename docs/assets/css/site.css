@@ -127,7 +127,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* give the last column more room if needed */
 .table-wide th:last-child,
 .table-wide td:last-child {
-  min-width: 5rem;
+  min-width: 18rem;
 }
 
 /* nested tables inside a cell */
@@ -185,7 +185,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   -webkit-overflow-scrolling: touch;
 }
 
-/* wide tables: horizontal + vertical scroll container */
+/* generic wide tables: scroll, no forced last-column dominance */
 .tableFixHead.table-wide {
   position: relative;
   overflow-x: auto;
@@ -197,7 +197,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 /* important for sticky headers, especially Safari */
 .tableFixHead.table-wide table {
-  width: 100%;
+  /*width: max-content;*/
+  min-width: 100%;
   table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
@@ -211,9 +212,26 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   background: var(--bs-body-bg, #fff);
   color: var(--bs-body-color, #000);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-   hyphens: auto;
+  hyphens: auto;
   -webkit-hyphens: auto;
 }
+
+/* generic wide-cell behaviour */
+.tableFixHead.table-wide th,
+.tableFixHead.table-wide td {
+  white-space: normal;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* keep non-final columns readable */
+.tableFixHead.table-wide th:not(:last-child),
+.tableFixHead.table-wide td:not(:last-child) {
+  min-width: 8rem;
+}
+
+
 
 /* dark mode */
 html[data-bs-theme="dark"] .tableFixHead.table-wide thead th,
@@ -228,6 +246,7 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 }
 
 /* mobile tuning */
+/* mobile tuning */
 @media (max-width: 768px) {
   .tableFixHead.table-wide {
     max-height: 70vh;
@@ -236,6 +255,11 @@ body.quarto-dark .tableFixHead.table-wide thead th,
   .tableFixHead.table-wide th,
   .tableFixHead.table-wide td {
     padding: 6px 8px;
+  }
+
+  .tableFixHead.table-wide th:not(:last-child),
+  .tableFixHead.table-wide td:not(:last-child) {
+    min-width: 4rem;
   }
 }
 

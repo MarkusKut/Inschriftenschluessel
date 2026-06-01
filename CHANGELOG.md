@@ -2,6 +2,10 @@
 
 ## 2026-06-01
 
+- `a064bf8` **[CSS]** url's with linebreak
+
+## 2026-06-01
+
 - `bde963e` **[CSS, Data]** fixed column width of wide tables
 
 ## 2026-06-01
