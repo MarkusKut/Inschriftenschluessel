@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-01
+
+- `b18e8d0` **[R code, Templates/Pages, CSS, Data]** more spacing between hieroglyphs in table and variants
+
 ## 2026-05-27
 
 - `78feafb` **[Templates/Pages, CSS, Data, PWA/Offline]** added Seltene Hieroglyphen and Projekt pages

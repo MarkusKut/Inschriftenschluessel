@@ -127,7 +127,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* give the last column more room if needed */
 .table-wide th:last-child,
 .table-wide td:last-child {
-  min-width: 18rem;
+  min-width: 5rem;
 }
 
 /* nested tables inside a cell */

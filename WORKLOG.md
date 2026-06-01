@@ -4,6 +4,7 @@
 ## 2026-06-01
 
 - more spacing between hieroglyphs in table and variants 
+- fixed column width of wide tables
 
 
 ## 2026-05-27
