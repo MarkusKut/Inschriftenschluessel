@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-03
+
+- `bc3d938` **[Templates/Pages, Data, PWA/Offline]** added Information page
+
 ## 2026-06-01
 
 - `5c52b96` **[CSS, Data]** fixed column width of wide tables 2

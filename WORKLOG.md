@@ -3,6 +3,7 @@
 ## 2026-06-03
 
 - added "Information" page
+- added more variants of Montu epithet "nb wAs.t"
 
 ## 2026-06-01
 
