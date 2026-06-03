@@ -1,5 +1,8 @@
 # Worklog
 
+## 2026-06-03
+
+- added "Information" page
 
 ## 2026-06-01
 

@@ -1,0 +1,111 @@
+---
+title: "Information"
+---
+
+<meta name="slot-title-class" content="slot-title-information">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+## Zweck
+
+
+Mit dem Inschriftenschlüssel, dessen Erstellung die LMU mit Geldern aus dem Fonds zur Förderung der Lehre ermöglicht hat, werden die wesentlichen ägyptischen Inschriftenformulare in strukturierter Weise für Lernende aufbereitet. So wird ein Hilfsmittel für die Lektüre von Originalinschriften geschaffen.
+
+
+## Hintergrund
+
+
+Erfahrungsgemäß fällt der Übergang von der Grammatikphase zur Lektüre und die Konfrontation mit tatsächlichen Inschriften in Ägypten oder im Museum aus verschiedenen Gründen vielen Studierenden schwer. Teils liegt es an ungewohnten Zeichenformen, die eine weit größere Varianz in ihrem Erscheinungsbild aufweisen als die gedruckten Hieroglyphen der Texteditionen; teils liegt es an den Schreibungen oder Wörtern, die in der Sprachausbildung nicht in der Frequenz vorkamen wie in den Inschriften; teils an der vielleicht suboptimalen Erhaltung; teils sind die Denkmäler aber auch einfach aus jüngeren Epochen und enthalten Phänomene, die im Unterricht noch nicht vorkamen, da sie für das Mittel- oder Altägyptische noch nicht relevant sind, die aber aufgrund der Häufigkeit jüngerer Inschriften in einem Museum prominenter sind.
+
+
+Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
+
+
+Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
+
+
+## Aufbau
+
+
+Der Inschriftenschlüssel soll einen Überblick über die Grundtypen von Inschriften, die in ihnen vorgesehenen Elemente und die häufigsten Ausdrücke, die zur Ausfüllung dieser Positionen in Frage kommen, geben. Das soll in einer Weise geschehen, die strikt den Unterschied zwischen Inschriftentyp, den damit verbundenen Formularen und ihren Leerstellen sowie den konkreten Ausdrücken, die an einer Stelle stehen können, deutlich macht und zugleich je nach Epoche auch typische Schreibungen der für das Formular und seine Erkennbarkeit wichtigen Einzelwörter zeigt.
+
+
+Der Inschriftenschlüssel erinnert also zunächst an die häufigsten Formulare und ihren Aufbau und stellt dann die Elemente („Slots“) vor, also über alle Inschriftentypen hinweg im Wesentlichen [Gottheit](slots/gottheit.qmd){.slot-link .slot-gottheit}, [König](slots/koenig.qmd){.slot-link .slot-k-nig}, [Gaben](slots/gaben.qmd){.slot-link .slot-gaben} und [Person](slots/person.qmd){.slot-link .slot-person}. Die Kenntnis der Inschriftenformulare stellt sicher, dass man stets weiß, wo in der Inschrift man sich gerade befindet, dass das Wort, auf das man nicht kommt, z. B. ein Götterepitheton sein muss etc., und verhindert „Flächenschäden“ im Textverständnis, aus denen man nicht mehr herausfindet.
+
+
+Ein Verzeichnis von Hieroglyphen, die in Inschriften ggf. späterer Epochen häufig sind, aber etwa im Mittleren Reich noch nicht vorkommen oder aus anderen Gründen ungewohnt sind, rundet zusammen mit einem Wörterverzeichnis den Inschriftenschlüssel ab.
+
+
+<br>
+
+
+München 2026
+
+
+Iulia Comşa, Friedhelm Hoffmann, Markus Kutschka
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

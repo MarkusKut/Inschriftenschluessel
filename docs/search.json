@@ -266,25 +266,907 @@
     "text": "Aa – unklassifizierte Hieroglyphen\n\n\n\n\n\n\n\n\n\n  \n    Home\n    ← Zurück"
   },
   {
-    "objectID": "pages/projekt.html#mitarbeiter",
-    "href": "pages/projekt.html#mitarbeiter",
+    "objectID": "pages/info.html#zweck",
+    "href": "pages/info.html#zweck",
+    "title": "Information",
+    "section": "Zweck",
+    "text": "Zweck\nMit dem Inschriftenschlüssel, dessen Erstellung die LMU mit Geldern aus dem Fonds zur Förderung der Lehre ermöglicht hat, werden die wesentlichen ägyptischen Inschriftenformulare in strukturierter Weise für Lernende aufbereitet. So wird ein Hilfsmittel für die Lektüre von Originalinschriften geschaffen."
+  },
+  {
+    "objectID": "pages/info.html#hintergrund",
+    "href": "pages/info.html#hintergrund",
+    "title": "Information",
+    "section": "Hintergrund",
+    "text": "Hintergrund\nErfahrungsgemäß fällt der Übergang von der Grammatikphase zur Lektüre und die Konfrontation mit tatsächlichen Inschriften in Ägypten oder im Museum aus verschiedenen Gründen vielen Studierenden schwer. Teils liegt es an ungewohnten Zeichenformen, die eine weit größere Varianz in ihrem Erscheinungsbild aufweisen als die gedruckten Hieroglyphen der Texteditionen; teils liegt es an den Schreibungen oder Wörtern, die in der Sprachausbildung nicht in der Frequenz vorkamen wie in den Inschriften; teils an der vielleicht suboptimalen Erhaltung; teils sind die Denkmäler aber auch einfach aus jüngeren Epochen und enthalten Phänomene, die im Unterricht noch nicht vorkamen, da sie für das Mittel- oder Altägyptische noch nicht relevant sind, die aber aufgrund der Häufigkeit jüngerer Inschriften in einem Museum prominenter sind.\nAndererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.\nAndererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig."
+  },
+  {
+    "objectID": "pages/info.html#aufbau",
+    "href": "pages/info.html#aufbau",
+    "title": "Information",
+    "section": "Aufbau",
+    "text": "Aufbau\nDer Inschriftenschlüssel soll einen Überblick über die Grundtypen von Inschriften, die in ihnen vorgesehenen Elemente und die häufigsten Ausdrücke, die zur Ausfüllung dieser Positionen in Frage kommen, geben. Das soll in einer Weise geschehen, die strikt den Unterschied zwischen Inschriftentyp, den damit verbundenen Formularen und ihren Leerstellen sowie den konkreten Ausdrücken, die an einer Stelle stehen können, deutlich macht und zugleich je nach Epoche auch typische Schreibungen der für das Formular und seine Erkennbarkeit wichtigen Einzelwörter zeigt.\nDer Inschriftenschlüssel erinnert also zunächst an die häufigsten Formulare und ihren Aufbau und stellt dann die Elemente („Slots“) vor, also über alle Inschriftentypen hinweg im Wesentlichen Gottheit, König, Gaben und Person. Die Kenntnis der Inschriftenformulare stellt sicher, dass man stets weiß, wo in der Inschrift man sich gerade befindet, dass das Wort, auf das man nicht kommt, z. B. ein Götterepitheton sein muss etc., und verhindert „Flächenschäden“ im Textverständnis, aus denen man nicht mehr herausfindet.\nEin Verzeichnis von Hieroglyphen, die in Inschriften ggf. späterer Epochen häufig sind, aber etwa im Mittleren Reich noch nicht vorkommen oder aus anderen Gründen ungewohnt sind, rundet zusammen mit einem Wörterverzeichnis den Inschriftenschlüssel ab.\n\nMünchen 2026\nIulia Comşa, Friedhelm Hoffmann, Markus Kutschka\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/slots.html",
+    "href": "pages/slots.html",
+    "title": "Slots",
+    "section": "",
+    "text": "Gottheit\n\n\nKönig\n\n\nGaben\n\n\nPerson\n\n\nDatum\n\n\nWörtliche Rede"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html",
+    "href": "pages/formeln/hymnus.html",
+    "title": "Hymnus",
+    "section": "",
+    "text": "A−\n  A\n  A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#übersetzung",
+    "href": "pages/formeln/hymnus.html#übersetzung",
+    "title": "Hymnus",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nVerehren/Anbeten Gottheit NN, Lobpreis geben den/der Gottheit NN, den Boden küssen für Gottheit NN von Person NN – er sagt: Lobpreis dir/euch, sei gegrüßt/gegrüßst seist du …"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#überschrift",
+    "href": "pages/formeln/hymnus.html#überschrift",
+    "title": "Hymnus",
+    "section": "Überschrift",
+    "text": "Überschrift\n\ndwꜣ:\n\n\n\n (seit MR)\n\nrdi.t iꜣw n:\n\n\n (NR)\n (NR)\n (NR)\n\nsn tꜣ n:\n\n\n (NR)"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#beter",
+    "href": "pages/formeln/hymnus.html#beter",
+    "title": "Hymnus",
+    "section": "Beter",
+    "text": "Beter\n\nin:\n\n\n\n\nḏd⸗f:"
+  },
+  {
+    "objectID": "pages/formeln/hymnus.html#hauptteil",
+    "href": "pages/formeln/hymnus.html#hauptteil",
+    "title": "Hymnus",
+    "section": "Hauptteil",
+    "text": "Hauptteil\n\ninḏ-ḥr⸗:\n\n\n\n\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/formeln/koenigsinschrift.html",
+    "href": "pages/formeln/koenigsinschrift.html",
+    "title": "„Historische“ Königsinschrift",
+    "section": "",
+    "text": "A−\n  A\n  A+\nDatum  ḫr ḥm n König NN"
+  },
+  {
+    "objectID": "pages/formeln/koenigsinschrift.html#übersetzung",
+    "href": "pages/formeln/koenigsinschrift.html#übersetzung",
+    "title": "„Historische“ Königsinschrift",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nDatum unter der Majestät / Regierung des König"
+  },
+  {
+    "objectID": "pages/formeln/koenigsinschrift.html#schreibvarianten",
+    "href": "pages/formeln/koenigsinschrift.html#schreibvarianten",
+    "title": "„Historische“ Königsinschrift",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\n\n[ḫr] ḥm n:\n\n\n\n\n\n\nnsw bit:\n\n\n (Gr.)\n\n\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
+    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
+    "title": "König-geliebt-von-Gottheit-Formel",
+    "section": "",
+    "text": "A−\n  A\n  A+\nKönig Gottheit  mry"
+  },
+  {
+    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#übersetzung",
+    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#übersetzung",
+    "title": "König-geliebt-von-Gottheit-Formel",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nKönig geliebt von Gottheit"
+  },
+  {
+    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
+    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
+    "title": "König-geliebt-von-Gottheit-Formel",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\n\nmry:\n\n\n\n\n\n\n (AR)\n\n\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html",
+    "href": "pages/formeln/opferformel.html",
+    "title": "Opferformel",
+    "section": "",
+    "text": "A−\n  A\n  A+\nḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html#übersetzung",
+    "href": "pages/formeln/opferformel.html#übersetzung",
+    "title": "Opferformel",
+    "section": "Übersetzung",
+    "text": "Übersetzung\nEin Opfer, das der König Gottheit gibt. Er/sie möge(n) geben ein Anrufungsopfer bestehend aus Gaben für / für den Ka des/der Person"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html#aufbau",
+    "href": "pages/formeln/opferformel.html#aufbau",
+    "title": "Opferformel",
+    "section": "Aufbau",
+    "text": "Aufbau\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\nWB\n\n\nKommentar\n\n\n\n\n\n\nḥtp-di-nsw (n)\n\n\nEin Opferdas der König gibt\n\n\nIII: 186–187\n\n\nhäufige Schreibung; ab 19. Dyn. auch mit „n“ vor Gottheit geschrieben\n\n\n\n\ndi⸗f / ⸗s / ⸗sn pr.t-ḫrw\n\n\nEr/Sie (Sg. & Pl.) möge(n) geben\n\n\nIII: 186–187\n\n\n\n\n\n\nn / n kꜣ n\n\n\nfür / für den Ka des/der\n\n\nIII: 186"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html#kommentare",
+    "href": "pages/formeln/opferformel.html#kommentare",
+    "title": "Opferformel",
+    "section": "Kommentare",
+    "text": "Kommentare\nPerson NN = Verstorbene(r)"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html#schreibvarianten",
+    "href": "pages/formeln/opferformel.html#schreibvarianten",
+    "title": "Opferformel",
+    "section": "Schreibvarianten",
+    "text": "Schreibvarianten\n\nḥtp-di-nsw:\n\n (AR; MR)\n (Ende NR)\n (Spät.)\n (AR; MR)\n (AR; MR)\n (AR; MR)\n\ndi⸗f / ⸗s / ⸗sn:\n\n\n\n\n\nn / n kꜣ n:"
+  },
+  {
+    "objectID": "pages/formeln/opferformel.html#literatur",
+    "href": "pages/formeln/opferformel.html#literatur",
+    "title": "Opferformel",
+    "section": "Literatur",
+    "text": "Literatur\nBarta, Winfried. 1968. Aufbau und Bedeutung der altägyptischen Opferformel. Ägyptologische forschungen 24. J. J. Augustin. Lapp, Günther. 1986. Die Opferformel des Alten Reiches: unter Berücksichtigung einiger späterer Formen. Sonderschrift, Deutsches Archäologisches Institut, Abteilung Kairo 21. Philipp von Zabern.\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "info.html#mitarbeiter",
+    "href": "info.html#mitarbeiter",
     "title": "Projekt",
     "section": "Mitarbeiter:",
     "text": "Mitarbeiter:\n\nProjektleitung: Prof. Dr. Friedhelm Hoffmann\nRecherche, Datengrundlage: Iulia Comșa\nProgrammierung, Hieroglyphensetzung: Markus Kutschka"
   },
   {
-    "objectID": "pages/projekt.html#version",
-    "href": "pages/projekt.html#version",
+    "objectID": "info.html#version",
+    "href": "info.html#version",
     "title": "Projekt",
     "section": "Version:",
     "text": "Version:\nDiese Website wurde mit Quarto unter R erstellt:\nRStudio 2025.09.1+401 “Cucumberleaf Sunflower” Release (20de356561bd58a6d88927cce948bd076d06e4ca, 2025-09-23) for macOS\nMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)\nAppleWebKit/537.36 (KHTML, like Gecko)\nRStudio/2025.09.1+401\nChrome/138.0.7204.185"
   },
   {
-    "objectID": "pages/projekt.html#github",
-    "href": "pages/projekt.html#github",
+    "objectID": "info.html#github",
+    "href": "info.html#github",
     "title": "Projekt",
     "section": "Github:",
     "text": "Github:\nhttps://github.com/MarkusKut/Inschriftenschluessel.git\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "5c52b96 [CSS, Data] fixed column width of wide tables 2\n\n\n\n\n\na064bf8 [CSS] url’s with linebreak\n\n\n\n\n\nbde963e [CSS, Data] fixed column width of wide tables\n\n\n\n\n\nb18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants\n\n\n\n\n\n78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages\n\n\n\n\n\n1e42bef [Other] added Filiationsangabe\n\n\n\n\n\nbda5589 [Templates/Pages, Data] added Filiationsangabe\n\n\n\n\n\ne7a37b7 [Other] corrections\n\n\n\n\n\n607f268 [Templates/Pages, Data] corrections\n\n\n\n\n\n93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit\n\n\n\n\n\nda9ca5a [Data] formula pages referencing fix\n\n\n\n\n\nfa36931 [Templates/Pages, Data] formula pages referencing fix\n\n\n\n\n\nc14bd59 [Templates/Pages, Data] datings in superscript\n\n\n\n\n\nff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix\n\n\n\n\n\n6e940e1 [Data, PWA/Offline] Added logo for Android\n\n\n\n\n\n124f37e [CSS] Added logo .ico\n\n\n\n\n\ne260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3\n\n\n\n\n\n5aa64f8 [Data, PWA/Offline] Added logo icon 2\n\n\n\n\n\nd66fe63 [Templates/Pages, PWA/Offline] Added logo icon\n\n\n\n\n\n6294090 [PWA/Offline] toast only at download to home screen\n\n\n\n\n\n507abd2 [CSS] make tables max-height: 70vh\n\n\n\n\n\n85b92a0 [Other] offline toast fix 2\n\n\n\n\n\n87853b2 [Data, PWA/Offline] offline toast fix 2\n\n\n\n\n\n143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix\n\n\n\n\n\n36e03af [R code, Templates/Pages, Data] added variants option to slot pages\n\n\n\n\n\n9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers\n\n\n\n\n\n815894d [Other] Tables max height max-height: 70vh\n\n\n\n\n\n5129a31 [Other] Add hyphens for word breaks\n\n\n\n\n\n9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project\n\n\n\n\n\n6f29c97 [CSS] Publish site to docs/\n\n\n\n\n\n49cac7d [CSS, PWA/Offline] Publish site to docs/\n\n\n\n\n\n9193d64 [Other] Publish site to docs/\n\n\n\n\n\na556fc8 [Other] Publish site to docs/\n\n\n\n\n\n3190535 [Other] Publish site to docs/\n\n\n\n\n\n6e036d8 [Other] Publish site to docs/\n\n\n\n\n\nc3f6d1d [CSS] Publish site to docs/\n\n\n\n\n\n61152aa [PWA/Offline] Publish site to docs/\n\n\n\n\n\na81b381 [Other] Publish site to docs/\n\n\n\n\n\n853f4dd [Other] Publish site to docs/\n\n\n\n\n\nc531f6e [PWA/Offline] Publish site to docs/\n\n\n\n\n\nbbbb650 [Other] Publish site to docs/\n\n\n\n\n\n0799f94 [CSS] Publish site to docs/\n\n\n\n\n\n5aed5bf [Other] Publish site to docs/\n\n\n\n\n\n985c8a2 [Other] Publish site to docs/\n\n\n\n\n\nad2ab56 [CSS] Publish site to docs/\n\n\n\n\n\n6063017 [Other] Publish site to docs/\n\n\n\n\n\ndcd2d70 [CSS] Delete docs directory\n\n\n\n\n\n6c9cbb5 [CSS] Publish site to docs/\n\n\n\n\n\n9cf16fc [CSS] site.css aktualisieren\n\n\n\n\n\na46db93 [CSS] Publish site to docs/\n\n\n\n\n\n2174cbd [CSS] Publish site to docs/\n\n\n\n\n\n074cf73 [CSS] Publish site to docs/\n\n\n\n\n\n399bfb7 [CSS] Publish site to docs/\n\n\n\n\n\n05541fd [CSS] Publish site to docs/\n\n\n\n\n\n7ba986d [CSS] Publish site to docs/\n\n\n\n\n\ndbdcd6f [CSS] Publish site to docs/\n\n\n\n\n\n65d4c80 [CSS] Publish site to docs/\n\n\n\n\n\neda8b8c [Other] Publish site to docs/\n\n\n\n\n\neacbdf7 [Other] Publish site to docs/\n\n\n\n\n\n47cd2fb [Other] Publish site to docs/\n\n\n\n\n\n40e83d1 [CSS] Publish site to docs/\n\n\n\n\n\nda2a103 [CSS] Publish site to docs/\n\n\n\n\n\nc027510 [Other] Publish site to docs/\n\n\n\n\n\nb45980e [CSS] Publish site to docs/\n\n\n\n\n\n73c0b11 [Other] Publish site to docs/\n\n\n\n\n\n4a74252 [CSS] Publish site to docs/\n\n\n\n\n\ncc65719 [CSS] Publish site to docs/\n\n\n\n\n\n3bd333a [CSS] Publish site to docs/\n\n\n\n\n\n382d3dc [CSS] Publish site to docs/\n\n\n\n\n\nad1e984 [CSS] Publish site to docs/\n\n\n\n\n\n3ed2b4e [CSS] Publish site to docs/\n\n\n\n\n\nba7a207 [CSS] Publish site to docs/\n\n\n\n\n\n83ae187 [CSS] Publish site to docs/\n\n\n\n\n\n4d0ba67 [CSS] Publish site to docs/\n\n\n\n\n\nd753edc [Other] Publish site to docs/\n\n\n\n\n\nc46fecd [CSS] Publish site to docs/\n\n\n\n\n\n2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/\n\n\n\n\n\n2d5f88f [Templates/Pages, Data] V.0.1\n\n\n\n\n\n53689c7 [CSS] v.0.1.2\n\n\n\n\n\nae1dddb [CSS] v.0.1.1\n\n\n\n\n\na30ab6b [R code, Templates/Pages, CSS, Data] v0.1\n\n\n\n\n\n3a9da3f [R code, Templates/Pages, CSS, Data] V0.1\n\n\n\n\n\ne5567d1 [Other] Initial commit"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "5c52b96 [CSS, Data] fixed column width of wide tables 2"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": "a064bf8 [CSS] url’s with linebreak"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
+    "title": "Changelog",
+    "section": "",
+    "text": "bde963e [CSS, Data] fixed column width of wide tables"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-3",
+    "href": "CHANGELOG.html#section-3",
+    "title": "Changelog",
+    "section": "",
+    "text": "b18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-4",
+    "href": "CHANGELOG.html#section-4",
+    "title": "Changelog",
+    "section": "",
+    "text": "78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-5",
+    "href": "CHANGELOG.html#section-5",
+    "title": "Changelog",
+    "section": "",
+    "text": "1e42bef [Other] added Filiationsangabe"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-6",
+    "href": "CHANGELOG.html#section-6",
+    "title": "Changelog",
+    "section": "",
+    "text": "bda5589 [Templates/Pages, Data] added Filiationsangabe"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-7",
+    "href": "CHANGELOG.html#section-7",
+    "title": "Changelog",
+    "section": "",
+    "text": "e7a37b7 [Other] corrections"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-8",
+    "href": "CHANGELOG.html#section-8",
+    "title": "Changelog",
+    "section": "",
+    "text": "607f268 [Templates/Pages, Data] corrections"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-9",
+    "href": "CHANGELOG.html#section-9",
+    "title": "Changelog",
+    "section": "",
+    "text": "93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-10",
+    "href": "CHANGELOG.html#section-10",
+    "title": "Changelog",
+    "section": "",
+    "text": "da9ca5a [Data] formula pages referencing fix"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-11",
+    "href": "CHANGELOG.html#section-11",
+    "title": "Changelog",
+    "section": "",
+    "text": "fa36931 [Templates/Pages, Data] formula pages referencing fix"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-12",
+    "href": "CHANGELOG.html#section-12",
+    "title": "Changelog",
+    "section": "",
+    "text": "c14bd59 [Templates/Pages, Data] datings in superscript"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-13",
+    "href": "CHANGELOG.html#section-13",
+    "title": "Changelog",
+    "section": "",
+    "text": "ff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-14",
+    "href": "CHANGELOG.html#section-14",
+    "title": "Changelog",
+    "section": "",
+    "text": "6e940e1 [Data, PWA/Offline] Added logo for Android"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-15",
+    "href": "CHANGELOG.html#section-15",
+    "title": "Changelog",
+    "section": "",
+    "text": "124f37e [CSS] Added logo .ico"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-16",
+    "href": "CHANGELOG.html#section-16",
+    "title": "Changelog",
+    "section": "",
+    "text": "e260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-17",
+    "href": "CHANGELOG.html#section-17",
+    "title": "Changelog",
+    "section": "",
+    "text": "5aa64f8 [Data, PWA/Offline] Added logo icon 2"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-18",
+    "href": "CHANGELOG.html#section-18",
+    "title": "Changelog",
+    "section": "",
+    "text": "d66fe63 [Templates/Pages, PWA/Offline] Added logo icon"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-19",
+    "href": "CHANGELOG.html#section-19",
+    "title": "Changelog",
+    "section": "",
+    "text": "6294090 [PWA/Offline] toast only at download to home screen"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-20",
+    "href": "CHANGELOG.html#section-20",
+    "title": "Changelog",
+    "section": "",
+    "text": "507abd2 [CSS] make tables max-height: 70vh"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-21",
+    "href": "CHANGELOG.html#section-21",
+    "title": "Changelog",
+    "section": "",
+    "text": "85b92a0 [Other] offline toast fix 2"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-22",
+    "href": "CHANGELOG.html#section-22",
+    "title": "Changelog",
+    "section": "",
+    "text": "87853b2 [Data, PWA/Offline] offline toast fix 2"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-23",
+    "href": "CHANGELOG.html#section-23",
+    "title": "Changelog",
+    "section": "",
+    "text": "143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-24",
+    "href": "CHANGELOG.html#section-24",
+    "title": "Changelog",
+    "section": "",
+    "text": "36e03af [R code, Templates/Pages, Data] added variants option to slot pages"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-25",
+    "href": "CHANGELOG.html#section-25",
+    "title": "Changelog",
+    "section": "",
+    "text": "9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-26",
+    "href": "CHANGELOG.html#section-26",
+    "title": "Changelog",
+    "section": "",
+    "text": "815894d [Other] Tables max height max-height: 70vh"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-27",
+    "href": "CHANGELOG.html#section-27",
+    "title": "Changelog",
+    "section": "",
+    "text": "5129a31 [Other] Add hyphens for word breaks"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-28",
+    "href": "CHANGELOG.html#section-28",
+    "title": "Changelog",
+    "section": "",
+    "text": "9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-29",
+    "href": "CHANGELOG.html#section-29",
+    "title": "Changelog",
+    "section": "",
+    "text": "6f29c97 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-30",
+    "href": "CHANGELOG.html#section-30",
+    "title": "Changelog",
+    "section": "",
+    "text": "49cac7d [CSS, PWA/Offline] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-31",
+    "href": "CHANGELOG.html#section-31",
+    "title": "Changelog",
+    "section": "",
+    "text": "9193d64 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-32",
+    "href": "CHANGELOG.html#section-32",
+    "title": "Changelog",
+    "section": "",
+    "text": "a556fc8 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-33",
+    "href": "CHANGELOG.html#section-33",
+    "title": "Changelog",
+    "section": "",
+    "text": "3190535 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-34",
+    "href": "CHANGELOG.html#section-34",
+    "title": "Changelog",
+    "section": "",
+    "text": "6e036d8 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-35",
+    "href": "CHANGELOG.html#section-35",
+    "title": "Changelog",
+    "section": "",
+    "text": "c3f6d1d [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-36",
+    "href": "CHANGELOG.html#section-36",
+    "title": "Changelog",
+    "section": "",
+    "text": "61152aa [PWA/Offline] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-37",
+    "href": "CHANGELOG.html#section-37",
+    "title": "Changelog",
+    "section": "",
+    "text": "a81b381 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-38",
+    "href": "CHANGELOG.html#section-38",
+    "title": "Changelog",
+    "section": "",
+    "text": "853f4dd [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-39",
+    "href": "CHANGELOG.html#section-39",
+    "title": "Changelog",
+    "section": "",
+    "text": "c531f6e [PWA/Offline] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-40",
+    "href": "CHANGELOG.html#section-40",
+    "title": "Changelog",
+    "section": "",
+    "text": "bbbb650 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-41",
+    "href": "CHANGELOG.html#section-41",
+    "title": "Changelog",
+    "section": "",
+    "text": "0799f94 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-42",
+    "href": "CHANGELOG.html#section-42",
+    "title": "Changelog",
+    "section": "",
+    "text": "5aed5bf [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-43",
+    "href": "CHANGELOG.html#section-43",
+    "title": "Changelog",
+    "section": "",
+    "text": "985c8a2 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-44",
+    "href": "CHANGELOG.html#section-44",
+    "title": "Changelog",
+    "section": "",
+    "text": "ad2ab56 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-45",
+    "href": "CHANGELOG.html#section-45",
+    "title": "Changelog",
+    "section": "",
+    "text": "6063017 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-46",
+    "href": "CHANGELOG.html#section-46",
+    "title": "Changelog",
+    "section": "",
+    "text": "dcd2d70 [CSS] Delete docs directory"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-47",
+    "href": "CHANGELOG.html#section-47",
+    "title": "Changelog",
+    "section": "",
+    "text": "6c9cbb5 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-48",
+    "href": "CHANGELOG.html#section-48",
+    "title": "Changelog",
+    "section": "",
+    "text": "9cf16fc [CSS] site.css aktualisieren"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-49",
+    "href": "CHANGELOG.html#section-49",
+    "title": "Changelog",
+    "section": "",
+    "text": "a46db93 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-50",
+    "href": "CHANGELOG.html#section-50",
+    "title": "Changelog",
+    "section": "",
+    "text": "2174cbd [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-51",
+    "href": "CHANGELOG.html#section-51",
+    "title": "Changelog",
+    "section": "",
+    "text": "074cf73 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-52",
+    "href": "CHANGELOG.html#section-52",
+    "title": "Changelog",
+    "section": "",
+    "text": "399bfb7 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-53",
+    "href": "CHANGELOG.html#section-53",
+    "title": "Changelog",
+    "section": "",
+    "text": "05541fd [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-54",
+    "href": "CHANGELOG.html#section-54",
+    "title": "Changelog",
+    "section": "",
+    "text": "7ba986d [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-55",
+    "href": "CHANGELOG.html#section-55",
+    "title": "Changelog",
+    "section": "",
+    "text": "dbdcd6f [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-56",
+    "href": "CHANGELOG.html#section-56",
+    "title": "Changelog",
+    "section": "",
+    "text": "65d4c80 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-57",
+    "href": "CHANGELOG.html#section-57",
+    "title": "Changelog",
+    "section": "",
+    "text": "eda8b8c [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-58",
+    "href": "CHANGELOG.html#section-58",
+    "title": "Changelog",
+    "section": "",
+    "text": "eacbdf7 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-59",
+    "href": "CHANGELOG.html#section-59",
+    "title": "Changelog",
+    "section": "",
+    "text": "47cd2fb [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-60",
+    "href": "CHANGELOG.html#section-60",
+    "title": "Changelog",
+    "section": "",
+    "text": "40e83d1 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-61",
+    "href": "CHANGELOG.html#section-61",
+    "title": "Changelog",
+    "section": "",
+    "text": "da2a103 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-62",
+    "href": "CHANGELOG.html#section-62",
+    "title": "Changelog",
+    "section": "",
+    "text": "c027510 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-63",
+    "href": "CHANGELOG.html#section-63",
+    "title": "Changelog",
+    "section": "",
+    "text": "b45980e [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-64",
+    "href": "CHANGELOG.html#section-64",
+    "title": "Changelog",
+    "section": "",
+    "text": "73c0b11 [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-65",
+    "href": "CHANGELOG.html#section-65",
+    "title": "Changelog",
+    "section": "",
+    "text": "4a74252 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-66",
+    "href": "CHANGELOG.html#section-66",
+    "title": "Changelog",
+    "section": "",
+    "text": "cc65719 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-67",
+    "href": "CHANGELOG.html#section-67",
+    "title": "Changelog",
+    "section": "",
+    "text": "3bd333a [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-68",
+    "href": "CHANGELOG.html#section-68",
+    "title": "Changelog",
+    "section": "",
+    "text": "382d3dc [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-69",
+    "href": "CHANGELOG.html#section-69",
+    "title": "Changelog",
+    "section": "",
+    "text": "ad1e984 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-70",
+    "href": "CHANGELOG.html#section-70",
+    "title": "Changelog",
+    "section": "",
+    "text": "3ed2b4e [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-71",
+    "href": "CHANGELOG.html#section-71",
+    "title": "Changelog",
+    "section": "",
+    "text": "ba7a207 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-72",
+    "href": "CHANGELOG.html#section-72",
+    "title": "Changelog",
+    "section": "",
+    "text": "83ae187 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-73",
+    "href": "CHANGELOG.html#section-73",
+    "title": "Changelog",
+    "section": "",
+    "text": "4d0ba67 [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-74",
+    "href": "CHANGELOG.html#section-74",
+    "title": "Changelog",
+    "section": "",
+    "text": "d753edc [Other] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-75",
+    "href": "CHANGELOG.html#section-75",
+    "title": "Changelog",
+    "section": "",
+    "text": "c46fecd [CSS] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-76",
+    "href": "CHANGELOG.html#section-76",
+    "title": "Changelog",
+    "section": "",
+    "text": "2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-77",
+    "href": "CHANGELOG.html#section-77",
+    "title": "Changelog",
+    "section": "",
+    "text": "2d5f88f [Templates/Pages, Data] V.0.1"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-78",
+    "href": "CHANGELOG.html#section-78",
+    "title": "Changelog",
+    "section": "",
+    "text": "53689c7 [CSS] v.0.1.2"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-79",
+    "href": "CHANGELOG.html#section-79",
+    "title": "Changelog",
+    "section": "",
+    "text": "ae1dddb [CSS] v.0.1.1"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-80",
+    "href": "CHANGELOG.html#section-80",
+    "title": "Changelog",
+    "section": "",
+    "text": "a30ab6b [R code, Templates/Pages, CSS, Data] v0.1"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-81",
+    "href": "CHANGELOG.html#section-81",
+    "title": "Changelog",
+    "section": "",
+    "text": "3a9da3f [R code, Templates/Pages, CSS, Data] V0.1"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-82",
+    "href": "CHANGELOG.html#section-82",
+    "title": "Changelog",
+    "section": "",
+    "text": "e5567d1 [Other] Initial commit"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inschriftenschlüssel",
+    "section": "",
+    "text": "A−\n  A\n  A+"
+  },
+  {
+    "objectID": "index.html#opferformel",
+    "href": "index.html#opferformel",
+    "title": "Inschriftenschlüssel",
+    "section": "Opferformel",
+    "text": "Opferformel\n ḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
+  },
+  {
+    "objectID": "index.html#denkmälerformel",
+    "href": "index.html#denkmälerformel",
+    "title": "Inschriftenschlüssel",
+    "section": "Denkmälerformel",
+    "text": "Denkmälerformel\nKönig / Person  ir.n⸗f mnw⸗f Gottheit"
+  },
+  {
+    "objectID": "index.html#hymnus",
+    "href": "index.html#hymnus",
+    "title": "Inschriftenschlüssel",
+    "section": "Hymnus",
+    "text": "Hymnus\n dwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
+  },
+  {
+    "objectID": "index.html#könig-geliebt-von-gottheit-formel",
+    "href": "index.html#könig-geliebt-von-gottheit-formel",
+    "title": "Inschriftenschlüssel",
+    "section": "König-geliebt-von-Gottheit-Formel",
+    "text": "König-geliebt-von-Gottheit-Formel\nKönig Gottheit  mry"
+  },
+  {
+    "objectID": "index.html#historische-königsinschrift",
+    "href": "index.html#historische-königsinschrift",
+    "title": "Inschriftenschlüssel",
+    "section": "„Historische“ Königsinschrift",
+    "text": "„Historische“ Königsinschrift\nDatum  ḫr ḥm n König NN"
+  },
+  {
+    "objectID": "index.html#beischrift",
+    "href": "index.html#beischrift",
+    "title": "Inschriftenschlüssel",
+    "section": "Beischrift",
+    "text": "Beischrift\nBeziehung Szenentitel Wörtliche Rede Rückenschutzformel"
+  },
+  {
+    "objectID": "WORKLOG.html",
+    "href": "WORKLOG.html",
+    "title": "Worklog",
+    "section": "",
+    "text": "added “Information” page\n\n\n\n\n\nmore spacing between hieroglyphs in table and variants\nfixed column width of wide tables\nurl’s with linebreak\n\n\n\n\n\nchanged order of page “Gottheit”\nadded “Amun-Re-Harachte” on page “Gottheit”\nadded “Filiationsangabe” on page “Person”\nadded page “Seltene Hieroglyphen”\nadded page “Projekt”\ncorrections\nsmaller changes\n\n\n\n\n\nadded an app icon\ntable header hyphination fix\ndatings in superscript\nformula pages referencing fix\n\n\n\n\n\nstart worklog for current version of “Inschriftenschlüssel”:\nmake tables max-height: 70vh\nadded german hyphenation to table headers\nadded variants option to slot pages\noffline toast fix\nactual version have: landing page with repeatition of gylph-line and badges (buttons)\n\n\n\n\nglyph-line\ntranslation\ncontent\ncommments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\ncontent\ncomments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\nvariants of:\n\nheading\nprayer\nmain part\n\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ninscription\nscene title\ndirect speech\n“Rückenschutzformel”\noff-line function for the whole website when downloading to phone\ncustom colors for same badges"
+  },
+  {
+    "objectID": "WORKLOG.html#section",
+    "href": "WORKLOG.html#section",
+    "title": "Worklog",
+    "section": "",
+    "text": "added “Information” page"
+  },
+  {
+    "objectID": "WORKLOG.html#section-1",
+    "href": "WORKLOG.html#section-1",
+    "title": "Worklog",
+    "section": "",
+    "text": "more spacing between hieroglyphs in table and variants\nfixed column width of wide tables\nurl’s with linebreak"
+  },
+  {
+    "objectID": "WORKLOG.html#section-2",
+    "href": "WORKLOG.html#section-2",
+    "title": "Worklog",
+    "section": "",
+    "text": "changed order of page “Gottheit”\nadded “Amun-Re-Harachte” on page “Gottheit”\nadded “Filiationsangabe” on page “Person”\nadded page “Seltene Hieroglyphen”\nadded page “Projekt”\ncorrections\nsmaller changes"
+  },
+  {
+    "objectID": "WORKLOG.html#section-3",
+    "href": "WORKLOG.html#section-3",
+    "title": "Worklog",
+    "section": "",
+    "text": "added an app icon\ntable header hyphination fix\ndatings in superscript\nformula pages referencing fix"
+  },
+  {
+    "objectID": "WORKLOG.html#section-4",
+    "href": "WORKLOG.html#section-4",
+    "title": "Worklog",
+    "section": "",
+    "text": "start worklog for current version of “Inschriftenschlüssel”:\nmake tables max-height: 70vh\nadded german hyphenation to table headers\nadded variants option to slot pages\noffline toast fix\nactual version have: landing page with repeatition of gylph-line and badges (buttons)\n\n\n\n\nglyph-line\ntranslation\ncontent\ncommments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\ncontent\ncomments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\nvariants of:\n\nheading\nprayer\nmain part\n\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ninscription\nscene title\ndirect speech\n“Rückenschutzformel”\noff-line function for the whole website when downloading to phone\ncustom colors for same badges"
+  },
+  {
+    "objectID": "pages/formeln/saiten-formel.html",
+    "href": "pages/formeln/saiten-formel.html",
+    "title": "Saïten-Formel",
+    "section": "",
+    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/formeln/anruf-an-die-lebenden.html",
+    "href": "pages/formeln/anruf-an-die-lebenden.html",
+    "title": "Anruf an die Lebenden",
+    "section": "",
+    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html",
+    "href": "pages/formeln/beischrift.html",
+    "title": "Beischrift",
+    "section": "",
+    "text": "A−\n  A\n  A+\nBeziehung Szenentitel Wörtliche Rede Rückenschutzformel"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#beziehung",
+    "href": "pages/formeln/beischrift.html#beziehung",
+    "title": "Beischrift",
+    "section": "Beziehung",
+    "text": "Beziehung\nBlickt in die selbe Richtung wie das Dargestellte\nName des dargestellten Wesens: Gottheit / König / Person / Sonstiges"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#szenentitel",
+    "href": "pages/formeln/beischrift.html#szenentitel",
+    "title": "Beischrift",
+    "section": "Szenentitel",
+    "text": "Szenentitel\nim Infinitiv"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#wörtliche-rede",
+    "href": "pages/formeln/beischrift.html#wörtliche-rede",
+    "title": "Beischrift",
+    "section": "Wörtliche Rede",
+    "text": "Wörtliche Rede\nmit und ohne Einleitung"
+  },
+  {
+    "objectID": "pages/formeln/beischrift.html#rückenschutzformel",
+    "href": "pages/formeln/beischrift.html#rückenschutzformel",
+    "title": "Beischrift",
+    "section": "Rückenschutzformel",
+    "text": "Rückenschutzformel\nam häufigsten bei König, auch bei Gottheit\n\n  \n    Home\n    ← Zurück"
   },
   {
     "objectID": "pages/formeln/denkmaelerformel.html",
@@ -329,851 +1211,25 @@
     "text": "Literatur\nGrallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurierungsinschriften von den Anfängen bis zur 30. Dynastie. Abhandlungen des Deutschen Archäologischen Instituts Kairo, Ägyptologische Reihe 18. Berlin: Achet.\n\n  \n    Home\n    ← Zurück"
   },
   {
-    "objectID": "pages/formeln/beischrift.html",
-    "href": "pages/formeln/beischrift.html",
-    "title": "Beischrift",
-    "section": "",
-    "text": "A−\n  A\n  A+\nBeziehung Szenentitel Wörtliche Rede Rückenschutzformel"
-  },
-  {
-    "objectID": "pages/formeln/beischrift.html#beziehung",
-    "href": "pages/formeln/beischrift.html#beziehung",
-    "title": "Beischrift",
-    "section": "Beziehung",
-    "text": "Beziehung\nBlickt in die selbe Richtung wie das Dargestellte\nName des dargestellten Wesens: Gottheit / König / Person / Sonstiges"
-  },
-  {
-    "objectID": "pages/formeln/beischrift.html#szenentitel",
-    "href": "pages/formeln/beischrift.html#szenentitel",
-    "title": "Beischrift",
-    "section": "Szenentitel",
-    "text": "Szenentitel\nim Infinitiv"
-  },
-  {
-    "objectID": "pages/formeln/beischrift.html#wörtliche-rede",
-    "href": "pages/formeln/beischrift.html#wörtliche-rede",
-    "title": "Beischrift",
-    "section": "Wörtliche Rede",
-    "text": "Wörtliche Rede\nmit und ohne Einleitung"
-  },
-  {
-    "objectID": "pages/formeln/beischrift.html#rückenschutzformel",
-    "href": "pages/formeln/beischrift.html#rückenschutzformel",
-    "title": "Beischrift",
-    "section": "Rückenschutzformel",
-    "text": "Rückenschutzformel\nam häufigsten bei König, auch bei Gottheit\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/formeln/anruf-an-die-lebenden.html",
-    "href": "pages/formeln/anruf-an-die-lebenden.html",
-    "title": "Anruf an die Lebenden",
-    "section": "",
-    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/formeln/saiten-formel.html",
-    "href": "pages/formeln/saiten-formel.html",
-    "title": "Saïten-Formel",
-    "section": "",
-    "text": "A−\n  A\n  A+\n\n\n\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "WORKLOG.html",
-    "href": "WORKLOG.html",
-    "title": "Worklog",
-    "section": "",
-    "text": "more spacing between hieroglyphs in table and variants\nfixed column width of wide tables\nurl’s with linebreak\n\n\n\n\n\nchanged order of page “Gottheit”\nadded “Amun-Re-Harachte” on page “Gottheit”\nadded “Filiationsangabe” on page “Person”\nadded page “Seltene Hieroglyphen”\nadded page “Projekt”\ncorrections\nsmaller changes\n\n\n\n\n\nadded an app icon\ntable header hyphination fix\ndatings in superscript\nformula pages referencing fix\n\n\n\n\n\nstart worklog for current version of “Inschriftenschlüssel”:\nmake tables max-height: 70vh\nadded german hyphenation to table headers\nadded variants option to slot pages\noffline toast fix\nactual version have: landing page with repeatition of gylph-line and badges (buttons)\n\n\n\n\nglyph-line\ntranslation\ncontent\ncommments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\ncontent\ncomments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\nvariants of:\n\nheading\nprayer\nmain part\n\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ninscription\nscene title\ndirect speech\n“Rückenschutzformel”\noff-line function for the whole website when downloading to phone\ncustom colors for same badges"
-  },
-  {
-    "objectID": "WORKLOG.html#section",
-    "href": "WORKLOG.html#section",
-    "title": "Worklog",
-    "section": "",
-    "text": "more spacing between hieroglyphs in table and variants\nfixed column width of wide tables\nurl’s with linebreak"
-  },
-  {
-    "objectID": "WORKLOG.html#section-1",
-    "href": "WORKLOG.html#section-1",
-    "title": "Worklog",
-    "section": "",
-    "text": "changed order of page “Gottheit”\nadded “Amun-Re-Harachte” on page “Gottheit”\nadded “Filiationsangabe” on page “Person”\nadded page “Seltene Hieroglyphen”\nadded page “Projekt”\ncorrections\nsmaller changes"
-  },
-  {
-    "objectID": "WORKLOG.html#section-2",
-    "href": "WORKLOG.html#section-2",
-    "title": "Worklog",
-    "section": "",
-    "text": "added an app icon\ntable header hyphination fix\ndatings in superscript\nformula pages referencing fix"
-  },
-  {
-    "objectID": "WORKLOG.html#section-3",
-    "href": "WORKLOG.html#section-3",
-    "title": "Worklog",
-    "section": "",
-    "text": "start worklog for current version of “Inschriftenschlüssel”:\nmake tables max-height: 70vh\nadded german hyphenation to table headers\nadded variants option to slot pages\noffline toast fix\nactual version have: landing page with repeatition of gylph-line and badges (buttons)\n\n\n\n\nglyph-line\ntranslation\ncontent\ncommments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\ncontent\ncomments\nvariants\nbibliography\n\n\n\n\n\nglyph-line\ntranslation\nvariants of:\n\nheading\nprayer\nmain part\n\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ntranslation\nvariants\n\n\n\n\n\nglyph-line\ninscription\nscene title\ndirect speech\n“Rückenschutzformel”\noff-line function for the whole website when downloading to phone\ncustom colors for same badges"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inschriftenschlüssel",
-    "section": "",
-    "text": "A−\n  A\n  A+"
-  },
-  {
-    "objectID": "index.html#opferformel",
-    "href": "index.html#opferformel",
-    "title": "Inschriftenschlüssel",
-    "section": "Opferformel",
-    "text": "Opferformel\n ḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
-  },
-  {
-    "objectID": "index.html#denkmalerformel",
-    "href": "index.html#denkmalerformel",
-    "title": "Inschriftenschlüssel",
-    "section": "Denkmälerformel",
-    "text": "Denkmälerformel\nKönig / Person  ir.n⸗f mnw⸗f Gottheit"
-  },
-  {
-    "objectID": "index.html#hymnus",
-    "href": "index.html#hymnus",
-    "title": "Inschriftenschlüssel",
-    "section": "Hymnus",
-    "text": "Hymnus\n dwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
-  },
-  {
-    "objectID": "index.html#konig-geliebt-von-gottheit-formel",
-    "href": "index.html#konig-geliebt-von-gottheit-formel",
-    "title": "Inschriftenschlüssel",
-    "section": "König-geliebt-von-Gottheit-Formel",
-    "text": "König-geliebt-von-Gottheit-Formel\nKönig Gottheit  mry"
-  },
-  {
-    "objectID": "index.html#historische-konigsinschrift",
-    "href": "index.html#historische-konigsinschrift",
-    "title": "Inschriftenschlüssel",
-    "section": "„Historische“ Königsinschrift",
-    "text": "„Historische“ Königsinschrift\nDatum  ḫr ḥm n König NN"
-  },
-  {
-    "objectID": "index.html#beischrift",
-    "href": "index.html#beischrift",
-    "title": "Inschriftenschlüssel",
-    "section": "Beischrift",
-    "text": "Beischrift\nBeziehung Szenentitel Wörtliche Rede Ruckenschutzformel"
-  },
-  {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
-    "section": "",
-    "text": "a064bf8 [CSS] url’s with linebreak\n\n\n\n\n\nbde963e [CSS, Data] fixed column width of wide tables\n\n\n\n\n\nb18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants\n\n\n\n\n\n78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages\n\n\n\n\n\n1e42bef [Other] added Filiationsangabe\n\n\n\n\n\nbda5589 [Templates/Pages, Data] added Filiationsangabe\n\n\n\n\n\ne7a37b7 [Other] corrections\n\n\n\n\n\n607f268 [Templates/Pages, Data] corrections\n\n\n\n\n\n93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit\n\n\n\n\n\nda9ca5a [Data] formula pages referencing fix\n\n\n\n\n\nfa36931 [Templates/Pages, Data] formula pages referencing fix\n\n\n\n\n\nc14bd59 [Templates/Pages, Data] datings in superscript\n\n\n\n\n\nff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix\n\n\n\n\n\n6e940e1 [Data, PWA/Offline] Added logo for Android\n\n\n\n\n\n124f37e [CSS] Added logo .ico\n\n\n\n\n\ne260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3\n\n\n\n\n\n5aa64f8 [Data, PWA/Offline] Added logo icon 2\n\n\n\n\n\nd66fe63 [Templates/Pages, PWA/Offline] Added logo icon\n\n\n\n\n\n6294090 [PWA/Offline] toast only at download to home screen\n\n\n\n\n\n507abd2 [CSS] make tables max-height: 70vh\n\n\n\n\n\n85b92a0 [Other] offline toast fix 2\n\n\n\n\n\n87853b2 [Data, PWA/Offline] offline toast fix 2\n\n\n\n\n\n143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix\n\n\n\n\n\n36e03af [R code, Templates/Pages, Data] added variants option to slot pages\n\n\n\n\n\n9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers\n\n\n\n\n\n815894d [Other] Tables max height max-height: 70vh\n\n\n\n\n\n5129a31 [Other] Add hyphens for word breaks\n\n\n\n\n\n9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project\n\n\n\n\n\n6f29c97 [CSS] Publish site to docs/\n\n\n\n\n\n49cac7d [CSS, PWA/Offline] Publish site to docs/\n\n\n\n\n\n9193d64 [Other] Publish site to docs/\n\n\n\n\n\na556fc8 [Other] Publish site to docs/\n\n\n\n\n\n3190535 [Other] Publish site to docs/\n\n\n\n\n\n6e036d8 [Other] Publish site to docs/\n\n\n\n\n\nc3f6d1d [CSS] Publish site to docs/\n\n\n\n\n\n61152aa [PWA/Offline] Publish site to docs/\n\n\n\n\n\na81b381 [Other] Publish site to docs/\n\n\n\n\n\n853f4dd [Other] Publish site to docs/\n\n\n\n\n\nc531f6e [PWA/Offline] Publish site to docs/\n\n\n\n\n\nbbbb650 [Other] Publish site to docs/\n\n\n\n\n\n0799f94 [CSS] Publish site to docs/\n\n\n\n\n\n5aed5bf [Other] Publish site to docs/\n\n\n\n\n\n985c8a2 [Other] Publish site to docs/\n\n\n\n\n\nad2ab56 [CSS] Publish site to docs/\n\n\n\n\n\n6063017 [Other] Publish site to docs/\n\n\n\n\n\ndcd2d70 [CSS] Delete docs directory\n\n\n\n\n\n6c9cbb5 [CSS] Publish site to docs/\n\n\n\n\n\n9cf16fc [CSS] site.css aktualisieren\n\n\n\n\n\na46db93 [CSS] Publish site to docs/\n\n\n\n\n\n2174cbd [CSS] Publish site to docs/\n\n\n\n\n\n074cf73 [CSS] Publish site to docs/\n\n\n\n\n\n399bfb7 [CSS] Publish site to docs/\n\n\n\n\n\n05541fd [CSS] Publish site to docs/\n\n\n\n\n\n7ba986d [CSS] Publish site to docs/\n\n\n\n\n\ndbdcd6f [CSS] Publish site to docs/\n\n\n\n\n\n65d4c80 [CSS] Publish site to docs/\n\n\n\n\n\neda8b8c [Other] Publish site to docs/\n\n\n\n\n\neacbdf7 [Other] Publish site to docs/\n\n\n\n\n\n47cd2fb [Other] Publish site to docs/\n\n\n\n\n\n40e83d1 [CSS] Publish site to docs/\n\n\n\n\n\nda2a103 [CSS] Publish site to docs/\n\n\n\n\n\nc027510 [Other] Publish site to docs/\n\n\n\n\n\nb45980e [CSS] Publish site to docs/\n\n\n\n\n\n73c0b11 [Other] Publish site to docs/\n\n\n\n\n\n4a74252 [CSS] Publish site to docs/\n\n\n\n\n\ncc65719 [CSS] Publish site to docs/\n\n\n\n\n\n3bd333a [CSS] Publish site to docs/\n\n\n\n\n\n382d3dc [CSS] Publish site to docs/\n\n\n\n\n\nad1e984 [CSS] Publish site to docs/\n\n\n\n\n\n3ed2b4e [CSS] Publish site to docs/\n\n\n\n\n\nba7a207 [CSS] Publish site to docs/\n\n\n\n\n\n83ae187 [CSS] Publish site to docs/\n\n\n\n\n\n4d0ba67 [CSS] Publish site to docs/\n\n\n\n\n\nd753edc [Other] Publish site to docs/\n\n\n\n\n\nc46fecd [CSS] Publish site to docs/\n\n\n\n\n\n2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/\n\n\n\n\n\n2d5f88f [Templates/Pages, Data] V.0.1\n\n\n\n\n\n53689c7 [CSS] v.0.1.2\n\n\n\n\n\nae1dddb [CSS] v.0.1.1\n\n\n\n\n\na30ab6b [R code, Templates/Pages, CSS, Data] v0.1\n\n\n\n\n\n3a9da3f [R code, Templates/Pages, CSS, Data] V0.1\n\n\n\n\n\ne5567d1 [Other] Initial commit"
-  },
-  {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
-    "section": "",
-    "text": "a064bf8 [CSS] url’s with linebreak"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
-    "section": "",
-    "text": "bde963e [CSS, Data] fixed column width of wide tables"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-2",
-    "href": "CHANGELOG.html#section-2",
-    "title": "Changelog",
-    "section": "",
-    "text": "b18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-3",
-    "href": "CHANGELOG.html#section-3",
-    "title": "Changelog",
-    "section": "",
-    "text": "78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-4",
-    "href": "CHANGELOG.html#section-4",
-    "title": "Changelog",
-    "section": "",
-    "text": "1e42bef [Other] added Filiationsangabe"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-5",
-    "href": "CHANGELOG.html#section-5",
-    "title": "Changelog",
-    "section": "",
-    "text": "bda5589 [Templates/Pages, Data] added Filiationsangabe"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-6",
-    "href": "CHANGELOG.html#section-6",
-    "title": "Changelog",
-    "section": "",
-    "text": "e7a37b7 [Other] corrections"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-7",
-    "href": "CHANGELOG.html#section-7",
-    "title": "Changelog",
-    "section": "",
-    "text": "607f268 [Templates/Pages, Data] corrections"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-8",
-    "href": "CHANGELOG.html#section-8",
-    "title": "Changelog",
-    "section": "",
-    "text": "93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-9",
-    "href": "CHANGELOG.html#section-9",
-    "title": "Changelog",
-    "section": "",
-    "text": "da9ca5a [Data] formula pages referencing fix"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-10",
-    "href": "CHANGELOG.html#section-10",
-    "title": "Changelog",
-    "section": "",
-    "text": "fa36931 [Templates/Pages, Data] formula pages referencing fix"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-11",
-    "href": "CHANGELOG.html#section-11",
-    "title": "Changelog",
-    "section": "",
-    "text": "c14bd59 [Templates/Pages, Data] datings in superscript"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-12",
-    "href": "CHANGELOG.html#section-12",
-    "title": "Changelog",
-    "section": "",
-    "text": "ff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-13",
-    "href": "CHANGELOG.html#section-13",
-    "title": "Changelog",
-    "section": "",
-    "text": "6e940e1 [Data, PWA/Offline] Added logo for Android"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-14",
-    "href": "CHANGELOG.html#section-14",
-    "title": "Changelog",
-    "section": "",
-    "text": "124f37e [CSS] Added logo .ico"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-15",
-    "href": "CHANGELOG.html#section-15",
-    "title": "Changelog",
-    "section": "",
-    "text": "e260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-16",
-    "href": "CHANGELOG.html#section-16",
-    "title": "Changelog",
-    "section": "",
-    "text": "5aa64f8 [Data, PWA/Offline] Added logo icon 2"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-17",
-    "href": "CHANGELOG.html#section-17",
-    "title": "Changelog",
-    "section": "",
-    "text": "d66fe63 [Templates/Pages, PWA/Offline] Added logo icon"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-18",
-    "href": "CHANGELOG.html#section-18",
-    "title": "Changelog",
-    "section": "",
-    "text": "6294090 [PWA/Offline] toast only at download to home screen"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-19",
-    "href": "CHANGELOG.html#section-19",
-    "title": "Changelog",
-    "section": "",
-    "text": "507abd2 [CSS] make tables max-height: 70vh"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-20",
-    "href": "CHANGELOG.html#section-20",
-    "title": "Changelog",
-    "section": "",
-    "text": "85b92a0 [Other] offline toast fix 2"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-21",
-    "href": "CHANGELOG.html#section-21",
-    "title": "Changelog",
-    "section": "",
-    "text": "87853b2 [Data, PWA/Offline] offline toast fix 2"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-22",
-    "href": "CHANGELOG.html#section-22",
-    "title": "Changelog",
-    "section": "",
-    "text": "143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-23",
-    "href": "CHANGELOG.html#section-23",
-    "title": "Changelog",
-    "section": "",
-    "text": "36e03af [R code, Templates/Pages, Data] added variants option to slot pages"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-24",
-    "href": "CHANGELOG.html#section-24",
-    "title": "Changelog",
-    "section": "",
-    "text": "9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-25",
-    "href": "CHANGELOG.html#section-25",
-    "title": "Changelog",
-    "section": "",
-    "text": "815894d [Other] Tables max height max-height: 70vh"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-26",
-    "href": "CHANGELOG.html#section-26",
-    "title": "Changelog",
-    "section": "",
-    "text": "5129a31 [Other] Add hyphens for word breaks"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-27",
-    "href": "CHANGELOG.html#section-27",
-    "title": "Changelog",
-    "section": "",
-    "text": "9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-28",
-    "href": "CHANGELOG.html#section-28",
-    "title": "Changelog",
-    "section": "",
-    "text": "6f29c97 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-29",
-    "href": "CHANGELOG.html#section-29",
-    "title": "Changelog",
-    "section": "",
-    "text": "49cac7d [CSS, PWA/Offline] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-30",
-    "href": "CHANGELOG.html#section-30",
-    "title": "Changelog",
-    "section": "",
-    "text": "9193d64 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-31",
-    "href": "CHANGELOG.html#section-31",
-    "title": "Changelog",
-    "section": "",
-    "text": "a556fc8 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-32",
-    "href": "CHANGELOG.html#section-32",
-    "title": "Changelog",
-    "section": "",
-    "text": "3190535 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-33",
-    "href": "CHANGELOG.html#section-33",
-    "title": "Changelog",
-    "section": "",
-    "text": "6e036d8 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-34",
-    "href": "CHANGELOG.html#section-34",
-    "title": "Changelog",
-    "section": "",
-    "text": "c3f6d1d [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-35",
-    "href": "CHANGELOG.html#section-35",
-    "title": "Changelog",
-    "section": "",
-    "text": "61152aa [PWA/Offline] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-36",
-    "href": "CHANGELOG.html#section-36",
-    "title": "Changelog",
-    "section": "",
-    "text": "a81b381 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-37",
-    "href": "CHANGELOG.html#section-37",
-    "title": "Changelog",
-    "section": "",
-    "text": "853f4dd [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-38",
-    "href": "CHANGELOG.html#section-38",
-    "title": "Changelog",
-    "section": "",
-    "text": "c531f6e [PWA/Offline] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-39",
-    "href": "CHANGELOG.html#section-39",
-    "title": "Changelog",
-    "section": "",
-    "text": "bbbb650 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-40",
-    "href": "CHANGELOG.html#section-40",
-    "title": "Changelog",
-    "section": "",
-    "text": "0799f94 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-41",
-    "href": "CHANGELOG.html#section-41",
-    "title": "Changelog",
-    "section": "",
-    "text": "5aed5bf [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-42",
-    "href": "CHANGELOG.html#section-42",
-    "title": "Changelog",
-    "section": "",
-    "text": "985c8a2 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-43",
-    "href": "CHANGELOG.html#section-43",
-    "title": "Changelog",
-    "section": "",
-    "text": "ad2ab56 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-44",
-    "href": "CHANGELOG.html#section-44",
-    "title": "Changelog",
-    "section": "",
-    "text": "6063017 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-45",
-    "href": "CHANGELOG.html#section-45",
-    "title": "Changelog",
-    "section": "",
-    "text": "dcd2d70 [CSS] Delete docs directory"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-46",
-    "href": "CHANGELOG.html#section-46",
-    "title": "Changelog",
-    "section": "",
-    "text": "6c9cbb5 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-47",
-    "href": "CHANGELOG.html#section-47",
-    "title": "Changelog",
-    "section": "",
-    "text": "9cf16fc [CSS] site.css aktualisieren"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-48",
-    "href": "CHANGELOG.html#section-48",
-    "title": "Changelog",
-    "section": "",
-    "text": "a46db93 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-49",
-    "href": "CHANGELOG.html#section-49",
-    "title": "Changelog",
-    "section": "",
-    "text": "2174cbd [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-50",
-    "href": "CHANGELOG.html#section-50",
-    "title": "Changelog",
-    "section": "",
-    "text": "074cf73 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-51",
-    "href": "CHANGELOG.html#section-51",
-    "title": "Changelog",
-    "section": "",
-    "text": "399bfb7 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-52",
-    "href": "CHANGELOG.html#section-52",
-    "title": "Changelog",
-    "section": "",
-    "text": "05541fd [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-53",
-    "href": "CHANGELOG.html#section-53",
-    "title": "Changelog",
-    "section": "",
-    "text": "7ba986d [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-54",
-    "href": "CHANGELOG.html#section-54",
-    "title": "Changelog",
-    "section": "",
-    "text": "dbdcd6f [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-55",
-    "href": "CHANGELOG.html#section-55",
-    "title": "Changelog",
-    "section": "",
-    "text": "65d4c80 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-56",
-    "href": "CHANGELOG.html#section-56",
-    "title": "Changelog",
-    "section": "",
-    "text": "eda8b8c [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-57",
-    "href": "CHANGELOG.html#section-57",
-    "title": "Changelog",
-    "section": "",
-    "text": "eacbdf7 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-58",
-    "href": "CHANGELOG.html#section-58",
-    "title": "Changelog",
-    "section": "",
-    "text": "47cd2fb [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-59",
-    "href": "CHANGELOG.html#section-59",
-    "title": "Changelog",
-    "section": "",
-    "text": "40e83d1 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-60",
-    "href": "CHANGELOG.html#section-60",
-    "title": "Changelog",
-    "section": "",
-    "text": "da2a103 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-61",
-    "href": "CHANGELOG.html#section-61",
-    "title": "Changelog",
-    "section": "",
-    "text": "c027510 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-62",
-    "href": "CHANGELOG.html#section-62",
-    "title": "Changelog",
-    "section": "",
-    "text": "b45980e [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-63",
-    "href": "CHANGELOG.html#section-63",
-    "title": "Changelog",
-    "section": "",
-    "text": "73c0b11 [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-64",
-    "href": "CHANGELOG.html#section-64",
-    "title": "Changelog",
-    "section": "",
-    "text": "4a74252 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-65",
-    "href": "CHANGELOG.html#section-65",
-    "title": "Changelog",
-    "section": "",
-    "text": "cc65719 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-66",
-    "href": "CHANGELOG.html#section-66",
-    "title": "Changelog",
-    "section": "",
-    "text": "3bd333a [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-67",
-    "href": "CHANGELOG.html#section-67",
-    "title": "Changelog",
-    "section": "",
-    "text": "382d3dc [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-68",
-    "href": "CHANGELOG.html#section-68",
-    "title": "Changelog",
-    "section": "",
-    "text": "ad1e984 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-69",
-    "href": "CHANGELOG.html#section-69",
-    "title": "Changelog",
-    "section": "",
-    "text": "3ed2b4e [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-70",
-    "href": "CHANGELOG.html#section-70",
-    "title": "Changelog",
-    "section": "",
-    "text": "ba7a207 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-71",
-    "href": "CHANGELOG.html#section-71",
-    "title": "Changelog",
-    "section": "",
-    "text": "83ae187 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-72",
-    "href": "CHANGELOG.html#section-72",
-    "title": "Changelog",
-    "section": "",
-    "text": "4d0ba67 [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-73",
-    "href": "CHANGELOG.html#section-73",
-    "title": "Changelog",
-    "section": "",
-    "text": "d753edc [Other] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-74",
-    "href": "CHANGELOG.html#section-74",
-    "title": "Changelog",
-    "section": "",
-    "text": "c46fecd [CSS] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-75",
-    "href": "CHANGELOG.html#section-75",
-    "title": "Changelog",
-    "section": "",
-    "text": "2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-76",
-    "href": "CHANGELOG.html#section-76",
-    "title": "Changelog",
-    "section": "",
-    "text": "2d5f88f [Templates/Pages, Data] V.0.1"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-77",
-    "href": "CHANGELOG.html#section-77",
-    "title": "Changelog",
-    "section": "",
-    "text": "53689c7 [CSS] v.0.1.2"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-78",
-    "href": "CHANGELOG.html#section-78",
-    "title": "Changelog",
-    "section": "",
-    "text": "ae1dddb [CSS] v.0.1.1"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-79",
-    "href": "CHANGELOG.html#section-79",
-    "title": "Changelog",
-    "section": "",
-    "text": "a30ab6b [R code, Templates/Pages, CSS, Data] v0.1"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-80",
-    "href": "CHANGELOG.html#section-80",
-    "title": "Changelog",
-    "section": "",
-    "text": "3a9da3f [R code, Templates/Pages, CSS, Data] V0.1"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-81",
-    "href": "CHANGELOG.html#section-81",
-    "title": "Changelog",
-    "section": "",
-    "text": "e5567d1 [Other] Initial commit"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n\nCode\n1 + 1\n\n\n[1] 2"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html",
-    "href": "pages/formeln/opferformel.html",
-    "title": "Opferformel",
-    "section": "",
-    "text": "A−\n  A\n  A+\nḥtp-di-nsw Gottheit  (di) Gaben  n / n kꜣ n Person"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html#ubersetzung",
-    "href": "pages/formeln/opferformel.html#ubersetzung",
-    "title": "Opferformel",
-    "section": "Übersetzung",
-    "text": "Übersetzung\nEin Opfer, das der König Gottheit gibt. Er/sie möge(n) geben ein Anrufungsopfer bestehend aus Gaben für / für den Ka des/der Person"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html#aufbau",
-    "href": "pages/formeln/opferformel.html#aufbau",
-    "title": "Opferformel",
-    "section": "Aufbau",
-    "text": "Aufbau\n\n\n\n\n\nTranskription\n\n\nÜbersetzung\n\n\nWB\n\n\nKommentar\n\n\n\n\n\n\nḥtp-di-nsw (n)\n\n\nEin Opferdas der König gibt\n\n\nIII: 186–187\n\n\nhäufige Schreibung; ab 19. Dyn. auch mit „n“ vor Gottheit geschrieben\n\n\n\n\ndi⸗f / ⸗s / ⸗sn pr.t-ḫrw\n\n\nEr/Sie (Sg. & Pl.) möge(n) geben\n\n\nIII: 186–187\n\n\n\n\n\n\nn / n kꜣ n\n\n\nfür / für den Ka des/der\n\n\nIII: 186"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html#kommentare",
-    "href": "pages/formeln/opferformel.html#kommentare",
-    "title": "Opferformel",
-    "section": "Kommentare",
-    "text": "Kommentare\nPerson NN = Verstorbene(r)"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html#schreibvarianten",
-    "href": "pages/formeln/opferformel.html#schreibvarianten",
-    "title": "Opferformel",
-    "section": "Schreibvarianten",
-    "text": "Schreibvarianten\n\nḥtp-di-nsw:\n\n (AR; MR)\n (Ende NR)\n (Spät.)\n (AR; MR)\n (AR; MR)\n (AR; MR)\n\ndi⸗f / ⸗s / ⸗sn:\n\n\n\n\n\nn / n kꜣ n:"
-  },
-  {
-    "objectID": "pages/formeln/opferformel.html#literatur",
-    "href": "pages/formeln/opferformel.html#literatur",
-    "title": "Opferformel",
-    "section": "Literatur",
-    "text": "Literatur\nBarta, Winfried. 1968. Aufbau und Bedeutung der altägyptischen Opferformel. Ägyptologische forschungen 24. J. J. Augustin. Lapp, Günther. 1986. Die Opferformel des Alten Reiches: unter Berücksichtigung einiger späterer Formen. Sonderschrift, Deutsches Archäologisches Institut, Abteilung Kairo 21. Philipp von Zabern.\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
-    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html",
-    "title": "König-geliebt-von-Gottheit-Formel",
-    "section": "",
-    "text": "A−\n  A\n  A+\nKönig Gottheit  mry"
-  },
-  {
-    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#übersetzung",
-    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#übersetzung",
-    "title": "König-geliebt-von-Gottheit-Formel",
-    "section": "Übersetzung",
-    "text": "Übersetzung\nKönig geliebt von Gottheit"
-  },
-  {
-    "objectID": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
-    "href": "pages/formeln/koenig-geliebt-von-gottheit-formel.html#schreibvarianten",
-    "title": "König-geliebt-von-Gottheit-Formel",
-    "section": "Schreibvarianten",
-    "text": "Schreibvarianten\n\nmry:\n\n\n\n\n\n\n (AR)\n\n\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/formeln/koenigsinschrift.html",
-    "href": "pages/formeln/koenigsinschrift.html",
-    "title": "„Historische“ Königsinschrift",
-    "section": "",
-    "text": "A−\n  A\n  A+\nDatum  ḫr ḥm n König NN"
-  },
-  {
-    "objectID": "pages/formeln/koenigsinschrift.html#übersetzung",
-    "href": "pages/formeln/koenigsinschrift.html#übersetzung",
-    "title": "„Historische“ Königsinschrift",
-    "section": "Übersetzung",
-    "text": "Übersetzung\nDatum unter der Majestät / Regierung des König"
-  },
-  {
-    "objectID": "pages/formeln/koenigsinschrift.html#schreibvarianten",
-    "href": "pages/formeln/koenigsinschrift.html#schreibvarianten",
-    "title": "„Historische“ Königsinschrift",
-    "section": "Schreibvarianten",
-    "text": "Schreibvarianten\n\n[ḫr] ḥm n:\n\n\n\n\n\n\nnsw bit:\n\n\n (Gr.)\n\n\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/formeln/hymnus.html",
-    "href": "pages/formeln/hymnus.html",
-    "title": "Hymnus",
-    "section": "",
-    "text": "A−\n  A\n  A+\ndwꜣ Gottheit  rdi.t iꜣw  sn tꜣ n  in Person  ḏd⸗f  inḏ-ḥr⸗k / ⸗ṯ / ⸗ṯn"
-  },
-  {
-    "objectID": "pages/formeln/hymnus.html#übersetzung",
-    "href": "pages/formeln/hymnus.html#übersetzung",
-    "title": "Hymnus",
-    "section": "Übersetzung",
-    "text": "Übersetzung\nVerehren/Anbeten Gottheit NN, Lobpreis geben den/der Gottheit NN, den Boden küssen für Gottheit NN von Person NN – er sagt: Lobpreis dir/euch, sei gegrüßt/gegrüßst seist du …"
-  },
-  {
-    "objectID": "pages/formeln/hymnus.html#überschrift",
-    "href": "pages/formeln/hymnus.html#überschrift",
-    "title": "Hymnus",
-    "section": "Überschrift",
-    "text": "Überschrift\n\ndwꜣ:\n\n\n\n (seit MR)\n\nrdi.t iꜣw n:\n\n\n (NR)\n (NR)\n (NR)\n\nsn tꜣ n:\n\n\n (NR)"
-  },
-  {
-    "objectID": "pages/formeln/hymnus.html#beter",
-    "href": "pages/formeln/hymnus.html#beter",
-    "title": "Hymnus",
-    "section": "Beter",
-    "text": "Beter\n\nin:\n\n\n\n\nḏd⸗f:"
-  },
-  {
-    "objectID": "pages/formeln/hymnus.html#hauptteil",
-    "href": "pages/formeln/hymnus.html#hauptteil",
-    "title": "Hymnus",
-    "section": "Hauptteil",
-    "text": "Hauptteil\n\ninḏ-ḥr⸗:\n\n\n\n\n\n  \n    Home\n    ← Zurück"
-  },
-  {
-    "objectID": "pages/slots.html",
-    "href": "pages/slots.html",
-    "title": "Slots",
-    "section": "",
-    "text": "Gottheit\n\n\nKönig\n\n\nGaben\n\n\nPerson\n\n\nDatum\n\n\nWörtliche Rede"
+    "objectID": "pages/projekt.html#mitarbeiter",
+    "href": "pages/projekt.html#mitarbeiter",
+    "title": "Projekt",
+    "section": "Mitarbeiter:",
+    "text": "Mitarbeiter:\n\nProjektleitung: Prof. Dr. Friedhelm Hoffmann\nRecherche, Datengrundlage: Iulia Comșa\nProgrammierung, Hieroglyphensetzung: Markus Kutschka"
+  },
+  {
+    "objectID": "pages/projekt.html#version",
+    "href": "pages/projekt.html#version",
+    "title": "Projekt",
+    "section": "Version:",
+    "text": "Version:\nDiese Website wurde mit Quarto unter R erstellt:\nRStudio 2025.09.1+401 “Cucumberleaf Sunflower” Release (20de356561bd58a6d88927cce948bd076d06e4ca, 2025-09-23) for macOS\nMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)\nAppleWebKit/537.36 (KHTML, like Gecko)\nRStudio/2025.09.1+401\nChrome/138.0.7204.185"
+  },
+  {
+    "objectID": "pages/projekt.html#github",
+    "href": "pages/projekt.html#github",
+    "title": "Projekt",
+    "section": "Github:",
+    "text": "Github:\nhttps://github.com/MarkusKut/Inschriftenschluessel.git\n\n  \n    Home\n    ← Zurück"
   },
   {
     "objectID": "pages/slots/person.html",
