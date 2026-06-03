@@ -75,13 +75,6 @@ document.addEventListener("DOMContentLoaded", function() {
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḥnq.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0001_Hnq.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0010_Hnq.t_GR_01.png){.glyph} <sup>(Gr.)</sup> </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0020_Hnq.t_Abk_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0001_Hnq.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0010_Hnq.t_det_02.png){.glyph} </td>
-   <td style="text-align:left;"> Bier </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> *t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0020_Brot/0001_t_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0020_Brot/0010_t_Abk_01.png){.glyph} </td>
@@ -89,11 +82,11 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> Brot </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ꜣpd* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/det/0001_Apd_det_01.png){.glyph} </td>
-   <td style="text-align:left;"> Geflügel </td>
+   <td style="text-align:left;"> *ḥnq.t* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0001_Hnq.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0010_Hnq.t_GR_01.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/0020_Hnq.t_Abk_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0001_Hnq.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0010_Bier/det/0010_Hnq.t_det_02.png){.glyph} </td>
+   <td style="text-align:left;"> Bier </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *kꜣ* </td>
@@ -101,6 +94,13 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0040_Rinder/0040_kA_Abk_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0040_Rinder/det/0001_kA_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Rinder </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *ꜣpd* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gaben/0030_Gefluegel/det/0001_Apd_det_01.png){.glyph} </td>
+   <td style="text-align:left;"> Geflügel </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *šs* </td>

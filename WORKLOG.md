@@ -4,6 +4,8 @@
 
 - added "Information" page
 - added more variants of Montu epithet "nb wAs.t"
+- fixed order of Gaben
+- added and fixed order of "Epitheta" on slot page "König"
 - smaller fixes and changes
 
 ## 2026-06-01

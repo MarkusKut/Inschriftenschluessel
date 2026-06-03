@@ -2,6 +2,10 @@
 
 ## 2026-06-03
 
+- `add7541` **[R code, Templates/Pages, Data, PWA/Offline]** smaller fixes and changes
+
+## 2026-06-03
+
 - `d070176` **[Templates/Pages, Data, PWA/Offline]** added more variants of Montu epithet nb wAs.t
 
 ## 2026-06-03
