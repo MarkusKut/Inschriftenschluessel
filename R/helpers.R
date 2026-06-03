@@ -67,103 +67,156 @@ read_long_table_base <- function(df_tables, table_id) {
     )
 }
 
+# 
+# 
+# read_long_table <- function(df_tables, table_id, visited = character()) {
+# 
+#  
+#   
+#   if (table_id %in% visited) {
+#     stop("Cycle in nested tables: ", paste(c(visited, table_id), collapse = " -> "))
+#   }
+#   visited <- c(visited, table_id)
+# 
+#   df_tables %>%
+#     filter(table_id == !!table_id) %>%
+#     select(row, col, value) %>%
+#     arrange(row) %>%
+#     pivot_wider(names_from = col, values_from = value) %>%
+#     mutate(across(everything(), function(x) {
+#       x <- ifelse(is.na(x), "", x)
+#       if (is.list(x)) {
+#         x <- vapply(x, function(cell) paste(cell, collapse = ", "), character(1))
+#       } else {
+#         x <- as.character(x)
+#       }
+# 
+# 
+#       #x <- paste(x, collapse = ", ")
+#       # replace every occurrence of a png path with a markdown image
+#       x <- gsub(
+#         "([^\\s,]+\\.png)",
+#         "![](/assets/glyphs/\\1){.glyph}",
+#         x,
+#         ignore.case = TRUE,
+#         perl = TRUE
+#       )
+# 
+#       # turn comma separators into spacing between glyphs
+#       x <- gsub("\\s*,\\s*", "<span class='glyph-row-break'></span>", x, perl = TRUE)
+#    
+#       
+#       x
+#     })) %>%
+#     select(-row)
+# }
+# 
+# render_table_html_by_id <- function(df_tables, table_id) {
+#   df <- read_long_table(df_tables, table_id)
+#   kable_html(df)
+# }
+# 
+# expand_nested_tables_in_html <- function(html, df_tables, visited = character()) {
+#   out <- html
+#   pattern <- "\\[\\[table:([^\\]|]+)(\\|([^\\]]+))?\\]\\]"
+#   
+#   repeat {
+#     m <- regexpr(pattern, out, perl = TRUE)
+#     if (m[1] == -1) break
+#     
+#     match_text <- regmatches(out, m)[[1]]
+#     
+#     caps <- regmatches(match_text, regexec(pattern, match_text, perl = TRUE))[[1]]
+#     nested_id <- caps[2]
+#     summary_text <- if (length(caps) >= 4 && !is.na(caps[4]) && caps[4] != "") {
+#       caps[4]
+#     } else {
+#       #paste0("Öffne ", nested_id)
+#       "Öffne"
+#     }
+#     
+#     if (nested_id %in% visited) {
+#       stop("Cycle in nested tables: ", paste(c(visited, nested_id), collapse = " -> "))
+#     }
+#     
+#     nested_html <- render_table_html_by_id(df_tables, nested_id)
+#     nested_html <- expand_nested_tables_in_html(
+#       nested_html,
+#       df_tables,
+#       visited = c(visited, nested_id)
+#     )
+#     
+#     replacement <- paste0(
+#       "<details><summary>",
+#       htmltools::htmlEscape(summary_text),
+#       "</summary>",
+#       nested_html,
+#       "</details>"
+#     )
+#     
+#     start <- m[1]
+#     len <- attr(m, "match.length")
+#     
+#     out <- paste0(
+#       substr(out, 1, start - 1),
+#       replacement,
+#       substr(out, start + len, nchar(out))
+#     )
+#   }
+#   
+#   out
+# }
 
 
 read_long_table <- function(df_tables, table_id, visited = character()) {
-
+  
+  sep_token <- "|||CELLBREAK|||"
+  
   if (table_id %in% visited) {
     stop("Cycle in nested tables: ", paste(c(visited, table_id), collapse = " -> "))
   }
   visited <- c(visited, table_id)
-
+  
   df_tables %>%
     filter(table_id == !!table_id) %>%
     select(row, col, value) %>%
     arrange(row) %>%
-    pivot_wider(names_from = col, values_from = value) %>%
-    mutate(across(everything(), function(x) {
-      x <- ifelse(is.na(x), "", x)
-      if (is.list(x)) {
-        x <- vapply(x, function(cell) paste(cell, collapse = ", "), character(1))
-      } else {
-        x <- as.character(x)
-      }
-
-
-      #x <- paste(x, collapse = ", ")
-      # replace every occurrence of a png path with a markdown image
-      x <- gsub(
-        "([^\\s,]+\\.png)",
-        "![](/assets/glyphs/\\1){.glyph}",
-        x,
-        ignore.case = TRUE,
-        perl = TRUE
-      )
-
-      # turn comma separators into spacing between glyphs
-     # x <- gsub("\\s*,\\s*", " <br> ", x, perl = TRUE)
-      x <- gsub("\\s*,\\s*", "<span class='glyph-row-break'></span>", x, perl = TRUE)
-
-      x
+    pivot_wider(
+      names_from = col,
+      values_from = value,
+      values_fn = list(value = ~ paste(as.character(.x), collapse = sep_token)),
+      values_fill = list(value = "")
+    ) %>%
+    mutate(across(-row, function(x) {
+      x <- ifelse(is.na(x), "", as.character(x))
+      x[x == "NA"] <- ""
+      
+      vapply(x, function(cell) {
+        if (cell == "" || cell == "NA") return("")
+        
+        parts <- strsplit(cell, sep_token, fixed = TRUE)[[1]]
+        parts <- trimws(parts)
+        parts[parts == "NA"] <- ""
+        parts <- parts[parts != ""]
+        
+        parts <- vapply(parts, function(part) {
+          gsub(
+            "([^\\s,]+\\.png)",
+            "![](/assets/glyphs/\\1){.glyph}",
+            part,
+            ignore.case = TRUE,
+            perl = TRUE
+          )
+        }, character(1))
+        
+        paste(parts, collapse = "<span class='glyph-row-break'></span>")
+      }, character(1))
     })) %>%
     select(-row)
 }
 
-render_table_html_by_id <- function(df_tables, table_id) {
-  df <- read_long_table(df_tables, table_id)
-  kable_html(df)
-}
 
-expand_nested_tables_in_html <- function(html, df_tables, visited = character()) {
-  out <- html
-  pattern <- "\\[\\[table:([^\\]|]+)(\\|([^\\]]+))?\\]\\]"
-  
-  repeat {
-    m <- regexpr(pattern, out, perl = TRUE)
-    if (m[1] == -1) break
-    
-    match_text <- regmatches(out, m)[[1]]
-    
-    caps <- regmatches(match_text, regexec(pattern, match_text, perl = TRUE))[[1]]
-    nested_id <- caps[2]
-    summary_text <- if (length(caps) >= 4 && !is.na(caps[4]) && caps[4] != "") {
-      caps[4]
-    } else {
-      #paste0("Öffne ", nested_id)
-      "Öffne"
-    }
-    
-    if (nested_id %in% visited) {
-      stop("Cycle in nested tables: ", paste(c(visited, nested_id), collapse = " -> "))
-    }
-    
-    nested_html <- render_table_html_by_id(df_tables, nested_id)
-    nested_html <- expand_nested_tables_in_html(
-      nested_html,
-      df_tables,
-      visited = c(visited, nested_id)
-    )
-    
-    replacement <- paste0(
-      "<details><summary>",
-      htmltools::htmlEscape(summary_text),
-      "</summary>",
-      nested_html,
-      "</details>"
-    )
-    
-    start <- m[1]
-    len <- attr(m, "match.length")
-    
-    out <- paste0(
-      substr(out, 1, start - 1),
-      replacement,
-      substr(out, start + len, nchar(out))
-    )
-  }
-  
-  out
-}
+
 
 # 
 # kable_html <- function(df, class = "table") {

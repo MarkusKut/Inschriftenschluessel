@@ -114,7 +114,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 <tbody>
   <tr>
    <td style="text-align:left;"> *m jp.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0001_Amun/epitheta/01_m-jp.t/0001_m-jp.t_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0020_Amun/epitheta/01_m-jp.t/0010_m-jp.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0020_Amun/epitheta/01_m-jp.t/0020_m-jp.t_SP_01.png){.glyph} <sup>(Sp.)</sup> </td>
    <td style="text-align:left;"> (Amun) in Luxor </td>
   </tr>
 </tbody>
@@ -222,39 +222,19 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ꜥnḫ ḥr-ꜣḫ.ti ḥꜥy m ꜣḫ.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/01_anx-Hr-Ax.tj-Hay-m-Ax.t/0001_anx-Hr-Ax.tj-Hay-m-Ax.t_01.png){.glyph} </td>
-   <td style="text-align:left;"> Es lebe der horizontische Horus (Re-Harachte)<span class='glyph-row-break'></span>der im Lichtland (am Horizont) jubelt </td>
+   <td style="text-align:left;"> *ꜥnḫ ḥr-ꜣḫ.ti ḥꜥy m ꜣḫ.t m rn⸗f m jt Rꜥ jy m jtn* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/01_anx-Hr-Ax.tj-Hay-m-Ax.t-m-rn=f-m-jt-Ra-jj-m-jtn/0001_anx-Hr-Ax.tj-Hay-m-Ax.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/01_anx-Hr-Ax.tj-Hay-m-Ax.t-m-rn=f-m-jt-Ra-jj-m-jtn/0010_m-rn=f-m-jt-Ra-jj-m-jtn_01.png){.glyph} </td>
+   <td style="text-align:left;"> Es lebe der horizontische Horus (Re-Harachte), der im Lichtland (am Horizont) jubelt in seinem Namen als Schu, der in der Sonnenscheibe (Aton) ist </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ꜥnḫ rꜥ-ḥqꜣ-ꜣḫ.ti ḥꜥy m ꜣḫ.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/02_anx-ra-HqA-Ax.tj-Hay-m-Ax.t/0001_anx-ra-HqA-Ax.tj-Hay-m-Ax.t_01.png){.glyph} </td>
-   <td style="text-align:left;"> Es lebe Re<span class='glyph-row-break'></span>der horizontische Herrscher<span class='glyph-row-break'></span>der im Lichtland (am Horizont) jubelt </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> *m rn⸗f m jt Rꜥ jy m jtn* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/03_m-rn=f-m-jt-Ra-jj-m-jtn/0001_m-rn=f-m-jt-Ra-jj-m-jtn_01.png){.glyph} </td>
-   <td style="text-align:left;"> in seinem Namen als Re<span class='glyph-row-break'></span>der Vater<span class='glyph-row-break'></span>der als Sonnenscheibe (Aton) kommt </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> *m rn⸗f m šw nty m jtn* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/04_m-rn=f-m-Sw-nty-m-jtn_01/0001_m-rn=f-m-Sw-nty-m-jtn_01.png){.glyph} </td>
-   <td style="text-align:left;"> in seinem Namen als Schu<span class='glyph-row-break'></span>der in der Sonnenscheibe (Aton) ist </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> *pꜣ itn* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/05_pA-jtn/0001_pA-jtn_D.18_01.png){.glyph} <sup>(D.18)</sup> </td>
-   <td style="text-align:left;"> die Sonne </td>
+   <td style="text-align:left;"> *ꜥnḫ rꜥ-ḥqꜣ-ꜣḫ.ti ḥꜥy m h.t m rn⸗f m šw nty m jtn* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/02_anx-ra-HqA-Ax.tj-Hay-m-Ax.t-m-rn=f-m-Sw-nty-m-jtn/0001_anx-ra-HqA-Ax.tj-Hay-m-Ax.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/02_anx-ra-HqA-Ax.tj-Hay-m-Ax.t-m-rn=f-m-Sw-nty-m-jtn/0010_m-rn=f-m-Sw-nty-m-jtn_01.png){.glyph} </td>
+   <td style="text-align:left;"> Es lebe Re, der horizontische Herrscher, der im Lichtland (am Horizont) jubelt in seinem Namen als Re, der Vater, der als Sonnenscheibe (Aton) kommt </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *pꜣ itn ꜥnḫ* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/06_pA-jtn-anx/0001_pA-jtn-anx_D.18_01.png){.glyph} <sup>(D.18)</sup> </td>
    <td style="text-align:left;"> die lebende Sonnenscheibe </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> *ꜥnḫ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0090_Aton/epitheta/07_anx/0001_anx_D.18_01.png){.glyph} <sup>(D.18)</sup> </td>
-   <td style="text-align:left;"> der Lebende </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *jmj itn⸗f* </td>
@@ -443,7 +423,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 <tbody>
   <tr>
    <td style="text-align:left;"> *nb wꜣs.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0001_nb-WAs.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0010_nb-WAs.t_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0020_nb-WAs.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0030_nb-WAs.t_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0040_nb-WAs.t_NR_03.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0050_nb-WAs.t_NR_04.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0060_nb-WAs.t_Sp_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0070_nb-WAs.t_Gr_01.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0001_nb-WAs.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0010_nb-WAs.t_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0020_nb-WAs.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0030_nb-WAs.t_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0040_nb-WAs.t_NR_03.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0050_nb-WAs.t_NR_04.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0060_nb-WAs.t_Sp_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Gottheit/Goetter-mit-Epitheta/0190_Month/epitheta/01_nb-wAs.t/0070_nb-WAs.t_Gr_01.png){.glyph} <sup>  </sup> </td>
    <td style="text-align:left;"> Herr von Theben </td>
   </tr>
 </tbody>
@@ -492,7 +472,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *rꜥ-h.ti* </td>
+   <td style="text-align:left;"> *rꜥ-ꜣḫ.ti* </td>
    <td style="text-align:left;"> 02_Slots/Gottheit/Goetter-mit-Epitheta/0260_Re-Harachte/ </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Re-Harachte </td>

@@ -2,6 +2,10 @@
 
 ## 2026-06-03
 
+- `d070176` **[Templates/Pages, Data, PWA/Offline]** added more variants of Montu epithet nb wAs.t
+
+## 2026-06-03
+
 - `bc3d938` **[Templates/Pages, Data, PWA/Offline]** added Information page
 
 ## 2026-06-01

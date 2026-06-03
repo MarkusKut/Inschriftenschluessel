@@ -4,6 +4,7 @@
 
 - added "Information" page
 - added more variants of Montu epithet "nb wAs.t"
+- smaller fixes and changes
 
 ## 2026-06-01
 
