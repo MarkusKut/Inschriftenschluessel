@@ -2,6 +2,10 @@
 
 ## 2026-06-03
 
+- `a77ea81` **[Templates/Pages, Data, PWA/Offline]** added and fixed order of Epitheta on slot page Koenig
+
+## 2026-06-03
+
 - `add7541` **[R code, Templates/Pages, Data, PWA/Offline]** smaller fixes and changes
 
 ## 2026-06-03

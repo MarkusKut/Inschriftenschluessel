@@ -629,12 +629,12 @@ body.quarto-dark .badge-w-rtliche-rede,
 }
 
 /* light mode */
-.w-rtliche-rede    { color: #ad139e; }
+.slot-w-rtliche-rede    { color: #ad139e; }
 /* dark mode */
-html[data-bs-theme="dark"] .w-rtliche-rede,
-html[data-theme="dark"] .w-rtliche-rede,
-body.quarto-dark .w-rtliche-rede,
-.quarto-dark .w-rtliche-rede {
+html[data-bs-theme="dark"] .slot-w-rtliche-rede,
+html[data-theme="dark"] .slot-w-rtliche-rede,
+body.quarto-dark .slot-w-rtliche-rede,
+.quarto-dark .slot-w-rtliche-rede {
   color: #ad139e;
 }
 
@@ -642,6 +642,37 @@ h1.title.slot-title-w-rtliche-rede {
   color: #ad139e;
 }
 
+
+
+/* Rückenschutzformel */
+
+.badge-r-ckenschutzformel {  background: #2EF08B;
+  color: #fff;
+  border-color: #2EF08B;  } /* pink */
+
+
+html[data-bs-theme="dark"] .badge-r-ckenschutzformel,
+html[data-theme="dark"] .badge-r-ckenschutzformel,
+body.quarto-dark .badge-r-ckenschutzformel,
+.quarto-dark .badge-r-ckenschutzformel {
+  background: #2EF08B;
+  color: #fff;
+  border-color: #2EF08B;
+}
+
+/* light mode */
+.slot-r-ckenschutzformel    { color: #2EF08B; }
+/* dark mode */
+html[data-bs-theme="dark"] .slot-r-ckenschutzformel,
+html[data-theme="dark"] .slot-r-ckenschutzformel,
+body.quarto-dark .slot-r-ckenschutzformel,
+.quarto-dark .slot-r-ckenschutzformel {
+  color: #2EF08B;
+}
+
+h1.title.slot-title-r-ckenschutzformel {
+  color: #2EF08B;
+}
 
 
 

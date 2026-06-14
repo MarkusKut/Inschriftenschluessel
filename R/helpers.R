@@ -110,62 +110,63 @@ read_long_table_base <- function(df_tables, table_id) {
 #     })) %>%
 #     select(-row)
 # }
-# 
-# render_table_html_by_id <- function(df_tables, table_id) {
-#   df <- read_long_table(df_tables, table_id)
-#   kable_html(df)
-# }
-# 
-# expand_nested_tables_in_html <- function(html, df_tables, visited = character()) {
-#   out <- html
-#   pattern <- "\\[\\[table:([^\\]|]+)(\\|([^\\]]+))?\\]\\]"
-#   
-#   repeat {
-#     m <- regexpr(pattern, out, perl = TRUE)
-#     if (m[1] == -1) break
-#     
-#     match_text <- regmatches(out, m)[[1]]
-#     
-#     caps <- regmatches(match_text, regexec(pattern, match_text, perl = TRUE))[[1]]
-#     nested_id <- caps[2]
-#     summary_text <- if (length(caps) >= 4 && !is.na(caps[4]) && caps[4] != "") {
-#       caps[4]
-#     } else {
-#       #paste0("Öffne ", nested_id)
-#       "Öffne"
-#     }
-#     
-#     if (nested_id %in% visited) {
-#       stop("Cycle in nested tables: ", paste(c(visited, nested_id), collapse = " -> "))
-#     }
-#     
-#     nested_html <- render_table_html_by_id(df_tables, nested_id)
-#     nested_html <- expand_nested_tables_in_html(
-#       nested_html,
-#       df_tables,
-#       visited = c(visited, nested_id)
-#     )
-#     
-#     replacement <- paste0(
-#       "<details><summary>",
-#       htmltools::htmlEscape(summary_text),
-#       "</summary>",
-#       nested_html,
-#       "</details>"
-#     )
-#     
-#     start <- m[1]
-#     len <- attr(m, "match.length")
-#     
-#     out <- paste0(
-#       substr(out, 1, start - 1),
-#       replacement,
-#       substr(out, start + len, nchar(out))
-#     )
-#   }
-#   
-#   out
-# }
+
+render_table_html_by_id <- function(df_tables, table_id) {
+  df <- read_long_table(df_tables, table_id)
+  kable_html(df)
+}
+
+
+expand_nested_tables_in_html <- function(html, df_tables, visited = character()) {
+  out <- html
+  pattern <- "\\[\\[table:([^\\]|]+)(\\|([^\\]]+))?\\]\\]"
+
+  repeat {
+    m <- regexpr(pattern, out, perl = TRUE)
+    if (m[1] == -1) break
+
+    match_text <- regmatches(out, m)[[1]]
+
+    caps <- regmatches(match_text, regexec(pattern, match_text, perl = TRUE))[[1]]
+    nested_id <- caps[2]
+    summary_text <- if (length(caps) >= 4 && !is.na(caps[4]) && caps[4] != "") {
+      caps[4]
+    } else {
+      #paste0("Öffne ", nested_id)
+      "Öffne"
+    }
+
+    if (nested_id %in% visited) {
+      stop("Cycle in nested tables: ", paste(c(visited, nested_id), collapse = " -> "))
+    }
+
+    nested_html <- render_table_html_by_id(df_tables, nested_id)
+    nested_html <- expand_nested_tables_in_html(
+      nested_html,
+      df_tables,
+      visited = c(visited, nested_id)
+    )
+
+    replacement <- paste0(
+      "<details><summary>",
+      htmltools::htmlEscape(summary_text),
+      "</summary>",
+      nested_html,
+      "</details>"
+    )
+
+    start <- m[1]
+    len <- attr(m, "match.length")
+
+    out <- paste0(
+      substr(out, 1, start - 1),
+      replacement,
+      substr(out, start + len, nchar(out))
+    )
+  }
+
+  out
+}
 
 
 read_long_table <- function(df_tables, table_id, visited = character()) {

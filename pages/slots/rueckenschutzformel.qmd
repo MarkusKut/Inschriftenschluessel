@@ -1,0 +1,160 @@
+---
+title: "Rückenschutzformel"
+---
+
+<meta name="slot-title-class" content="slot-title-r-ckenschutzformel">
+
+```{=html}
+<div class="zoom-controls">
+  <button onclick="setZoom(0.9)">A−</button>
+  <button onclick="setZoom(1)">A</button>
+  <button onclick="setZoom(1.2)">A+</button>
+</div>
+
+<script>
+function setZoom(scale) {
+  document.documentElement.style.setProperty('--base-scale', scale);
+  localStorage.setItem('site-zoom', scale);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = localStorage.getItem('site-zoom');
+  if (saved) {
+    document.documentElement.style.setProperty('--base-scale', saved);
+  }
+
+  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  const title = document.querySelector("h1.title");
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+## Übliche Form
+
+![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph} *sꜣ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph} *ꜥnḫ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph} ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/04_=f-nb/0001_=f-nb_01.png){.glyph} *ḥꜣ⸗f nb*
+
+
+## Übersetzung
+
+Aller Schutz (und) alles Leben ist hinter ihm.
+
+
+## Schreibvarianten der Formel
+
+::: {.glyphvariants-block}
+
+*sꜣ ꜥnḫ ḥꜣ⸗f nb*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0001_sA-anx-HA=f-nb_MR_01.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0010_sA-anx-HA=f-nb-NR_01.png){.glyph} <sup>(NR)</sup>
+
+*sꜣ ꜥnḫ ḥꜣ⸗f*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0020_sA-anx-HA=f_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0030_sA-anx-HA=f_02.png){.glyph}
+
+*sꜣ ꜥnḫ wꜣs ḥꜣ⸗f*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0040_sA-anx-wAs-HA=f_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0050_sA-anx-wAs-HA=f_NR-selten-Gr-oft_01.png){.glyph} <sup>(selten NR; Gr. oft)</sup>
+
+*sꜣ ꜥnḫ ḏd wꜣs ḥꜣ⸗f*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0060_sA-anx-Dd-wAs-HA=f_D.18_01.png){.glyph} <sup>(D.18)</sup>
+
+*sꜣ ꜥnḫ ḏd wꜣs snb ḥꜣ⸗f*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0070_sA-anx-Dd-wAs-snb-HA=f_D.18_01.png){.glyph} <sup>(D.18)</sup>
+
+
+:::
+
+
+
+## Schreibvarianten
+
+::: {.glyphvariants-block}
+
+*sꜣ*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0001_sA_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph} <sup>(seit MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0020_sA_MR_01.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0030_sA_NR_01.png){.glyph} <sup>(NR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0040_sA_NR_02.png){.glyph} <sup>(NR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0050_sA_GR_01.png){.glyph} <sup>(Gr.)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0060_sA_GR_02.png){.glyph} <sup>(Gr.)</sup>
+
+*ꜥnḫ*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph}
+
+*ḥꜣ*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0001_HA_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0020_HA_MR_01.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0030_HA_MR_02.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0040_HA_NR_01.png){.glyph} <sup>(NR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0050_HA_Sp_01.png){.glyph} <sup>(Sp.)</sup>
+
+
+:::
+
+
+
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  let lastScrollY = window.scrollY;
+  const footer = document.getElementById("footer-nav");
+
+  function onScroll() {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 80) {
+      footer.classList.add("footer-hidden");
+    } else {
+      footer.classList.remove("footer-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+})();
+</script>
+```

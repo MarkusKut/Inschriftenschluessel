@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-06-14
+
+- update "Beischrift" formula
+- added "Rückenschutzformel" slot
+
+
 ## 2026-06-03
 
 - added "Information" page
@@ -75,7 +81,7 @@
   - translation
   - variants
 
-### 5. „Historische“ Königsinschrift
+### 5. „Historische“ Konigsinschrift
   - glyph-line
   - translation
   - variants
