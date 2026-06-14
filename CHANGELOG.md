@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-14
+
+- `99ef0ee` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** added Rueckenschutz formula
+
 ## 2026-06-03
 
 - `a77ea81` **[Templates/Pages, Data, PWA/Offline]** added and fixed order of Epitheta on slot page Koenig

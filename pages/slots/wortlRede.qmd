@@ -1,5 +1,5 @@
 ---
-title: "Wörtliche Rede"
+title: "Wörtliche Rede"
 ---
 
 <meta name="slot-title-class" content="slot-title-w-rtliche-rede">
@@ -34,14 +34,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## Übliche Form
+## Übliche Form
 
-![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph} *ḏd-md.w* ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png){.glyph} *in* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} / [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png){.glyph} *di.n(⸗i) n⸗k/ṯ* [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/03_xrj/04_xrj_01.png){.glyph} *ḫr(⸗i)*
+![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph} *ḏd-md.w* ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png){.glyph} *in* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} / [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png){.glyph} *di.n(⸗i) n⸗k/ṯ* [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/03_xrj/04_xrj_01.png){.glyph} *ḫr(⸗i)*
 
 
-## Übersetzung
+## Übersetzung
 
-Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [König](koenig.qmd){.slot-link .slot-k-nig} / [Person](person.qmd){.slot-link .slot-person} NN: Ich habe dir gegeben [Gaben](gaben.qmd){.slot-link .slot-gaben}, die bei mir sind.
+Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [König](koenig.qmd){.slot-link .slot-k-nig} / [Person](person.qmd){.slot-link .slot-person} NN: Ich habe dir gegeben [Gaben](gaben.qmd){.slot-link .slot-gaben}, die bei mir sind.
 
 
 ## Aufbau
@@ -50,26 +50,26 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
    <th style="text-align:left;"> WB </th>
    <th style="text-align:left;"> Kommentar </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḏd-mdw in* </td>
+   <td style="text-align:left;"> *ḏd-mdw in* </td>
    <td style="text-align:left;"> Worte zu sprechen durch </td>
    <td style="text-align:left;"> II: 180 </td>
-   <td style="text-align:left;"> Teil 1: wörtliche Rede </td>
+   <td style="text-align:left;"> Teil 1: wörtliche Rede </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *di(⸗i) n⸗k* </td>
    <td style="text-align:left;"> Ich habe dir gegeben </td>
    <td style="text-align:left;"> II: 465 </td>
-   <td style="text-align:left;"> Teil 2: häufig Gott zu König </td>
+   <td style="text-align:left;"> Teil 2: häufig Gott zu König </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḫri(⸗i)* </td>
+   <td style="text-align:left;"> *ḫri(⸗i)* </td>
    <td style="text-align:left;"> das bei mir ist </td>
    <td style="text-align:left;"> II: 318 </td>
    <td style="text-align:left;">  </td>
@@ -82,7 +82,7 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 ::: {.glyphvariants-block}
 
-*ḏd-md.w*:
+*ḏd-md.w*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph}
 
@@ -90,7 +90,13 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0020_Dd-mdw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-*di.n(⸗i) n⸗k/ṯ*:
+*in*:
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0010_jn_02.png){.glyph} <sup>(NR)</sup>
+
+*di.n(⸗i) n⸗k/ṯ*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png){.glyph}
 

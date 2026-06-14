@@ -59,6 +59,7 @@ self.__PRECACHE = [
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0010_Dd-mdw_02.png',
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0020_Dd-mdw_NR_01.png',
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png',
+  'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0010_jn_02.png',
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png',
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0010_dj.n(=j)-n=k_02.png',
   'assets/glyphs/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0020_dj.n(=j)-n=k_03.png',

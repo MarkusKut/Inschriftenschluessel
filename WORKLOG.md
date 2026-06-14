@@ -4,6 +4,7 @@
 
 - update "Beischrift" formula
 - added "Rückenschutzformel" slot
+- added "Beischrift" slot variant to *jn*
 
 
 ## 2026-06-03
@@ -81,7 +82,7 @@
   - translation
   - variants
 
-### 5. „Historische“ Konigsinschrift
+### 5. „Historische“ Königsinschrift
   - glyph-line
   - translation
   - variants

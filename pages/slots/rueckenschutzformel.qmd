@@ -1,5 +1,5 @@
 ---
-title: "Rückenschutzformel"
+title: "Rückenschutzformel"
 ---
 
 <meta name="slot-title-class" content="slot-title-r-ckenschutzformel">
@@ -34,12 +34,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## Übliche Form
+## Übliche Form
 
-![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph} *sꜣ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph} *ꜥnḫ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph} ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/04_=f-nb/0001_=f-nb_01.png){.glyph} *ḥꜣ⸗f nb*
+![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph} *sꜣ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph} *ꜥnḫ* ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph} ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/04_=f-nb/0001_=f-nb_01.png){.glyph} *ḥꜣ⸗f nb*
 
 
-## Übersetzung
+## Übersetzung
 
 Aller Schutz (und) alles Leben ist hinter ihm.
 
@@ -48,29 +48,29 @@ Aller Schutz (und) alles Leben ist hinter ihm.
 
 ::: {.glyphvariants-block}
 
-*sꜣ ꜥnḫ ḥꜣ⸗f nb*:
+*sꜣ ꜥnḫ ḥꜣ⸗f nb*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0001_sA-anx-HA=f-nb_MR_01.png){.glyph} <sup>(MR)</sup>
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0010_sA-anx-HA=f-nb-NR_01.png){.glyph} <sup>(NR)</sup>
 
-*sꜣ ꜥnḫ ḥꜣ⸗f*:
+*sꜣ ꜥnḫ ḥꜣ⸗f*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0020_sA-anx-HA=f_01.png){.glyph}
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0030_sA-anx-HA=f_02.png){.glyph}
 
-*sꜣ ꜥnḫ wꜣs ḥꜣ⸗f*:
+*sꜣ ꜥnḫ wꜣs ḥꜣ⸗f*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0040_sA-anx-wAs-HA=f_01.png){.glyph}
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0050_sA-anx-wAs-HA=f_NR-selten-Gr-oft_01.png){.glyph} <sup>(selten NR; Gr. oft)</sup>
 
-*sꜣ ꜥnḫ ḏd wꜣs ḥꜣ⸗f*:
+*sꜣ ꜥnḫ ḏd wꜣs ḥꜣ⸗f*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0060_sA-anx-Dd-wAs-HA=f_D.18_01.png){.glyph} <sup>(D.18)</sup>
 
-*sꜣ ꜥnḫ ḏd wꜣs snb ḥꜣ⸗f*:
+*sꜣ ꜥnḫ ḏd wꜣs snb ḥꜣ⸗f*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0070_sA-anx-Dd-wAs-snb-HA=f_D.18_01.png){.glyph} <sup>(D.18)</sup>
 
@@ -99,11 +99,11 @@ Aller Schutz (und) alles Leben ist hinter ihm.
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0060_sA_GR_02.png){.glyph} <sup>(Gr.)</sup>
 
-*ꜥnḫ*:
+*ꜥnḫ*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph}
 
-*ḥꜣ*:
+*ḥꜣ*:
 
 - ![](/assets/glyphs/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0001_HA_01.png){.glyph}
 
