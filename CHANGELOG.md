@@ -2,6 +2,10 @@
 
 ## 2026-06-14
 
+- `dc08fec` **[Templates/Pages, Data, PWA/Offline]** added Beischrift slot variant to jn
+
+## 2026-06-14
+
 - `99ef0ee` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** added Rueckenschutz formula
 
 ## 2026-06-03
