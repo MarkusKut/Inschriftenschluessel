@@ -135,6 +135,8 @@ self.__PRECACHE = [
   'assets/glyphs/02_Slots/Datum/04_Tag/0060_sw_Sp_03.png',
   'assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0001_sw-arqy_01.png',
   'assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0010_sw-arqy_02.png',
+  'assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0020_sw-arqy_NR_01.png',
+  'assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0030_sw-arqy_NR_02.png',
   'assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0001_pr.t-xrw_01.png',
   'assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0010_pr.t-xrw_02.png',
   'assets/glyphs/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0020_pr.t-xrw_AR_01.png',
