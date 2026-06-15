@@ -354,648 +354,655 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "2d2e384 [Templates/Pages, Data, PWA/Offline] added Ax.t variants\n\n\n\n\n\nbb87027 [Templates/Pages, Data, PWA/Offline] added regnal year variants\n\n\n\n\n\n60f9ef1 [Data] added Beischrift slot variant to jn\n\n\n\n\n\ndc08fec [Templates/Pages, Data, PWA/Offline] added Beischrift slot variant to jn\n\n\n\n\n\n99ef0ee [R code, Templates/Pages, CSS, Data, PWA/Offline] added Rueckenschutz formula\n\n\n\n\n\na77ea81 [Templates/Pages, Data, PWA/Offline] added and fixed order of Epitheta on slot page Koenig\n\n\n\n\n\nadd7541 [R code, Templates/Pages, Data, PWA/Offline] smaller fixes and changes\n\n\n\n\n\nd070176 [Templates/Pages, Data, PWA/Offline] added more variants of Montu epithet nb wAs.t\n\n\n\n\n\nbc3d938 [Templates/Pages, Data, PWA/Offline] added Information page\n\n\n\n\n\n5c52b96 [CSS, Data] fixed column width of wide tables 2\n\n\n\n\n\na064bf8 [CSS] url’s with linebreak\n\n\n\n\n\nbde963e [CSS, Data] fixed column width of wide tables\n\n\n\n\n\nb18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants\n\n\n\n\n\n78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages\n\n\n\n\n\n1e42bef [Other] added Filiationsangabe\n\n\n\n\n\nbda5589 [Templates/Pages, Data] added Filiationsangabe\n\n\n\n\n\ne7a37b7 [Other] corrections\n\n\n\n\n\n607f268 [Templates/Pages, Data] corrections\n\n\n\n\n\n93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit\n\n\n\n\n\nda9ca5a [Data] formula pages referencing fix\n\n\n\n\n\nfa36931 [Templates/Pages, Data] formula pages referencing fix\n\n\n\n\n\nc14bd59 [Templates/Pages, Data] datings in superscript\n\n\n\n\n\nff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix\n\n\n\n\n\n6e940e1 [Data, PWA/Offline] Added logo for Android\n\n\n\n\n\n124f37e [CSS] Added logo .ico\n\n\n\n\n\ne260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3\n\n\n\n\n\n5aa64f8 [Data, PWA/Offline] Added logo icon 2\n\n\n\n\n\nd66fe63 [Templates/Pages, PWA/Offline] Added logo icon\n\n\n\n\n\n6294090 [PWA/Offline] toast only at download to home screen\n\n\n\n\n\n507abd2 [CSS] make tables max-height: 70vh\n\n\n\n\n\n85b92a0 [Other] offline toast fix 2\n\n\n\n\n\n87853b2 [Data, PWA/Offline] offline toast fix 2\n\n\n\n\n\n143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix\n\n\n\n\n\n36e03af [R code, Templates/Pages, Data] added variants option to slot pages\n\n\n\n\n\n9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers\n\n\n\n\n\n815894d [Other] Tables max height max-height: 70vh\n\n\n\n\n\n5129a31 [Other] Add hyphens for word breaks\n\n\n\n\n\n9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project\n\n\n\n\n\n6f29c97 [CSS] Publish site to docs/\n\n\n\n\n\n49cac7d [CSS, PWA/Offline] Publish site to docs/\n\n\n\n\n\n9193d64 [Other] Publish site to docs/\n\n\n\n\n\na556fc8 [Other] Publish site to docs/\n\n\n\n\n\n3190535 [Other] Publish site to docs/\n\n\n\n\n\n6e036d8 [Other] Publish site to docs/\n\n\n\n\n\nc3f6d1d [CSS] Publish site to docs/\n\n\n\n\n\n61152aa [PWA/Offline] Publish site to docs/\n\n\n\n\n\na81b381 [Other] Publish site to docs/\n\n\n\n\n\n853f4dd [Other] Publish site to docs/\n\n\n\n\n\nc531f6e [PWA/Offline] Publish site to docs/\n\n\n\n\n\nbbbb650 [Other] Publish site to docs/\n\n\n\n\n\n0799f94 [CSS] Publish site to docs/\n\n\n\n\n\n5aed5bf [Other] Publish site to docs/\n\n\n\n\n\n985c8a2 [Other] Publish site to docs/\n\n\n\n\n\nad2ab56 [CSS] Publish site to docs/\n\n\n\n\n\n6063017 [Other] Publish site to docs/\n\n\n\n\n\ndcd2d70 [CSS] Delete docs directory\n\n\n\n\n\n6c9cbb5 [CSS] Publish site to docs/\n\n\n\n\n\n9cf16fc [CSS] site.css aktualisieren\n\n\n\n\n\na46db93 [CSS] Publish site to docs/\n\n\n\n\n\n2174cbd [CSS] Publish site to docs/\n\n\n\n\n\n074cf73 [CSS] Publish site to docs/\n\n\n\n\n\n399bfb7 [CSS] Publish site to docs/\n\n\n\n\n\n05541fd [CSS] Publish site to docs/\n\n\n\n\n\n7ba986d [CSS] Publish site to docs/\n\n\n\n\n\ndbdcd6f [CSS] Publish site to docs/\n\n\n\n\n\n65d4c80 [CSS] Publish site to docs/\n\n\n\n\n\neda8b8c [Other] Publish site to docs/\n\n\n\n\n\neacbdf7 [Other] Publish site to docs/\n\n\n\n\n\n47cd2fb [Other] Publish site to docs/\n\n\n\n\n\n40e83d1 [CSS] Publish site to docs/\n\n\n\n\n\nda2a103 [CSS] Publish site to docs/\n\n\n\n\n\nc027510 [Other] Publish site to docs/\n\n\n\n\n\nb45980e [CSS] Publish site to docs/\n\n\n\n\n\n73c0b11 [Other] Publish site to docs/\n\n\n\n\n\n4a74252 [CSS] Publish site to docs/\n\n\n\n\n\ncc65719 [CSS] Publish site to docs/\n\n\n\n\n\n3bd333a [CSS] Publish site to docs/\n\n\n\n\n\n382d3dc [CSS] Publish site to docs/\n\n\n\n\n\nad1e984 [CSS] Publish site to docs/\n\n\n\n\n\n3ed2b4e [CSS] Publish site to docs/\n\n\n\n\n\nba7a207 [CSS] Publish site to docs/\n\n\n\n\n\n83ae187 [CSS] Publish site to docs/\n\n\n\n\n\n4d0ba67 [CSS] Publish site to docs/\n\n\n\n\n\nd753edc [Other] Publish site to docs/\n\n\n\n\n\nc46fecd [CSS] Publish site to docs/\n\n\n\n\n\n2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/\n\n\n\n\n\n2d5f88f [Templates/Pages, Data] V.0.1\n\n\n\n\n\n53689c7 [CSS] v.0.1.2\n\n\n\n\n\nae1dddb [CSS] v.0.1.1\n\n\n\n\n\na30ab6b [R code, Templates/Pages, CSS, Data] v0.1\n\n\n\n\n\n3a9da3f [R code, Templates/Pages, CSS, Data] V0.1\n\n\n\n\n\ne5567d1 [Other] Initial commit"
+    "text": "0f51fa6 [Templates/Pages, Data, PWA/Offline] added pr.t variants\n\n\n\n\n\n2d2e384 [Templates/Pages, Data, PWA/Offline] added Ax.t variants\n\n\n\n\n\nbb87027 [Templates/Pages, Data, PWA/Offline] added regnal year variants\n\n\n\n\n\n60f9ef1 [Data] added Beischrift slot variant to jn\n\n\n\n\n\ndc08fec [Templates/Pages, Data, PWA/Offline] added Beischrift slot variant to jn\n\n\n\n\n\n99ef0ee [R code, Templates/Pages, CSS, Data, PWA/Offline] added Rueckenschutz formula\n\n\n\n\n\na77ea81 [Templates/Pages, Data, PWA/Offline] added and fixed order of Epitheta on slot page Koenig\n\n\n\n\n\nadd7541 [R code, Templates/Pages, Data, PWA/Offline] smaller fixes and changes\n\n\n\n\n\nd070176 [Templates/Pages, Data, PWA/Offline] added more variants of Montu epithet nb wAs.t\n\n\n\n\n\nbc3d938 [Templates/Pages, Data, PWA/Offline] added Information page\n\n\n\n\n\n5c52b96 [CSS, Data] fixed column width of wide tables 2\n\n\n\n\n\na064bf8 [CSS] url’s with linebreak\n\n\n\n\n\nbde963e [CSS, Data] fixed column width of wide tables\n\n\n\n\n\nb18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants\n\n\n\n\n\n78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages\n\n\n\n\n\n1e42bef [Other] added Filiationsangabe\n\n\n\n\n\nbda5589 [Templates/Pages, Data] added Filiationsangabe\n\n\n\n\n\ne7a37b7 [Other] corrections\n\n\n\n\n\n607f268 [Templates/Pages, Data] corrections\n\n\n\n\n\n93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit\n\n\n\n\n\nda9ca5a [Data] formula pages referencing fix\n\n\n\n\n\nfa36931 [Templates/Pages, Data] formula pages referencing fix\n\n\n\n\n\nc14bd59 [Templates/Pages, Data] datings in superscript\n\n\n\n\n\nff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix\n\n\n\n\n\n6e940e1 [Data, PWA/Offline] Added logo for Android\n\n\n\n\n\n124f37e [CSS] Added logo .ico\n\n\n\n\n\ne260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3\n\n\n\n\n\n5aa64f8 [Data, PWA/Offline] Added logo icon 2\n\n\n\n\n\nd66fe63 [Templates/Pages, PWA/Offline] Added logo icon\n\n\n\n\n\n6294090 [PWA/Offline] toast only at download to home screen\n\n\n\n\n\n507abd2 [CSS] make tables max-height: 70vh\n\n\n\n\n\n85b92a0 [Other] offline toast fix 2\n\n\n\n\n\n87853b2 [Data, PWA/Offline] offline toast fix 2\n\n\n\n\n\n143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix\n\n\n\n\n\n36e03af [R code, Templates/Pages, Data] added variants option to slot pages\n\n\n\n\n\n9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers\n\n\n\n\n\n815894d [Other] Tables max height max-height: 70vh\n\n\n\n\n\n5129a31 [Other] Add hyphens for word breaks\n\n\n\n\n\n9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project\n\n\n\n\n\n6f29c97 [CSS] Publish site to docs/\n\n\n\n\n\n49cac7d [CSS, PWA/Offline] Publish site to docs/\n\n\n\n\n\n9193d64 [Other] Publish site to docs/\n\n\n\n\n\na556fc8 [Other] Publish site to docs/\n\n\n\n\n\n3190535 [Other] Publish site to docs/\n\n\n\n\n\n6e036d8 [Other] Publish site to docs/\n\n\n\n\n\nc3f6d1d [CSS] Publish site to docs/\n\n\n\n\n\n61152aa [PWA/Offline] Publish site to docs/\n\n\n\n\n\na81b381 [Other] Publish site to docs/\n\n\n\n\n\n853f4dd [Other] Publish site to docs/\n\n\n\n\n\nc531f6e [PWA/Offline] Publish site to docs/\n\n\n\n\n\nbbbb650 [Other] Publish site to docs/\n\n\n\n\n\n0799f94 [CSS] Publish site to docs/\n\n\n\n\n\n5aed5bf [Other] Publish site to docs/\n\n\n\n\n\n985c8a2 [Other] Publish site to docs/\n\n\n\n\n\nad2ab56 [CSS] Publish site to docs/\n\n\n\n\n\n6063017 [Other] Publish site to docs/\n\n\n\n\n\ndcd2d70 [CSS] Delete docs directory\n\n\n\n\n\n6c9cbb5 [CSS] Publish site to docs/\n\n\n\n\n\n9cf16fc [CSS] site.css aktualisieren\n\n\n\n\n\na46db93 [CSS] Publish site to docs/\n\n\n\n\n\n2174cbd [CSS] Publish site to docs/\n\n\n\n\n\n074cf73 [CSS] Publish site to docs/\n\n\n\n\n\n399bfb7 [CSS] Publish site to docs/\n\n\n\n\n\n05541fd [CSS] Publish site to docs/\n\n\n\n\n\n7ba986d [CSS] Publish site to docs/\n\n\n\n\n\ndbdcd6f [CSS] Publish site to docs/\n\n\n\n\n\n65d4c80 [CSS] Publish site to docs/\n\n\n\n\n\neda8b8c [Other] Publish site to docs/\n\n\n\n\n\neacbdf7 [Other] Publish site to docs/\n\n\n\n\n\n47cd2fb [Other] Publish site to docs/\n\n\n\n\n\n40e83d1 [CSS] Publish site to docs/\n\n\n\n\n\nda2a103 [CSS] Publish site to docs/\n\n\n\n\n\nc027510 [Other] Publish site to docs/\n\n\n\n\n\nb45980e [CSS] Publish site to docs/\n\n\n\n\n\n73c0b11 [Other] Publish site to docs/\n\n\n\n\n\n4a74252 [CSS] Publish site to docs/\n\n\n\n\n\ncc65719 [CSS] Publish site to docs/\n\n\n\n\n\n3bd333a [CSS] Publish site to docs/\n\n\n\n\n\n382d3dc [CSS] Publish site to docs/\n\n\n\n\n\nad1e984 [CSS] Publish site to docs/\n\n\n\n\n\n3ed2b4e [CSS] Publish site to docs/\n\n\n\n\n\nba7a207 [CSS] Publish site to docs/\n\n\n\n\n\n83ae187 [CSS] Publish site to docs/\n\n\n\n\n\n4d0ba67 [CSS] Publish site to docs/\n\n\n\n\n\nd753edc [Other] Publish site to docs/\n\n\n\n\n\nc46fecd [CSS] Publish site to docs/\n\n\n\n\n\n2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/\n\n\n\n\n\n2d5f88f [Templates/Pages, Data] V.0.1\n\n\n\n\n\n53689c7 [CSS] v.0.1.2\n\n\n\n\n\nae1dddb [CSS] v.0.1.1\n\n\n\n\n\na30ab6b [R code, Templates/Pages, CSS, Data] v0.1\n\n\n\n\n\n3a9da3f [R code, Templates/Pages, CSS, Data] V0.1\n\n\n\n\n\ne5567d1 [Other] Initial commit"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "2d2e384 [Templates/Pages, Data, PWA/Offline] added Ax.t variants"
+    "text": "0f51fa6 [Templates/Pages, Data, PWA/Offline] added pr.t variants"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "bb87027 [Templates/Pages, Data, PWA/Offline] added regnal year variants"
+    "text": "2d2e384 [Templates/Pages, Data, PWA/Offline] added Ax.t variants"
   },
   {
     "objectID": "CHANGELOG.html#section-2",
     "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
-    "text": "60f9ef1 [Data] added Beischrift slot variant to jn"
+    "text": "bb87027 [Templates/Pages, Data, PWA/Offline] added regnal year variants"
   },
   {
     "objectID": "CHANGELOG.html#section-3",
     "href": "CHANGELOG.html#section-3",
     "title": "Changelog",
     "section": "",
-    "text": "dc08fec [Templates/Pages, Data, PWA/Offline] added Beischrift slot variant to jn"
+    "text": "60f9ef1 [Data] added Beischrift slot variant to jn"
   },
   {
     "objectID": "CHANGELOG.html#section-4",
     "href": "CHANGELOG.html#section-4",
     "title": "Changelog",
     "section": "",
-    "text": "99ef0ee [R code, Templates/Pages, CSS, Data, PWA/Offline] added Rueckenschutz formula"
+    "text": "dc08fec [Templates/Pages, Data, PWA/Offline] added Beischrift slot variant to jn"
   },
   {
     "objectID": "CHANGELOG.html#section-5",
     "href": "CHANGELOG.html#section-5",
     "title": "Changelog",
     "section": "",
-    "text": "a77ea81 [Templates/Pages, Data, PWA/Offline] added and fixed order of Epitheta on slot page Koenig"
+    "text": "99ef0ee [R code, Templates/Pages, CSS, Data, PWA/Offline] added Rueckenschutz formula"
   },
   {
     "objectID": "CHANGELOG.html#section-6",
     "href": "CHANGELOG.html#section-6",
     "title": "Changelog",
     "section": "",
-    "text": "add7541 [R code, Templates/Pages, Data, PWA/Offline] smaller fixes and changes"
+    "text": "a77ea81 [Templates/Pages, Data, PWA/Offline] added and fixed order of Epitheta on slot page Koenig"
   },
   {
     "objectID": "CHANGELOG.html#section-7",
     "href": "CHANGELOG.html#section-7",
     "title": "Changelog",
     "section": "",
-    "text": "d070176 [Templates/Pages, Data, PWA/Offline] added more variants of Montu epithet nb wAs.t"
+    "text": "add7541 [R code, Templates/Pages, Data, PWA/Offline] smaller fixes and changes"
   },
   {
     "objectID": "CHANGELOG.html#section-8",
     "href": "CHANGELOG.html#section-8",
     "title": "Changelog",
     "section": "",
-    "text": "bc3d938 [Templates/Pages, Data, PWA/Offline] added Information page"
+    "text": "d070176 [Templates/Pages, Data, PWA/Offline] added more variants of Montu epithet nb wAs.t"
   },
   {
     "objectID": "CHANGELOG.html#section-9",
     "href": "CHANGELOG.html#section-9",
     "title": "Changelog",
     "section": "",
-    "text": "5c52b96 [CSS, Data] fixed column width of wide tables 2"
+    "text": "bc3d938 [Templates/Pages, Data, PWA/Offline] added Information page"
   },
   {
     "objectID": "CHANGELOG.html#section-10",
     "href": "CHANGELOG.html#section-10",
     "title": "Changelog",
     "section": "",
-    "text": "a064bf8 [CSS] url’s with linebreak"
+    "text": "5c52b96 [CSS, Data] fixed column width of wide tables 2"
   },
   {
     "objectID": "CHANGELOG.html#section-11",
     "href": "CHANGELOG.html#section-11",
     "title": "Changelog",
     "section": "",
-    "text": "bde963e [CSS, Data] fixed column width of wide tables"
+    "text": "a064bf8 [CSS] url’s with linebreak"
   },
   {
     "objectID": "CHANGELOG.html#section-12",
     "href": "CHANGELOG.html#section-12",
     "title": "Changelog",
     "section": "",
-    "text": "b18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants"
+    "text": "bde963e [CSS, Data] fixed column width of wide tables"
   },
   {
     "objectID": "CHANGELOG.html#section-13",
     "href": "CHANGELOG.html#section-13",
     "title": "Changelog",
     "section": "",
-    "text": "78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages"
+    "text": "b18e8d0 [R code, Templates/Pages, CSS, Data] more spacing between hieroglyphs in table and variants"
   },
   {
     "objectID": "CHANGELOG.html#section-14",
     "href": "CHANGELOG.html#section-14",
     "title": "Changelog",
     "section": "",
-    "text": "1e42bef [Other] added Filiationsangabe"
+    "text": "78feafb [Templates/Pages, CSS, Data, PWA/Offline] added Seltene Hieroglyphen and Projekt pages"
   },
   {
     "objectID": "CHANGELOG.html#section-15",
     "href": "CHANGELOG.html#section-15",
     "title": "Changelog",
     "section": "",
-    "text": "bda5589 [Templates/Pages, Data] added Filiationsangabe"
+    "text": "1e42bef [Other] added Filiationsangabe"
   },
   {
     "objectID": "CHANGELOG.html#section-16",
     "href": "CHANGELOG.html#section-16",
     "title": "Changelog",
     "section": "",
-    "text": "e7a37b7 [Other] corrections"
+    "text": "bda5589 [Templates/Pages, Data] added Filiationsangabe"
   },
   {
     "objectID": "CHANGELOG.html#section-17",
     "href": "CHANGELOG.html#section-17",
     "title": "Changelog",
     "section": "",
-    "text": "607f268 [Templates/Pages, Data] corrections"
+    "text": "e7a37b7 [Other] corrections"
   },
   {
     "objectID": "CHANGELOG.html#section-18",
     "href": "CHANGELOG.html#section-18",
     "title": "Changelog",
     "section": "",
-    "text": "93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit"
+    "text": "607f268 [Templates/Pages, Data] corrections"
   },
   {
     "objectID": "CHANGELOG.html#section-19",
     "href": "CHANGELOG.html#section-19",
     "title": "Changelog",
     "section": "",
-    "text": "da9ca5a [Data] formula pages referencing fix"
+    "text": "93a92d0 [Templates/Pages, Data, PWA/Offline] changed order of Gottheit"
   },
   {
     "objectID": "CHANGELOG.html#section-20",
     "href": "CHANGELOG.html#section-20",
     "title": "Changelog",
     "section": "",
-    "text": "fa36931 [Templates/Pages, Data] formula pages referencing fix"
+    "text": "da9ca5a [Data] formula pages referencing fix"
   },
   {
     "objectID": "CHANGELOG.html#section-21",
     "href": "CHANGELOG.html#section-21",
     "title": "Changelog",
     "section": "",
-    "text": "c14bd59 [Templates/Pages, Data] datings in superscript"
+    "text": "fa36931 [Templates/Pages, Data] formula pages referencing fix"
   },
   {
     "objectID": "CHANGELOG.html#section-22",
     "href": "CHANGELOG.html#section-22",
     "title": "Changelog",
     "section": "",
-    "text": "ff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix"
+    "text": "c14bd59 [Templates/Pages, Data] datings in superscript"
   },
   {
     "objectID": "CHANGELOG.html#section-23",
     "href": "CHANGELOG.html#section-23",
     "title": "Changelog",
     "section": "",
-    "text": "6e940e1 [Data, PWA/Offline] Added logo for Android"
+    "text": "ff49ba1 [R code, Templates/Pages, Data, PWA/Offline] Table header hyphenation fix"
   },
   {
     "objectID": "CHANGELOG.html#section-24",
     "href": "CHANGELOG.html#section-24",
     "title": "Changelog",
     "section": "",
-    "text": "124f37e [CSS] Added logo .ico"
+    "text": "6e940e1 [Data, PWA/Offline] Added logo for Android"
   },
   {
     "objectID": "CHANGELOG.html#section-25",
     "href": "CHANGELOG.html#section-25",
     "title": "Changelog",
     "section": "",
-    "text": "e260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3"
+    "text": "124f37e [CSS] Added logo .ico"
   },
   {
     "objectID": "CHANGELOG.html#section-26",
     "href": "CHANGELOG.html#section-26",
     "title": "Changelog",
     "section": "",
-    "text": "5aa64f8 [Data, PWA/Offline] Added logo icon 2"
+    "text": "e260ee1 [Templates/Pages, PWA/Offline] Added logo icon 3"
   },
   {
     "objectID": "CHANGELOG.html#section-27",
     "href": "CHANGELOG.html#section-27",
     "title": "Changelog",
     "section": "",
-    "text": "d66fe63 [Templates/Pages, PWA/Offline] Added logo icon"
+    "text": "5aa64f8 [Data, PWA/Offline] Added logo icon 2"
   },
   {
     "objectID": "CHANGELOG.html#section-28",
     "href": "CHANGELOG.html#section-28",
     "title": "Changelog",
     "section": "",
-    "text": "6294090 [PWA/Offline] toast only at download to home screen"
+    "text": "d66fe63 [Templates/Pages, PWA/Offline] Added logo icon"
   },
   {
     "objectID": "CHANGELOG.html#section-29",
     "href": "CHANGELOG.html#section-29",
     "title": "Changelog",
     "section": "",
-    "text": "507abd2 [CSS] make tables max-height: 70vh"
+    "text": "6294090 [PWA/Offline] toast only at download to home screen"
   },
   {
     "objectID": "CHANGELOG.html#section-30",
     "href": "CHANGELOG.html#section-30",
     "title": "Changelog",
     "section": "",
-    "text": "85b92a0 [Other] offline toast fix 2"
+    "text": "507abd2 [CSS] make tables max-height: 70vh"
   },
   {
     "objectID": "CHANGELOG.html#section-31",
     "href": "CHANGELOG.html#section-31",
     "title": "Changelog",
     "section": "",
-    "text": "87853b2 [Data, PWA/Offline] offline toast fix 2"
+    "text": "85b92a0 [Other] offline toast fix 2"
   },
   {
     "objectID": "CHANGELOG.html#section-32",
     "href": "CHANGELOG.html#section-32",
     "title": "Changelog",
     "section": "",
-    "text": "143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix"
+    "text": "87853b2 [Data, PWA/Offline] offline toast fix 2"
   },
   {
     "objectID": "CHANGELOG.html#section-33",
     "href": "CHANGELOG.html#section-33",
     "title": "Changelog",
     "section": "",
-    "text": "36e03af [R code, Templates/Pages, Data] added variants option to slot pages"
+    "text": "143433b [Templates/Pages, CSS, Data, PWA/Offline] offline toast fix"
   },
   {
     "objectID": "CHANGELOG.html#section-34",
     "href": "CHANGELOG.html#section-34",
     "title": "Changelog",
     "section": "",
-    "text": "9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers"
+    "text": "36e03af [R code, Templates/Pages, Data] added variants option to slot pages"
   },
   {
     "objectID": "CHANGELOG.html#section-35",
     "href": "CHANGELOG.html#section-35",
     "title": "Changelog",
     "section": "",
-    "text": "815894d [Other] Tables max height max-height: 70vh"
+    "text": "9da5945 [Templates/Pages, CSS, Data, PWA/Offline] Tables hyphens only for headers"
   },
   {
     "objectID": "CHANGELOG.html#section-36",
     "href": "CHANGELOG.html#section-36",
     "title": "Changelog",
     "section": "",
-    "text": "5129a31 [Other] Add hyphens for word breaks"
+    "text": "815894d [Other] Tables max height max-height: 70vh"
   },
   {
     "objectID": "CHANGELOG.html#section-37",
     "href": "CHANGELOG.html#section-37",
     "title": "Changelog",
     "section": "",
-    "text": "9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project"
+    "text": "5129a31 [Other] Add hyphens for word breaks"
   },
   {
     "objectID": "CHANGELOG.html#section-38",
     "href": "CHANGELOG.html#section-38",
     "title": "Changelog",
     "section": "",
-    "text": "6f29c97 [CSS] Publish site to docs/"
+    "text": "9a4c44d [R code, Templates/Pages, CSS, Data, PWA/Offline] Add full project"
   },
   {
     "objectID": "CHANGELOG.html#section-39",
     "href": "CHANGELOG.html#section-39",
     "title": "Changelog",
     "section": "",
-    "text": "49cac7d [CSS, PWA/Offline] Publish site to docs/"
+    "text": "6f29c97 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-40",
     "href": "CHANGELOG.html#section-40",
     "title": "Changelog",
     "section": "",
-    "text": "9193d64 [Other] Publish site to docs/"
+    "text": "49cac7d [CSS, PWA/Offline] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-41",
     "href": "CHANGELOG.html#section-41",
     "title": "Changelog",
     "section": "",
-    "text": "a556fc8 [Other] Publish site to docs/"
+    "text": "9193d64 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-42",
     "href": "CHANGELOG.html#section-42",
     "title": "Changelog",
     "section": "",
-    "text": "3190535 [Other] Publish site to docs/"
+    "text": "a556fc8 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-43",
     "href": "CHANGELOG.html#section-43",
     "title": "Changelog",
     "section": "",
-    "text": "6e036d8 [Other] Publish site to docs/"
+    "text": "3190535 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-44",
     "href": "CHANGELOG.html#section-44",
     "title": "Changelog",
     "section": "",
-    "text": "c3f6d1d [CSS] Publish site to docs/"
+    "text": "6e036d8 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-45",
     "href": "CHANGELOG.html#section-45",
     "title": "Changelog",
     "section": "",
-    "text": "61152aa [PWA/Offline] Publish site to docs/"
+    "text": "c3f6d1d [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-46",
     "href": "CHANGELOG.html#section-46",
     "title": "Changelog",
     "section": "",
-    "text": "a81b381 [Other] Publish site to docs/"
+    "text": "61152aa [PWA/Offline] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-47",
     "href": "CHANGELOG.html#section-47",
     "title": "Changelog",
     "section": "",
-    "text": "853f4dd [Other] Publish site to docs/"
+    "text": "a81b381 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-48",
     "href": "CHANGELOG.html#section-48",
     "title": "Changelog",
     "section": "",
-    "text": "c531f6e [PWA/Offline] Publish site to docs/"
+    "text": "853f4dd [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-49",
     "href": "CHANGELOG.html#section-49",
     "title": "Changelog",
     "section": "",
-    "text": "bbbb650 [Other] Publish site to docs/"
+    "text": "c531f6e [PWA/Offline] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-50",
     "href": "CHANGELOG.html#section-50",
     "title": "Changelog",
     "section": "",
-    "text": "0799f94 [CSS] Publish site to docs/"
+    "text": "bbbb650 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-51",
     "href": "CHANGELOG.html#section-51",
     "title": "Changelog",
     "section": "",
-    "text": "5aed5bf [Other] Publish site to docs/"
+    "text": "0799f94 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-52",
     "href": "CHANGELOG.html#section-52",
     "title": "Changelog",
     "section": "",
-    "text": "985c8a2 [Other] Publish site to docs/"
+    "text": "5aed5bf [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-53",
     "href": "CHANGELOG.html#section-53",
     "title": "Changelog",
     "section": "",
-    "text": "ad2ab56 [CSS] Publish site to docs/"
+    "text": "985c8a2 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-54",
     "href": "CHANGELOG.html#section-54",
     "title": "Changelog",
     "section": "",
-    "text": "6063017 [Other] Publish site to docs/"
+    "text": "ad2ab56 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-55",
     "href": "CHANGELOG.html#section-55",
     "title": "Changelog",
     "section": "",
-    "text": "dcd2d70 [CSS] Delete docs directory"
+    "text": "6063017 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-56",
     "href": "CHANGELOG.html#section-56",
     "title": "Changelog",
     "section": "",
-    "text": "6c9cbb5 [CSS] Publish site to docs/"
+    "text": "dcd2d70 [CSS] Delete docs directory"
   },
   {
     "objectID": "CHANGELOG.html#section-57",
     "href": "CHANGELOG.html#section-57",
     "title": "Changelog",
     "section": "",
-    "text": "9cf16fc [CSS] site.css aktualisieren"
+    "text": "6c9cbb5 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-58",
     "href": "CHANGELOG.html#section-58",
     "title": "Changelog",
     "section": "",
-    "text": "a46db93 [CSS] Publish site to docs/"
+    "text": "9cf16fc [CSS] site.css aktualisieren"
   },
   {
     "objectID": "CHANGELOG.html#section-59",
     "href": "CHANGELOG.html#section-59",
     "title": "Changelog",
     "section": "",
-    "text": "2174cbd [CSS] Publish site to docs/"
+    "text": "a46db93 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-60",
     "href": "CHANGELOG.html#section-60",
     "title": "Changelog",
     "section": "",
-    "text": "074cf73 [CSS] Publish site to docs/"
+    "text": "2174cbd [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-61",
     "href": "CHANGELOG.html#section-61",
     "title": "Changelog",
     "section": "",
-    "text": "399bfb7 [CSS] Publish site to docs/"
+    "text": "074cf73 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-62",
     "href": "CHANGELOG.html#section-62",
     "title": "Changelog",
     "section": "",
-    "text": "05541fd [CSS] Publish site to docs/"
+    "text": "399bfb7 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-63",
     "href": "CHANGELOG.html#section-63",
     "title": "Changelog",
     "section": "",
-    "text": "7ba986d [CSS] Publish site to docs/"
+    "text": "05541fd [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-64",
     "href": "CHANGELOG.html#section-64",
     "title": "Changelog",
     "section": "",
-    "text": "dbdcd6f [CSS] Publish site to docs/"
+    "text": "7ba986d [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-65",
     "href": "CHANGELOG.html#section-65",
     "title": "Changelog",
     "section": "",
-    "text": "65d4c80 [CSS] Publish site to docs/"
+    "text": "dbdcd6f [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-66",
     "href": "CHANGELOG.html#section-66",
     "title": "Changelog",
     "section": "",
-    "text": "eda8b8c [Other] Publish site to docs/"
+    "text": "65d4c80 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-67",
     "href": "CHANGELOG.html#section-67",
     "title": "Changelog",
     "section": "",
-    "text": "eacbdf7 [Other] Publish site to docs/"
+    "text": "eda8b8c [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-68",
     "href": "CHANGELOG.html#section-68",
     "title": "Changelog",
     "section": "",
-    "text": "47cd2fb [Other] Publish site to docs/"
+    "text": "eacbdf7 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-69",
     "href": "CHANGELOG.html#section-69",
     "title": "Changelog",
     "section": "",
-    "text": "40e83d1 [CSS] Publish site to docs/"
+    "text": "47cd2fb [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-70",
     "href": "CHANGELOG.html#section-70",
     "title": "Changelog",
     "section": "",
-    "text": "da2a103 [CSS] Publish site to docs/"
+    "text": "40e83d1 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-71",
     "href": "CHANGELOG.html#section-71",
     "title": "Changelog",
     "section": "",
-    "text": "c027510 [Other] Publish site to docs/"
+    "text": "da2a103 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-72",
     "href": "CHANGELOG.html#section-72",
     "title": "Changelog",
     "section": "",
-    "text": "b45980e [CSS] Publish site to docs/"
+    "text": "c027510 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-73",
     "href": "CHANGELOG.html#section-73",
     "title": "Changelog",
     "section": "",
-    "text": "73c0b11 [Other] Publish site to docs/"
+    "text": "b45980e [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-74",
     "href": "CHANGELOG.html#section-74",
     "title": "Changelog",
     "section": "",
-    "text": "4a74252 [CSS] Publish site to docs/"
+    "text": "73c0b11 [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-75",
     "href": "CHANGELOG.html#section-75",
     "title": "Changelog",
     "section": "",
-    "text": "cc65719 [CSS] Publish site to docs/"
+    "text": "4a74252 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-76",
     "href": "CHANGELOG.html#section-76",
     "title": "Changelog",
     "section": "",
-    "text": "3bd333a [CSS] Publish site to docs/"
+    "text": "cc65719 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-77",
     "href": "CHANGELOG.html#section-77",
     "title": "Changelog",
     "section": "",
-    "text": "382d3dc [CSS] Publish site to docs/"
+    "text": "3bd333a [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-78",
     "href": "CHANGELOG.html#section-78",
     "title": "Changelog",
     "section": "",
-    "text": "ad1e984 [CSS] Publish site to docs/"
+    "text": "382d3dc [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-79",
     "href": "CHANGELOG.html#section-79",
     "title": "Changelog",
     "section": "",
-    "text": "3ed2b4e [CSS] Publish site to docs/"
+    "text": "ad1e984 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-80",
     "href": "CHANGELOG.html#section-80",
     "title": "Changelog",
     "section": "",
-    "text": "ba7a207 [CSS] Publish site to docs/"
+    "text": "3ed2b4e [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-81",
     "href": "CHANGELOG.html#section-81",
     "title": "Changelog",
     "section": "",
-    "text": "83ae187 [CSS] Publish site to docs/"
+    "text": "ba7a207 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-82",
     "href": "CHANGELOG.html#section-82",
     "title": "Changelog",
     "section": "",
-    "text": "4d0ba67 [CSS] Publish site to docs/"
+    "text": "83ae187 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-83",
     "href": "CHANGELOG.html#section-83",
     "title": "Changelog",
     "section": "",
-    "text": "d753edc [Other] Publish site to docs/"
+    "text": "4d0ba67 [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-84",
     "href": "CHANGELOG.html#section-84",
     "title": "Changelog",
     "section": "",
-    "text": "c46fecd [CSS] Publish site to docs/"
+    "text": "d753edc [Other] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-85",
     "href": "CHANGELOG.html#section-85",
     "title": "Changelog",
     "section": "",
-    "text": "2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/"
+    "text": "c46fecd [CSS] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-86",
     "href": "CHANGELOG.html#section-86",
     "title": "Changelog",
     "section": "",
-    "text": "2d5f88f [Templates/Pages, Data] V.0.1"
+    "text": "2a4e84d [R code, Templates/Pages, CSS, Data] Publish site to docs/"
   },
   {
     "objectID": "CHANGELOG.html#section-87",
     "href": "CHANGELOG.html#section-87",
     "title": "Changelog",
     "section": "",
-    "text": "53689c7 [CSS] v.0.1.2"
+    "text": "2d5f88f [Templates/Pages, Data] V.0.1"
   },
   {
     "objectID": "CHANGELOG.html#section-88",
     "href": "CHANGELOG.html#section-88",
     "title": "Changelog",
     "section": "",
-    "text": "ae1dddb [CSS] v.0.1.1"
+    "text": "53689c7 [CSS] v.0.1.2"
   },
   {
     "objectID": "CHANGELOG.html#section-89",
     "href": "CHANGELOG.html#section-89",
     "title": "Changelog",
     "section": "",
-    "text": "a30ab6b [R code, Templates/Pages, CSS, Data] v0.1"
+    "text": "ae1dddb [CSS] v.0.1.1"
   },
   {
     "objectID": "CHANGELOG.html#section-90",
     "href": "CHANGELOG.html#section-90",
     "title": "Changelog",
     "section": "",
-    "text": "3a9da3f [R code, Templates/Pages, CSS, Data] V0.1"
+    "text": "a30ab6b [R code, Templates/Pages, CSS, Data] v0.1"
   },
   {
     "objectID": "CHANGELOG.html#section-91",
     "href": "CHANGELOG.html#section-91",
+    "title": "Changelog",
+    "section": "",
+    "text": "3a9da3f [R code, Templates/Pages, CSS, Data] V0.1"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-92",
+    "href": "CHANGELOG.html#section-92",
     "title": "Changelog",
     "section": "",
     "text": "e5567d1 [Other] Initial commit"
@@ -1376,7 +1383,7 @@
     "href": "pages/slots/datum.html#jahreszeiten",
     "title": "Datum",
     "section": "Jahreszeiten",
-    "text": "Jahreszeiten\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣḫ.t\n\n\n (NR)\n\n\nÜberschwemmungszeit\n\n\n\n\npr.t\n\n\n (AR) (MR) (Sp.) (Gr.)\n\n\nWinter\n\n\n\n\nšm.w\n\n\n02_Slots/Datum/03_Jahreszeiten/03_Smw/\n\n\nSommer"
+    "text": "Jahreszeiten\n\n\n\n\n\nTranskription\n\n\nHieroglyphen\n\n\nÜbersetzung\n\n\n\n\n\n\nꜣḫ.t\n\n\n (NR)\n\n\nÜberschwemmungszeit\n\n\n\n\npr.t\n\n\n (AR) (MR) (Sp.) (Gr.)\n\n\nWinter\n\n\n\n\nšm.w\n\n\n (D.20) (Sp.–Gr.; Abk.) (Sp.–Gr.; Abk.) (Sp.–Gr.; Abk.) (Gr.) (Gr.) (Gr.)\n\n\nSommer"
   },
   {
     "objectID": "pages/slots/datum.html#tag",
