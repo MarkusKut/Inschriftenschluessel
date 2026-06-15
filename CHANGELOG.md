@@ -2,6 +2,10 @@
 
 ## 2026-06-15
 
+- `2d2e384` **[Templates/Pages, Data, PWA/Offline]** added Ax.t variants
+
+## 2026-06-15
+
 - `bb87027` **[Templates/Pages, Data, PWA/Offline]** added regnal year variants
 
 ## 2026-06-14
