@@ -2,6 +2,10 @@
 
 ## 2026-06-15
 
+- `bd7b1cd` **[Templates/Pages, Data, PWA/Offline]** added Smw variants
+
+## 2026-06-15
+
 - `0f51fa6` **[Templates/Pages, Data, PWA/Offline]** added pr.t variants
 
 ## 2026-06-15

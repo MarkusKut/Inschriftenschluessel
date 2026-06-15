@@ -137,12 +137,12 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *sw* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0001_sw_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0001_sw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0010_sw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0020_sw_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0030_sw_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0040_sw_Sp_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0050_sw_Sp_02.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0060_sw_Sp_03.png){.glyph} <sup>(Sp.)</sup> </td>
    <td style="text-align:left;"> Tag </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *sw-ꜥrqy* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/0010_sw-arqy_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/0020_sw-arqy_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0001_sw-arqy_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/04_Tag/01_sw-arqy/0010_sw-arqy_02.png){.glyph} </td>
    <td style="text-align:left;"> Tag 30 </td>
   </tr>
 </tbody>
