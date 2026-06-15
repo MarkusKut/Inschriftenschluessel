@@ -1,5 +1,9 @@
 # Worklog
 
+## 2026-06-15
+
+- update "Datum" slot
+
 ## 2026-06-14
 
 - update "Beischrift" formula

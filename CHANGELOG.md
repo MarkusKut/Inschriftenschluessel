@@ -2,6 +2,10 @@
 
 ## 2026-06-14
 
+- `60f9ef1` **[Data]** added Beischrift slot variant to jn
+
+## 2026-06-14
+
 - `dc08fec` **[Templates/Pages, Data, PWA/Offline]** added Beischrift slot variant to jn
 
 ## 2026-06-14

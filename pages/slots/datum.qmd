@@ -41,13 +41,13 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḥꜣ.t-sp* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph} </td>
+   <td style="text-align:left;"> *ḥꜣ.t-sp* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0030_HA.t-sp_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0040_HA.t-sp_Sp_01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0050_HA.t-sp_Sp_02.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/01_Jahr/0060_HA.t-sp_Sp_03.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> Regierungsjahr </td>
   </tr>
 </tbody>
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
@@ -101,14 +101,14 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ꜣḫ.t* </td>
+   <td style="text-align:left;"> *ꜣḫ.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0001_Ax.t_01.png){.glyph} </td>
-   <td style="text-align:left;"> Überschwemmungszeit </td>
+   <td style="text-align:left;"> Überschwemmungszeit </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *pr.t* </td>
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> Winter </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šm.w* </td>
+   <td style="text-align:left;"> *šm.w* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0020_Smw_01.png){.glyph} </td>
    <td style="text-align:left;"> Sommer </td>
   </tr>
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
