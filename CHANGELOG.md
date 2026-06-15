@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-15
+
+- `bb87027` **[Templates/Pages, Data, PWA/Offline]** added regnal year variants
+
 ## 2026-06-14
 
 - `60f9ef1` **[Data]** added Beischrift slot variant to jn

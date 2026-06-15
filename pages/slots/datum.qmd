@@ -107,17 +107,17 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *ꜣḫ.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0001_Ax.t_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0001_Ax.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0010_Ax.t_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0020_Ax.t_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0030_Ax.t_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0040_Ax.t_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> Überschwemmungszeit </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *pr.t* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0010_pr.t_01.png){.glyph} </td>
+   <td style="text-align:left;"> 02_Slots/Datum/03_Jahreszeiten/02_pr.t/ </td>
    <td style="text-align:left;"> Winter </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *šm.w* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Datum/03_Jahreszeiten/0020_Smw_01.png){.glyph} </td>
+   <td style="text-align:left;"> 02_Slots/Datum/03_Jahreszeiten/03_Smw/ </td>
    <td style="text-align:left;"> Sommer </td>
   </tr>
 </tbody>
