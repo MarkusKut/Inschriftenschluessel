@@ -2,6 +2,10 @@
 
 ## 2026-06-17
 
+- `f4ed000` **[Templates/Pages, Data]** updated Denkmaelerformel structure and comments
+
+## 2026-06-17
+
 - `a5ffca7` **[Templates/Pages, Data, PWA/Offline]** updated Denkmaelerformel glyphline
 
 ## 2026-06-15

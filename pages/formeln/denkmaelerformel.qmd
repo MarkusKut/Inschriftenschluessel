@@ -85,6 +85,38 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0060_jr.t n=f_01.png){.glyph}
 
+*it*:
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0001_jt_AR_01.png){.glyph} <sup>(AR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0010_jt_AR_02.png){.glyph} <sup>(AR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0020_jt_AR_03.png){.glyph} <sup>(AR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0030_jt_MR_01.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0040_jt_Gr_01.png){.glyph} <sup>(Gr.)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02-1_jt/0050_jt_Gr_02.png){.glyph} <sup>(Gr.)</sup>
+
+*mw.t*:
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0001_mw.t_01.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0010_mw.t_02.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0020_mw.t_03.png){.glyph}
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0030_mw.t_seit-MR_01.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0040_mw.t_seit-MR_02.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0050_mw.t_seit-MR_03.png){.glyph} <sup>(MR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0060_mw.t_NR_01.png){.glyph} <sup>(NR)</sup>
+
+- ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0070_mw.t_Sp_01.png){.glyph} <sup>(Sp.)</sup>
+
 
 :::
 
