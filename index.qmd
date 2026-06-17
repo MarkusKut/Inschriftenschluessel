@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
 
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}   
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} Tat   
 
 
 
@@ -45,17 +45,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
 
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
+
 
 
 ## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
 
-[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} NN
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} NN   
+
 
 
 ## [Beischrift](pages/formeln/beischrift.qmd)
 
-Beziehung Szenentitel [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+Beziehung Szenentitel [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}   
+
 
 
 

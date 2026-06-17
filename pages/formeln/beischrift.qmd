@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-Beziehung Szenentitel [Wörtliche Rede](../slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](../slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+Beziehung Szenentitel [Wörtliche Rede](../slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](../slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}   
+
 
 
 

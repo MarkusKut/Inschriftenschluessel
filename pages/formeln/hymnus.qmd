@@ -56,9 +56,10 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 *sn tꜣ n*:
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
+- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} <sup>(NR)</sup>
 
-- ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA-n_NR_01.png){.glyph} <sup>(NR)</sup>
+-   
+
 
 
 :::

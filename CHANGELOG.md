@@ -2,6 +2,10 @@
 
 ## 2026-06-15
 
+- `2120ef0` **[Templates/Pages, Data, PWA/Offline]** added sw-arqy variants
+
+## 2026-06-15
+
 - `2cb1d16` **[Templates/Pages, Data, PWA/Offline]** added sw variants
 
 ## 2026-06-15

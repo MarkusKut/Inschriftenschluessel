@@ -1,5 +1,9 @@
 # Worklog
 
+## 2026-06-17
+
+- update "Denkmälerformel" formula
+
 ## 2026-06-15
 
 - update "Datum" slot

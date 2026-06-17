@@ -32,6 +32,7 @@ self.__PRECACHE = [
   'assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0040_jrj.n=f mn.w=f n_01.png',
   'assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0050_jrj.n=f mn.w=f_01.png',
   'assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0060_jr.t n=f_01.png',
+  'assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png',
   'assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png',
   'assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0010_dwA_02.png',
   'assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_seit-MR_01.png',

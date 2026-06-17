@@ -1,5 +1,5 @@
 ---
-title: "Denkmälerformel"
+title: "Denkmälerformel"
 ---
 ```{=html}
 <div class="zoom-controls">
@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}   
+[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} Tat   
 
 
 
 
-## Übersetzung
+## Übersetzung
 
-[König](../slots/koenig.qmd){.slot-link .slot-k-nig} NN / [Person](../slots/person.qmd){.slot-link .slot-person} NN: Er hat als sein Denkmal / sein Denkmal für [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN gemacht.
+[König](../slots/koenig.qmd){.slot-link .slot-k-nig} NN / [Person](../slots/person.qmd){.slot-link .slot-person} NN: Er hat als sein Denkmal / sein Denkmal für seinen Vater / seine Mutter [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN gemacht, indem er (der Stifter) ihm (dem Beschenkten) machte) das Bauwerk) u. ä.
 
 ## Aufbau
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
    <th style="text-align:left;"> WB </th>
    <th style="text-align:left;"> Kommentar </th>
   </tr>
@@ -46,16 +46,16 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *ir.n⸗f mnw⸗f* </td>
-   <td style="text-align:left;"> er hat als sein Denkmal gemacht für </td>
+   <td style="text-align:left;"> er hat als sein Denkmal gemacht für </td>
    <td style="text-align:left;"> II: 70 </td>
-   <td style="text-align:left;"> später auch ohne *m* geschrieben </td>
+   <td style="text-align:left;"> später auch ohne *m* geschrieben </td>
   </tr>
 </tbody>
 </table></div>
 
 ## Kommentare
 
-[Person](../slots/person.qmd){.slot-link .slot-person} NN: selten, traditionelle Übersetzung
+[Person](../slots/person.qmd){.slot-link .slot-person} NN: selten, traditionelle Übersetzung
 
 ## Schreibvarianten
 
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Literatur
 
-Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurierungsinschriften von den Anfängen bis zur 30. Dynastie. Abhandlungen des Deutschen Archäologischen Instituts Kairo, Ägyptologische Reihe 18. Berlin: Achet.
+Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurierungsinschriften von den Anfängen bis zur 30. Dynastie. Abhandlungen des Deutschen Archäologischen Instituts Kairo, Ägyptologische Reihe 18. Berlin: Achet.
 
 
 
@@ -98,7 +98,7 @@ Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurieru
       } else {
         window.location.href = '/index.html';
       }
-    " class="btn-back">← Zurück</button>
+    " class="btn-back">← Zuruck</button>
   </div>
 </div>
 
