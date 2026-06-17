@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} Tat   
+[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Tat</b>   
 
 
 
 
 ## Übersetzung
 
-[König](../slots/koenig.qmd){.slot-link .slot-k-nig} NN / [Person](../slots/person.qmd){.slot-link .slot-person} NN: Er hat als sein Denkmal / sein Denkmal für seinen Vater / seine Mutter [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN gemacht, indem er (der Stifter) ihm (dem Beschenkten) machte) das Bauwerk) u. ä.
+[König](../slots/koenig.qmd){.slot-link .slot-k-nig} NN / [Person](../slots/person.qmd){.slot-link .slot-person} NN: Er hat als sein Denkmal / sein Denkmal für seinen Vater / seine Mutter [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN gemacht, indem er (der Stifter) ihm (dem Beschenkten) machte (das Bauwerk) u. ä.
 
 ## Aufbau
 
@@ -46,16 +46,24 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *ir.n⸗f mnw⸗f* </td>
-   <td style="text-align:left;"> er hat als sein Denkmal gemacht für </td>
+   <td style="text-align:left;"> er hat als sein Denkmal gemacht </td>
    <td style="text-align:left;"> II: 70 </td>
-   <td style="text-align:left;"> später auch ohne *m* geschrieben </td>
+   <td style="text-align:left;"> konventionelle Übersetzung; später auch ohne *m* geschrieben </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *n it / mw.t⸗f* </td>
+   <td style="text-align:left;"> für seinen Vater / seine Mutter </td>
+   <td style="text-align:left;"> I: 141; II: 54 </td>
+   <td style="text-align:left;">  </td>
   </tr>
 </tbody>
 </table></div>
 
 ## Kommentare
 
-[Person](../slots/person.qmd){.slot-link .slot-person} NN: selten, traditionelle Übersetzung
+[Person](../slots/person.qmd){.slot-link .slot-person} NN statt [König](../slots/koenig.qmd){.slot-link .slot-k-nig} NN: selten
+
+<b>Tat</b>: typischerweise im Infinitiv
 
 ## Schreibvarianten
 
@@ -98,7 +106,7 @@ Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurier
       } else {
         window.location.href = '/index.html';
       }
-    " class="btn-back">← Zuruck</button>
+    " class="btn-back">← Zurück</button>
   </div>
 </div>
 

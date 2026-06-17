@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-17
+
+- `a5ffca7` **[Templates/Pages, Data, PWA/Offline]** updated Denkmaelerformel glyphline
+
 ## 2026-06-15
 
 - `2120ef0` **[Templates/Pages, Data, PWA/Offline]** added sw-arqy variants

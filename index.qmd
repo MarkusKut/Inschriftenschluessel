@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
 
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} Tat   
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mnw⸗f* ![](/assets/glyphs/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Tat</b>   
 
 
 
