@@ -1,5 +1,11 @@
 # Worklog
 
+
+## 2026-06-24
+
+- added Khonsu epithet "m wAs.t" and "pA jrj sxr.w m wAs.t"
+
+
 ## 2026-06-17
 
 - update "Denkmälerformel" formula

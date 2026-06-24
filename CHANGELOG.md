@@ -2,6 +2,10 @@
 
 ## 2026-06-17
 
+- `4f8a228` **[Templates/Pages, Data, PWA/Offline]** updated Denkmaelerformel variants
+
+## 2026-06-17
+
 - `f4ed000` **[Templates/Pages, Data]** updated Denkmaelerformel structure and comments
 
 ## 2026-06-17
