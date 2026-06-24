@@ -322,11 +322,11 @@ render_glyphvariants_md <- function(df_line) {
     
     bullet_md <- vapply(bullets, function(b) {
       b <- b[order(b$seq), , drop = FALSE]
-      paste0("- ", render_glyphline_md(b), "\n\n")
+      paste0("     - ", render_glyphline_md(b), "\n\n")
     }, character(1))
     
     # Label line as its own paragraph, then bullets; exactly one string returned
-    paste0(lbl, ":\n\n", paste0(bullet_md, collapse = ""))
+    paste0("- ", lbl, ":\n\n", paste0(bullet_md, collapse = ""))
   }, character(1))
   
   #paste0(out, collapse = "")

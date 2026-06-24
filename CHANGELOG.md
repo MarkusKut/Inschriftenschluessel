@@ -2,6 +2,10 @@
 
 ## 2026-06-24
 
+- `acdbeba` **[Templates/Pages, Data, PWA/Offline]** added formula Hymnus variants
+
+## 2026-06-24
+
 - `d1bbed8` **[Templates/Pages, Data, PWA/Offline]** added Khonsu epithet m wAs.t and pA jrj sxr.w m wAs.t
 
 ## 2026-06-17

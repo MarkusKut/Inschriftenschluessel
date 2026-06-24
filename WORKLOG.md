@@ -5,6 +5,7 @@
 
 - added Khonsu epithet *m wAs.t* and *pA jrj sxr.w m wAs.t*
 - added formula "Hymnus" variants
+- changed appearance of variants in general 
 
 
 ## 2026-06-17
