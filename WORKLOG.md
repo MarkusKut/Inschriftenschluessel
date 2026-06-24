@@ -3,7 +3,8 @@
 
 ## 2026-06-24
 
-- added Khonsu epithet "m wAs.t" and "pA jrj sxr.w m wAs.t"
+- added Khonsu epithet *m wAs.t* and *pA jrj sxr.w m wAs.t*
+- added formula "Hymnus" variants
 
 
 ## 2026-06-17
@@ -24,7 +25,7 @@
 ## 2026-06-03
 
 - added "Information" page
-- added more variants of Montu epithet "nb wAs.t"
+- added more variants of Montu epithet *nb wAs.t*
 - fixed order of Gaben
 - added and fixed order of "Epitheta" on slot page "König"
 - smaller fixes and changes

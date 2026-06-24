@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-24
+
+- `d1bbed8` **[Templates/Pages, Data, PWA/Offline]** added Khonsu epithet m wAs.t and pA jrj sxr.w m wAs.t
+
 ## 2026-06-17
 
 - `4f8a228` **[Templates/Pages, Data, PWA/Offline]** updated Denkmaelerformel variants
