@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
 
-[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} NN   
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
 
 
 

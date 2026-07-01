@@ -4,6 +4,7 @@
 ## 2026-07-01
 
 - added king's names variants
+- updated "Historische Königsinschrift" formula
 
 
 ## 2026-06-24

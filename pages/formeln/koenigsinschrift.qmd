@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} NN   
+[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
 
 
 
@@ -31,6 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Übersetzung
 
 [Datum](../slots/datum.qmd){.slot-link .slot-datum} unter der Majestät / Regierung des [König](../slots/koenig.qmd){.slot-link .slot-k-nig}
+
+## Kommentar
+
+nach *ḫr ḥm n*: Thronname des Königs
 
 ## Schreibvarianten
 

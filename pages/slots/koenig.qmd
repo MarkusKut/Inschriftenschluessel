@@ -1,5 +1,5 @@
 ---
-title: "König"
+title: "König"
 ---
 
 <meta name="slot-title-class" content="slot-title-k-nig">
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## Übliche Form
+## Übliche Form
 
 [Titulatur] + [Name] + [Epitheta]
 
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <td style="text-align:left;"> Horusname </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0001_Hr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0010_Hr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0020_Hr_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0030_Hr_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0040_Hr_D.19_01.png){.glyph} <sup>(D.19)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0050_Hr_D.19_02.png){.glyph} <sup>(D.19)</sup> </td>
-   <td style="text-align:left;"> *ḥr* </td>
+   <td style="text-align:left;"> *ḥr* </td>
    <td style="text-align:left;"> III: 124 </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <td style="text-align:left;"> Goldhorusname </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/03_Goldhorus_01/0001_Hr-m-nb.w_01.png){.glyph} </td>
-   <td style="text-align:left;"> *ḥr n nbw* / *bik n nbw* </td>
+   <td style="text-align:left;"> *ḥr n nbw* / *bik n nbw* </td>
    <td style="text-align:left;"> II: 240; I: 445 </td>
-   <td style="text-align:left;"> Umschrift und Übersetzung konventionell </td>
+   <td style="text-align:left;"> Umschrift und Übersetzung konventionell </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Thronname </td>
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Name
 
-siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern.
+siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Münchner Ägyptologische Studien 49; Münchener Universitätsschriften, Philosophische Fakultät für Geschichts- und Kunstwissenschaften. Mainz: Philipp von Zabern.
 
 
 ## Epitheta
@@ -103,42 +103,42 @@ siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. M
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *nṯr nfr* </td>
+   <td style="text-align:left;"> *nṯr nfr* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/01_nTr-nfr/0001_nTr-nfr_01.png){.glyph} </td>
    <td style="text-align:left;"> vollkommender Gott </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nb tꜣ.wi* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/02_nb-tA.wj/0001_nb-tA.wj_01.png){.glyph} </td>
-   <td style="text-align:left;"> Herr der beiden Länder </td>
+   <td style="text-align:left;"> Herr der beiden Länder </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *sꜣ⸗f n ẖ.t⸗f* </td>
+   <td style="text-align:left;"> *sꜣ⸗f n ẖ.t⸗f* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/03_sA=f-n-X.t=f/0001_sA=f-n-X.t=f_01.png){.glyph} </td>
    <td style="text-align:left;"> sein leiblicher Sohn </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥm⸗f* </td>
+   <td style="text-align:left;"> *ḥm⸗f* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/04_Hm=f/0001_Hm=f_01.png){.glyph} </td>
-   <td style="text-align:left;"> Seine Majestät </td>
+   <td style="text-align:left;"> Seine Majestät </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥm* </td>
+   <td style="text-align:left;"> *ḥm* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0001_Hm_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0010_Hm_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0020_Hm_03.png){.glyph} </td>
-   <td style="text-align:left;"> Majestät </td>
+   <td style="text-align:left;"> Majestät </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nsw* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0001_nsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0010_nsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0020_nsw_03.png){.glyph} </td>
-   <td style="text-align:left;"> König </td>
+   <td style="text-align:left;"> König </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nb ḫꜥ.w* </td>
+   <td style="text-align:left;"> *nb ḫꜥ.w* </td>
    <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/07_nb-xa.w/0001_nb-xa.w_01.png){.glyph} </td>
    <td style="text-align:left;"> Herr der Erscheinungen/Kronen </td>
   </tr>

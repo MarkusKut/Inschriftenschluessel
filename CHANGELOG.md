@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-01
+
+- `241aa3a` **[Templates/Pages, Data, PWA/Offline]** added king's names variants
+
 ## 2026-06-24
 
 - `fa51f40` **[R code, Templates/Pages]** changed appearance of variants in general
