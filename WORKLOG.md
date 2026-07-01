@@ -5,7 +5,7 @@
 
 - added king's names variants
 - updated "Historische Königsinschrift" formula
-
+- updated "Hymnus" formula
 
 ## 2026-06-24
 

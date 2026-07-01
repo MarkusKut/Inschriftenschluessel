@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [Hymnus](pages/formeln/hymnus.qmd)
 
-![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*   
+![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
 
 
 
