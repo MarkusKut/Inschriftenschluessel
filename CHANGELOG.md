@@ -2,6 +2,10 @@
 
 ## 2026-06-24
 
+- `fa51f40` **[R code, Templates/Pages]** changed appearance of variants in general
+
+## 2026-06-24
+
 - `acdbeba` **[Templates/Pages, Data, PWA/Offline]** added formula Hymnus variants
 
 ## 2026-06-24

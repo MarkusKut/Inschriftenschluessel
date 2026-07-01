@@ -1,6 +1,11 @@
 # Worklog
 
 
+## 2026-07-01
+
+- added king's names variants
+
+
 ## 2026-06-24
 
 - added Khonsu epithet *m wAs.t* and *pA jrj sxr.w m wAs.t*
