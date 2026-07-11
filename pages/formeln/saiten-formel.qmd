@@ -1,5 +1,5 @@
 ---
-title: "Saïten-Formel"
+title: "Saïten-Formel"
 ---
 ```{=html}
 <div class="zoom-controls">
@@ -23,6 +23,30 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
+
+
+
+
+## Kommentar
+
+- erstmals in der 18. Dynastie belegt
+
+## Schreibvarianten
+
+::: {.glyphvariants-block}
+
+
+:::
+
+
+
+## Literatur
+
+- Jansen-Winkeln, Karl 2000. Zum Verständnis der "Saitischen Formel". Studien zur Altägyptischen Kultur 28, 83-124.
+
+- Meulenaere, H. J. A. de 1997-2000. Sculptures mendésiennes de Basse Époque. Jaarbericht van het Vooraziatisch-Egyptisch Genootschap Ex Oriente Lux 35-36, 33-39: F. 81
+
+- NR: Klotz, David 2016. Get thee behind me, City God! New Kingdom versions of the so-called "Saite Formula". Zeitschrift für ägyptische Sprache und Altertumskunde 143 (2), 204-213. DOI: 10.1515/zaes-2016-0014.
 
 
 

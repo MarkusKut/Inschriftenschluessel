@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-11
+
+
+- added "Saitenformel" formula
+
+
 
 ## 2026-07-01
 

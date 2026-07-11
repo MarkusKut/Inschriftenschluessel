@@ -2,6 +2,10 @@
 
 ## 2026-07-01
 
+- `f54c21f` **[Templates/Pages, Data]** updated Hymnus formula
+
+## 2026-07-01
+
 - `f8d1f67` **[Templates/Pages, Data]** updated Historische Königsinschrift formula
 
 ## 2026-07-01
