@@ -8,13 +8,15 @@ library(knitr)
 
 glyph_img <- function(glyph_path, alt = "", height = 30) {
   # root-relative URL so it works from any page depth
-  src <- paste0("/assets/glyphs/", gsub("^/+", "", glyph_path))
+  src <- paste0("/assets/glyphs500px/", gsub("^/+", "", glyph_path))
   
   htmltools::tags$img(
     src   = src,
     alt   = alt,
     class = "glyph",
-    style = paste0("height:", height, "px;")
+    style = paste0("height:", height, "px;"),
+    loading = "lazy",
+    decoding = "async"
   )
 }
 
@@ -203,7 +205,7 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
         parts <- vapply(parts, function(part) {
           gsub(
             "([^\\s,]+\\.png)",
-            "![](/assets/glyphs/\\1){.glyph}",
+            "![](/assets/glyphs500px/\\1){.glyph}",
             part,
             ignore.case = TRUE,
             perl = TRUE
@@ -239,7 +241,7 @@ kable_html <- function(df, class = "table", wrapper_class = "tableFixHead table-
 glyph_md <- function(glyph_path, alt = "", height = 30) {
   # Pandoc Markdown image with an attribute block
   # height works via CSS class; avoid inline HTML
-  paste0("![](/assets/glyphs/", glyph_path, "){.glyph}")
+  paste0("![](/assets/glyphs500px/", glyph_path, "){.glyph}")
 }
 
 text_md <- function(x) x

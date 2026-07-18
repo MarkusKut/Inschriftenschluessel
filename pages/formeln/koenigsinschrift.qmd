@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
+[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
 
 
 
@@ -42,19 +42,19 @@ nach *ḫr ḥm n*: Thronname des Königs
 
 - *[ḫr] ḥm n*:
 
-     - ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0010_xr Hm n_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0010_xr Hm n_02.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0020_Hm n_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0020_Hm n_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
 
 - *nsw bit*:
 
-     - ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01.png){.glyph}
+     - ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01.png){.glyph}
 
-     - ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup>
+     - ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_Gr._02.png){.glyph} <sup>(Gr.)</sup>
 
 
 :::

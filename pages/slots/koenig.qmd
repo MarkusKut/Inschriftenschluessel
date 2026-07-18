@@ -54,35 +54,35 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> Horusname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0001_Hr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0010_Hr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0020_Hr_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0030_Hr_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0040_Hr_D.19_01.png){.glyph} <sup>(D.19)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/01_Horusname_01/0050_Hr_D.19_02.png){.glyph} <sup>(D.19)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0001_Hr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0010_Hr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0020_Hr_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0030_Hr_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0040_Hr_D.19_01.png){.glyph} <sup>(D.19)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/01_Horusname_01/0050_Hr_D.19_02.png){.glyph} <sup>(D.19)</sup> </td>
    <td style="text-align:left;"> *ḥr* </td>
    <td style="text-align:left;"> III: 124 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Herrinnenname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/02_Herrinname_01/0001_nbty_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/02_Herrinname_01/0010_nbty_Gr_01.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/02_Herrinname_01/0001_nbty_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/02_Herrinname_01/0010_nbty_Gr_01.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> *nb.ty* </td>
    <td style="text-align:left;"> II: 233 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Goldhorusname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/03_Goldhorus_01/0001_Hr-m-nb.w_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/03_Goldhorus_01/0001_Hr-m-nb.w_01.png){.glyph} </td>
    <td style="text-align:left;"> *ḥr n nbw* / *bik n nbw* </td>
    <td style="text-align:left;"> II: 240; I: 445 </td>
    <td style="text-align:left;"> Umschrift und Übersetzung konventionell </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Thronname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0010_nsw-bit_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0020_nsw-bit_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0030_nsw-bit_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0040_nsw-bit_NR_03.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0050_nsw-bit_NR_04.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0060_nsw-bit_Gr_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0070_nsw-bit_Gr_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0080_nsw-bit_Gr_03.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/04_Thronname_01/0090_nsw-bit_Gr_04.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0010_nsw-bit_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0020_nsw-bit_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0030_nsw-bit_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0040_nsw-bit_NR_03.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0050_nsw-bit_NR_04.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0060_nsw-bit_Gr_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0070_nsw-bit_Gr_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0080_nsw-bit_Gr_03.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0090_nsw-bit_Gr_04.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> *nsw-bit* </td>
    <td style="text-align:left;"> II: 330 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Eigenname </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0001_sA-ra_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0010_sA-ra_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0020_sA-ra_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0030_sA-ra_D.20_01.png){.glyph} <sup>(D.20)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0040_sA-ra_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/05_Eigenname_01/0050_sA-ra_Gr_01.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0001_sA-ra_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0010_sA-ra_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0020_sA-ra_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0030_sA-ra_D.20_01.png){.glyph} <sup>(D.20)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0040_sA-ra_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/05_Eigenname_01/0050_sA-ra_Gr_01.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> *sꜣ rꜥ* </td>
    <td style="text-align:left;"> III: 440 </td>
    <td style="text-align:left;">  </td>
@@ -109,37 +109,37 @@ siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Mün
 <tbody>
   <tr>
    <td style="text-align:left;"> *nṯr nfr* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/01_nTr-nfr/0001_nTr-nfr_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/01_nTr-nfr/0001_nTr-nfr_01.png){.glyph} </td>
    <td style="text-align:left;"> vollkommender Gott </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nb tꜣ.wi* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/02_nb-tA.wj/0001_nb-tA.wj_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/02_nb-tA.wj/0001_nb-tA.wj_01.png){.glyph} </td>
    <td style="text-align:left;"> Herr der beiden Länder </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *sꜣ⸗f n ẖ.t⸗f* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/03_sA=f-n-X.t=f/0001_sA=f-n-X.t=f_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/03_sA=f-n-X.t=f/0001_sA=f-n-X.t=f_01.png){.glyph} </td>
    <td style="text-align:left;"> sein leiblicher Sohn </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥm⸗f* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/04_Hm=f/0001_Hm=f_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/04_Hm=f/0001_Hm=f_01.png){.glyph} </td>
    <td style="text-align:left;"> Seine Majestät </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥm* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0001_Hm_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0010_Hm_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/05_Hm/0020_Hm_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/05_Hm/0001_Hm_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/05_Hm/0010_Hm_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/05_Hm/0020_Hm_03.png){.glyph} </td>
    <td style="text-align:left;"> Majestät </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nsw* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0001_nsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0010_nsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Koenig/Epitheta/06_nsw/0020_nsw_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0001_nsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0010_nsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0020_nsw_03.png){.glyph} </td>
    <td style="text-align:left;"> König </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nb ḫꜥ.w* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Koenig/Epitheta/07_nb-xa.w/0001_nb-xa.w_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/07_nb-xa.w/0001_nb-xa.w_01.png){.glyph} </td>
    <td style="text-align:left;"> Herr der Erscheinungen/Kronen </td>
   </tr>
 </tbody>

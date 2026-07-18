@@ -51,27 +51,27 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *imi-rꜣ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/01_jmj-rA_02.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/01_jmj-rA_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/01_jmj-rA_02.png){.glyph} </td>
    <td style="text-align:left;"> Vorsteher </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥry* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/02_Hry_MR_01.png){.glyph} <sup>(MR)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/02_Hry_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> Oberer </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *imꜣḫ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/03_jmAx_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/03_jmAx_MR_01.png){.glyph} <sup>(MR)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/03_jmAx_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> Ehrwürdiger / Versorgter </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *nb imꜣḫ* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/04_nb-jmAx_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/04_nb-jmAx_01.png){.glyph} </td>
    <td style="text-align:left;"> Herr der Erwürdigkeit </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *wsir* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/05_wsjr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/05_wsjr_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Titel/05_wsjr_03.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/05_wsjr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/05_wsjr_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Titel/05_wsjr_03.png){.glyph} </td>
    <td style="text-align:left;"> Osiris </td>
   </tr>
 </tbody>
@@ -89,22 +89,22 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
   <tr>
    <td style="text-align:left;"> *nb.t pr* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/f/01_nb.t-pr_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/f/01_nb.t-pr_01.png){.glyph} </td>
    <td style="text-align:left;"> Herrin des Hauses </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥm.t-nṯr ḥw.t-ḥr* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/f/02_Hm.t-nTr-Hw.t-Hr_AR_01.png){.glyph} <sup>(AR)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/f/02_Hm.t-nTr-Hw.t-Hr_AR_01.png){.glyph} <sup>(AR)</sup> </td>
    <td style="text-align:left;"> Priesterin der Hathor </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *ḥw.t-ḥr* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/f/02_Hw.t-Hr_Roem._01.png){.glyph} <sup>(röm.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/f/02_Hw.t-Hr_Roem._01.png){.glyph} <sup>(röm.)</sup> </td>
    <td style="text-align:left;"> Hathor </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *šmꜥy.t-imn* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Titel/f/03_Smay.t-jmn_NR-3.Zw.Zt._01.png){.glyph} <sup>(NR; 3.Zw.Zt.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Titel/f/03_Smay.t-jmn_NR-3.Zw.Zt._01.png){.glyph} <sup>(NR; 3.Zw.Zt.)</sup> </td>
    <td style="text-align:left;"> Sängerin des Amun </td>
   </tr>
 </tbody>
@@ -117,13 +117,13 @@ document.addEventListener("DOMContentLoaded", function() {
 wichtiges Bildungsmuster für weibliche Namen:
 
 
-- *tꜣ-di-* ![](/assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png){.glyph} ![](/assets/glyphs/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+- *tꜣ-di-* ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png){.glyph} ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
 
 
 wichtiges Bildungsmuster für männliche Namen:
 
 
-- *pꜣ-di-* ![](/assets/glyphs/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_01.png){.glyph} ![](/assets/glyphs/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+- *pꜣ-di-* ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_01.png){.glyph} ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
 
 
 ## Determinative
@@ -137,8 +137,8 @@ wichtiges Bildungsmuster für männliche Namen:
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/01_A1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/m/02_A52_01.png){.glyph} </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/01_B1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/02_B1G_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Personennamen/Determinative/f/03_B8_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Personennamen/Determinative/m/01_A1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Personennamen/Determinative/m/02_A52_01.png){.glyph} </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Personennamen/Determinative/f/01_B1_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Personennamen/Determinative/f/02_B1G_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Personennamen/Determinative/f/03_B8_01.png){.glyph} </td>
   </tr>
 </tbody>
 </table></div>
@@ -157,7 +157,7 @@ wichtiges Bildungsmuster für männliche Namen:
 <tbody>
   <tr>
    <td style="text-align:left;"> *mꜣꜥ-ḫrw* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._02.png){.glyph} <sup>(Spät.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._02.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> Gerechtfertigter </td>
   </tr>
 </tbody>

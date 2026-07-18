@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
 
 
 
@@ -38,77 +38,77 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 - *dwꜣ*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0010_dwA_AR_01.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0010_dwA_AR_01.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_Pyr_01.png){.glyph} <sup>(Pyr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0020_dwA_Pyr_01.png){.glyph} <sup>(Pyr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0030_dwA_seit-MR_01.png){.glyph} <sup>(seit MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0030_dwA_seit-MR_01.png){.glyph} <sup>(seit MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0040_dwA_seit-MR_02.png){.glyph} <sup>(seit MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0040_dwA_seit-MR_02.png){.glyph} <sup>(seit MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0050_dwA_seit-MR_03.png){.glyph} <sup>(seit MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0050_dwA_seit-MR_03.png){.glyph} <sup>(seit MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0060_dwA_seit-MR_04.png){.glyph} <sup>(seit MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0060_dwA_seit-MR_04.png){.glyph} <sup>(seit MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0070_dwA_Ende-NR_01.png){.glyph} <sup>(Ende NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0070_dwA_Ende-NR_01.png){.glyph} <sup>(Ende NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0080_dwA_Ende-NR_02.png){.glyph} <sup>(Ende NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0080_dwA_Ende-NR_02.png){.glyph} <sup>(Ende NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0090_dwA_Sp_01.png){.glyph} <sup>(Sp.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0090_dwA_Sp_01.png){.glyph} <sup>(Sp.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/01_dwA/0100_dwA_Sp_02.png){.glyph} <sup>(Sp.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0100_dwA_Sp_02.png){.glyph} <sup>(Sp.)</sup>
 
 - *rdi.t iꜣw*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0010_rDj.t-jAw_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0010_rDj.t-jAw_02.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0020_rDj.t-jAw_NR_01.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0020_rDj.t-jAw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0030_rDj.t-jAw_NR_02.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0030_rDj.t-jAw_NR_02.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0040_rDj.t-jAw_NR_03.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0040_rDj.t-jAw_NR_03.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0050_rDj.t-jAw_NR_04.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0050_rDj.t-jAw_NR_04.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0060_rDj.t-jAw_NR_05.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0060_rDj.t-jAw_NR_05.png){.glyph} <sup>(NR)</sup>
 
 - *iꜣw*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0001_jAw_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0001_jAw_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0010_jAw_AR_01.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0010_jAw_AR_01.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0020_jAw_AR_02.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0020_jAw_AR_02.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0030_jAw_NR_01.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0030_jAw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0040_jAw_D.18_01.png){.glyph} <sup>(D.18)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0040_jAw_D.18_01.png){.glyph} <sup>(D.18)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0050_jAw_Gr_01.png){.glyph} <sup>(Gr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0050_jAw_Gr_01.png){.glyph} <sup>(Gr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0060_jAw_Gr_02.png){.glyph} <sup>(Gr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0060_jAw_Gr_02.png){.glyph} <sup>(Gr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0070_jAw_Abk_01.png){.glyph} <sup>(Abk.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/02_jAw/0070_jAw_Abk_01.png){.glyph} <sup>(Abk.)</sup>
 
 - *sn tꜣ*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0010_sn-tA_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0020_sn-tA_NR_01.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0020_sn-tA_NR_01.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0030_sn-tA_NR_02.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0030_sn-tA_NR_02.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0040_sn-tA_NR_03.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0040_sn-tA_NR_03.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0050_sn-tA_D.18_01.png){.glyph} <sup>(D.18)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0050_sn-tA_D.18_01.png){.glyph} <sup>(D.18)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0060_sn-tA_Abk-MR-NR_01.png){.glyph} <sup>(Abk. MR, NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0060_sn-tA_Abk-MR-NR_01.png){.glyph} <sup>(Abk. MR, NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/03_sn-tA-n/0070_sn-tA_Abk-Gr_01.png){.glyph} <sup>(Abk. Gr.)</sup>   
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0070_sn-tA_Abk-Gr_01.png){.glyph} <sup>(Abk. Gr.)</sup>   
 
 
 
@@ -122,27 +122,27 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 - *in*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0010_jn_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0010_jn_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0020_jn_AR_01.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0020_jn_AR_01.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0030_jn_AR_02.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0030_jn_AR_02.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/04_jn/0040_jn_NR_01.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0040_jn_NR_01.png){.glyph} <sup>(NR)</sup>
 
 - *ḏd*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0010_Dd_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0010_Dd_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0020_Dd_seitMR_01.png){.glyph} <sup>(seit MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0020_Dd_seitMR_01.png){.glyph} <sup>(seit MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0030_Dd_Sp_Gr_01.png){.glyph} <sup>(Sp.; Gr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0030_Dd_Sp_Gr_01.png){.glyph} <sup>(Sp.; Gr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0040_Dd_Gr_01.png){.glyph} <sup>(Gr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0040_Dd_Gr_01.png){.glyph} <sup>(Gr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/05_Dd=f/0050_Dd_Gr_02.png){.glyph} <sup>(Gr.)</sup>   
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0050_Dd_Gr_02.png){.glyph} <sup>(Gr.)</sup>   
 
 
 
@@ -156,25 +156,25 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
 
 - *inḏ-ḥr⸗*:
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0010_jnD-Hr_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0010_jnD-Hr_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0020_jnD-Hr_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0020_jnD-Hr_02.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0030_jnD-Hr_AR_01.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0030_jnD-Hr_AR_01.png){.glyph} <sup>(AR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0040_jnD-Hr_AR_MR_01.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0040_jnD-Hr_AR_MR_01.png){.glyph} <sup>(AR; MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0050_jnD-Hr_AR_MR_02.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0050_jnD-Hr_AR_MR_02.png){.glyph} <sup>(AR; MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0060_jnD-Hr_NR_01.png){.glyph} <sup>(NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0060_jnD-Hr_NR_01.png){.glyph} <sup>(NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0070_jnD-Hr_D18_01.png){.glyph} <sup>(D.18)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0070_jnD-Hr_D18_01.png){.glyph} <sup>(D.18)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0080_jnD-Hr_Gr_01.png){.glyph} <sup>(Gr.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0080_jnD-Hr_Gr_01.png){.glyph} <sup>(Gr.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/03_Hymnus/06_jnD-Hr/0090_jnD-Hr_Gr_02.png){.glyph} <sup>(Gr.)</sup>   
+     - ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0090_jnD-Hr_Gr_02.png){.glyph} <sup>(Gr.)</sup>   
 
 
 

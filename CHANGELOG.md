@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-18
+
+- `4daf2bc` **[Templates/Pages, Data]** current state
+
 ## 2026-07-11
 
 - `cb1c447` **[Templates/Pages, Data]** added Saitenformel formula

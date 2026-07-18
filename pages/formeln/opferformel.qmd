@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](../slots/person.qmd){.badge-slot .badge-person}   
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](../slots/person.qmd){.badge-slot .badge-person}   
 
 
 
@@ -75,31 +75,31 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
 - *ḥtp-di-nsw*:
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} <sup>(AR; MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0020_Htp-dj-nsw n_Ende-NR_01.png){.glyph} <sup>(Ende NR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0020_Htp-dj-nsw n_Ende-NR_01.png){.glyph} <sup>(Ende NR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0030_Htp-dj-nsw_NR-Spaet._01.png){.glyph} <sup>(Spät.)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0030_Htp-dj-nsw_NR-Spaet._01.png){.glyph} <sup>(Spät.)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0040_Htp-dj-nsw_AR-MR-Gott-N-di_01.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0040_Htp-dj-nsw_AR-MR-Gott-N-di_01.png){.glyph} <sup>(AR; MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0050_Htp-dj-nsw_AR-MR-Gott-N-Htp-dj_01.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0050_Htp-dj-nsw_AR-MR-Gott-N-Htp-dj_01.png){.glyph} <sup>(AR; MR)</sup>
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0060_Htp-dj-nsw_AR-MR-Gott-N-Htp_01.png){.glyph} <sup>(AR; MR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0060_Htp-dj-nsw_AR-MR-Gott-N-Htp_01.png){.glyph} <sup>(AR; MR)</sup>
 
 - *di⸗f* / *⸗s* / *⸗sn*:
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0010_dj=f_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0010_dj=f_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0020_dj=s_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0020_dj=s_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/02_dj/0030_dj=sn_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0030_dj=sn_01.png){.glyph}
 
 - *n* / *n kꜣ n*:
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/01_Opferformel/03_n-kA-n/0010_n-kA -n_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0010_n-kA -n_02.png){.glyph}
 
 
 :::

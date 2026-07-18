@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
+[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
 
 
 
@@ -38,17 +38,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - *mry*:
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0010_mry_02.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0010_mry_02.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0020_mry_03.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0020_mry_03.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0030_mry_04.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0030_mry_04.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0040_mry_05.png){.glyph}
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0040_mry_05.png){.glyph}
 
-     - ![](/assets/glyphs/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0050_mry_AR_02.png){.glyph} <sup>(AR)</sup>
+     - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0050_mry_AR_02.png){.glyph} <sup>(AR)</sup>
 
 
 :::
