@@ -15,6 +15,8 @@ lang: de # Sets language to German
 
 website:
   title: "Inschriftenschlüssel"
+  page-navigation: true
+  back-to-top-navigation: true
   navbar:
     left:
       - href: pages/info.qmd

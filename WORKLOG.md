@@ -4,6 +4,7 @@
 ## 2026-07-18
 
 - set glyphs height to 500px globally
+- added page navigation and breadcrumbs
 
 ## 2026-07-11
 

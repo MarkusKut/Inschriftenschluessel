@@ -19,9 +19,21 @@ for (line in commits) {
   parts <- strsplit(line, "\\|", perl = TRUE)[[1]]
   date <- parts[1]
   hash <- parts[2]
-  msg  <- parts[3]
+ # msg  <- parts[3]
+  msg  <- paste(parts[-c(1, 2)], collapse = "|")
   
-  files <- system(paste("git show --pretty='' --name-only", hash), intern = TRUE)
+  #files <- system(paste("git show --pretty='' --name-only", hash), intern = TRUE)
+  files <- system2(
+    "git",
+    args = c(
+      "show",
+      "--no-renames",
+      "--pretty=",
+      "--name-only",
+      hash
+    ),
+    stdout = TRUE
+  )
   files <- files[nzchar(files)]
   
   cats <- categorize(files)
