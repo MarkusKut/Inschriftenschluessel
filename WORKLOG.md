@@ -4,6 +4,7 @@
 
 
 - added "Saitenformel" formula
+- added "Anruf an die Lebenden" formula
 
 
 

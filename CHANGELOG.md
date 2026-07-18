@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-11
+
+- `cb1c447` **[Templates/Pages, Data]** added Saitenformel formula
+
 ## 2026-07-01
 
 - `f54c21f` **[Templates/Pages, Data]** updated Hymnus formula

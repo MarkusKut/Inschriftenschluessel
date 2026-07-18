@@ -26,6 +26,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+
+## Kommentar
+
+- *swꜣi⸗sn*: seit der 3. Zwischenzeit auch ohne *ti* geschrieben
+
+## Literatur
+
+- Shubert, Steven Blake 2007. Those who (still) live on earth: a study of the ancient Egyptian Appeal to the Living texts. Toronto; Ottawa: University of Toronto; Library and Archives Canada.
+
+
+
 ```{=html}
 <div class="footer-nav" id="footer-nav">
   <div class="nav-buttons">
