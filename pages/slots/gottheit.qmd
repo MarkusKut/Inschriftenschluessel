@@ -502,63 +502,63 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nb.t-hw.t* </td>
+   <td style="text-align:left;"> *nb.t-hw.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/82260' class='tla-badge tla-badge-table' title='TLA-Lemma 82260' aria-label='TLA-Lemma 82260 im Thesaurus Linguae Aegyptiae öffnen'>82260</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0001_nb.t-Hw.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0010_nb.t-Hw.t_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0020_nb.t-Hw.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0030_nb.t-Hw.t_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0040_nb.t-Hw.t_SP_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0050_nb.t-Hw.t_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0220_Nephthys/0060_nb.t-Hw.t_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Nephthys </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nfr-tm* </td>
+   <td style="text-align:left;"> *nfr-tm*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/83860' class='tla-badge tla-badge-table' title='TLA-Lemma 83860' aria-label='TLA-Lemma 83860 im Thesaurus Linguae Aegyptiae öffnen'>83860</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/0001_nfr-tm_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/0010_nfr-tm_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/0020_nfr-tm_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/0030_nfr-tm_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/0040_nfr-tm_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/det/0001_nfr-tm_det_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0230_Nefertem/det/0010_nfr-tm_det_NR_02.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> Nefertem </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nḫb.t* </td>
+   <td style="text-align:left;"> *nḫb.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/87120' class='tla-badge tla-badge-table' title='TLA-Lemma 87120' aria-label='TLA-Lemma 87120 im Thesaurus Linguae Aegyptiae öffnen'>87120</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0240_Nechbet/0001_nxb.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0240_Nechbet/0010_nxb.t_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0240_Nechbet/0020_nxb.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0240_Nechbet/0030_nxb.t_GR_01.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0240_Nechbet/det/0001_nxb.t_det_AR_01.png){.glyph} <sup>(AR)</sup> </td>
    <td style="text-align:left;"> Nechbet </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *rꜥ* </td>
+   <td style="text-align:left;"> *rꜥ*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400015' class='tla-badge tla-badge-table' title='TLA-Lemma 400015' aria-label='TLA-Lemma 400015 im Thesaurus Linguae Aegyptiae öffnen'>400015</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/0001_ra_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/0010_ra_SP_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/0020_ra_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/0030_ra_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/det/0001_ra_det_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/det/0010_ra_det_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/det/0020_ra_det_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0250_Re/det/0030_ra_det_NR_02.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> Re </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *rꜥ-ꜣh.ti* </td>
+   <td style="text-align:left;"> *rꜥ-ḥr-ꜣḫ.ti*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/70002' class='tla-badge tla-badge-table' title='TLA-Lemma 70002' aria-label='TLA-Lemma 70002 im Thesaurus Linguae Aegyptiae öffnen'>70002</a></span></span> </td>
    <td style="text-align:left;"> 02_Slots/Gottheit/Goetter-mit-Epitheta/0260_Re-Harachte/ </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Re-Harachte </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *rnnwt.t* </td>
+   <td style="text-align:left;"> *rnnwt.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/95190' class='tla-badge tla-badge-table' title='TLA-Lemma 95190' aria-label='TLA-Lemma 95190 im Thesaurus Linguae Aegyptiae öffnen'>95190</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0001_rnnwt.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0010_rnnwt.t_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0020_rnnwt.t_AR_02.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0030_rnnwt.t_D.18_01.png){.glyph} <sup>(D.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0040_rnnwt.t_D.18_02.png){.glyph} <sup>(D.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0270_Renenutet/0050_rnnwt.t_D.18_03.png){.glyph} <sup>(D.18)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Renenutet </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥꜥpi* </td>
+   <td style="text-align:left;"> *ḥꜥpi*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/650066' class='tla-badge tla-badge-table' title='TLA-Lemma 650066' aria-label='TLA-Lemma 650066 im Thesaurus Linguae Aegyptiae öffnen'>650066</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0001_Hapj_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0010_Hapj_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0020_Hapj_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0030_Hapj_MR_03.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0040_Hapj_MR_04.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0050_Hapj_MR_05.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0060_Hapj_MR_06.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0070_Hapj_Sait._01.png){.glyph} <sup>(Saït.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0080_Hapj_Sait._02.png){.glyph} <sup>(Saït.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0090_Hapj_SP-GR_01.png){.glyph} <sup>(Sp.–Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0100_Hapj_SP-GR_02.png){.glyph} <sup>(Sp.–Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/0110_Hapj_SP-GR_03.png){.glyph} <sup>(Sp.–Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/det/0001_Hapj_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0280_Hapi-Nilgott/det/0010_Hapj_det_02.png){.glyph} </td>
    <td style="text-align:left;"> Hapi (Nilgott) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥw.t-ḥr* </td>
+   <td style="text-align:left;"> *ḥw.t-ḥr*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/99960' class='tla-badge tla-badge-table' title='TLA-Lemma 99960' aria-label='TLA-Lemma 99960 im Thesaurus Linguae Aegyptiae öffnen'>99960</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0290_Hathor/0001_Hwt-Hr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0290_Hathor/0010_Hwt-Hr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0290_Hathor/0020_Hwt-Hr_AR_02.png){.glyph} <sup>(AR)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Hathor </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥp* </td>
+   <td style="text-align:left;"> *ḥp*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104000' class='tla-badge tla-badge-table' title='TLA-Lemma 104000' aria-label='TLA-Lemma 104000 im Thesaurus Linguae Aegyptiae öffnen'>104000</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/0001_Hp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/0010_Hp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/0020_Hp_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/0030_Hp_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/det/0001_Hp_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/det/0010_Hp_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/det/0020_Hp_det_AR-SP_01.png){.glyph} <sup>(AR; Sp.)</sup> </td>
    <td style="text-align:left;"> Apis </td>
@@ -572,7 +572,7 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ꜥnḫ* </td>
+   <td style="text-align:left;"> *ꜥnḫ*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/853239' class='tla-badge tla-badge-table' title='TLA-Lemma 853239' aria-label='TLA-Lemma 853239 im Thesaurus Linguae Aegyptiae öffnen'>853239</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0300_Apis/epitheta/01_anx/0001_anx_seit-NR_01.png){.glyph} <sup>(seit NR)</sup> </td>
    <td style="text-align:left;"> der Lebende </td>
   </tr>
@@ -580,14 +580,14 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 </table></div></details> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥpy* </td>
+   <td style="text-align:left;"> *ḥpy*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104090' class='tla-badge tla-badge-table' title='TLA-Lemma 104090' aria-label='TLA-Lemma 104090 im Thesaurus Linguae Aegyptiae öffnen'>104090</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0001_Hpy_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0010_Hpy_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0020_Hpy_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0030_Hpy_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0040_Hpy_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0050_Hpy_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/0060_Hpy_MR-NR-GR_01.png){.glyph} <sup>(MR; NR; Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/det/0001_Hpy_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0310_Hapi-Horussohn/det/0010_Hpy_det_AR_01.png){.glyph} </td>
    <td style="text-align:left;"> Hapi (Horussohn) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥr* </td>
+   <td style="text-align:left;"> *ḥr*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/107500' class='tla-badge tla-badge-table' title='TLA-Lemma 107500' aria-label='TLA-Lemma 107500 im Thesaurus Linguae Aegyptiae öffnen'>107500</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/0001_Hr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/0010_Hr_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/0020_Hr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/0030_Hr_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Horus </td>
@@ -601,32 +601,32 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *m ꜣḫ.t* </td>
+   <td style="text-align:left;"> *m ꜣḫ.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/704928' class='tla-badge tla-badge-table' title='TLA-Lemma 704928' aria-label='TLA-Lemma 704928 im Thesaurus Linguae Aegyptiae öffnen'>704928</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_m-Ax.t_01.png){.glyph} </td>
    <td style="text-align:left;"> im Horizont </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nd it* </td>
+   <td style="text-align:left;"> *nd it⸗f*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/550431' class='tla-badge tla-badge-table' title='TLA-Lemma 550431' aria-label='TLA-Lemma 550431 im Thesaurus Linguae Aegyptiae öffnen'>550431</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_nD-jt_01.png){.glyph} </td>
-   <td style="text-align:left;"> der den Vater grüßt </td>
+   <td style="text-align:left;"> der seinen Vater grüßt </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *pꜣ ẖrd* </td>
+   <td style="text-align:left;"> *pꜣ ẖrd*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/853040' class='tla-badge tla-badge-table' title='TLA-Lemma 853040' aria-label='TLA-Lemma 853040 im Thesaurus Linguae Aegyptiae öffnen'>853040</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_pA-Xrd_SP_01.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> das Kind </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *sꜣ s.t* </td>
+   <td style="text-align:left;"> *sꜣ ꜣs.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/853039' class='tla-badge tla-badge-table' title='TLA-Lemma 853039' aria-label='TLA-Lemma 853039 im Thesaurus Linguae Aegyptiae öffnen'>853039</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_sA-s.t_01.png){.glyph} </td>
    <td style="text-align:left;"> Sohn der Isis </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *smꜣ tꜣ.wy* </td>
+   <td style="text-align:left;"> *smꜣ tꜣ.wy*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/858652' class='tla-badge tla-badge-table' title='TLA-Lemma 858652' aria-label='TLA-Lemma 858652 im Thesaurus Linguae Aegyptiae öffnen'>858652</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_smA-tA.wj_01.png){.glyph} </td>
    <td style="text-align:left;"> Vereiniger der beiden Länder </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *wr* </td>
+   <td style="text-align:left;"> *wr*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/550351' class='tla-badge tla-badge-table' title='TLA-Lemma 550351' aria-label='TLA-Lemma 550351 im Thesaurus Linguae Aegyptiae öffnen'>550351</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0320_Horus/epitheta/0001_wr_01.png){.glyph} </td>
    <td style="text-align:left;"> der Große </td>
   </tr>
@@ -634,28 +634,21 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 </table></div></details> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥr-ꜣḫ.ti* </td>
+   <td style="text-align:left;"> *ḥr-ꜣḫ.ti*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/107800' class='tla-badge tla-badge-table' title='TLA-Lemma 107800' aria-label='TLA-Lemma 107800 im Thesaurus Linguae Aegyptiae öffnen'>107800</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0330_Harachte/0001_Hr-Axtj_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0330_Harachte/0010_Hr-Axtj_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0330_Harachte/0020_Hr-Axtj_03.png){.glyph} </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Harachte </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥqt* </td>
+   <td style="text-align:left;"> *ḥqt*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/110310' class='tla-badge tla-badge-table' title='TLA-Lemma 110310' aria-label='TLA-Lemma 110310 im Thesaurus Linguae Aegyptiae öffnen'>110310</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0340_Heqet/0001_Hqt_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0340_Heqet/0010_Hqt_D.18_01.png){.glyph} <sup>(D.18)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0340_Heqet/det/0001_Hqt_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0340_Heqet/det/0010_Hqt_det_02.png){.glyph} </td>
    <td style="text-align:left;"> Heqet </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ẖnm.w* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0001_Xnm.w_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0010_Xnm.w_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0020_Xnm.w_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0030_Xnm.w_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0040_Xnm.w_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0050_Xnm.w_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
-   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/det/0001_Xnm.w_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/det/0010_Xnm.w_det_02.png){.glyph} </td>
-   <td style="text-align:left;"> Chnum </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> *ẖnsw* </td>
+   <td style="text-align:left;"> *ḫnsw*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/118720' class='tla-badge tla-badge-table' title='TLA-Lemma 118720' aria-label='TLA-Lemma 118720 im Thesaurus Linguae Aegyptiae öffnen'>118720</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/0001_Xnsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/0010_Xnsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/0020_Xnsw_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Chons </td>
@@ -669,12 +662,12 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *m wꜣs.t* </td>
+   <td style="text-align:left;"> *m wꜣs.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/860012' class='tla-badge tla-badge-table' title='TLA-Lemma 860012' aria-label='TLA-Lemma 860012 im Thesaurus Linguae Aegyptiae öffnen'>860012</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/epitheta/01-m-wAs.t/0001_m-WAs.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/epitheta/01-m-wAs.t/0010_m-WAs.t_NR_02.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> in Theben </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *pꜣ iri sḫr.w m wꜣs.t* </td>
+   <td style="text-align:left;"> *pꜣ iri sḫr.w m wꜣs.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/860013' class='tla-badge tla-badge-table' title='TLA-Lemma 860013' aria-label='TLA-Lemma 860013 im Thesaurus Linguae Aegyptiae öffnen'>860013</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0360_Chons/epitheta/02-pA-jrj-sxr.w-m-WAs.t/0001_pA-jrj-sxr.w-m-WAs.t_Sp_01.png){.glyph} <sup>(Sp.)</sup> </td>
    <td style="text-align:left;"> der die Pläne in Theben macht </td>
   </tr>
@@ -682,63 +675,70 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
 </table></div></details> </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *sbk* </td>
+   <td style="text-align:left;"> *ẖnm.w*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/123590' class='tla-badge tla-badge-table' title='TLA-Lemma 123590' aria-label='TLA-Lemma 123590 im Thesaurus Linguae Aegyptiae öffnen'>123590</a></span></span> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0001_Xnm.w_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0010_Xnm.w_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0020_Xnm.w_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0030_Xnm.w_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0040_Xnm.w_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/0050_Xnm.w_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/det/0001_Xnm.w_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0350_Chnum/det/0010_Xnm.w_det_02.png){.glyph} </td>
+   <td style="text-align:left;"> Chnum </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> *sbk*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/132180' class='tla-badge tla-badge-table' title='TLA-Lemma 132180' aria-label='TLA-Lemma 132180 im Thesaurus Linguae Aegyptiae öffnen'>132180</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0370_Sobek/0001_sbk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0370_Sobek/0010_sbk_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0370_Sobek/0020_sbk_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0370_Sobek/0030_sbk_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0370_Sobek/det/0001_sbk_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Sobek </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *srq.t* </td>
+   <td style="text-align:left;"> *srq.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/139850' class='tla-badge tla-badge-table' title='TLA-Lemma 139850' aria-label='TLA-Lemma 139850 im Thesaurus Linguae Aegyptiae öffnen'>139850</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0001_srq.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0010_srq.t_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0020_srq.t_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0030_srq.t_Pyr.-MR_01.png){.glyph} <sup>(Pyr.; NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0040_srq.t_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0050_srq.t_GR_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/0060_srq.t_GR_03.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/det/0001_srq.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0380_Selkis/det/0010_srq.t_det_02.png){.glyph} </td>
    <td style="text-align:left;"> Selkis </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *sḫm.t* </td>
+   <td style="text-align:left;"> *sḫm.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/142250' class='tla-badge tla-badge-table' title='TLA-Lemma 142250' aria-label='TLA-Lemma 142250 im Thesaurus Linguae Aegyptiae öffnen'>142250</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0001_sxm.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0010_sxm.t_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0020_sxm.t_AR_02.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0030_sxm.t_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0040_sxm.t_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0390_Sachmet/0050_sxm.t_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Sachmet </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *skr* </td>
+   <td style="text-align:left;"> *skr*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/146890' class='tla-badge tla-badge-table' title='TLA-Lemma 146890' aria-label='TLA-Lemma 146890 im Thesaurus Linguae Aegyptiae öffnen'>146890</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0400_Sokar/0001_skr_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0400_Sokar/det/0001_skr_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Sokar </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *stẖ* </td>
+   <td style="text-align:left;"> *stẖ*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/148520' class='tla-badge tla-badge-table' title='TLA-Lemma 148520' aria-label='TLA-Lemma 148520 im Thesaurus Linguae Aegyptiae öffnen'>148520</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0001_stX_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0010_stX_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0020_stX_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0030_stX_MR-SP_01.png){.glyph} <sup>(MR; Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0040_stX_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0050_stX_D.18_01.png){.glyph} <sup>(D.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0060_stX_D.18_02.png){.glyph} <sup>(D.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0070_stX_D.18_03.png){.glyph} <sup>(D.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0080_stX_D.19_01.png){.glyph} <sup>(D.19)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0090_stX_D.19_02.png){.glyph} <sup>(D.19)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0100_stX_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/0110_stX_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/det/0001_stX_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/det/0010_stX_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0410_Seth/det/0020_stX_det_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> Seth </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šw* </td>
+   <td style="text-align:left;"> *šw*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/152710' class='tla-badge tla-badge-table' title='TLA-Lemma 152710' aria-label='TLA-Lemma 152710 im Thesaurus Linguae Aegyptiae öffnen'>152710</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0420_Schu/0001_Sw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0420_Schu/0010_Sw_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0420_Schu/0020_Sw_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0420_Schu/0030_Sw_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0420_Schu/0040_Sw_GR_01.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Schu </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *qbḥ-snw⸗f* </td>
+   <td style="text-align:left;"> *qbḥ-snw⸗f*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/160390' class='tla-badge tla-badge-table' title='TLA-Lemma 160390' aria-label='TLA-Lemma 160390 im Thesaurus Linguae Aegyptiae öffnen'>160390</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0001_qbH-snw=f_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0010_qbH-snw=f_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0020_qbH-snw=f_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0030_qbH-snw=f_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0040_qbH-snw=f_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0050_qbH-snw=f_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0060_qbH-snw=f_GR_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0070_qbH-snw=f_GR_03.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/0080_qbH-snw=f_GR_04.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/det/0001_qbH-snw=f_det_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0430_Qebehsenuef/det/0010_qbH-snw=f_det_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> Qebehsenuef </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *dwꜣ-mw.t⸗f* </td>
+   <td style="text-align:left;"> *dwꜣ-mw.t⸗f*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/178060' class='tla-badge tla-badge-table' title='TLA-Lemma 178060' aria-label='TLA-Lemma 178060 im Thesaurus Linguae Aegyptiae öffnen'>178060</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0440_Duamutef/0001_dwA-mw.t=f_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0440_Duamutef/0010_dwA-mw.t=f_AR_02.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0440_Duamutef/0020_dwA-mw.t=f_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0440_Duamutef/0030_dwA-mw.t=f_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0440_Duamutef/0040_dwA-mw.t=f_MR_03.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Duamutef </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḏḥwty* </td>
+   <td style="text-align:left;"> *ḏḥwty*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/185290' class='tla-badge tla-badge-table' title='TLA-Lemma 185290' aria-label='TLA-Lemma 185290 im Thesaurus Linguae Aegyptiae öffnen'>185290</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0001_DHwtj_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0010_DHwtj_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0020_DHwtj_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0030_DHwtj_MR_03.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0040_DHwtj_MR_04.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0050_DHwtj_MR_05.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0060_DHwtj_SP_01.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0070_DHwtj_SP_02.png){.glyph} <sup>(Sp.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0080_DHwtj_SP-GR_01.png){.glyph} <sup>(Sp.; Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/0090_DHwtj_SP-GR_02.png){.glyph} <sup>(Sp.; Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gottheit/Goetter-mit-Epitheta/0450_Thot/det/0001_DHwtj_det_SP_01.png){.glyph} <sup>(Sp.)</sup> </td>
    <td style="text-align:left;"> Thot </td>

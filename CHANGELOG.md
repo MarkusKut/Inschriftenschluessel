@@ -2,6 +2,10 @@
 
 ## 2026-07-22
 
+- `3c56582` **[R code, Templates/Pages, CSS, Data]** added TLA ID links for tables
+
+## 2026-07-22
+
 - `9022723` **[R code, Templates/Pages, CSS, Data]** fixed not properly working zoom on mobile devices
 
 ## 2026-07-22
