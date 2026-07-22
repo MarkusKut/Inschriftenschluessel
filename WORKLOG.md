@@ -5,6 +5,8 @@
 
 - customized page navigation
 - added TLA ID links for the hieroglyphic variants
+- added TLA ID links for tables
+- fixed not properly working zoom on mobile devices
 
 ## 2026-07-18
 

@@ -253,6 +253,75 @@ tla_table_badges_html <- function(
   )
 }
 
+move_tla_into_table_cell <- function(df, target_col = NULL) {
+  
+  # Find the TLA column without depending on capitalization
+  tla_col <- names(df)[
+    toupper(trimws(names(df))) == "TLA"
+  ]
+  
+  # Table has no TLA data
+  if (length(tla_col) == 0) {
+    return(df)
+  }
+  
+  tla_col <- tla_col[1]
+  
+  # By default, use the first visible data column
+  if (
+    is.null(target_col) ||
+    length(target_col) == 0 ||
+    is.na(target_col) ||
+    !nzchar(target_col)
+  ) {
+    candidates <- setdiff(
+      names(df),
+      c("row", tla_col)
+    )
+    
+    if (length(candidates) == 0) {
+      return(df)
+    }
+    
+    target_col <- candidates[1]
+  }
+  
+  if (!target_col %in% names(df)) {
+    stop(
+      "TLA target column not found: ",
+      target_col
+    )
+  }
+  
+  tla_values <- as.character(df[[tla_col]])
+  tla_values[
+    is.na(tla_values) |
+      tla_values == "NA"
+  ] <- ""
+  
+  target_values <- as.character(df[[target_col]])
+  target_values[
+    is.na(target_values) |
+      target_values == "NA"
+  ] <- ""
+  
+  has_tla <- nzchar(trimws(tla_values))
+  
+  target_values[has_tla] <- paste0(
+    target_values[has_tla],
+    "<span class='table-inline-tla'>",
+    tla_values[has_tla],
+    "</span>"
+  )
+  
+  df[[target_col]] <- target_values
+  
+  # Remove the separate TLA column from the rendered table
+  df[[tla_col]] <- NULL
+  
+  df
+}
+
 read_long_table <- function(df_tables, table_id, visited = character()) {
   
   sep_token <- "|||CELLBREAK|||"
@@ -318,6 +387,7 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
         paste(parts, collapse = "<span class='glyph-row-break'></span>")
       }, character(1))
     })) %>%
+    move_tla_into_table_cell() %>%
     select(-row)
 }
 
@@ -384,7 +454,7 @@ render_glyphline_md <- function(df_line) {
 }
 
 
-tla_badge_html <- function(tla_id, separator = " / ") {
+tla_badge_html <- function(tla_id) {
   
   if (
     length(tla_id) == 0 ||
@@ -402,10 +472,7 @@ tla_badge_html <- function(tla_id, separator = " / ") {
     return("")
   }
   
-  # Accept either:
-  # 850653;123456
-  # or:
-  # 850653/123456
+  # Accept several IDs separated by ";" or "/"
   ids <- unlist(
     strsplit(
       tla_id,
@@ -418,10 +485,12 @@ tla_badge_html <- function(tla_id, separator = " / ") {
   ids <- trimws(ids)
   ids <- sub("\\.0+$", "", ids)
   
-  ids <- ids[
-    nzchar(ids) &
-      ids != "NA"
-  ]
+  ids <- unique(
+    ids[
+      nzchar(ids) &
+        ids != "NA"
+    ]
+  )
   
   if (length(ids) == 0) {
     return("")
@@ -431,34 +500,27 @@ tla_badge_html <- function(tla_id, separator = " / ") {
     
     url <- paste0(
       "https://thesaurus-linguae-aegyptiae.de/lemma/",
-      id
+      utils::URLencode(id, reserved = TRUE)
     )
     
     paste0(
       "<a ",
       "href='", url, "' ",
-      "class='tla-badge' ",
+      "class='tla-badge-table' ",
       "title='TLA-Lemma ", id, "' ",
-      "aria-label='Lemma ", id,
+      "aria-label='TLA-Lemma ", id,
       " im Thesaurus Linguae Aegyptiae öffnen'>",
-      "TLA ", id,
+      htmltools::htmlEscape(id),
       "</a>"
     )
     
   }, character(1))
   
-  separator_html <- paste0(
-    "<span class='tla-separator' aria-hidden='true'>",
-    separator,
-    "</span>"
-  )
-  
   paste0(
-    "<span class='tla-badges'>",
-    paste(
-      links,
-      collapse = separator_html
-    ),
+    "<span class='glyphvariant-tla'>",
+    "<span class='tla-table-badges'>",
+    paste0(links, collapse = ""),
+    "</span>",
     "</span>"
   )
 }

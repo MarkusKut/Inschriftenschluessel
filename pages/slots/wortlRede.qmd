@@ -6,25 +6,83 @@ title: "Wörtliche Rede"
 
 ```{=html}
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
-  }
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
 
-  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
   const title = document.querySelector("h1.title");
+
   if (cls && title) {
     title.classList.add(cls);
   }
@@ -82,7 +140,7 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḏd-md.w*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/186050' class='tla-badge' title='TLA-Lemma 186050' aria-label='Lemma 186050 im Thesaurus Linguae Aegyptiae öffnen'>TLA 186050</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḏd-md.w*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/186050' class='tla-badge-table' title='TLA-Lemma 186050' aria-label='TLA-Lemma 186050 im Thesaurus Linguae Aegyptiae öffnen'>186050</a></span></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph}
 
@@ -90,13 +148,13 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0020_Dd-mdw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*in*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/26660' class='tla-badge' title='TLA-Lemma 26660' aria-label='Lemma 26660 im Thesaurus Linguae Aegyptiae öffnen'>TLA 26660</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*in*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/26660' class='tla-badge-table' title='TLA-Lemma 26660' aria-label='TLA-Lemma 26660 im Thesaurus Linguae Aegyptiae öffnen'>26660</a></span></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png){.glyph}
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0010_jn_02.png){.glyph} <sup>(NR)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di.n(⸗i) n⸗k/ṯ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/96700' class='tla-badge' title='TLA-Lemma 96700' aria-label='Lemma 96700 im Thesaurus Linguae Aegyptiae öffnen'>TLA 96700</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di.n(⸗i) n⸗k/ṯ*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/96700' class='tla-badge-table' title='TLA-Lemma 96700' aria-label='TLA-Lemma 96700 im Thesaurus Linguae Aegyptiae öffnen'>96700</a></span></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png){.glyph}
 

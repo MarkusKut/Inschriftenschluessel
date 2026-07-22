@@ -334,25 +334,71 @@ ul.task-list li input[type="checkbox"] {
 
 <meta name="slot-title-class" content="slot-title-person">
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button type="button" data-scale="0.9" onclick="setZoom(0.9)">A−</button>
+
+  <button type="button" data-scale="1" onclick="setZoom(1)">A</button>
+
+  <button type="button" data-scale="1.2" onclick="setZoom(1.2)">A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
-  }
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
 
-  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
   const title = document.querySelector("h1.title");
+
   if (cls && title) {
     title.classList.add(cls);
   }
@@ -379,7 +425,7 @@ Hieroglyphen
 <tbody>
 <tr>
 <td style="text-align:left;">
-<em>imi-rꜣ</em>
+<em>imi-rꜣ</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/25550" class="tla-badge tla-badge-table" title="TLA-Lemma 25550" aria-label="TLA-Lemma 25550 im Thesaurus Linguae Aegyptiae öffnen">25550</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/01_jmj-rA_01.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/01_jmj-rA_02.png" class="glyph img-fluid">
@@ -390,7 +436,7 @@ Vorsteher
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>ḥry</em>
+<em>ḥry</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/108310" class="tla-badge tla-badge-table" title="TLA-Lemma 108310" aria-label="TLA-Lemma 108310 im Thesaurus Linguae Aegyptiae öffnen">108310</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/02_Hry_MR_01.png" class="glyph img-fluid"> <sup>(MR)</sup>
@@ -401,7 +447,7 @@ Oberer
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>imꜣḫ</em>
+<em>imꜣḫ</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/25090" class="tla-badge tla-badge-table" title="TLA-Lemma 25090" aria-label="TLA-Lemma 25090 im Thesaurus Linguae Aegyptiae öffnen">25090</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_01.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_02.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_03.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_04.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_04.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/03_jmAx_MR_01.png" class="glyph img-fluid"> <sup>(MR)</sup>
@@ -412,7 +458,7 @@ Ehrwürdiger / Versorgter
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>nb imꜣḫ</em>
+<em>nb imꜣḫ</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/81950" class="tla-badge tla-badge-table" title="TLA-Lemma 81950" aria-label="TLA-Lemma 81950 im Thesaurus Linguae Aegyptiae öffnen">81950</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/04_nb-jmAx_01.png" class="glyph img-fluid">
@@ -423,7 +469,7 @@ Herr der Erwürdigkeit
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>wsir</em>
+<em>wsir</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/49461" class="tla-badge tla-badge-table" title="TLA-Lemma 49461" aria-label="TLA-Lemma 49461 im Thesaurus Linguae Aegyptiae öffnen">49461</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/05_wsjr_01.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/05_wsjr_02.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Titel/05_wsjr_03.png" class="glyph img-fluid">
@@ -453,7 +499,7 @@ Hieroglyphen
 <tbody>
 <tr>
 <td style="text-align:left;">
-<em>nb.t pr</em>
+<em>nb.t pr</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/82090" class="tla-badge tla-badge-table" title="TLA-Lemma 82090" aria-label="TLA-Lemma 82090 im Thesaurus Linguae Aegyptiae öffnen">82090</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/f/01_nb.t-pr_01.png" class="glyph img-fluid">
@@ -464,7 +510,7 @@ Herrin des Hauses
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>ḥm.t-nṯr ḥw.t-ḥr</em>
+<em>ḥm.t-nṯr ḥw.t-ḥr</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/400979" class="tla-badge tla-badge-table" title="TLA-Lemma 400979" aria-label="TLA-Lemma 400979 im Thesaurus Linguae Aegyptiae öffnen">400979</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/f/02_Hm.t-nTr-Hw.t-Hr_AR_01.png" class="glyph img-fluid"> <sup>(AR)</sup>
@@ -475,7 +521,7 @@ Priesterin der Hathor
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>ḥw.t-ḥr</em>
+<em>ḥw.t-ḥr</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/99970" class="tla-badge tla-badge-table" title="TLA-Lemma 99970" aria-label="TLA-Lemma 99970 im Thesaurus Linguae Aegyptiae öffnen">99970</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/f/02_Hw.t-Hr_Roem._01.png" class="glyph img-fluid"> <sup>(röm.)</sup>
@@ -486,7 +532,7 @@ Hathor
 </tr>
 <tr>
 <td style="text-align:left;">
-<em>šmꜥy.t-imn</em>
+<em>šmꜥy.t-imn</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/884639" class="tla-badge tla-badge-table" title="TLA-Lemma 884639" aria-label="TLA-Lemma 884639 im Thesaurus Linguae Aegyptiae öffnen">884639</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Titel/f/03_Smay.t-jmn_NR-3.Zw.Zt._01.png" class="glyph img-fluid"> <sup>(NR; 3.Zw.Zt.)</sup>
@@ -557,7 +603,7 @@ Hieroglyphen
 <tbody>
 <tr>
 <td style="text-align:left;">
-<em>mꜣꜥ-ḫrw</em>
+<em>mꜣꜥ-ḫrw</em><span class="table-inline-tla"><span class="tla-table-badges"><a href="https://thesaurus-linguae-aegyptiae.de/lemma/66750" class="tla-badge tla-badge-table" title="TLA-Lemma 66750" aria-label="TLA-Lemma 66750 im Thesaurus Linguae Aegyptiae öffnen">66750</a></span></span>
 </td>
 <td style="text-align:left;">
 <img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_01.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_02.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_03.png" class="glyph img-fluid"><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_NR_01.png" class="glyph img-fluid"> <sup>(NR)</sup><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._01.png" class="glyph img-fluid"> <sup>(Spät.)</sup><span class="glyph-row-break"></span><img src="../../assets/glyphs500px/02_Slots/Menschenepitheta/03_mAa-xrw_Spaet._02.png" class="glyph img-fluid"> <sup>(Spät.)</sup>

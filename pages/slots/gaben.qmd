@@ -6,25 +6,83 @@ title: "Gaben"
 
 ```{=html}
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
-  }
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
 
-  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
   const title = document.querySelector("h1.title");
+
   if (cls && title) {
     title.classList.add(cls);
   }
@@ -36,7 +94,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Übliche Form
 
-[Anfangsformel] + [Aufzählung] mit/ohne [Attribut] + [Schlussformel]
+[Anfangsformel]
+
+
++ [Aufzählung] mit/ohne [Attribut]
+
+
++ [Schlussformel]
 
 
 ## Anfangsformel
@@ -52,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *pr.t-ḫrw* </td>
+   <td style="text-align:left;"> *pr.t-ḫrw*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/850238' class='tla-badge tla-badge-table' title='TLA-Lemma 850238' aria-label='TLA-Lemma 850238 im Thesaurus Linguae Aegyptiae öffnen'>850238</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0001_pr.t-xrw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0010_pr.t-xrw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/0020_pr.t-xrw_AR_01.png){.glyph} <sup>(AR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0001_Anrufungsopfer-Totenopfer/det/0001_pr.t-xrw_det_01.png){.glyph} </td>
    <td style="text-align:left;"> ein Anrufungsopfer bestehend aus </td>
@@ -75,63 +139,63 @@ document.addEventListener("DOMContentLoaded", function() {
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *t* </td>
+   <td style="text-align:left;"> *t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/168810' class='tla-badge tla-badge-table' title='TLA-Lemma 168810' aria-label='TLA-Lemma 168810 im Thesaurus Linguae Aegyptiae öffnen'>168810</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/0001_t_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/0010_t_Abk_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/det/0001_t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/det/0010_t_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/det/0020_t_det_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0020_Brot/det/0030_t_det_04.png){.glyph} </td>
    <td style="text-align:left;"> Brot </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ḥnq.t* </td>
+   <td style="text-align:left;"> *ḥnq.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/110300' class='tla-badge tla-badge-table' title='TLA-Lemma 110300' aria-label='TLA-Lemma 110300 im Thesaurus Linguae Aegyptiae öffnen'>110300</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0010_Bier/0001_Hnq.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0010_Bier/0010_Hnq.t_GR_01.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0010_Bier/0020_Hnq.t_Abk_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0010_Bier/det/0001_Hnq.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0010_Bier/det/0010_Hnq.t_det_02.png){.glyph} </td>
    <td style="text-align:left;"> Bier </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *kꜣ* </td>
+   <td style="text-align:left;"> *kꜣ*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/162930' class='tla-badge tla-badge-table' title='TLA-Lemma 162930' aria-label='TLA-Lemma 162930 im Thesaurus Linguae Aegyptiae öffnen'>162930</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/0001_kA_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/0010_kA_MR_03.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/0020_kA_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/0030_kA_NR_02.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/0040_kA_Abk_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0040_Rinder/det/0001_kA_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Rinder </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *ꜣpd* </td>
+   <td style="text-align:left;"> *ꜣpd*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/107' class='tla-badge tla-badge-table' title='TLA-Lemma 107' aria-label='TLA-Lemma 107 im Thesaurus Linguae Aegyptiae öffnen'>107</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0030_Gefluegel/0001_Apd_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0030_Gefluegel/0010_Apd_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0030_Gefluegel/0020_Apd_Abk_02.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0030_Gefluegel/det/0001_Apd_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Geflügel </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šs* </td>
+   <td style="text-align:left;"> *šs*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/156950' class='tla-badge tla-badge-table' title='TLA-Lemma 156950' aria-label='TLA-Lemma 156950 im Thesaurus Linguae Aegyptiae öffnen'>156950</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0050_Alabaster/0001_Ss_AR-MR_01.png){.glyph} <sup>(AR; MR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0050_Alabaster/0010_Ss_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0050_Alabaster/0020_Ss_Abk_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0050_Alabaster/det/0001_Ss_det_01.png){.glyph} </td>
    <td style="text-align:left;"> Alabaster </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *mnḫ.t* </td>
+   <td style="text-align:left;"> *mnḫ.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/71170' class='tla-badge tla-badge-table' title='TLA-Lemma 71170' aria-label='TLA-Lemma 71170 im Thesaurus Linguae Aegyptiae öffnen'>71170</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0001_mnx.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0010_mnx.t_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0030_mnx.t_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0040_mnx.t_Abk_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0050_mnx.t_Abk_GR_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/0060_mnx.t_Abk_GR_02.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/det/0001_mnx.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/det/0010_mnx.t_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/det/0020_mnx.t_det_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0060_Leinen/det/0030_mnx.t_det_NR_02.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> Leinen </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *mrḥ.t* </td>
+   <td style="text-align:left;"> *mrḥ.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/72840' class='tla-badge tla-badge-table' title='TLA-Lemma 72840' aria-label='TLA-Lemma 72840 im Thesaurus Linguae Aegyptiae öffnen'>72840</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/0001_mrH.t_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/0010_mrH.t_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/0020_mrH.t_Abk_02.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/det/0001_mrH.t_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/det/0010_mrH.t_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0070_Salboel/det/0020_mrH.t_det_03.png){.glyph} </td>
    <td style="text-align:left;"> Salböl </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *snṯr* </td>
+   <td style="text-align:left;"> *snṯr*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/138670' class='tla-badge tla-badge-table' title='TLA-Lemma 138670' aria-label='TLA-Lemma 138670 im Thesaurus Linguae Aegyptiae öffnen'>138670</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0001_snTr_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0010_snTr_AR_01.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0020_snTr_AR_02.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0030_snTr_AR_03.png){.glyph} <sup>(AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0040_snTr_Ende-AR_01.png){.glyph} <sup>(Ende AR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0050_snTr_MR_01.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0060_snTr_MR_02.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0070_snTr_MR_03.png){.glyph} <sup>(MR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0080_snTr_D.18_01.png){.glyph} <sup>(Dyn.18)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0090_snTr_D.19_01.png){.glyph} <sup>(Dyn.19)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0100_snTr_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0100_snTr_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/0120_snTr_Abk_03.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/det/0001_snTr_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/det/0010_snTr_det_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/det/0020_snTr_det_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0080_Weihrauch/det/0030_snTr_det_MR_01.png){.glyph} <sup>(MR)</sup> </td>
    <td style="text-align:left;"> Weihrauch </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *irp* </td>
+   <td style="text-align:left;"> *irp*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/29740' class='tla-badge tla-badge-table' title='TLA-Lemma 29740' aria-label='TLA-Lemma 29740 im Thesaurus Linguae Aegyptiae öffnen'>29740</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/0001_jrp_01.png){.glyph} </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/0010_jrp_Abk_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/0020_jrp_Abk_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/0030_jrp_Abk_NR_01.png){.glyph} <sup>(NR)</sup> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/det/0001_jrp_det_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Gaben/0090_Wein/det/0010_jrp_det_AR_01.png){.glyph} <sup>(AR)</sup> </td>
@@ -153,7 +217,7 @@ document.addEventListener("DOMContentLoaded", function() {
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḫꜣ (m/n)* </td>
+   <td style="text-align:left;"> *ḫꜣ (m/n)*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/113110' class='tla-badge tla-badge-table' title='TLA-Lemma 113110' aria-label='TLA-Lemma 113110 im Thesaurus Linguae Aegyptiae öffnen'>113110</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Gaben/0100_tausend-an/0001_xA-m-n_01.png){.glyph} </td>
    <td style="text-align:left;"> tausend an </td>
   </tr>

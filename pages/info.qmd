@@ -6,25 +6,83 @@ title: "Information"
 
 ```{=html}
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
-  }
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
 
-  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
   const title = document.querySelector("h1.title");
+
   if (cls && title) {
     title.classList.add(cls);
   }

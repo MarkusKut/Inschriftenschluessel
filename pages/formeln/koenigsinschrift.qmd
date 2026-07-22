@@ -1,23 +1,88 @@
 ---
 title: "„Historische“ Königsinschrift"
 ---
+
 ```{=html}
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
+
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
+  const title = document.querySelector("h1.title");
+
+  if (cls && title) {
+    title.classList.add(cls);
   }
 });
 </script>
@@ -40,7 +105,7 @@ nach *ḫr ḥm n*: Thronname des Königs
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*[ḫr] ḥm n*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400036' class='tla-badge' title='TLA-Lemma 400036' aria-label='Lemma 400036 im Thesaurus Linguae Aegyptiae öffnen'>TLA 400036</a><span class='tla-separator' aria-hidden='true'> / </span><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104690' class='tla-badge' title='TLA-Lemma 104690' aria-label='Lemma 104690 im Thesaurus Linguae Aegyptiae öffnen'>TLA 104690</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*[ḫr] ḥm n*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400036' class='tla-badge-table' title='TLA-Lemma 400036' aria-label='TLA-Lemma 400036 im Thesaurus Linguae Aegyptiae öffnen'>400036</a><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104690' class='tla-badge-table' title='TLA-Lemma 104690' aria-label='TLA-Lemma 104690 im Thesaurus Linguae Aegyptiae öffnen'>104690</a></span></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
 
@@ -50,7 +115,7 @@ nach *ḫr ḥm n*: Thronname des Königs
 
      - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw bit*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge' title='TLA-Lemma 88060' aria-label='Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>TLA 88060</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw bit*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge-table' title='TLA-Lemma 88060' aria-label='TLA-Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>88060</a></span></span></span>
 
      - ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}
 
@@ -94,23 +159,59 @@ nach *ḫr ḥm n*: Thronname des Königs
 </div>
 
 <script>
-(function () {
-  let lastScrollY = window.scrollY;
-  const footer = document.getElementById("footer-nav");
+function setZoom(scale) {
+  scale = Number(scale) || 1;
 
-  function onScroll() {
-    const currentScrollY = window.scrollY;
+  const root = document.documentElement;
 
-    if (currentScrollY > lastScrollY && currentScrollY > 80) {
-      footer.classList.add("footer-hidden");
-    } else {
-      footer.classList.remove("footer-hidden");
-    }
+  root.style.setProperty('--base-scale', String(scale));
 
-    lastScrollY = currentScrollY;
+  /*
+   * Explicitly resize glyphs and row spacing.
+   * Base glyph height: 30px
+   * Base row gap: 7.2px
+   */
+  root.style.setProperty(
+    '--glyph-height',
+    `${30 * scale}px`
+  );
+
+  root.style.setProperty(
+    '--glyph-row-gap',
+    `${7.2 * scale}px`
+  );
+
+  localStorage.setItem('site-zoom', String(scale));
+
+  document.querySelectorAll('.zoom-controls button').forEach(button => {
+    button.classList.toggle(
+      'active',
+      Number(button.dataset.scale) === scale
+    );
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = Number(
+    localStorage.getItem('site-zoom') || 1
+  );
+
+  /*
+   * Call the complete function here.
+   * Do not restore only --base-scale, because the glyph-specific
+   * variables must also be restored.
+   */
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
+  const title = document.querySelector("h1.title");
+
+  if (cls && title) {
+    title.classList.add(cls);
   }
-
-  window.addEventListener("scroll", onScroll, { passive: true });
-})();
+});
 </script>
 ```

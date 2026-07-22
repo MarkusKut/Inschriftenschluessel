@@ -124,17 +124,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   vertical-align: top;
 }
 
-/* Tables without a TLA column */
-.tableFixHead.table-wide:not(.table-with-tla) th:last-child,
-.tableFixHead.table-wide:not(.table-with-tla) td:last-child {
-  min-width: 18rem;
-}
 
-/* Tables with a TLA column */
-.tableFixHead.table-wide.table-with-tla th:nth-last-child(2),
-.tableFixHead.table-wide.table-with-tla td:nth-last-child(2) {
-  min-width: 18rem;
-}
 
 /* nested tables inside a cell */
 .table-wide td details .tableFixHead {
@@ -342,51 +332,27 @@ img.glyph {
 /* th     { background:#eee; } */
 
 
+
+
 /* ========================================
-   Very compact TLA table column
+   TLA links inside an ordinary table cell
    ======================================== */
 
-.tableFixHead.table-with-tla th:last-child,
-.tableFixHead.table-with-tla td:last-child {
-  width: 1%;
-  min-width: 0;
-  max-width: none;
+.table-inline-tla {
+  float: right;
 
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
+  margin-left: 0.6rem;
+  margin-bottom: 0.15rem;
 
   text-align: right;
-  vertical-align: top;
-  white-space: nowrap;
+  font-size: 0.5em;
 }
 
-/* Keep the heading compact */
-.tableFixHead.table-with-tla th:last-child {
-  font-size: 0.7rem;
-}
+/* Small TLA label before the IDs */
+.table-inline-tla .tla-table-badges::before {
+  content: "TLA";
 
-/* Do not stretch the badge wrapper across the cell */
-.tableFixHead.table-with-tla .tla-table-badges {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-end;
-
-  width: auto;
-  margin-left: auto;
-  gap: 0.18rem;
-}
-
-/* Compact numeric badge */
-.tableFixHead.table-with-tla .tla-badge-table {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-  padding: 0.06rem 0.18rem;
-
-  min-height: 0;
-  width: auto;
+  margin-right: 0.3em;
 
   font-family:
     ui-monospace,
@@ -398,38 +364,70 @@ img.glyph {
     "Courier New",
     monospace;
 
-  font-size: 0.58rem;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+}
+
+/* Individual ID badge */
+.table-inline-tla .tla-badge-table {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0.12em 0.38em;
+
+  font-family:
+    ui-monospace,
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 1em;
   font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0;
+  line-height: 1.15;
 
   white-space: nowrap;
 
   border: 1px dashed currentColor;
-  border-radius: 0.2rem;
+  border-radius: 0.25rem;
+
+  text-decoration: none;
 }
-
-
-
-
 
 @media (max-width: 768px) {
-  .tableFixHead.table-with-tla th:last-child,
-  .tableFixHead.table-with-tla td:last-child {
-    width: 1%;
-    min-width: 0;
+  .table-inline-tla {
+    float: none;
+    display: flex;
+    justify-content: flex-end;
 
-    padding-left: 0.12rem;
-    padding-right: 0.12rem;
+    width: 100%;
+    margin: 0.25rem 0 0;
+
+    /* Slightly smaller on mobile */
+    font-size: 0.6em;
   }
 
-  .tableFixHead.table-with-tla .tla-badge-table {
-    padding: 0.05rem 0.14rem;
-    font-size: 0.54rem;
-  }
+  .table-inline-tla .tla-table-badges {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  width: auto;
+  gap: 0.2rem;
 }
 
-
+  .table-inline-tla .tla-badge-table {
+    padding: 0.12em 0.35em;
+  }
+}
 
 
 
@@ -765,7 +763,7 @@ h1.title.slot-title-w-rtliche-rede {
 
 
 
-/* Ruckenschutzformel */
+/* Rückenschutzformel */
 
 .badge-r-ckenschutzformel {  background: #2EF08B;
   color: #fff;
@@ -1057,33 +1055,86 @@ body.quarto-dark #quarto-back-to-top:hover,
 
 
 
-
 /* ========================================
-   Glyph-variant heading with TLA link
+   TLA references for glyph variants:
+   keep everything on one line
    ======================================== */
 
 .glyphvariant-heading {
   display: flex;
   align-items: baseline;
   width: 100%;
-  gap: 0.75rem;
+  gap: 0.6rem;
 }
 
 .glyphvariant-term {
+  flex: 1 1 auto;
   min-width: 0;
 }
 
-/* Push the TLA badge to the right */
-.tla-badge {
+/* Keep the complete TLA group beside the label */
+.glyphvariant-tla {
+  display: inline-flex;
   flex: 0 0 auto;
-  margin-left: 0;
+  align-items: baseline;
 
-  padding: 0.18rem 0.55rem;
+  width: auto;
+  margin-left: auto;
+
+  font-size: 0.72em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Horizontal arrangement only for variants */
+.glyphvariant-tla .tla-table-badges {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: auto;
+  gap: 0.25rem;
+}
+
+/* Put the grey TLA label beside the IDs */
+.glyphvariant-tla .tla-table-badges::before {
+  content: "TLA";
+  display: inline-block;
+
+  margin: 0 0.2rem 0 0;
+
+  color: var(--bs-secondary-color, #6c757d);
+
+  font-family:
+    ui-monospace,
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1;
+
+  opacity: 0.75;
+}
+
+.glyphvariant-tla .tla-badge-table {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0.12em 0.38em;
 
   color: var(--bs-link-color);
   background: var(--bs-tertiary-bg);
 
-  /* Typewriter-style font */
   font-family:
     ui-monospace,
     "SFMono-Regular",
@@ -1094,81 +1145,46 @@ body.quarto-dark #quarto-back-to-top:hover,
     "Courier New",
     monospace;
 
-  /* Dashed badge border */
-  border: 1.5px dashed currentColor;
-  border-radius: 0.35rem;
-
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.025em;
-  line-height: 1.25;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
   white-space: nowrap;
+
+  border: 1px dashed currentColor;
+  border-radius: 0.25rem;
+
   text-decoration: none;
-
-  transition:
-    color 150ms ease,
-    background-color 150ms ease,
-    transform 150ms ease;
 }
 
-.tla-badge:hover {
-  color: var(--bs-link-color);
-  background: color-mix(
-    in srgb,
-    var(--bs-link-color) 12%,
-    var(--bs-tertiary-bg)
-  );
-  border-color: currentColor;
+.glyphvariant-tla .tla-badge-table:hover {
+  color: var(--bs-body-bg);
+  background: var(--bs-link-color);
+  border-color: var(--bs-link-color);
   text-decoration: none;
-  transform: translateY(-1px);
-}
-
-.tla-badge:focus-visible {
-  outline: 3px solid var(
-    --bs-focus-ring-color,
-    rgba(13, 110, 253, 0.35)
-  );
-  outline-offset: 2px;
-}
-
-.tla-badges {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-
-  margin-left: auto;
-  gap: 0.3rem;
-
-  flex: 0 0 auto;
-}
-
-
-.tla-separator {
-  font-family:
-    ui-monospace,
-    "SFMono-Regular",
-    Menlo,
-    Monaco,
-    Consolas,
-    "Liberation Mono",
-    "Courier New",
-    monospace;
-
-  font-size: 0.78rem;
-  opacity: 0.65;
-  white-space: nowrap;
 }
 
 
 @media (max-width: 576px) {
   .glyphvariant-heading {
-    align-items: flex-start;
-    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 0.35rem;
   }
 
-  .tla-badge {
-    padding: 0.16rem 0.45rem;
-    font-size: 0.7rem;
+  .glyphvariant-tla {
+    width: auto;
+    margin-left: auto;
+    font-size: 0.64em;
+  }
+
+  .glyphvariant-tla .tla-table-badges {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.18rem;
+  }
+
+  .glyphvariant-tla .tla-badge-table {
+    padding: 0.1em 0.3em;
   }
 }
