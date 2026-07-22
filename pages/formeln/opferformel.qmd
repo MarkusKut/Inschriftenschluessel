@@ -73,7 +73,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
 ::: {.glyphvariants-block}
 
-- *ḥtp-di-nsw*:
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḥtp-di-nsw*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/850653' class='tla-badge' title='TLA-Lemma 850653' aria-label='Lemma 850653 im Thesaurus Linguae Aegyptiae offnen'>TLA 850653</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} <sup>(AR; MR)</sup>
 
@@ -87,7 +87,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
      - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0060_Htp-dj-nsw_AR-MR-Gott-N-Htp_01.png){.glyph} <sup>(AR; MR)</sup>
 
-- *di⸗f* / *⸗s* / *⸗sn*:
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di⸗f* / *⸗s* / *⸗sn*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/96700' class='tla-badge' title='TLA-Lemma 96700' aria-label='Lemma 96700 im Thesaurus Linguae Aegyptiae offnen'>TLA 96700</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0010_dj=f_01.png){.glyph}
 
@@ -95,7 +95,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
      - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0030_dj=sn_01.png){.glyph}
 
-- *n* / *n kꜣ n*:
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*n* / *n kꜣ n*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/162870' class='tla-badge' title='TLA-Lemma 162870' aria-label='Lemma 162870 im Thesaurus Linguae Aegyptiae offnen'>TLA 162870</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
 

@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ::: {.glyphvariants-block}
 
-- *mry*:
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*mry*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/72480' class='tla-badge' title='TLA-Lemma 72480' aria-label='Lemma 72480 im Thesaurus Linguae Aegyptiae offnen'>TLA 72480</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
 

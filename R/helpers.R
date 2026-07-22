@@ -281,41 +281,163 @@ render_glyphline_md <- function(df_line) {
 }
 
 
+tla_badge_html <- function(tla_id, separator = " / ") {
+  
+  if (
+    length(tla_id) == 0 ||
+    all(is.na(tla_id))
+  ) {
+    return("")
+  }
+  
+  tla_id <- trimws(as.character(tla_id))
+  
+  if (
+    !nzchar(tla_id) ||
+    tla_id == "NA"
+  ) {
+    return("")
+  }
+  
+  # Accept either:
+  # 850653;123456
+  # or:
+  # 850653/123456
+  ids <- unlist(
+    strsplit(
+      tla_id,
+      "\\s*[;/]\\s*",
+      perl = TRUE
+    ),
+    use.names = FALSE
+  )
+  
+  ids <- trimws(ids)
+  ids <- sub("\\.0+$", "", ids)
+  
+  ids <- ids[
+    nzchar(ids) &
+      ids != "NA"
+  ]
+  
+  if (length(ids) == 0) {
+    return("")
+  }
+  
+  links <- vapply(ids, function(id) {
+    
+    url <- paste0(
+      "https://thesaurus-linguae-aegyptiae.de/lemma/",
+      id
+    )
+    
+    paste0(
+      "<a ",
+      "href='", url, "' ",
+      "class='tla-badge' ",
+      "title='TLA-Lemma ", id, "' ",
+      "aria-label='Lemma ", id,
+      " im Thesaurus Linguae Aegyptiae offnen'>",
+      "TLA ", id,
+      "</a>"
+    )
+    
+  }, character(1))
+  
+  separator_html <- paste0(
+    "<span class='tla-separator' aria-hidden='true'>",
+    separator,
+    "</span>"
+  )
+  
+  paste0(
+    "<span class='tla-badges'>",
+    paste(
+      links,
+      collapse = separator_html
+    ),
+    "</span>"
+  )
+}
+
 
 render_glyphvariants_md <- function(df_line) {
+  
   df <- df_line[order(df_line$seq), ]
   
-  # Split into sections by label rows: each label starts a new section
+  # Split into sections by label rows:
+  # each label starts a new section
   df$section_id <- cumsum(df$kind == "label")
   
   sections <- split(df, df$section_id)
   
   out <- vapply(sections, function(sec) {
-    # label text (first label row in this section)
-    lbl_rows <- sec[sec$kind == "label", , drop = FALSE]
-    lbl <- if (nrow(lbl_rows) == 0) "" else as.character(lbl_rows$text[1])
     
-    tok <- sec[sec$kind != "label", , drop = FALSE]
-    if (nrow(tok) == 0) return("")
+    # Label row for this section
+    lbl_rows <- sec[
+      sec$kind == "label",
+      ,
+      drop = FALSE
+    ]
+    
+    lbl <- if (nrow(lbl_rows) == 0) {
+      ""
+    } else {
+      as.character(lbl_rows$text[1])
+    }
+    
+    # Read optional TLA ID from the label row
+    tla_id <- if (
+      nrow(lbl_rows) > 0 &&
+      "tla_id" %in% names(lbl_rows)
+    ) {
+      lbl_rows$tla_id[1]
+    } else {
+      NA
+    }
+    
+    tla_badge <- tla_badge_html(tla_id)
+    
+    tok <- sec[
+      sec$kind != "label",
+      ,
+      drop = FALSE
+    ]
+    
+    if (nrow(tok) == 0) {
+      return("")
+    }
     
     # Determine bullet grouping
-    # Preferred: use 'group' if it actually splits into multiple bullets
     g <- as.character(tok$group)
     g[is.na(g) | g == ""] <- NA_character_
     
-    if (!all(is.na(g)) && length(unique(na.omit(g))) > 1) {
+    if (
+      !all(is.na(g)) &&
+      length(unique(na.omit(g))) > 1
+    ) {
+      
       tok$bullet_id <- g
-      # keep bullet order by first appearance in seq
+      
+      # Keep bullet order by first appearance in seq
       ord <- tok |>
         dplyr::group_by(bullet_id) |>
-        dplyr::summarise(min_seq = min(seq), .groups = "drop") |>
+        dplyr::summarise(
+          min_seq = min(seq),
+          .groups = "drop"
+        ) |>
         dplyr::arrange(min_seq) |>
         dplyr::pull(bullet_id)
-      tok$bullet_id <- factor(tok$bullet_id, levels = ord)
+      
+      tok$bullet_id <- factor(
+        tok$bullet_id,
+        levels = ord
+      )
       
     } else {
-      # Fallback: if group is empty/constant, start a new bullet at each glyph row
-      # This matches "glyph + trailing text" pattern in your sheet
+      
+      # If group is empty or constant,
+      # start a new bullet at each glyph row
       tok$bullet_id <- cumsum(tok$kind == "glyph")
       tok$bullet_id[tok$bullet_id == 0] <- 1
     }
@@ -323,21 +445,102 @@ render_glyphvariants_md <- function(df_line) {
     bullets <- split(tok, tok$bullet_id)
     
     bullet_md <- vapply(bullets, function(b) {
-      b <- b[order(b$seq), , drop = FALSE]
-      paste0("     - ", render_glyphline_md(b), "\n\n")
+      
+      b <- b[
+        order(b$seq),
+        ,
+        drop = FALSE
+      ]
+      
+      paste0(
+        "     - ",
+        render_glyphline_md(b),
+        "\n\n"
+      )
+      
     }, character(1))
     
-    # Label line as its own paragraph, then bullets; exactly one string returned
-    paste0("- ", lbl, ":\n\n", paste0(bullet_md, collapse = ""))
+    # Label and optional TLA badge
+    label_md <- paste0(
+      "- <span class='glyphvariant-heading'>",
+      "<span class='glyphvariant-term'><em>",
+      htmltools::htmlEscape(lbl),
+      "</em>:</span>",
+      tla_badge,
+      "</span>\n\n"
+    )
+    
+    paste0(
+      label_md,
+      paste0(bullet_md, collapse = "")
+    )
+    
   }, character(1))
   
-  #paste0(out, collapse = "")
   paste0(
     "::: {.glyphvariants-block}\n\n",
     paste0(out, collapse = ""),
     "\n:::\n"
   )
 }
+
+# 
+# render_glyphvariants_md <- function(df_line) {
+#   df <- df_line[order(df_line$seq), ]
+#   
+#   # Split into sections by label rows: each label starts a new section
+#   df$section_id <- cumsum(df$kind == "label")
+#   
+#   sections <- split(df, df$section_id)
+#   
+#   out <- vapply(sections, function(sec) {
+#     # label text (first label row in this section)
+#     lbl_rows <- sec[sec$kind == "label", , drop = FALSE]
+#     lbl <- if (nrow(lbl_rows) == 0) "" else as.character(lbl_rows$text[1])
+#     
+#     tok <- sec[sec$kind != "label", , drop = FALSE]
+#     if (nrow(tok) == 0) return("")
+#     
+#     # Determine bullet grouping
+#     # Preferred: use 'group' if it actually splits into multiple bullets
+#     g <- as.character(tok$group)
+#     g[is.na(g) | g == ""] <- NA_character_
+#     
+#     if (!all(is.na(g)) && length(unique(na.omit(g))) > 1) {
+#       tok$bullet_id <- g
+#       # keep bullet order by first appearance in seq
+#       ord <- tok |>
+#         dplyr::group_by(bullet_id) |>
+#         dplyr::summarise(min_seq = min(seq), .groups = "drop") |>
+#         dplyr::arrange(min_seq) |>
+#         dplyr::pull(bullet_id)
+#       tok$bullet_id <- factor(tok$bullet_id, levels = ord)
+#       
+#     } else {
+#       # Fallback: if group is empty/constant, start a new bullet at each glyph row
+#       # This matches "glyph + trailing text" pattern in your sheet
+#       tok$bullet_id <- cumsum(tok$kind == "glyph")
+#       tok$bullet_id[tok$bullet_id == 0] <- 1
+#     }
+#     
+#     bullets <- split(tok, tok$bullet_id)
+#     
+#     bullet_md <- vapply(bullets, function(b) {
+#       b <- b[order(b$seq), , drop = FALSE]
+#       paste0("     - ", render_glyphline_md(b), "\n\n")
+#     }, character(1))
+#     
+#     # Label line as its own paragraph, then bullets; exactly one string returned
+#     paste0("- ", lbl, ":\n\n", paste0(bullet_md, collapse = ""))
+#   }, character(1))
+#   
+#   #paste0(out, collapse = "")
+#   paste0(
+#     "::: {.glyphvariants-block}\n\n",
+#     paste0(out, collapse = ""),
+#     "\n:::\n"
+#   )
+# }
 
 
 
@@ -423,4 +626,5 @@ slot_key <- function(x) {
   x <- gsub("[^a-z0-9]+", "-", x)
   x
 }
+
 

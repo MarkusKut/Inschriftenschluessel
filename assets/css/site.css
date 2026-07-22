@@ -928,3 +928,122 @@ body.quarto-dark #quarto-back-to-top:hover,
     font-size: 1.3rem;
   }
 }
+
+
+
+
+
+/* ========================================
+   Glyph-variant heading with TLA link
+   ======================================== */
+
+.glyphvariant-heading {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  gap: 0.75rem;
+}
+
+.glyphvariant-term {
+  min-width: 0;
+}
+
+/* Push the TLA badge to the right */
+.tla-badge {
+  flex: 0 0 auto;
+  margin-left: 0;
+
+  padding: 0.18rem 0.55rem;
+
+  color: var(--bs-link-color);
+  background: var(--bs-tertiary-bg);
+
+  /* Typewriter-style font */
+  font-family:
+    ui-monospace,
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  /* Dashed badge border */
+  border: 1.5px dashed currentColor;
+  border-radius: 0.35rem;
+
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  line-height: 1.25;
+  white-space: nowrap;
+  text-decoration: none;
+
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    transform 150ms ease;
+}
+
+.tla-badge:hover {
+  color: var(--bs-link-color);
+  background: color-mix(
+    in srgb,
+    var(--bs-link-color) 12%,
+    var(--bs-tertiary-bg)
+  );
+  border-color: currentColor;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.tla-badge:focus-visible {
+  outline: 3px solid var(
+    --bs-focus-ring-color,
+    rgba(13, 110, 253, 0.35)
+  );
+  outline-offset: 2px;
+}
+
+.tla-badges {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  margin-left: auto;
+  gap: 0.3rem;
+
+  flex: 0 0 auto;
+}
+
+
+.tla-separator {
+  font-family:
+    ui-monospace,
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 0.78rem;
+  opacity: 0.65;
+  white-space: nowrap;
+}
+
+
+@media (max-width: 576px) {
+  .glyphvariant-heading {
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .tla-badge {
+    padding: 0.16rem 0.45rem;
+    font-size: 0.7rem;
+  }
+}

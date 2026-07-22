@@ -4,6 +4,7 @@
 ## 2026-07-22
 
 - customized page navigation
+- added TLA ID links for the hieroglyphic variants
 
 ## 2026-07-18
 

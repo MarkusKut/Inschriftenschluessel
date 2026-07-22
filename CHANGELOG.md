@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-22
+
+- `ca0ca77` **[Templates/Pages, CSS]** customized page navigation
+
 ## 2026-07-18
 
 - `b813c0c` **[R code]** page navigation and breadcrumbs
