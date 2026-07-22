@@ -1,5 +1,5 @@
 ---
-title: "„Historische“ Königsinschrift"
+title: "„Historische“ Königsinschrift"
 ---
 ```{=html}
 <div class="zoom-controls">
@@ -23,24 +23,24 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
+[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
 
 
 
 
-## Übersetzung
+## Übersetzung
 
-[Datum](../slots/datum.qmd){.slot-link .slot-datum} unter der Majestät / Regierung des [König](../slots/koenig.qmd){.slot-link .slot-k-nig}s
+[Datum](../slots/datum.qmd){.slot-link .slot-datum} unter der Majestät / Regierung des [König](../slots/koenig.qmd){.slot-link .slot-k-nig}s
 
 ## Kommentar
 
-nach *ḫr ḥm n*: Thronname des Königs
+nach *ḫr ḥm n*: Thronname des Königs
 
 ## Schreibvarianten
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*[ḫr] ḥm n*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400036' class='tla-badge' title='TLA-Lemma 400036' aria-label='Lemma 400036 im Thesaurus Linguae Aegyptiae offnen'>TLA 400036</a><span class='tla-separator' aria-hidden='true'> / </span><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104690' class='tla-badge' title='TLA-Lemma 104690' aria-label='Lemma 104690 im Thesaurus Linguae Aegyptiae offnen'>TLA 104690</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*[ḫr] ḥm n*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400036' class='tla-badge' title='TLA-Lemma 400036' aria-label='Lemma 400036 im Thesaurus Linguae Aegyptiae öffnen'>TLA 400036</a><span class='tla-separator' aria-hidden='true'> / </span><a href='https://thesaurus-linguae-aegyptiae.de/lemma/104690' class='tla-badge' title='TLA-Lemma 104690' aria-label='Lemma 104690 im Thesaurus Linguae Aegyptiae öffnen'>TLA 104690</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
 
@@ -50,7 +50,7 @@ nach *ḫr ḥm n*: Thronname des Königs
 
      - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw bit*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge' title='TLA-Lemma 88060' aria-label='Lemma 88060 im Thesaurus Linguae Aegyptiae offnen'>TLA 88060</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw bit*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge' title='TLA-Lemma 88060' aria-label='Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>TLA 88060</a></span></span>
 
      - ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}
 

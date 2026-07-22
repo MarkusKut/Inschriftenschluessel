@@ -171,6 +171,88 @@ expand_nested_tables_in_html <- function(html, df_tables, visited = character())
 }
 
 
+tla_table_badges_html <- function(
+    value,
+    sep_token = "|||CELLBREAK|||"
+) {
+  
+  if (
+    length(value) == 0 ||
+    is.na(value)
+  ) {
+    return("")
+  }
+  
+  value <- trimws(as.character(value))
+  
+  if (
+    !nzchar(value) ||
+    value == "NA"
+  ) {
+    return("")
+  }
+  
+  # Repeated long-table values should also count as separate IDs
+  value <- gsub(
+    sep_token,
+    ";",
+    value,
+    fixed = TRUE
+  )
+  
+  # Accept:
+  # 850653;123456
+  # 850653/123456
+  ids <- unlist(
+    strsplit(
+      value,
+      "\\s*[;/]\\s*",
+      perl = TRUE
+    ),
+    use.names = FALSE
+  )
+  
+  ids <- trimws(ids)
+  ids <- sub("\\.0+$", "", ids)
+  
+  ids <- ids[
+    nzchar(ids) &
+      ids != "NA"
+  ]
+  
+  ids <- unique(ids)
+  
+  if (length(ids) == 0) {
+    return("")
+  }
+  
+  links <- vapply(ids, function(id) {
+    
+    url <- paste0(
+      "https://thesaurus-linguae-aegyptiae.de/lemma/",
+      utils::URLencode(id, reserved = TRUE)
+    )
+    
+    paste0(
+      "<a ",
+      "href='", url, "' ",
+      "class='tla-badge tla-badge-table' ",
+      "title='TLA-Lemma ", id, "' ",
+      "aria-label='TLA-Lemma ", id,
+      " im Thesaurus Linguae Aegyptiae öffnen'>",
+      htmltools::htmlEscape(id),
+      "</a>"
+    )
+    
+  }, character(1))
+  
+  paste0(
+    "<span class='tla-table-badges'>",
+    paste0(links, collapse = ""),
+    "</span>"
+  )
+}
+
 read_long_table <- function(df_tables, table_id, visited = character()) {
   
   sep_token <- "|||CELLBREAK|||"
@@ -191,9 +273,30 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
       values_fill = list(value = "")
     ) %>%
     mutate(across(-row, function(x) {
+      
+      column_name <- dplyr::cur_column()
+      
       x <- ifelse(is.na(x), "", as.character(x))
       x[x == "NA"] <- ""
       
+      # Special handling for the TLA column
+      if (toupper(trimws(column_name)) == "TLA") {
+        
+        return(
+          vapply(
+            x,
+            function(cell) {
+              tla_table_badges_html(
+                cell,
+                sep_token = sep_token
+              )
+            },
+            character(1)
+          )
+        )
+      }
+      
+      # Normal text and glyph handling
       vapply(x, function(cell) {
         if (cell == "" || cell == "NA") return("")
         
@@ -337,7 +440,7 @@ tla_badge_html <- function(tla_id, separator = " / ") {
       "class='tla-badge' ",
       "title='TLA-Lemma ", id, "' ",
       "aria-label='Lemma ", id,
-      " im Thesaurus Linguae Aegyptiae offnen'>",
+      " im Thesaurus Linguae Aegyptiae öffnen'>",
       "TLA ", id,
       "</a>"
     )

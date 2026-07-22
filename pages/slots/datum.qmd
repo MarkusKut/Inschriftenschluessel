@@ -6,25 +6,83 @@ title: "Datum"
 
 ```{=html}
 <div class="zoom-controls">
-  <button onclick="setZoom(0.9)">A−</button>
-  <button onclick="setZoom(1)">A</button>
-  <button onclick="setZoom(1.2)">A+</button>
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
 </div>
 
 <script>
 function setZoom(scale) {
-  document.documentElement.style.setProperty('--base-scale', scale);
-  localStorage.setItem('site-zoom', scale);
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  const saved = localStorage.getItem('site-zoom');
-  if (saved) {
-    document.documentElement.style.setProperty('--base-scale', saved);
-  }
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
 
-  const cls = document.querySelector('meta[name="slot-title-class"]')?.content;
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
   const title = document.querySelector("h1.title");
+
   if (cls && title) {
     title.classList.add(cls);
   }
@@ -36,19 +94,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Jahr
 
-<div class='tableFixHead table-glyph-middle'><table class="table">
+<div class='tableFixHead table-glyph-middle table-with-tla'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> TLA </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḥꜣ.t-sp* </td>
-   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0030_HA.t-sp_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0040_HA.t-sp_Sp_01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0050_HA.t-sp_Sp_02.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0060_HA.t-sp_Sp_03.png){.glyph} <sup>(Spät.)</sup> </td>
+   <td style="text-align:left;"> *ḥꜣ.t-sp* </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0030_HA.t-sp_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0040_HA.t-sp_Sp_01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0050_HA.t-sp_Sp_02.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0060_HA.t-sp_Sp_03.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> Regierungsjahr </td>
+   <td style="text-align:left;"> <span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/100620' class='tla-badge tla-badge-table' title='TLA-Lemma 100620' aria-label='TLA-Lemma 100620 im Thesaurus Linguae Aegyptiae öffnen'>100620</a><a href='https://thesaurus-linguae-aegyptiae.de/lemma/850581' class='tla-badge tla-badge-table' title='TLA-Lemma 850581' aria-label='TLA-Lemma 850581 im Thesaurus Linguae Aegyptiae öffnen'>850581</a></span> </td>
   </tr>
 </tbody>
 </table></div>
@@ -61,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
@@ -101,14 +161,14 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ꜣḫ.t* </td>
+   <td style="text-align:left;"> *ꜣḫ.t* </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0001_Ax.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0010_Ax.t_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0020_Ax.t_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0030_Ax.t_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0040_Ax.t_NR_01.png){.glyph} <sup>(NR)</sup> </td>
-   <td style="text-align:left;"> Überschwemmungszeit </td>
+   <td style="text-align:left;"> Überschwemmungszeit </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *pr.t* </td>
@@ -116,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> Winter </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šm.w* </td>
+   <td style="text-align:left;"> *šm.w* </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0001_Smw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0010_Smw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0020_Smw_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0030_Smw_D.20_01.png){.glyph} <sup>(D.20)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0040_Smw_Sp_Gr_Abk_01.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0050_Smw_Sp_Gr_Abk_02.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0060_Smw_Sp_Gr_Abk_03.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0070_Smw_Gr_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0080_Smw_Gr_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0090_Smw_Gr_03.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> Sommer </td>
   </tr>
@@ -131,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>

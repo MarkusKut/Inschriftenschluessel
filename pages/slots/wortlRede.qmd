@@ -82,7 +82,7 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḏd-md.w*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/186050' class='tla-badge' title='TLA-Lemma 186050' aria-label='Lemma 186050 im Thesaurus Linguae Aegyptiae offnen'>TLA 186050</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḏd-md.w*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/186050' class='tla-badge' title='TLA-Lemma 186050' aria-label='Lemma 186050 im Thesaurus Linguae Aegyptiae öffnen'>TLA 186050</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0001_Dd-mdw_01.png){.glyph}
 
@@ -90,13 +90,13 @@ Worte zu sprechen durch [Gottheit](gottheit.qmd){.slot-link .slot-gottheit} / [K
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/01_Dd-mdw/0020_Dd-mdw_NR_01.png){.glyph} <sup>(NR)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*in*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/26660' class='tla-badge' title='TLA-Lemma 26660' aria-label='Lemma 26660 im Thesaurus Linguae Aegyptiae offnen'>TLA 26660</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*in*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/26660' class='tla-badge' title='TLA-Lemma 26660' aria-label='Lemma 26660 im Thesaurus Linguae Aegyptiae öffnen'>TLA 26660</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0001_jn_01.png){.glyph}
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/01_Dd-mdw-jn/02_jn/0010_jn_02.png){.glyph} <sup>(NR)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di.n(⸗i) n⸗k/ṯ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/96700' class='tla-badge' title='TLA-Lemma 96700' aria-label='Lemma 96700 im Thesaurus Linguae Aegyptiae offnen'>TLA 96700</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di.n(⸗i) n⸗k/ṯ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/96700' class='tla-badge' title='TLA-Lemma 96700' aria-label='Lemma 96700 im Thesaurus Linguae Aegyptiae öffnen'>TLA 96700</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/03_Woertliche-Rede/02_dj.n(=j)-n=k/0001_dj.n(=j)-n=k_01.png){.glyph}
 

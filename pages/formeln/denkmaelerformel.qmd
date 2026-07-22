@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ir.n⸗f mn.w⸗f*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/28550' class='tla-badge' title='TLA-Lemma 28550' aria-label='Lemma 28550 im Thesaurus Linguae Aegyptiae offnen'>TLA 28550</a><span class='tla-separator' aria-hidden='true'> / </span><a href='https://thesaurus-linguae-aegyptiae.de/lemma/70420' class='tla-badge' title='TLA-Lemma 70420' aria-label='Lemma 70420 im Thesaurus Linguae Aegyptiae offnen'>TLA 70420</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ir.n⸗f mn.w⸗f*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/28550' class='tla-badge' title='TLA-Lemma 28550' aria-label='Lemma 28550 im Thesaurus Linguae Aegyptiae öffnen'>TLA 28550</a><span class='tla-separator' aria-hidden='true'> / </span><a href='https://thesaurus-linguae-aegyptiae.de/lemma/70420' class='tla-badge' title='TLA-Lemma 70420' aria-label='Lemma 70420 im Thesaurus Linguae Aegyptiae öffnen'>TLA 70420</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph}
 
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
      - ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0060_jr.t n=f_01.png){.glyph}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*it*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/32820' class='tla-badge' title='TLA-Lemma 32820' aria-label='Lemma 32820 im Thesaurus Linguae Aegyptiae offnen'>TLA 32820</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*it*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/32820' class='tla-badge' title='TLA-Lemma 32820' aria-label='Lemma 32820 im Thesaurus Linguae Aegyptiae öffnen'>TLA 32820</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02-1_jt/0001_jt_AR_01.png){.glyph} <sup>(AR)</sup>
 
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
      - ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02-1_jt/0050_jt_Gr_02.png){.glyph} <sup>(Gr.)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*mw.t*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/69040' class='tla-badge' title='TLA-Lemma 69040' aria-label='Lemma 69040 im Thesaurus Linguae Aegyptiae offnen'>TLA 69040</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*mw.t*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/69040' class='tla-badge' title='TLA-Lemma 69040' aria-label='Lemma 69040 im Thesaurus Linguae Aegyptiae öffnen'>TLA 69040</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/03-1_mw.t/0001_mw.t_01.png){.glyph}
 

@@ -124,9 +124,15 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   vertical-align: top;
 }
 
-/* give the last column more room if needed */
-.table-wide th:last-child,
-.table-wide td:last-child {
+/* Tables without a TLA column */
+.tableFixHead.table-wide:not(.table-with-tla) th:last-child,
+.tableFixHead.table-wide:not(.table-with-tla) td:last-child {
+  min-width: 18rem;
+}
+
+/* Tables with a TLA column */
+.tableFixHead.table-wide.table-with-tla th:nth-last-child(2),
+.tableFixHead.table-wide.table-with-tla td:nth-last-child(2) {
   min-width: 18rem;
 }
 
@@ -263,9 +269,35 @@ body.quarto-dark .tableFixHead.table-wide thead th,
   }
 }
 
+:root {
+  --base-scale: 1;
+
+  --site-font-size: 16px;
+  --glyph-height: 30px;
+  --glyph-row-gap: 7.2px;
+}
+
+html {
+  font-size: var(--site-font-size) !important;
+
+  /* Prevent mobile Safari from changing text sizes independently */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+img.glyph {
+  height: var(--glyph-height) !important;
+  width: auto;
+  max-width: none;
+}
+
 .glyph-row-break {
   display: block;
-  height: 0.45rem;   /* change this value */
+  height: var(--glyph-row-gap);
 }
 
 
@@ -310,6 +342,97 @@ body.quarto-dark .tableFixHead.table-wide thead th,
 /* th     { background:#eee; } */
 
 
+/* ========================================
+   Very compact TLA table column
+   ======================================== */
+
+.tableFixHead.table-with-tla th:last-child,
+.tableFixHead.table-with-tla td:last-child {
+  width: 1%;
+  min-width: 0;
+  max-width: none;
+
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+/* Keep the heading compact */
+.tableFixHead.table-with-tla th:last-child {
+  font-size: 0.7rem;
+}
+
+/* Do not stretch the badge wrapper across the cell */
+.tableFixHead.table-with-tla .tla-table-badges {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  width: auto;
+  margin-left: auto;
+  gap: 0.18rem;
+}
+
+/* Compact numeric badge */
+.tableFixHead.table-with-tla .tla-badge-table {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0.06rem 0.18rem;
+
+  min-height: 0;
+  width: auto;
+
+  font-family:
+    ui-monospace,
+    "SFMono-Regular",
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 0.58rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0;
+
+  white-space: nowrap;
+
+  border: 1px dashed currentColor;
+  border-radius: 0.2rem;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .tableFixHead.table-with-tla th:last-child,
+  .tableFixHead.table-with-tla td:last-child {
+    width: 1%;
+    min-width: 0;
+
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+  }
+
+  .tableFixHead.table-with-tla .tla-badge-table {
+    padding: 0.05rem 0.14rem;
+    font-size: 0.54rem;
+  }
+}
+
+
+
+
+
 
 .glyphvariants-block ul {
   margin-top: 0.25rem;
@@ -348,7 +471,6 @@ a[href^="www"] {
 }
 
 
-
 /* Invert glyph PNGs in dark mode (Quarto/Bootstrap variants) */
 html[data-bs-theme="dark"] img.glyph,
 html[data-theme="dark"] img.glyph,
@@ -364,9 +486,8 @@ body.quarto-dark .site-logo,
   filter: invert(1) brightness(1.15) contrast(1.05);
 }
 
-:root {
-  --base-scale: 1;
-}
+
+
 
 /* scale everything relative to base */
 body {
@@ -644,7 +765,7 @@ h1.title.slot-title-w-rtliche-rede {
 
 
 
-/* Rückenschutzformel */
+/* Ruckenschutzformel */
 
 .badge-r-ckenschutzformel {  background: #2EF08B;
   color: #fff;
@@ -928,6 +1049,10 @@ body.quarto-dark #quarto-back-to-top:hover,
     font-size: 1.3rem;
   }
 }
+
+
+
+
 
 
 

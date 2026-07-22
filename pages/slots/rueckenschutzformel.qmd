@@ -83,7 +83,7 @@ Aller Schutz (und) alles Leben ist hinter ihm.
 
 ::: {.glyphvariants-block}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*sꜣ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/125600' class='tla-badge' title='TLA-Lemma 125600' aria-label='Lemma 125600 im Thesaurus Linguae Aegyptiae offnen'>TLA 125600</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*sꜣ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/125600' class='tla-badge' title='TLA-Lemma 125600' aria-label='Lemma 125600 im Thesaurus Linguae Aegyptiae öffnen'>TLA 125600</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0001_sA_01.png){.glyph}
 
@@ -99,11 +99,11 @@ Aller Schutz (und) alles Leben ist hinter ihm.
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0060_sA_GR_02.png){.glyph} <sup>(Gr.)</sup>
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ꜥnḫ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/38540' class='tla-badge' title='TLA-Lemma 38540' aria-label='Lemma 38540 im Thesaurus Linguae Aegyptiae offnen'>TLA 38540</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ꜥnḫ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/38540' class='tla-badge' title='TLA-Lemma 38540' aria-label='Lemma 38540 im Thesaurus Linguae Aegyptiae öffnen'>TLA 38540</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḥꜣ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/100130' class='tla-badge' title='TLA-Lemma 100130' aria-label='Lemma 100130 im Thesaurus Linguae Aegyptiae offnen'>TLA 100130</a></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*ḥꜣ*</em>:</span><span class='tla-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/100130' class='tla-badge' title='TLA-Lemma 100130' aria-label='Lemma 100130 im Thesaurus Linguae Aegyptiae öffnen'>TLA 100130</a></span></span>
 
      - ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0001_HA_01.png){.glyph}
 

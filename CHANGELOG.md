@@ -2,6 +2,10 @@
 
 ## 2026-07-22
 
+- `3473b8b` **[R code, Templates/Pages, CSS, Data]** added TLA ID links for the hieroglyphic variants
+
+## 2026-07-22
+
 - `ca0ca77` **[Templates/Pages, CSS]** customized page navigation
 
 ## 2026-07-18
