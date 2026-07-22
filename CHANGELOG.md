@@ -2,6 +2,10 @@
 
 ## 2026-07-18
 
+- `b813c0c` **[R code]** page navigation and breadcrumbs
+
+## 2026-07-18
+
 - `92dca1a` **[R code, Templates/Pages, Data, PWA/Offline]** set glyphs height to 500px globally
 
 ## 2026-07-18

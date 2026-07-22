@@ -1,6 +1,10 @@
 # Worklog
 
 
+## 2026-07-22
+
+- customized page navigation
+
 ## 2026-07-18
 
 - set glyphs height to 500px globally

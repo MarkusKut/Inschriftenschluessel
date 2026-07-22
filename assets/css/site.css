@@ -797,3 +797,134 @@ body.quarto-dark #offline-toast.ready,
 .quarto-dark #offline-toast.ready {
   background: rgba(30, 120, 70, 0.95);
 }
+
+
+
+
+
+
+
+/* ========================================
+   Custom Quarto back-to-top button
+   ======================================== */
+
+#quarto-back-to-top {
+  --backtop-size: 3rem;
+  --backtop-accent: #f59f00;
+
+  position: fixed;
+  right: 1rem;
+  bottom: calc(5.25rem + env(safe-area-inset-bottom));
+  z-index: 1100;
+
+  width: var(--backtop-size);
+  height: var(--backtop-size);
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: -9999px;
+
+  color: #252525;
+  background: rgba(255, 255, 255, 0.94);
+
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.9rem;
+
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+/* Hide Quarto's original icon */
+#quarto-back-to-top i {
+  display: none;
+}
+
+/* Draw our own arrow */
+#quarto-back-to-top::before {
+  content: "↑";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  text-indent: 0;
+  transform: translate(-50%, -53%);
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.45rem;
+  font-weight: 650;
+  line-height: 1;
+}
+
+/* Mouse hover */
+#quarto-back-to-top:hover {
+  color: #1d1d1d;
+  background: var(--backtop-accent);
+  border-color: var(--backtop-accent);
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.16),
+    0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* Touch/click feedback */
+#quarto-back-to-top:active {
+  transform: translateY(-1px) scale(0.96);
+}
+
+/* Keyboard accessibility */
+#quarto-back-to-top:focus-visible {
+  outline: 3px solid rgba(245, 159, 0, 0.45);
+  outline-offset: 3px;
+}
+
+
+html[data-bs-theme="dark"] #quarto-back-to-top,
+html[data-theme="dark"] #quarto-back-to-top,
+body.quarto-dark #quarto-back-to-top,
+.quarto-dark #quarto-back-to-top {
+  color: #f4f4f4;
+  background: rgba(35, 35, 35, 0.94);
+  border-color: rgba(255, 255, 255, 0.2);
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.4),
+    0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+html[data-bs-theme="dark"] #quarto-back-to-top:hover,
+html[data-theme="dark"] #quarto-back-to-top:hover,
+body.quarto-dark #quarto-back-to-top:hover,
+.quarto-dark #quarto-back-to-top:hover {
+  color: #181818;
+  background: var(--backtop-accent);
+  border-color: var(--backtop-accent);
+}
+
+
+@media (max-width: 768px) {
+  #quarto-back-to-top {
+    --backtop-size: 2.75rem;
+
+    right: 0.75rem;
+    bottom: calc(5.5rem + env(safe-area-inset-bottom));
+    border-radius: 0.8rem;
+  }
+
+  #quarto-back-to-top::before {
+    font-size: 1.3rem;
+  }
+}
