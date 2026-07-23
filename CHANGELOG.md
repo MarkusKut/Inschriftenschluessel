@@ -2,6 +2,10 @@
 
 ## 2026-07-23
 
+- `4074d6a` **[Templates/Pages, PWA/Offline]** app logo in header
+
+## 2026-07-23
+
 - `852cabe` **[PWA/Offline]** updated app logo
 
 ## 2026-07-23

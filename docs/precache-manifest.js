@@ -1,5 +1,7 @@
 self.__PRECACHE = [
   'about.html',
+  'assets/branding/Inschriftenschluessel-type.svg',
+  'assets/branding/Inschriftenschluessel-w-logo-col.svg',
   'assets/branding/Logo-col-transp.svg',
   'assets/css/site.css',
   'assets/fonts/noto-sans-v42-latin_latin-ext-700.eot',

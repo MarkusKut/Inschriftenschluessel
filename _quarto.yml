@@ -10,6 +10,7 @@ project:
     - offline.html
     - icons/**
     - favicon.ico
+    - assets/branding/**
 
 lang: de # Sets language to German
 
@@ -18,9 +19,8 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   navbar:
-    title: "Inschriftenschlüssel"
-    logo: /assets/branding/Logo-col-transp.svg
-    logo-alt: "Logo des Inschriftenschlüssels"
+    title: false
+    logo: assets/branding/Inschriftenschluessel-w-logo-col.svg
     pinned: true
     left:
       - href: pages/info.qmd

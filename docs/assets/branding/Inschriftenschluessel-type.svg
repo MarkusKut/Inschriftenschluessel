@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 589.58 185.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: AGaramondPro-Regular, 'Adobe Garamond Pro';
+        font-size: 82px;
+      }
+
+      .cls-2 {
+        fill: #d87b00;
+        letter-spacing: .22em;
+      }
+
+      .cls-3 {
+        fill: #7f7f7f;
+        font-family: NotoSansCondensed-Regular, 'Noto Sans Condensed';
+        font-size: 21px;
+        letter-spacing: .36em;
+      }
+    </style>
+  </defs>
+  <g id="Logo-b-w-inv-col-circle-bg">
+    <text class="cls-1" transform="translate(0 68.06)"><tspan x="0" y="0">INSCHRIFTEN</tspan></text>
+    <text class="cls-3" transform="translate(.89 174.95)"><tspan x="0" y="0">FORMELN ALTÄGYPTISCHER INSCHRIFTEN</tspan></text>
+    <text class="cls-2" transform="translate(1.35 144.1)"><tspan x="0" y="0">SCHLÜSSEL</tspan></text>
+  </g>
+</svg>

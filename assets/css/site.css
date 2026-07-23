@@ -1307,3 +1307,72 @@ body.quarto-dark #quarto-back-to-top:hover,
     height: 0.28rem;
   }
 }
+
+
+
+
+
+
+/* ========================================
+   Horizontal navbar logo with wordmark
+   ======================================== */
+
+.navbar-brand-container {
+  display: flex !important;
+  align-items: center !important;
+
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+
+  overflow: visible !important;
+}
+
+/* Link surrounding the complete logo */
+.navbar-brand-logo {
+  display: flex !important;
+  align-items: center !important;
+
+  flex: 0 1 auto;
+
+  height: auto !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: visible !important;
+}
+
+/* Horizontal symbol + text SVG */
+.navbar-logo {
+  display: block !important;
+
+  width: auto !important;
+  height: 2.75rem !important;
+
+  max-width: min(24rem, 48vw) !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: contain !important;
+  object-position: left center !important;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 2.25rem !important;
+    max-width: min(17rem, calc(100vw - 7rem)) !important;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .navbar-logo {
+    height: 2rem !important;
+    max-width: calc(100vw - 6.5rem) !important;
+  }
+}
