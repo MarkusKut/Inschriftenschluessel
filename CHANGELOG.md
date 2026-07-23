@@ -2,6 +2,10 @@
 
 ## 2026-07-23
 
+- `66fd978` **[CSS]** made the appearance of the TLA links even + changed color to official TLA colors
+
+## 2026-07-23
+
 - `cf91fba` **[Templates/Pages, CSS, Data]** added slider for showing more rows in big tables
 
 ## 2026-07-22

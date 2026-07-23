@@ -4,6 +4,7 @@
 
 - added slider for showing more rows in big tables
 - made the appearance of the TLA links even + changed color to official TLA colors
+- updated app icon
 
 ## 2026-07-22
 
