@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Titulatur
 
-<div class='tableFixHead table-wide'><table class="table">
+<div class='tableFixHead table-wide table-resizable'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Bezeichnung </th>

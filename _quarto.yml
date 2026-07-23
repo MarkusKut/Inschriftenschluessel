@@ -40,7 +40,9 @@ format:
     code-fold: true
     code-tools: false
     include-in-header: pwa-head.html
-    include-after-body: pwa-register.html
+    include-after-body: 
+     - pwa-register.html
+     - table-resize.html
     
 
 execute:

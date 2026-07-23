@@ -407,10 +407,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <section id="übliche-form" class="level2">
 <h2 class="anchored" data-anchor-id="übliche-form">Übliche Form</h2>
 <p><a href="#anfangsformel">Anfangsformel</a></p>
-<ul>
-<li><p><a href="#aufzählung">Aufzählung</a> mit/ohne <a href="#attribut">Attribut</a></p></li>
-<li><p><a href="#schlussformel">Schlussformel</a></p></li>
-</ul>
+<p>+ <a href="#aufzählung">Aufzählung</a> mit/ohne <a href="#attribut">Attribut</a></p>
+<p>+ <a href="#schlussformel">Schlussformel</a></p>
 </section>
 <section id="anfangsformel" class="level2">
 <h2 class="anchored" data-anchor-id="anfangsformel">Anfangsformel</h2>
@@ -453,7 +451,7 @@ ein Anrufungsopfer bestehend aus
 </section>
 <section id="aufzählung" class="level2">
 <h2 class="anchored" data-anchor-id="aufzählung">Aufzählung</h2>
-<div class="tableFixHead table-wide">
+<div class="tableFixHead table-wide table-resizable">
 <table class="table">
 <thead>
 <tr>
@@ -667,7 +665,7 @@ tausend an
 </section>
 <section id="schlussformel" class="level2">
 <h2 class="anchored" data-anchor-id="schlussformel">Schlussformel</h2>
-<div class="tableFixHead table-wide">
+<div class="tableFixHead table-wide table-resizable">
 <table class="table">
 <thead>
 <tr>
@@ -924,6 +922,210 @@ if ("serviceWorker" in navigator) {
     }
   });
 }
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const tables = document.querySelectorAll(
+    ".tableFixHead.table-resizable"
+  );
+
+  tables.forEach(function (tableBox) {
+
+    /*
+     * Avoid adding the control twice if a page script
+     * is initialized more than once.
+     */
+    if (
+      tableBox.parentElement &&
+      tableBox.parentElement.classList.contains(
+        "table-resize-shell"
+      )
+    ) {
+      return;
+    }
+
+    /*
+     * Create:
+     *
+     * .table-resize-shell
+     *   .tableFixHead.table-resizable
+     *   button.table-resize-handle
+     */
+    const shell = document.createElement("div");
+    shell.className = "table-resize-shell";
+
+    tableBox.parentNode.insertBefore(shell, tableBox);
+    shell.appendChild(tableBox);
+
+    const handle = document.createElement("button");
+
+    handle.type = "button";
+    handle.className = "table-resize-handle";
+
+    handle.setAttribute(
+      "aria-label",
+      "Tabellenhöhe ändern"
+    );
+
+    handle.setAttribute(
+      "title",
+      "Ziehen, um mehr oder weniger Tabellenzeilen anzuzeigen"
+    );
+
+    handle.innerHTML =
+      "<span aria-hidden='true'></span>";
+
+    shell.appendChild(handle);
+
+    const minimumHeight = 160;
+
+    function maximumHeight() {
+      /*
+       * Allow the table to occupy up to 85% of the
+       * currently visible browser height.
+       */
+      return Math.max(
+        minimumHeight,
+        Math.round(window.innerHeight * 0.85)
+      );
+    }
+
+    function setTableHeight(height) {
+      const limitedHeight = Math.min(
+        maximumHeight(),
+        Math.max(minimumHeight, height)
+      );
+
+      tableBox.style.height =
+        limitedHeight + "px";
+
+      tableBox.style.maxHeight = "none";
+    }
+
+    let activePointerId = null;
+    let startingY = 0;
+    let startingHeight = 0;
+
+    handle.addEventListener(
+      "pointerdown",
+      function (event) {
+        event.preventDefault();
+
+        activePointerId = event.pointerId;
+        startingY = event.clientY;
+
+        startingHeight =
+          tableBox.getBoundingClientRect().height;
+
+        handle.setPointerCapture(
+          activePointerId
+        );
+
+        shell.classList.add("is-resizing");
+      }
+    );
+
+    handle.addEventListener(
+      "pointermove",
+      function (event) {
+        if (
+          activePointerId === null ||
+          event.pointerId !== activePointerId
+        ) {
+          return;
+        }
+
+        const movement =
+          event.clientY - startingY;
+
+        setTableHeight(
+          startingHeight + movement
+        );
+      }
+    );
+
+    function finishResize(event) {
+      if (
+        activePointerId === null ||
+        event.pointerId !== activePointerId
+      ) {
+        return;
+      }
+
+      if (
+        handle.hasPointerCapture(
+          activePointerId
+        )
+      ) {
+        handle.releasePointerCapture(
+          activePointerId
+        );
+      }
+
+      activePointerId = null;
+      shell.classList.remove("is-resizing");
+    }
+
+    handle.addEventListener(
+      "pointerup",
+      finishResize
+    );
+
+    handle.addEventListener(
+      "pointercancel",
+      finishResize
+    );
+
+    /*
+     * Keyboard support:
+     *
+     * Arrow Up   = make smaller
+     * Arrow Down = make larger
+     * Home       = minimum height
+     * End        = maximum height
+     *
+     * Hold Shift for larger steps.
+     */
+    handle.addEventListener(
+      "keydown",
+      function (event) {
+        const currentHeight =
+          tableBox.getBoundingClientRect().height;
+
+        const step = event.shiftKey
+          ? 80
+          : 32;
+
+        if (event.key === "ArrowUp") {
+          event.preventDefault();
+
+          setTableHeight(
+            currentHeight - step
+          );
+        }
+
+        if (event.key === "ArrowDown") {
+          event.preventDefault();
+
+          setTableHeight(
+            currentHeight + step
+          );
+        }
+
+        if (event.key === "Home") {
+          event.preventDefault();
+          setTableHeight(minimumHeight);
+        }
+
+        if (event.key === "End") {
+          event.preventDefault();
+          setTableHeight(maximumHeight());
+        }
+      }
+    );
+  });
+});
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

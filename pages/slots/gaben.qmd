@@ -97,10 +97,10 @@ document.addEventListener("DOMContentLoaded", function() {
 [Anfangsformel]
 
 
-+ [Aufzählung] mit/ohne [Attribut]
+\+ [Aufzählung] mit/ohne [Attribut]
 
 
-+ [Schlussformel]
+\+ [Schlussformel]
 
 
 ## Anfangsformel
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Aufzählung
 
-<div class='tableFixHead table-wide'><table class="table">
+<div class='tableFixHead table-wide table-resizable'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Schlussformel
 
-<div class='tableFixHead table-wide'><table class="table">
+<div class='tableFixHead table-wide table-resizable'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
