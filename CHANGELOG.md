@@ -2,6 +2,10 @@
 
 ## 2026-07-23
 
+- `c609ac0` **[Data, PWA/Offline]** updated app logo
+
+## 2026-07-23
+
 - `66fd978` **[CSS]** made the appearance of the TLA links even + changed color to official TLA colors
 
 ## 2026-07-23
