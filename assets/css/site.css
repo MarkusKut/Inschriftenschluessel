@@ -959,57 +959,15 @@ body.quarto-dark #quarto-back-to-top:hover,
 
 
 
-
-
-
 /* ========================================
-   TLA references for glyph variants:
-   keep everything on one line
+   Shared TLA appearance
+   Tables and glyph variants
    ======================================== */
 
-.glyphvariant-heading {
-  display: flex;
-  align-items: baseline;
-  width: 100%;
-  gap: 0.6rem;
-}
-
-.glyphvariant-term {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-
-/* Keep the complete TLA group beside the label */
-.glyphvariant-tla {
-  display: inline-flex;
-  flex: 0 0 auto;
-  align-items: baseline;
-
-  width: auto;
-  margin-left: auto;
-
-  font-size: 0.72em;
-  text-align: right;
-  white-space: nowrap;
-}
-
-/* Horizontal arrangement only for variants */
-.glyphvariant-tla .tla-table-badges {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-
-  width: auto;
-  gap: 0.25rem;
-}
-
-/* Put the grey TLA label beside the IDs */
+/* Grey TLA label */
+.table-inline-tla .tla-table-badges::before,
 .glyphvariant-tla .tla-table-badges::before {
   content: "TLA";
-  display: inline-block;
-
-  margin: 0 0.2rem 0 0;
 
   color: var(--bs-secondary-color, #6c757d);
 
@@ -1025,12 +983,14 @@ body.quarto-dark #quarto-back-to-top:hover,
 
   font-size: 0.9em;
   font-weight: 600;
-  letter-spacing: 0.04em;
   line-height: 1;
+  letter-spacing: 0.04em;
 
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
+/* Identical badge appearance in tables and variants */
+.table-inline-tla .tla-badge-table,
 .glyphvariant-tla .tla-badge-table {
   display: inline-flex;
   align-items: center;
@@ -1040,7 +1000,7 @@ body.quarto-dark #quarto-back-to-top:hover,
   padding: 0.12em 0.38em;
 
   color: var(--bs-link-color);
-  background: var(--bs-tertiary-bg);
+  background: transparent;
 
   font-family:
     ui-monospace,
@@ -1062,17 +1022,130 @@ body.quarto-dark #quarto-back-to-top:hover,
   border-radius: 0.25rem;
 
   text-decoration: none;
+  box-shadow: none;
+  transform: none;
+  transition: none;
 }
 
-.glyphvariant-tla .tla-badge-table:hover {
-  color: var(--bs-body-bg);
-  background: var(--bs-link-color);
-  border-color: var(--bs-link-color);
+/* Keep the same plain appearance on mouse hover and touch */
+.table-inline-tla .tla-badge-table:hover,
+.glyphvariant-tla .tla-badge-table:hover,
+.table-inline-tla .tla-badge-table:active,
+.glyphvariant-tla .tla-badge-table:active {
+  color: #B0152D;
+  background: transparent;
+  border-color: currentColor;
+
   text-decoration: none;
+  box-shadow: none;
+  transform: none;
 }
 
+/* Accessible keyboard focus */
+.table-inline-tla .tla-badge-table:focus-visible,
+.glyphvariant-tla .tla-badge-table:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* TLA ID number and dashed border */
+.table-inline-tla .tla-badge-table,
+.glyphvariant-tla .tla-badge-table {
+  color: #C60C30;
+  border-color: currentColor;
+}
+
+/* ========================================
+   Glyph variants
+   One horizontal line
+   ======================================== */
+
+.glyphvariant-heading {
+  display: flex;
+  align-items: baseline;
+
+  width: 100%;
+  gap: 0.6rem;
+}
+
+.glyphvariant-term {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.glyphvariant-tla {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: baseline;
+
+  width: auto;
+  margin-left: auto;
+
+  font-size: 0.72em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* TLA label and IDs stay beside each other */
+.glyphvariant-tla .tla-table-badges {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: auto;
+  gap: 0.25rem;
+}
+
+.glyphvariant-tla .tla-table-badges::before {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+}
+
+
+/* ========================================
+   TLA links inside ordinary table cells
+   IDs stacked vertically
+   ======================================== */
+
+.table-inline-tla {
+  float: right;
+
+  margin-left: 0.6rem;
+  margin-bottom: 0.15rem;
+
+  font-size: 0.5em;
+  text-align: right;
+}
+
+/* Each table ID appears on its own row */
+.table-inline-tla .tla-table-badges {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  width: auto;
+  gap: 0.18rem;
+}
+
+/* TLA label above the table IDs */
+.table-inline-tla .tla-table-badges::before {
+  display: block;
+  align-self: flex-end;
+
+  margin: 0 0 0.12rem;
+}
+
+
+/* ========================================
+   Mobile adjustments
+   ======================================== */
 
 @media (max-width: 576px) {
+
+  /* Variants remain in one horizontal line */
   .glyphvariant-heading {
     flex-wrap: nowrap;
     align-items: baseline;
@@ -1097,75 +1170,9 @@ body.quarto-dark #quarto-back-to-top:hover,
 }
 
 
-
-/* ========================================
-   TLA links inside an ordinary table cell
-   ======================================== */
-
-.table-inline-tla {
-  float: right;
-
-  margin-left: 0.6rem;
-  margin-bottom: 0.15rem;
-
-  text-align: right;
-  font-size: 0.5em;
-}
-
-/* Small TLA label before the IDs */
-.table-inline-tla .tla-table-badges::before {
-  content: "TLA";
-
-  margin-right: 0.3em;
-
-  font-family:
-    ui-monospace,
-    "SFMono-Regular",
-    Menlo,
-    Monaco,
-    Consolas,
-    "Liberation Mono",
-    "Courier New",
-    monospace;
-
-  font-size: 0.9em;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  opacity: 0.65;
-}
-
-/* Individual ID badge */
-.table-inline-tla .tla-badge-table {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-  padding: 0.12em 0.38em;
-
-  font-family:
-    ui-monospace,
-    "SFMono-Regular",
-    Menlo,
-    Monaco,
-    Consolas,
-    "Liberation Mono",
-    "Courier New",
-    monospace;
-
-  font-size: 1em;
-  font-weight: 500;
-  line-height: 1.15;
-
-  white-space: nowrap;
-
-  border: 1px dashed currentColor;
-  border-radius: 0.25rem;
-
-  text-decoration: none;
-}
-
 @media (max-width: 768px) {
+
+  /* Table references use a separate right-aligned line */
   .table-inline-tla {
     float: none;
     display: flex;
@@ -1174,25 +1181,20 @@ body.quarto-dark #quarto-back-to-top:hover,
     width: 100%;
     margin: 0.25rem 0 0;
 
-    /* Slightly smaller on mobile */
     font-size: 0.6em;
   }
 
+  /* Continue stacking IDs vertically on mobile */
   .table-inline-tla .tla-table-badges {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-
-  width: auto;
-  gap: 0.2rem;
-}
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.15rem;
+  }
 
   .table-inline-tla .tla-badge-table {
     padding: 0.12em 0.35em;
   }
 }
-
 
 
 

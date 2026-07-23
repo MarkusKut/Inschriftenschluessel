@@ -3,6 +3,7 @@
 ## 2026-07-23
 
 - added slider for showing more rows in big tables
+- made the appearance of the TLA links even + changed color to official TLA colors
 
 ## 2026-07-22
 
@@ -27,7 +28,7 @@
 ## 2026-07-01
 
 - added king's names variants
-- updated "Historische Konigsinschrift" formula
+- updated "Historische Königsinschrift" formula
 - updated "Hymnus" formula
 
 ## 2026-06-24

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-23
+
+- `cf91fba` **[Templates/Pages, CSS, Data]** added slider for showing more rows in big tables
+
 ## 2026-07-22
 
 - `8b9f8f3` **[Templates/Pages, Data]** added TLA ID links for tables Goettertabelle
