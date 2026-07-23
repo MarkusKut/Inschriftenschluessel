@@ -1,5 +1,6 @@
 self.__PRECACHE = [
   'about.html',
+  'assets/branding/Logo-col-transp.svg',
   'assets/css/site.css',
   'assets/fonts/noto-sans-v42-latin_latin-ext-700.eot',
   'assets/fonts/noto-sans-v42-latin_latin-ext-700.ttf',
@@ -765,7 +766,6 @@ self.__PRECACHE = [
   'site_libs/quarto-html/tabsets/tabsets.js',
   'site_libs/quarto-html/tippy.css',
   'site_libs/quarto-html/tippy.umd.min.js',
-  'site_libs/quarto-nav/headroom.min.js',
   'site_libs/quarto-nav/quarto-nav.js',
   'site_libs/quarto-search/autocomplete.umd.js',
   'site_libs/quarto-search/fuse.min.js',

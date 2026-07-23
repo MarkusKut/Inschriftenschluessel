@@ -18,6 +18,10 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   navbar:
+    title: "Inschriftenschlüssel"
+    logo: /assets/branding/Logo-col-transp.svg
+    logo-alt: "Logo des Inschriftenschlüssels"
+    pinned: true
     left:
       - href: pages/info.qmd
         text: "Information"

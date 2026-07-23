@@ -2,6 +2,10 @@
 
 ## 2026-07-23
 
+- `852cabe` **[PWA/Offline]** updated app logo
+
+## 2026-07-23
+
 - `c609ac0` **[Data, PWA/Offline]** updated app logo
 
 ## 2026-07-23

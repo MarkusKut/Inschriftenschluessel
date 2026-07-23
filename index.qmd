@@ -93,41 +93,41 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## [Opferformel](pages/formeln/opferformel.qmd)
 
-![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](pages/slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](pages/slots/person.qmd){.badge-slot .badge-person}   
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](pages/slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](pages/slots/person.qmd){.badge-slot .badge-person}   
 
 
 
-## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
+## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
 
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mn.w⸗f* ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Tat</b>   
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} / [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph} *ir.n⸗f mn.w⸗f* ![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph} *n it / mw.t⸗f* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Tat</b>   
 
 
 
 ## [Hymnus](pages/formeln/hymnus.qmd)
 
-![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](pages/slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
 
 
 
-## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
 
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
 
 
 
-## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
 
-[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
 
 
 
 ## [Beischrift](pages/formeln/beischrift.qmd)
 
-Beziehung Szenentitel [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}   
+Beziehung Szenentitel [Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede} [Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}   
 
 
 
-## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
+## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
 
 
 
