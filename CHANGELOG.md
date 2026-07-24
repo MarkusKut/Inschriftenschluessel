@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-24
+
+- `995c4ec` **[Other]** app logo in header refinement 2
+
 ## 2026-07-23
 
 - `cb6bc21` **[CSS, PWA/Offline]** app logo in header refinement

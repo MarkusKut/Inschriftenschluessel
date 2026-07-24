@@ -763,6 +763,36 @@ body.quarto-dark .btn-back,
 
 
 
+/* ========================================
+   Dark-mode navbar
+   ======================================== */
+
+
+body.quarto-dark .navbar,
+.quarto-dark .navbar,
+html[data-bs-theme="dark"] .navbar,
+body.quarto-dark .navbar-collapse,
+.quarto-dark .navbar-collapse,
+html[data-bs-theme="dark"] .navbar-collapse {
+  background-color: #2b2b2b !important;
+}
+
+
+body.quarto-dark .navbar,
+.quarto-dark .navbar,
+html[data-bs-theme="dark"] .navbar {
+  border-bottom: 1px solid #444 !important;
+}
+
+body.quarto-dark .navbar,
+.quarto-dark .navbar,
+html[data-bs-theme="dark"] .navbar {
+  --bs-navbar-color: rgba(255, 255, 255, 0.82);
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-active-color: #ffffff;
+}
+
+
 
 #offline-toast {
   position: fixed;
@@ -1349,7 +1379,7 @@ body.quarto-dark #quarto-back-to-top:hover,
   display: block !important;
 
   width: auto !important;
-  height: 2.75rem !important;
+  height: 4rem !important;
 
   max-width: min(24rem, 48vw) !important;
   max-height: none !important;
@@ -1364,7 +1394,7 @@ body.quarto-dark #quarto-back-to-top:hover,
 
 @media (max-width: 768px) {
   .navbar-logo {
-    height: 2.25rem !important;
+    height: 3rem !important;
     max-width: min(17rem, calc(100vw - 7rem)) !important;
   }
 }
@@ -1372,7 +1402,7 @@ body.quarto-dark #quarto-back-to-top:hover,
 
 @media (max-width: 390px) {
   .navbar-logo {
-    height: 2rem !important;
+    height: 2.5rem !important;
     max-width: calc(100vw - 6.5rem) !important;
   }
 }

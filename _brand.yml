@@ -1,0 +1,13 @@
+logo:
+  images:
+    header-light:
+      path: assets/branding/Inschriftenschluesselv2-w-logo-col.svg
+      alt: "Inschriftenschlüssel"
+
+    header-dark:
+      path: assets/branding/Inschriftenschluesselv2-w-logo-col_inverted.svg
+      alt: "Inschriftenschlüssel"
+
+  small:
+    light: header-light
+    dark: header-dark

@@ -15,12 +15,11 @@ project:
 lang: de # Sets language to German
 
 website:
-  title: "Inschriftenschlüssel"
+  title: "Inschriftenschlüssel 2.2.2.2."
   page-navigation: true
   back-to-top-navigation: true
   navbar:
     title: false
-    logo: assets/branding/Inschriftenschluesselv2-w-logo-col.svg
     pinned: true
     left:
       - href: pages/info.qmd

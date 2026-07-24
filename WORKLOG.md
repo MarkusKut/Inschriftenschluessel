@@ -1,5 +1,9 @@
 # Worklog
 
+## 2026-07-24
+
+- upaded header with project logo and typography
+
 ## 2026-07-23
 
 - added slider for showing more rows in big tables
