@@ -15,7 +15,7 @@ project:
 lang: de # Sets language to German
 
 website:
-  title: "Inschriftenschlüssel 2.2.2.2."
+  title: "Inschriftenschlüssel"
   page-navigation: true
   back-to-top-navigation: true
   navbar:
