@@ -1406,3 +1406,82 @@ body.quarto-dark #quarto-back-to-top:hover,
     max-width: calc(100vw - 6.5rem) !important;
   }
 }
+
+
+
+
+
+/* ========================================
+   Navbar control order:
+   logo | navigation | spacer | theme | search
+   ======================================== */
+
+.navbar .navbar-container {
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo stays on the left */
+.navbar .navbar-brand-container {
+  order: 1;
+}
+
+/* Normal navigation links */
+.navbar .navbar-collapse {
+  order: 2;
+}
+
+/* Push the theme toggle to the right */
+.navbar .quarto-navbar-tools {
+  order: 3;
+
+  margin-left: auto !important;
+  margin-right: 0.15rem;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Search directly after the theme toggle */
+.navbar #quarto-search {
+  order: 4;
+
+  margin-left: 0.15rem;
+  margin-right: 0;
+}
+
+/* Hamburger remains at the far right on mobile */
+.navbar .navbar-toggler {
+  order: 5;
+  margin-left: 0.35rem;
+}
+
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand-container {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .navbar .quarto-navbar-tools {
+    flex: 0 0 auto;
+    margin-left: auto !important;
+    margin-right: 0.05rem;
+  }
+
+  .navbar #quarto-search {
+    flex: 0 0 auto;
+    margin-left: 0.05rem;
+  }
+
+  /*
+    The collapsed navigation menu appears below
+    the first navbar row.
+  */
+  .navbar .navbar-collapse {
+    order: 100;
+    flex-basis: 100%;
+    width: 100%;
+  }
+}

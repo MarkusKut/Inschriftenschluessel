@@ -20,6 +20,8 @@ website:
   back-to-top-navigation: true
   navbar:
     title: false
+    search: true
+    tools-collapse: false
     pinned: true
     left:
       - href: pages/info.qmd

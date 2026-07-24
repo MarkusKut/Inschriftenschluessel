@@ -2,7 +2,8 @@
 
 ## 2026-07-24
 
-- upaded header with project logo and typography
+- updaded header with project logo and typography
+- updated header order and appearance
 
 ## 2026-07-23
 
