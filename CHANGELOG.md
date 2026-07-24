@@ -2,6 +2,10 @@
 
 ## 2026-07-24
 
+- `003a3c8` **[CSS, Data]** updated header order and appearance
+
+## 2026-07-24
+
 - `7ec5c4e` **[Templates/Pages, CSS, Data, PWA/Offline]** upaded header with project logo and typography
 
 ## 2026-07-24

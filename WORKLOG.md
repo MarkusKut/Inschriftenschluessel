@@ -4,6 +4,7 @@
 
 - updaded header with project logo and typography
 - updated header order and appearance
+- updated app icon
 
 ## 2026-07-23
 
