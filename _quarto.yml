@@ -20,7 +20,7 @@ website:
   back-to-top-navigation: true
   navbar:
     title: false
-    logo: assets/branding/Inschriftenschluessel-w-logo-col.svg
+    logo: assets/branding/Inschriftenschluesselv2-w-logo-col.svg
     pinned: true
     left:
       - href: pages/info.qmd

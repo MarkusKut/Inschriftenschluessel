@@ -2,6 +2,10 @@
 
 ## 2026-07-23
 
+- `cb6bc21` **[CSS, PWA/Offline]** app logo in header refinement
+
+## 2026-07-23
+
 - `4074d6a` **[Templates/Pages, PWA/Offline]** app logo in header
 
 ## 2026-07-23
