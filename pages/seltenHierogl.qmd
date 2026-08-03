@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <td style="text-align:left;"> N6B </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/03_Hieroglyphen-selten/N6B_nsw-bjt_01.png){.glyph} </td>
-   <td style="text-align:left;"> *nsw-bit* </td>
+   <td style="text-align:left;"> *nsw(t) bit* </td>
    <td style="text-align:left;"> König von Ober- und Unterägypten </td>
   </tr>
   <tr>

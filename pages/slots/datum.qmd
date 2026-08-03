@@ -92,6 +92,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+## Übliche Form
+
+<b>[Jahr] X, [Monat] X der X-[Jahreszeit], [Tag] X</b>
+
+
 ## Jahr
 
 <div class='tableFixHead table-glyph-middle'><table class="table">
@@ -99,13 +104,13 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ḥꜣ.t-sp*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/100620' class='tla-badge tla-badge-table' title='TLA-Lemma 100620' aria-label='TLA-Lemma 100620 im Thesaurus Linguae Aegyptiae öffnen'>100620</a><a href='https://thesaurus-linguae-aegyptiae.de/lemma/850581' class='tla-badge tla-badge-table' title='TLA-Lemma 850581' aria-label='TLA-Lemma 850581 im Thesaurus Linguae Aegyptiae öffnen'>850581</a></span></span> </td>
-   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0030_HA.t-sp_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0040_HA.t-sp_Sp_01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0050_HA.t-sp_Sp_02.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0060_HA.t-sp_Sp_03.png){.glyph} <sup>(Spät.)</sup> </td>
+   <td style="text-align:left;"> *ḥꜣ.t-sp* / *ḥsb.t* / *rnp.t-zp* / *rnp.t-ḥsb*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/100620' class='tla-badge tla-badge-table' title='TLA-Lemma 100620' aria-label='TLA-Lemma 100620 im Thesaurus Linguae Aegyptiae öffnen'>100620</a><a href='https://thesaurus-linguae-aegyptiae.de/lemma/850581' class='tla-badge tla-badge-table' title='TLA-Lemma 850581' aria-label='TLA-Lemma 850581 im Thesaurus Linguae Aegyptiae öffnen'>850581</a></span></span> </td>
+   <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0030_HA.t-sp_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0040_HA.t-sp_Sp_01.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0050_HA.t-sp_Sp_02.png){.glyph} <sup>(Spät.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/01_Jahr/0060_HA.t-sp_Sp_03.png){.glyph} <sup>(Spät.)</sup> </td>
    <td style="text-align:left;"> Regierungsjahr </td>
   </tr>
 </tbody>
@@ -119,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
@@ -152,21 +157,21 @@ document.addEventListener("DOMContentLoaded", function() {
 </table></div>
 
 
-## Jahreszeiten
+## Jahreszeit
 
 <div class='tableFixHead table-glyph-middle'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> *ꜣḫ.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/216' class='tla-badge tla-badge-table' title='TLA-Lemma 216' aria-label='TLA-Lemma 216 im Thesaurus Linguae Aegyptiae öffnen'>216</a></span></span> </td>
+   <td style="text-align:left;"> *ꜣḫ.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/216' class='tla-badge tla-badge-table' title='TLA-Lemma 216' aria-label='TLA-Lemma 216 im Thesaurus Linguae Aegyptiae öffnen'>216</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0001_Ax.t_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0010_Ax.t_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0020_Ax.t_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0030_Ax.t_04.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/01_Ax.t/0040_Ax.t_NR_01.png){.glyph} <sup>(NR)</sup> </td>
-   <td style="text-align:left;"> Überschwemmungszeit </td>
+   <td style="text-align:left;"> Überschwemmungszeit </td>
   </tr>
   <tr>
    <td style="text-align:left;"> *pr.t*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/60300' class='tla-badge tla-badge-table' title='TLA-Lemma 60300' aria-label='TLA-Lemma 60300 im Thesaurus Linguae Aegyptiae öffnen'>60300</a></span></span> </td>
@@ -174,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function() {
    <td style="text-align:left;"> Winter </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *šm.w*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/154850' class='tla-badge tla-badge-table' title='TLA-Lemma 154850' aria-label='TLA-Lemma 154850 im Thesaurus Linguae Aegyptiae öffnen'>154850</a></span></span> </td>
+   <td style="text-align:left;"> *šm.w*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/154850' class='tla-badge tla-badge-table' title='TLA-Lemma 154850' aria-label='TLA-Lemma 154850 im Thesaurus Linguae Aegyptiae offnen'>154850</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0001_Smw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0010_Smw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0020_Smw_03.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0030_Smw_D.20_01.png){.glyph} <sup>(D.20)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0040_Smw_Sp_Gr_Abk_01.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0050_Smw_Sp_Gr_Abk_02.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0060_Smw_Sp_Gr_Abk_03.png){.glyph} <sup>(Sp.–Gr.; Abk.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0070_Smw_Gr_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0080_Smw_Gr_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Datum/03_Jahreszeiten/03_Smw/0090_Smw_Gr_03.png){.glyph} <sup>(Gr.)</sup> </td>
    <td style="text-align:left;"> Sommer </td>
   </tr>
@@ -189,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <th style="text-align:left;"> Transkription </th>
    <th style="text-align:left;"> Hieroglyphen </th>
-   <th style="text-align:left;"> Übersetzung </th>
+   <th style="text-align:left;"> Übersetzung </th>
   </tr>
  </thead>
 <tbody>

@@ -115,7 +115,7 @@ nach *ḫr ḥm n*: Thronname des Königs
 
      - ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0030_Hm n_02.png){.glyph}
 
-- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw bit*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge-table' title='TLA-Lemma 88060' aria-label='TLA-Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>88060</a></span></span></span>
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*nsw(t) bit*</em>:</span><span class='glyphvariant-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge-table' title='TLA-Lemma 88060' aria-label='TLA-Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>88060</a></span></span></span>
 
      - ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}
 

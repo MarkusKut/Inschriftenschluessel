@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-08-03
+
+- small changes
+- updated "Datum" slot
+
+
 ## 2026-07-24
 
 - updaded header with project logo and typography

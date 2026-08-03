@@ -127,14 +127,14 @@ document.addEventListener("DOMContentLoaded", function() {
   <tr>
    <td style="text-align:left;"> Goldhorusname<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/400069' class='tla-badge tla-badge-table' title='TLA-Lemma 400069' aria-label='TLA-Lemma 400069 im Thesaurus Linguae Aegyptiae öffnen'>400069</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/03_Goldhorus_01/0001_Hr-m-nb.w_01.png){.glyph} </td>
-   <td style="text-align:left;"> *ḥr n nbw* / *bik n nbw* </td>
+   <td style="text-align:left;"> *ḥr n nbw* </td>
    <td style="text-align:left;"> II: 240; I: 445 </td>
    <td style="text-align:left;"> Umschrift und Übersetzung konventionell </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Thronname<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88060' class='tla-badge tla-badge-table' title='TLA-Lemma 88060' aria-label='TLA-Lemma 88060 im Thesaurus Linguae Aegyptiae öffnen'>88060</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0001_nsw-bit_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0010_nsw-bit_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0020_nsw-bit_NR_01.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0030_nsw-bit_NR_02.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0040_nsw-bit_NR_03.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0050_nsw-bit_NR_04.png){.glyph} <sup>(NR)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0060_nsw-bit_Gr_01.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0070_nsw-bit_Gr_02.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0080_nsw-bit_Gr_03.png){.glyph} <sup>(Gr.)</sup><span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/04_Thronname_01/0090_nsw-bit_Gr_04.png){.glyph} <sup>(Gr.)</sup> </td>
-   <td style="text-align:left;"> *nsw-bit* </td>
+   <td style="text-align:left;"> *nsw(t) bit* </td>
    <td style="text-align:left;"> II: 330 </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -191,7 +191,7 @@ siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Mün
    <td style="text-align:left;"> Majestät </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> *nsw*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88040' class='tla-badge tla-badge-table' title='TLA-Lemma 88040' aria-label='TLA-Lemma 88040 im Thesaurus Linguae Aegyptiae öffnen'>88040</a></span></span> </td>
+   <td style="text-align:left;"> *nsw(t)*<span class='table-inline-tla'><span class='tla-table-badges'><a href='https://thesaurus-linguae-aegyptiae.de/lemma/88040' class='tla-badge tla-badge-table' title='TLA-Lemma 88040' aria-label='TLA-Lemma 88040 im Thesaurus Linguae Aegyptiae öffnen'>88040</a></span></span> </td>
    <td style="text-align:left;"> ![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0001_nsw_01.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0010_nsw_02.png){.glyph}<span class='glyph-row-break'></span>![](/assets/glyphs500px/02_Slots/Koenig/Epitheta/06_nsw/0020_nsw_03.png){.glyph} </td>
    <td style="text-align:left;"> König </td>
   </tr>
