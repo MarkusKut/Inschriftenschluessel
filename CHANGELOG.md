@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-08-03
+
+- `8085d67` **[Templates/Pages, Data]** small changes
+
 ## 2026-07-24
 
 - `79f1f62` **[Other]** updated app icon 3
