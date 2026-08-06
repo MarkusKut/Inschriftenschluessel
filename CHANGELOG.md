@@ -2,6 +2,10 @@
 
 ## 2026-08-06
 
+- `bfddfa8` **[Other]** updated logo and app icon
+
+## 2026-08-06
+
 - `183b72c` **[Templates/Pages, Data, PWA/Offline]** updated logo and app icon
 
 ## 2026-08-03
