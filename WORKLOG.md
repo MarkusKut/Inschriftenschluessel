@@ -1,5 +1,11 @@
 # Worklog
 
+
+## 2026-08-06
+
+- updated logo and app icon
+
+
 ## 2026-08-03
 
 - small changes

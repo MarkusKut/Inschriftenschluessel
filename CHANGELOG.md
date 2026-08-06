@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-08-06
+
+- `183b72c` **[Templates/Pages, Data, PWA/Offline]** updated logo and app icon
+
 ## 2026-08-03
 
 - `8085d67` **[Templates/Pages, Data]** small changes
