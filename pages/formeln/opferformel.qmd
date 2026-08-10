@@ -99,7 +99,7 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
 ## Aufbau
 
-<div class='tableFixHead table-wide'><table class="table">
+<div class='tableFixHead table-fixed'><table class="table">
  <thead>
   <tr>
    <th style="text-align:left;"> Transkription </th>

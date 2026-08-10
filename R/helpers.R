@@ -400,14 +400,225 @@ read_long_table <- function(df_tables, table_id, visited = character()) {
 #   paste0("<div class='tableFixHead'>", tbl, "</div>")
 # }
 
-kable_html <- function(df, class = "table", wrapper_class = "tableFixHead table-wide") {
-  tbl <- knitr::kable(
+kable_html <- function(
     df,
+    class = "table",
+    wrapper_class = "tableFixHead table-fixed"
+) {
+  
+  df2 <- df
+  
+  # ----------------------------------------
+  # Empty table safeguard
+  # ----------------------------------------
+  
+  if (ncol(df2) == 0) {
+    
+    tbl <- knitr::kable(
+      df2,
+      format = "html",
+      escape = FALSE,
+      table.attr = paste0(
+        'class="',
+        class,
+        '"'
+      )
+    )
+    
+    return(
+      paste0(
+        "<div class='",
+        wrapper_class,
+        "'>",
+        tbl,
+        "</div>"
+      )
+    )
+  }
+  
+  
+  # ----------------------------------------
+  # Find [[subheader:...]] rows
+  # ----------------------------------------
+  
+  first_col <- trimws(
+    as.character(df2[[1]])
+  )
+  
+  is_subheader <- grepl(
+    "^\\[\\[subheader:.*\\]\\]$",
+    first_col,
+    perl = TRUE
+  )
+  
+  subheader_rows <- which(is_subheader)
+  
+  subheader_labels <- character()
+  subheader_tokens <- character()
+  
+  
+  if (length(subheader_rows) > 0) {
+    
+    subheader_labels <- sub(
+      "^\\[\\[subheader:(.*)\\]\\]$",
+      "\\1",
+      first_col[subheader_rows],
+      perl = TRUE
+    )
+    
+    subheader_tokens <- paste0(
+      "___TABLE_SUBHEADER_",
+      seq_along(subheader_rows),
+      "___"
+    )
+    
+    for (i in seq_along(subheader_rows)) {
+      
+      r <- subheader_rows[i]
+      
+      # Empty all cells of the subheader row
+      df2[r, ] <- ""
+      
+      # Put a unique marker into the first cell
+      df2[r, 1] <- subheader_tokens[i]
+    }
+  }
+  
+  
+  # ----------------------------------------
+  # Normal kable generation
+  # ----------------------------------------
+  
+  tbl <- knitr::kable(
+    df2,
     format = "html",
     escape = FALSE,
-    table.attr = paste0('class="', class, '"')
+    table.attr = paste0(
+      'class="',
+      class,
+      '"'
+    )
   )
-  paste0("<div class='", wrapper_class, "'>", tbl, "</div>")
+  
+  
+  # ----------------------------------------
+  # Replace marker rows with colspan rows
+  # ----------------------------------------
+  
+  if (length(subheader_rows) > 0) {
+    
+    n_cols <- ncol(df2)
+    
+    for (i in seq_along(subheader_tokens)) {
+      
+      token <- subheader_tokens[i]
+      
+      token_pos <- regexpr(
+        token,
+        tbl,
+        fixed = TRUE
+      )[1]
+      
+      if (token_pos < 0) {
+        next
+      }
+      
+      
+      # Find beginning of the <tr> containing the token
+      before <- substr(
+        tbl,
+        1,
+        token_pos
+      )
+      
+      row_starts <- gregexpr(
+        "<tr",
+        before,
+        fixed = TRUE
+      )[[1]]
+      
+      row_starts <- row_starts[
+        row_starts > 0
+      ]
+      
+      if (length(row_starts) == 0) {
+        next
+      }
+      
+      row_start <- tail(
+        row_starts,
+        1
+      )
+      
+      
+      # Find end of this <tr>
+      after <- substr(
+        tbl,
+        token_pos,
+        nchar(tbl)
+      )
+      
+      row_end_relative <- regexpr(
+        "</tr>",
+        after,
+        fixed = TRUE
+      )[1]
+      
+      if (row_end_relative < 0) {
+        next
+      }
+      
+      row_end <- (
+        token_pos +
+          row_end_relative +
+          nchar("</tr>") -
+          2
+      )
+      
+      
+      label <- htmltools::htmlEscape(
+        subheader_labels[i]
+      )
+      
+      replacement <- paste0(
+        "<tr class='table-subheader'>",
+        "<th colspan='",
+        n_cols,
+        "' scope='colgroup'>",
+        label,
+        "</th>",
+        "</tr>"
+      )
+      
+      
+      tbl <- paste0(
+        substr(
+          tbl,
+          1,
+          row_start - 1
+        ),
+        replacement,
+        substr(
+          tbl,
+          row_end + 1,
+          nchar(tbl)
+        )
+      )
+    }
+  }
+  
+  
+  # ----------------------------------------
+  # Wrapper
+  # ----------------------------------------
+  
+  paste0(
+    "<div class='",
+    wrapper_class,
+    "'>",
+    tbl,
+    "</div>"
+  )
 }
 
 

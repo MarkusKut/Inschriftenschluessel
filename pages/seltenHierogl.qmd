@@ -1,8 +1,8 @@
 ---
-title: "Seltene Hieroglphen"
+title: "Seltene Hieroglyphen"
 ---
 
-<meta name="slot-title-class" content="slot-title-seltene-hieroglphen">
+<meta name="slot-title-class" content="slot-title-seltene-hieroglyphen">
 
 ```{=html}
 <div class="zoom-controls">

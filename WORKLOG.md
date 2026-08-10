@@ -1,6 +1,10 @@
 # Worklog
 
 
+## 2026-08-10
+
+- updated "Datum" slot
+
 ## 2026-08-06
 
 - updated logo and app icon
