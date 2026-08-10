@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](../slots/person.qmd){.badge-slot .badge-person}   
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](../slots/person.qmd){.badge-slot .badge-person}   
 
 
 
@@ -173,9 +173,9 @@ Ein Opfer, das der König [Gottheit](../slots/gottheit.qmd){.slot-link .slot-got
 
 ## Literatur
 
-Barta, Winfried. 1968. Aufbau und Bedeutung der altägyptischen Opferformel. Ägyptologische forschungen 24. J. J. Augustin.
+- Barta, Winfried. 1968. Aufbau und Bedeutung der altägyptischen Opferformel. Ägyptologische forschungen 24. J. J. Augustin.
 
-Lapp, Günther. 1986. Die Opferformel des Alten Reiches: unter Berücksichtigung einiger späterer Formen. Sonderschrift, Deutsches Archäologisches Institut, Abteilung Kairo 21. Philipp von Zabern.
+- Lapp, Günther. 1986. Die Opferformel des Alten Reiches: unter Berücksichtigung einiger späterer Formen. Sonderschrift, Deutsches Archäologisches Institut, Abteilung Kairo 21. Philipp von Zabern.
 
 
 

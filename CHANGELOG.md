@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-08-10
+
+- `11a254b` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** updated Datum slot
+
 ## 2026-08-06
 
 - `669544d` **[Other]** updated logo and app icon
