@@ -2276,28 +2276,71 @@ document.addEventListener(
                -------------------------------- */
 
             if (
-              data.type ===
-              "FULL_OFFLINE_INCOMPLETE"
-            ) {
+  data.type ===
+  "FULL_OFFLINE_INCOMPLETE"
+) {
 
-              status.textContent =
-                "Der Offline-Download ist noch nicht vollständig. Er kann erneut fortgesetzt werden.";
+  const failed =
+    Array.isArray(data.failed)
+      ? data.failed
+      : [];
 
+  if (failed.length > 0) {
 
-              setProgress(
-                data.done,
-                data.total
-              );
+    const names =
+      failed.map(
+        item => {
 
+          try {
 
-              downloadButton.textContent =
-                "Download fortsetzen";
+            const url =
+              new URL(item.url);
 
+            return decodeURIComponent(
+              url.pathname
+            );
 
-              setIdleControls();
+          } catch {
 
-              return;
-            }
+            return item.url;
+          }
+        }
+      );
+
+    status.innerHTML =
+      "Der Offline-Download ist noch nicht vollständig." +
+      "<br><br>" +
+      "<strong>Nicht geladen:</strong><br>" +
+      names
+        .map(
+          name =>
+            "<code>" +
+            name
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;") +
+            "</code>"
+        )
+        .join("<br>");
+
+  } else {
+
+    status.textContent =
+      "Der Offline-Download ist noch nicht vollständig.";
+  }
+
+  setProgress(
+    data.done,
+    data.total
+  );
+
+  downloadButton.textContent =
+    "Download fortsetzen";
+
+  setIdleControls();
+
+  return;
+}
 
 
             /* --------------------------------

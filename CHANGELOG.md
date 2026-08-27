@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `5b4e08a` **[Templates/Pages, CSS, PWA/Offline]** removed offline-toast
+
+## 2026-08-27
+
 - `260cfac` **[CSS, PWA/Offline]** added stop and abort options to offline-button
 
 ## 2026-08-27

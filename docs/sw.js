@@ -350,6 +350,7 @@ let offlineDownload = {
   cancelled: false,
   done: 0,
   total: 0,
+  failed: [],
   controller: null
 };
 
@@ -426,6 +427,71 @@ async function getFullOfflineManifest() {
    Download / Resume
    ======================================== */
 
+async function fetchForOffline(
+  url,
+  attempts = 2
+) {
+
+  let lastError = null;
+
+  for (
+    let attempt = 1;
+    attempt <= attempts;
+    attempt++
+  ) {
+
+    try {
+
+      offlineDownload.controller =
+        new AbortController();
+
+      const response =
+        await fetch(
+          url,
+          {
+            signal:
+              offlineDownload
+                .controller
+                .signal
+          }
+        );
+
+      if (response.ok) {
+        return response;
+      }
+
+      lastError =
+        new Error(
+          `HTTP ${response.status} ${response.statusText}`
+        );
+
+    } catch (error) {
+
+      /*
+       * Pause / Cancel is intentional.
+       * Do not retry it.
+       */
+      if (
+        offlineDownload.paused ||
+        offlineDownload.cancelled
+      ) {
+        throw error;
+      }
+
+      lastError = error;
+    }
+
+    /*
+     * Tiny delay before second attempt
+     */
+    if (attempt < attempts) {
+      await sleep(300);
+    }
+  }
+
+  throw lastError;
+}
+
 async function downloadFullSite() {
 
   /*
@@ -439,6 +505,7 @@ async function downloadFullSite() {
   offlineDownload.paused = false;
   offlineDownload.cancelled = false;
   offlineDownload.done = 0;
+  offlineDownload.failed = [];
 
   try {
 
@@ -513,56 +580,46 @@ async function downloadFullSite() {
 
       try {
 
-        const response =
-          await fetch(
-            url,
-            {
-              signal:
-                offlineDownload
-                  .controller
-                  .signal
-            }
-          );
+  const response =
+    await fetchForOffline(
+      url,
+      2
+    );
 
+  await cache.put(
+    url,
+    response.clone()
+  );
 
-        if (response.ok) {
+  offlineDownload.done++;
 
-          await cache.put(
-            url,
-            response.clone()
-          );
+} catch (error) {
 
-          offlineDownload.done++;
-        }
+  if (
+    offlineDownload.paused ||
+    offlineDownload.cancelled
+  ) {
+    break;
+  }
 
-      } catch (error) {
+  offlineDownload.failed.push({
+    url: url,
+    error:
+      error?.message ||
+      String(error)
+  });
 
-        /*
-         * Abort caused by Pause or Cancel
-         * is expected.
-         */
-        if (
-          offlineDownload.paused ||
-          offlineDownload.cancelled
-        ) {
-          break;
-        }
+  console.error(
+    "OFFLINE FILE FAILED:",
+    url,
+    error
+  );
 
-        /*
-         * One failed file should not kill
-         * the entire download.
-         */
-        console.warn(
-          "Offline download failed:",
-          url,
-          error
-        );
+} finally {
 
-      } finally {
-
-        offlineDownload.controller =
-          null;
-      }
+  offlineDownload.controller =
+    null;
+}
 
 
       await broadcast({
@@ -629,10 +686,12 @@ async function downloadFullSite() {
        * Some network requests failed.
        */
       await broadcast({
-        type: "FULL_OFFLINE_INCOMPLETE",
-        done: offlineDownload.done,
-        total: offlineDownload.total
-      });
+  type: "FULL_OFFLINE_INCOMPLETE",
+  done: offlineDownload.done,
+  total: offlineDownload.total,
+  failed: offlineDownload.failed
+});
+
     }
 
   } catch (error) {
@@ -828,25 +887,14 @@ self.addEventListener(
 
 
           event.source?.postMessage({
-
-            type:
-              "FULL_OFFLINE_STATUS",
-
-            ready:
-              Boolean(ready),
-
-            running:
-              offlineDownload.running,
-
-            paused:
-              offlineDownload.paused,
-
-            done:
-              offlineDownload.done,
-
-            total:
-              offlineDownload.total
-          });
+  type: "FULL_OFFLINE_STATUS",
+  ready: Boolean(ready),
+  running: offlineDownload.running,
+  paused: offlineDownload.paused,
+  done: offlineDownload.done,
+  total: offlineDownload.total,
+  failed: offlineDownload.failed
+});
 
         })()
       );
