@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `260cfac` **[CSS, PWA/Offline]** added stop and abort options to offline-button
+
+## 2026-08-27
+
 - `06184d1` **[Templates/Pages, CSS]** updatad offline-button
 
 ## 2026-08-27

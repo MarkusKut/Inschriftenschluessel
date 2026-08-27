@@ -4,6 +4,8 @@
 ## 2026-08-27
 
 - updatad cache handling and offline download
+- added offline pause and resume download option
+- removed offline-toast
 
 
 ## 2026-08-10
