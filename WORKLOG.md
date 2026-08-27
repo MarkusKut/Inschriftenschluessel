@@ -6,6 +6,7 @@
 - updatad cache handling and offline download
 - added offline pause and resume download option
 - removed offline-toast
+- added tutorial of adding to home-screen
 
 
 ## 2026-08-10

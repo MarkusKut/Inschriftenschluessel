@@ -1871,3 +1871,202 @@ body.quarto-dark .footer-offline-button:hover,
 
 
 
+/* ========================================
+   Installation tutorial
+   ======================================== */
+
+.tutorial-platform-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+
+  margin: 1.2rem 0 1.5rem;
+}
+
+.tutorial-platform-button {
+  padding: 0.45rem 0.8rem;
+
+  color: var(--bs-body-color);
+  background: var(--bs-tertiary-bg);
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 999px;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.tutorial-platform-button:hover {
+  background: var(--bs-secondary-bg);
+}
+
+.tutorial-platform-button.active {
+  color: #fff;
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+
+/* ----------------------------------------
+   Horizontal picture roll
+   ---------------------------------------- */
+
+.tutorial-roll {
+  display: flex;
+  gap: 1rem;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding: 0.25rem 0.1rem 1rem;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/* individual step */
+
+.tutorial-step {
+  position: relative;
+
+  flex: 0 0 min(78vw, 22rem);
+
+  scroll-snap-align: center;
+
+  margin: 0;
+
+  background: var(--bs-body-bg);
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.8rem;
+
+  overflow: hidden;
+}
+
+
+/* step number */
+
+.tutorial-step-number {
+  position: absolute;
+
+  top: 0.6rem;
+  left: 0.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.8rem;
+  height: 1.8rem;
+
+  z-index: 2;
+
+  color: #fff;
+  background: var(--bs-primary);
+
+  border-radius: 50%;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+
+/* screenshot */
+
+.tutorial-image-wrap {
+  display: flex;
+  justify-content: center;
+
+  padding: 0.8rem;
+
+  background: var(--bs-tertiary-bg);
+}
+
+.tutorial-image-wrap img {
+  display: block;
+
+  width: auto;
+  max-width: 100%;
+  max-height: 32rem;
+
+  border-radius: 0.45rem;
+}
+
+
+/* description below screenshot */
+
+.tutorial-caption {
+  margin: 0;
+  padding: 0.8rem 1rem 1rem;
+
+  font-size: 0.9rem;
+  line-height: 1.45;
+
+  text-align: center;
+}
+
+
+/* scrollbar */
+
+.tutorial-roll {
+  scrollbar-width: thin;
+}
+
+.tutorial-roll::-webkit-scrollbar {
+  height: 0.4rem;
+}
+
+.tutorial-roll::-webkit-scrollbar-thumb {
+  background: var(--bs-border-color);
+  border-radius: 999px;
+}
+
+
+/* ----------------------------------------
+   Desktop
+   ---------------------------------------- */
+
+@media (min-width: 769px) {
+
+  .tutorial-roll {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .tutorial-step {
+    flex-basis: 20rem;
+  }
+}
+
+
+
+.tutorial-hint {
+  margin: -0.8rem 0 0.8rem;
+
+  color: var(--bs-secondary-color);
+
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+
+.offline-install-help {
+  margin: 0.45rem 0 0.9rem;
+
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.offline-install-help a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+.offline-install-help a:hover {
+  text-decoration: underline;
+}

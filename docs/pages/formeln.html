@@ -561,15 +561,21 @@ document.addEventListener("DOMContentLoaded", function () {
 <dialog id="offline-manager" aria-labelledby="offline-manager-title">
   <div class="offline-manager-inner">
 
-    <h2 id="offline-manager-title">
-      Offline-Nutzung
-    </h2>
+   <h2 id="offline-manager-title">
+  Offline-Nutzung
+</h2>
 
-    <p id="offline-status" aria-live="polite">
-      Status wird geprüft …
-    </p>
+<p id="offline-status" aria-live="polite">
+  Status wird geprüft …
+</p>
 
-    <progress id="offline-progress" value="0" max="100" hidden=""></progress>
+<p class="offline-install-help">
+  <a id="offline-install-link" href="#">
+    Wie füge ich den Inschriftenschlüssel zum Home-Bildschirm hinzu?
+  </a>
+</p>
+
+<progress id="offline-progress" value="0" max="100" hidden=""></progress>
 
     <p id="offline-progress-text" aria-live="polite" hidden=""></p>
 
@@ -654,6 +660,25 @@ document.addEventListener(
       document.getElementById(
         "offline-progress-text"
       );
+
+/* ========================================
+   Installation tutorial link
+   ======================================== */
+
+const installLink =
+  document.getElementById(
+    "offline-install-link"
+  );
+
+const basePath =
+  document.querySelector(
+    'meta[name="site-base-path"]'
+  )?.content || "/";
+
+installLink.href =
+  `${basePath}installieren.html`;
+
+
 
 
     /* ========================================

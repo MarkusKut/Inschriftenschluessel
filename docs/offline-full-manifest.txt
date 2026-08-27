@@ -727,6 +727,10 @@
 ./assets/glyphs500px/03_Hieroglyphen-selten/F63_xnty_01.png
 ./assets/glyphs500px/03_Hieroglyphen-selten/N102_jmn_01.png
 ./assets/glyphs500px/03_Hieroglyphen-selten/N6B_nsw-bjt_01.png
+./assets/tutorial/ios_01.webp
+./assets/tutorial/ios_02.webp
+./assets/tutorial/ios_03.webp
+./assets/tutorial/ios_04.webp
 ./favicon.ico
 ./icons/apple-touch-icon16.png
 ./icons/apple-touch-icon180.png
@@ -741,6 +745,7 @@
 ./icons/icon-maskable-512.png
 ./index.html
 ./info.html
+./installieren.html
 ./offline.html
 ./pages/formeln/anruf-an-die-lebenden.html
 ./pages/formeln/beischrift.html

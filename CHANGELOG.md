@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `562710e` **[PWA/Offline]** removed Inschriftenschlüssel_Logo.ai
+
+## 2026-08-27
+
 - `dbe227d` **[R code, PWA/Offline]** updated download option
 
 ## 2026-08-27

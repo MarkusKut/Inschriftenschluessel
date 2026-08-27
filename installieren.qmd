@@ -1,0 +1,144 @@
+---
+title: "Zum Home-Bildschirm hinzufügen"
+---
+
+Die Webseite kann wie eine App auf dem Home-Bildschirm gespeichert werden.
+
+<div class="tutorial-platform-switch" role="group" aria-label="Betriebssystem auswählen">
+  <button type="button" class="tutorial-platform-button active" data-platform="ios">
+    iPhone / iPad
+  </button>
+
+  <button type="button" class="tutorial-platform-button" data-platform="android">
+    Android
+  </button>
+</div>
+
+<p class="tutorial-hint">
+  ← Wischen, um die einzelnen Schritte anzuzeigen →
+</p>
+
+
+```{r}
+#| echo: false
+#| results: asis
+#| message: false
+#| warning: false
+
+library(readxl)
+library(dplyr)
+library(htmltools)
+
+steps <- read_excel(
+  "data/content.xlsx",
+  sheet = "tutorial_steps"
+) |>
+  arrange(platform, seq)
+
+
+render_tutorial <- function(platform_name) {
+
+  x <- steps |>
+    filter(
+      tolower(platform) ==
+        tolower(platform_name)
+    )
+
+  cards <- vapply(
+    seq_len(nrow(x)),
+    function(i) {
+
+      image <- as.character(x$image[i])
+      caption <- as.character(x$caption[i])
+      seq <- x$seq[i]
+
+      paste0(
+        "<article class='tutorial-step'>",
+
+          "<div class='tutorial-step-number'>",
+            seq,
+          "</div>",
+
+          "<div class='tutorial-image-wrap'>",
+            "<img ",
+              "src='", htmlEscape(image), "' ",
+              "alt='Schritt ", seq, "' ",
+              "loading='lazy' ",
+              "decoding='async'>",
+          "</div>",
+
+          "<p class='tutorial-caption'>",
+            htmlEscape(caption),
+          "</p>",
+
+        "</article>"
+      )
+    },
+    character(1)
+  )
+
+  cat(
+    paste0(
+      "<div ",
+        "class='tutorial-platform' ",
+        "data-tutorial-platform='",
+        platform_name,
+        "'>",
+        "<div class='tutorial-roll'>",
+          paste0(cards, collapse = ""),
+        "</div>",
+      "</div>"
+    )
+  )
+}
+
+
+render_tutorial("ios")
+render_tutorial("android")
+```
+
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const buttons =
+    document.querySelectorAll(
+      ".tutorial-platform-button"
+    );
+
+  const tutorials =
+    document.querySelectorAll(
+      ".tutorial-platform"
+    );
+
+  function showPlatform(platform) {
+
+    buttons.forEach(button => {
+      button.classList.toggle(
+        "active",
+        button.dataset.platform === platform
+      );
+    });
+
+    tutorials.forEach(tutorial => {
+      tutorial.hidden =
+        tutorial.dataset.tutorialPlatform !== platform;
+    });
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener(
+      "click",
+      function () {
+        showPlatform(
+          this.dataset.platform
+        );
+      }
+    );
+  });
+
+  showPlatform("ios");
+});
+</script>
+```
