@@ -350,6 +350,7 @@ ul.task-list li input[type="checkbox"] {
 <li>updatad cache handling and offline download</li>
 <li>added offline pause and resume download option</li>
 <li>removed offline-toast</li>
+<li>added tutorial of adding to home-screen</li>
 </ul>
 </section>
 <section id="section-1" class="level2">
@@ -846,6 +847,29 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 </dialog>
 
+<!-- ========================================
+     Installation tutorial dialog
+     ======================================== -->
+
+<dialog id="install-tutorial-dialog" aria-label="Anleitung zur Installation">
+  <div class="install-tutorial-dialog-inner">
+
+    <div class="install-tutorial-header">
+
+      <span>
+        Zum Home-Bildschirm hinzufügen
+      </span>
+
+      <button type="button" id="install-tutorial-close" aria-label="Anleitung schließen">
+        ×
+      </button>
+
+    </div>
+
+    <iframe id="install-tutorial-frame" title="Anleitung zum Hinzufügen zum Home-Bildschirm" loading="lazy"></iframe>
+
+  </div>
+</dialog>
 
 <script>
 document.addEventListener(
@@ -909,6 +933,21 @@ const installLink =
   document.getElementById(
     "offline-install-link"
   );
+  
+  const tutorialDialog =
+  document.getElementById(
+    "install-tutorial-dialog"
+  );
+
+const tutorialFrame =
+  document.getElementById(
+    "install-tutorial-frame"
+  );
+
+const tutorialClose =
+  document.getElementById(
+    "install-tutorial-close"
+  );
 
 const basePath =
   document.querySelector(
@@ -919,6 +958,67 @@ installLink.href =
   `${basePath}installieren.html`;
 
 
+/* ========================================
+   Installation tutorial dialog
+   ======================================== */
+
+installLink.addEventListener(
+  "click",
+  function (event) {
+
+    event.preventDefault();
+
+    /*
+     * Load tutorial only when needed.
+     */
+    tutorialFrame.src =
+      `${basePath}installieren.html?embed=1`;
+
+    /*
+     * Close Offline manager while
+     * tutorial is open.
+     */
+    if (dialog.open) {
+      dialog.close();
+    }
+
+    tutorialDialog.showModal();
+  }
+);
+
+
+tutorialClose.addEventListener(
+  "click",
+  function () {
+
+    tutorialDialog.close();
+
+    /*
+     * Return to Offline manager.
+     */
+    dialog.showModal();
+  }
+);
+
+
+/*
+ * Clicking outside the tutorial
+ * closes it as well.
+ */
+tutorialDialog.addEventListener(
+  "click",
+  function (event) {
+
+    if (
+      event.target === tutorialDialog
+    ) {
+
+      tutorialDialog.close();
+
+      dialog.showModal();
+    }
+  }
+);
 
 
     /* ========================================

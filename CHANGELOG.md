@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `6b6e7b6` **[Templates/Pages, CSS, Data, PWA/Offline]** added tutorial of adding to home-screen
+
+## 2026-08-27
+
 - `562710e` **[PWA/Offline]** removed Inschriftenschlüssel_Logo.ai
 
 ## 2026-08-27
