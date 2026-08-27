@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-08-27
+
+- `1c255f9` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** updatad cache handling and offline download
+
 ## 2026-08-10
 
 - `a3bd70d` **[Templates/Pages, Data]** updated some formula formatting

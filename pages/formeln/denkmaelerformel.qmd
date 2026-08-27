@@ -206,7 +206,7 @@ Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurieru
     " class="btn-back">← Zurück</button>
     <button
   type="button"
-  class="footer-nav-button"
+  class="footer-nav-button footer-offline-button"
   onclick="openOfflineManager()">
   Offline
 </button>

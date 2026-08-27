@@ -262,7 +262,7 @@ Verehren/Anbeten [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit} NN
     " class="btn-back">← Zurück</button>
     <button
   type="button"
-  class="footer-nav-button"
+  class="footer-nav-button footer-offline-button"
   onclick="openOfflineManager()">
   Offline
 </button>

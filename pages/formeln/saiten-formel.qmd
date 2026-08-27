@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
     " class="btn-back">← Zurück</button>
     <button
   type="button"
-  class="footer-nav-button"
+  class="footer-nav-button footer-offline-button"
   onclick="openOfflineManager()">
   Offline
 </button>

@@ -216,9 +216,9 @@ siehe: Beckerath, Jürgen von 1999. Handbuch der ägyptischen Königsnamen. Mün
         window.location.href = '/index.html';
       }
     " class="btn-back">← Zurück</button>
-    <button
+   <button
   type="button"
-  class="footer-nav-button"
+  class="footer-nav-button footer-offline-button"
   onclick="openOfflineManager()">
   Offline
 </button>
