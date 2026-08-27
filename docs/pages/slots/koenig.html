@@ -629,6 +629,9 @@ Herr der Erscheinungen/Kronen
         window.location.href = '/index.html';
       }
     " class="btn-back">← Zurück</button>
+    <button type="button" class="footer-nav-button" onclick="openOfflineManager()">
+  Offline
+</button>
   </div>
 </div>
 
@@ -995,6 +998,226 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   });
 });
+</script>
+<dialog id="offline-manager">
+
+  <div class="offline-manager-inner">
+
+    <h2>Offline-Nutzung</h2>
+
+    <p id="offline-status">
+      Status wird geprüft …
+    </p>
+
+    <progress id="offline-progress" value="0" max="100" hidden="">
+    </progress>
+
+    <p id="offline-progress-text" hidden="">
+    </p>
+
+    <div class="offline-actions">
+
+      <button type="button" id="offline-download">
+        Alle Inhalte herunterladen
+      </button>
+
+      <button type="button" id="offline-close">
+        Schließen
+      </button>
+
+    </div>
+
+  </div>
+
+</dialog>
+
+
+<script>
+document.addEventListener(
+  "DOMContentLoaded",
+  async function () {
+
+    const dialog =
+      document.getElementById(
+        "offline-manager"
+      );
+
+    const downloadButton =
+      document.getElementById(
+        "offline-download"
+      );
+
+    const closeButton =
+      document.getElementById(
+        "offline-close"
+      );
+
+    const status =
+      document.getElementById(
+        "offline-status"
+      );
+
+    const progress =
+      document.getElementById(
+        "offline-progress"
+      );
+
+    const progressText =
+      document.getElementById(
+        "offline-progress-text"
+      );
+
+
+    window.openOfflineManager =
+      async function () {
+
+        dialog.showModal();
+
+        const registration =
+          await navigator
+            .serviceWorker
+            .ready;
+
+        registration.active
+          ?.postMessage({
+            type:
+              "FULL_OFFLINE_STATUS"
+          });
+      };
+
+
+    closeButton.addEventListener(
+      "click",
+      function () {
+        dialog.close();
+      }
+    );
+
+
+    downloadButton.addEventListener(
+      "click",
+      async function () {
+
+        const registration =
+          await navigator
+            .serviceWorker
+            .ready;
+
+        progress.hidden = false;
+        progressText.hidden = false;
+
+        downloadButton.disabled = true;
+
+        status.textContent =
+          "Offline-Inhalte werden geladen …";
+
+        registration.active
+          ?.postMessage({
+            type:
+              "DOWNLOAD_FULL_OFFLINE"
+          });
+      }
+    );
+
+
+    navigator.serviceWorker
+      .addEventListener(
+        "message",
+        function (event) {
+
+          const data =
+            event.data || {};
+
+
+          if (
+            data.type ===
+            "FULL_OFFLINE_STATUS"
+          ) {
+
+            if (data.ready) {
+
+              status.textContent =
+                "Alle Inhalte sind offline verfügbar.";
+
+              downloadButton.textContent =
+                "Offline-Inhalte aktualisieren";
+
+            } else {
+
+              status.textContent =
+                "Grundfunktionen sind offline verfügbar.";
+            }
+
+
+            if (data.running) {
+
+              progress.hidden =
+                false;
+
+              progressText.hidden =
+                false;
+            }
+          }
+
+
+          if (
+            data.type ===
+            "FULL_OFFLINE_START"
+          ) {
+
+            progress.max =
+              data.total;
+
+            progress.value = 0;
+
+            progress.hidden =
+              false;
+
+            progressText.hidden =
+              false;
+          }
+
+
+          if (
+            data.type ===
+            "FULL_OFFLINE_PROGRESS"
+          ) {
+
+            progress.max =
+              data.total;
+
+            progress.value =
+              data.done;
+
+            progressText.textContent =
+              `${data.done} von ${data.total} Dateien`;
+          }
+
+
+          if (
+            data.type ===
+            "FULL_OFFLINE_READY"
+          ) {
+
+            progress.value =
+              progress.max;
+
+            status.textContent =
+              "Alle Inhalte sind offline verfügbar.";
+
+            progressText.textContent =
+              `${data.total} Dateien gespeichert`;
+
+            downloadButton.disabled =
+              false;
+
+            downloadButton.textContent =
+              "Offline-Inhalte aktualisieren";
+          }
+        }
+      );
+  }
+);
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

@@ -2,6 +2,10 @@
 
 ## 2026-08-10
 
+- `a3bd70d` **[Templates/Pages, Data]** updated some formula formatting
+
+## 2026-08-10
+
 - `11a254b` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** updated Datum slot
 
 ## 2026-08-06

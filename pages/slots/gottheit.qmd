@@ -758,6 +758,12 @@ Beide Bestandteile sind nicht verpflichtend. Ein Gott kann nur durch seinen Name
         window.location.href = '/index.html';
       }
     " class="btn-back">← Zurück</button>
+    <button
+  type="button"
+  class="footer-nav-button"
+  onclick="openOfflineManager()">
+  Offline
+</button>
   </div>
 </div>
 

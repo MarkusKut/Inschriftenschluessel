@@ -4,6 +4,25 @@ body-classes: home-page
 ---
 
 ```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/index.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/index.html';
+      }
+    " class="btn-back">← Zurück</button>
+    <button
+  type="button"
+  class="footer-nav-button"
+  onclick="openOfflineManager()">
+  Offline
+</button>
+  </div>
+</div>
+
 <div class="zoom-controls">
   <button
     type="button"

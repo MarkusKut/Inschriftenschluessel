@@ -48,6 +48,7 @@ format:
     include-after-body: 
      - pwa-register.html
      - table-resize.html
+     - offline-manager.html
     
 
 execute:

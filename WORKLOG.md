@@ -1,9 +1,15 @@
 # Worklog
 
 
+## 2026-08-27
+
+- updatad cache handling and offline download
+
+
 ## 2026-08-10
 
 - updated "Datum" slot
+- updated some formula formatting
 
 ## 2026-08-06
 
