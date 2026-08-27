@@ -341,12 +341,16 @@ self.addEventListener(
 
 /* ========================================
    Full offline download
+   Pause / Resume / Cancel
    ======================================== */
 
 let offlineDownload = {
   running: false,
+  paused: false,
+  cancelled: false,
   done: 0,
-  total: 0
+  total: 0,
+  controller: null
 };
 
 
@@ -365,38 +369,81 @@ async function broadcast(message) {
 }
 
 
+function sleep(ms) {
+  return new Promise(
+    resolve => setTimeout(resolve, ms)
+  );
+}
+
+
+/*
+ * Used before Resume/Cancel so we don't
+ * start two download loops at the same time.
+ */
+async function waitUntilDownloadStopped() {
+
+  while (offlineDownload.running) {
+    await sleep(50);
+  }
+}
+
+
+/*
+ * Read the list of all files.
+ */
+async function getFullOfflineManifest() {
+
+  const manifestUrl =
+    scopedUrl(
+      "./offline-full-manifest.txt"
+    );
+
+  const response =
+    await fetch(
+      manifestUrl,
+      {
+        cache: "no-store"
+      }
+    );
+
+  if (!response.ok) {
+    throw new Error(
+      "Offline manifest could not be loaded."
+    );
+  }
+
+  const text =
+    await response.text();
+
+  return text
+    .split(/\r?\n/)
+    .map(x => x.trim())
+    .filter(Boolean);
+}
+
+
+/* ========================================
+   Download / Resume
+   ======================================== */
+
 async function downloadFullSite() {
 
+  /*
+   * Prevent two simultaneous downloads.
+   */
   if (offlineDownload.running) {
     return;
   }
 
   offlineDownload.running = true;
+  offlineDownload.paused = false;
+  offlineDownload.cancelled = false;
   offlineDownload.done = 0;
 
   try {
 
-    const manifestUrl =
-      scopedUrl(
-        "./offline-full-manifest.txt"
-      );
-
-    const response =
-      await fetch(
-        manifestUrl,
-        {
-          cache: "no-store"
-        }
-      );
-
-    const text =
-      await response.text();
-
     const paths =
-      text
-        .split(/\r?\n/)
-        .map(x => x.trim())
-        .filter(Boolean);
+      await getFullOfflineManifest();
 
     offlineDownload.total =
       paths.length;
@@ -406,41 +453,117 @@ async function downloadFullSite() {
         FULL_CACHE
       );
 
+
     await broadcast({
       type: "FULL_OFFLINE_START",
+      done: 0,
       total: offlineDownload.total
     });
 
 
-    /*
-     * Download sequentially.
-     * Better for mobile than requesting
-     * hundreds of files simultaneously.
-     */
     for (const path of paths) {
+
+      /*
+       * Stop before starting another file.
+       */
+      if (
+        offlineDownload.paused ||
+        offlineDownload.cancelled
+      ) {
+        break;
+      }
+
 
       const url =
         scopedUrl(path);
 
+
+      /*
+       * IMPORTANT:
+       *
+       * If this file was already downloaded
+       * before Pause, skip downloading it again.
+       *
+       * This is what makes Resume work.
+       */
+      const existing =
+        await cache.match(url);
+
+      if (existing) {
+
+        offlineDownload.done++;
+
+        await broadcast({
+          type: "FULL_OFFLINE_PROGRESS",
+          done: offlineDownload.done,
+          total: offlineDownload.total
+        });
+
+        continue;
+      }
+
+
+      /*
+       * AbortController allows Pause/Cancel
+       * to stop the current network request.
+       */
+      offlineDownload.controller =
+        new AbortController();
+
+
       try {
 
-        const res =
-          await fetch(url);
+        const response =
+          await fetch(
+            url,
+            {
+              signal:
+                offlineDownload
+                  .controller
+                  .signal
+            }
+          );
 
-        if (res.ok) {
+
+        if (response.ok) {
+
           await cache.put(
             url,
-            res.clone()
+            response.clone()
           );
+
+          offlineDownload.done++;
         }
 
       } catch (error) {
+
         /*
-         * Continue even if one file fails.
+         * Abort caused by Pause or Cancel
+         * is expected.
          */
+        if (
+          offlineDownload.paused ||
+          offlineDownload.cancelled
+        ) {
+          break;
+        }
+
+        /*
+         * One failed file should not kill
+         * the entire download.
+         */
+        console.warn(
+          "Offline download failed:",
+          url,
+          error
+        );
+
+      } finally {
+
+        offlineDownload.controller =
+          null;
       }
 
-      offlineDownload.done++;
 
       await broadcast({
         type: "FULL_OFFLINE_PROGRESS",
@@ -450,34 +573,92 @@ async function downloadFullSite() {
     }
 
 
-    /*
-     * Marker showing that the complete
-     * offline package has been downloaded.
-     */
-    await cache.put(
-      scopedUrl(
-        "./__full_offline_ready__"
-      ),
-      new Response(
-        self.__BUILD_ID
-      )
+    /* ----------------------------------------
+       Cancelled
+       ---------------------------------------- */
+
+    if (offlineDownload.cancelled) {
+      return;
+    }
+
+
+    /* ----------------------------------------
+       Paused
+       ---------------------------------------- */
+
+    if (offlineDownload.paused) {
+
+      await broadcast({
+        type: "FULL_OFFLINE_PAUSED",
+        done: offlineDownload.done,
+        total: offlineDownload.total
+      });
+
+      return;
+    }
+
+
+    /* ----------------------------------------
+       Successfully completed
+       ---------------------------------------- */
+
+    if (
+      offlineDownload.done >=
+      offlineDownload.total
+    ) {
+
+      await cache.put(
+        scopedUrl(
+          "./__full_offline_ready__"
+        ),
+        new Response(
+          self.__BUILD_ID
+        )
+      );
+
+
+      await broadcast({
+        type: "FULL_OFFLINE_READY",
+        done: offlineDownload.done,
+        total: offlineDownload.total
+      });
+
+    } else {
+
+      /*
+       * Some network requests failed.
+       */
+      await broadcast({
+        type: "FULL_OFFLINE_INCOMPLETE",
+        done: offlineDownload.done,
+        total: offlineDownload.total
+      });
+    }
+
+  } catch (error) {
+
+    console.error(
+      "Full offline download error:",
+      error
     );
 
-
     await broadcast({
-      type: "FULL_OFFLINE_READY",
-      total: offlineDownload.total
+      type: "FULL_OFFLINE_ERROR"
     });
 
   } finally {
 
-    offlineDownload.running = false;
+    offlineDownload.controller =
+      null;
+
+    offlineDownload.running =
+      false;
   }
 }
 
 
 /* ========================================
-   Messages from the website
+   Messages from website
    ======================================== */
 
 self.addEventListener(
@@ -488,10 +669,10 @@ self.addEventListener(
       event.data || {};
 
 
-    /*
-     * User pressed:
-     * "Alle Inhalte herunterladen"
-     */
+    /* ----------------------------------------
+       Start download
+       ---------------------------------------- */
+
     if (
       data.type ===
       "DOWNLOAD_FULL_OFFLINE"
@@ -505,10 +686,131 @@ self.addEventListener(
     }
 
 
-    /*
-     * Website asks whether the complete
-     * offline package already exists.
-     */
+    /* ----------------------------------------
+       Pause
+       ---------------------------------------- */
+
+    if (
+      data.type ===
+      "PAUSE_FULL_OFFLINE"
+    ) {
+
+      offlineDownload.paused = true;
+
+      /*
+       * Stop the current fetch immediately.
+       */
+      if (
+        offlineDownload.controller
+      ) {
+        offlineDownload
+          .controller
+          .abort();
+      }
+
+      return;
+    }
+
+
+    /* ----------------------------------------
+       Resume
+       ---------------------------------------- */
+
+    if (
+      data.type ===
+      "RESUME_FULL_OFFLINE"
+    ) {
+
+      offlineDownload.paused = false;
+      offlineDownload.cancelled = false;
+
+      event.waitUntil(
+        (async () => {
+
+          /*
+           * Wait until the old paused loop
+           * has completely stopped.
+           */
+          await waitUntilDownloadStopped();
+
+          /*
+           * Start again.
+           *
+           * Already cached files are skipped.
+           */
+          await downloadFullSite();
+
+        })()
+      );
+
+      return;
+    }
+
+
+    /* ----------------------------------------
+       Cancel completely
+       ---------------------------------------- */
+
+    if (
+      data.type ===
+      "CANCEL_FULL_OFFLINE"
+    ) {
+
+      offlineDownload.cancelled = true;
+      offlineDownload.paused = false;
+
+
+      if (
+        offlineDownload.controller
+      ) {
+        offlineDownload
+          .controller
+          .abort();
+      }
+
+
+      event.waitUntil(
+        (async () => {
+
+          /*
+           * Wait for download loop to stop
+           * before deleting the partial cache.
+           */
+          await waitUntilDownloadStopped();
+
+
+          /*
+           * Delete ONLY the optional full
+           * offline package.
+           *
+           * Core/runtime cache stays intact.
+           */
+          await caches.delete(
+            FULL_CACHE
+          );
+
+
+          offlineDownload.done = 0;
+          offlineDownload.total = 0;
+          offlineDownload.cancelled = false;
+
+
+          await broadcast({
+            type:
+              "FULL_OFFLINE_CANCELLED"
+          });
+
+        })()
+      );
+
+      return;
+    }
+
+
+    /* ----------------------------------------
+       Status request
+       ---------------------------------------- */
+
     if (
       data.type ===
       "FULL_OFFLINE_STATUS"
@@ -524,13 +826,20 @@ self.addEventListener(
               )
             );
 
-          event.source?.postMessage({
-            type: "FULL_OFFLINE_STATUS",
 
-            ready: Boolean(ready),
+          event.source?.postMessage({
+
+            type:
+              "FULL_OFFLINE_STATUS",
+
+            ready:
+              Boolean(ready),
 
             running:
               offlineDownload.running,
+
+            paused:
+              offlineDownload.paused,
 
             done:
               offlineDownload.done,

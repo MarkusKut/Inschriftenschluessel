@@ -1,10 +1,17 @@
-<dialog id="offline-manager">
-
+<dialog
+  id="offline-manager"
+  aria-labelledby="offline-manager-title"
+>
   <div class="offline-manager-inner">
 
-    <h2>Offline-Nutzung</h2>
+    <h2 id="offline-manager-title">
+      Offline-Nutzung
+    </h2>
 
-    <p id="offline-status">
+    <p
+      id="offline-status"
+      aria-live="polite"
+    >
       Status wird geprüft …
     </p>
 
@@ -12,39 +19,69 @@
       id="offline-progress"
       value="0"
       max="100"
-      hidden>
-    </progress>
+      hidden
+    ></progress>
 
     <p
       id="offline-progress-text"
-      hidden>
-    </p>
+      aria-live="polite"
+      hidden
+    ></p>
 
     <div class="offline-actions">
 
       <button
         type="button"
-        id="offline-download">
+        id="offline-download"
+      >
         Alle Inhalte herunterladen
       </button>
 
       <button
         type="button"
-        id="offline-close">
+        id="offline-pause"
+        hidden
+      >
+        Pause
+      </button>
+
+      <button
+        type="button"
+        id="offline-resume"
+        hidden
+      >
+        Fortsetzen
+      </button>
+
+      <button
+        type="button"
+        id="offline-cancel"
+        hidden
+      >
+        Abbrechen
+      </button>
+
+      <button
+        type="button"
+        id="offline-close"
+      >
         Schließen
       </button>
 
     </div>
 
   </div>
-
 </dialog>
 
 
 <script>
 document.addEventListener(
   "DOMContentLoaded",
-  async function () {
+  function () {
+
+    /* ========================================
+       Elements
+       ======================================== */
 
     const dialog =
       document.getElementById(
@@ -54,6 +91,21 @@ document.addEventListener(
     const downloadButton =
       document.getElementById(
         "offline-download"
+      );
+
+    const pauseButton =
+      document.getElementById(
+        "offline-pause"
+      );
+
+    const resumeButton =
+      document.getElementById(
+        "offline-resume"
+      );
+
+    const cancelButton =
+      document.getElementById(
+        "offline-cancel"
       );
 
     const closeButton =
@@ -77,154 +129,742 @@ document.addEventListener(
       );
 
 
-    window.openOfflineManager =
-      async function () {
+    /* ========================================
+       Progress helpers
+       ======================================== */
 
-        dialog.showModal();
+    function setProgress(
+      done,
+      total
+    ) {
+
+      const safeDone =
+        Number(done) || 0;
+
+      const safeTotal =
+        Number(total) || 0;
+
+
+      progress.hidden = false;
+
+      progressText.hidden = false;
+
+
+      /*
+       * Avoid progress.max = 0
+       */
+      progress.max =
+        safeTotal > 0
+          ? safeTotal
+          : 1;
+
+
+      progress.value =
+        Math.min(
+          safeDone,
+          progress.max
+        );
+
+
+      if (safeTotal > 0) {
+
+        progressText.textContent =
+          `${safeDone} von ${safeTotal} Dateien`;
+
+      } else {
+
+        progressText.textContent =
+          "Download wird vorbereitet …";
+      }
+    }
+
+
+    function hideProgress() {
+
+      progress.value = 0;
+
+      progress.hidden = true;
+
+      progressText.textContent = "";
+
+      progressText.hidden = true;
+    }
+
+
+    /* ========================================
+       Button states
+       ======================================== */
+
+    function setIdleControls() {
+
+      downloadButton.hidden = false;
+      downloadButton.disabled = false;
+
+      pauseButton.hidden = true;
+      pauseButton.disabled = false;
+
+      resumeButton.hidden = true;
+      resumeButton.disabled = false;
+
+      cancelButton.hidden = true;
+      cancelButton.disabled = false;
+    }
+
+
+    function setRunningControls() {
+
+      downloadButton.hidden = true;
+      downloadButton.disabled = true;
+
+      pauseButton.hidden = false;
+      pauseButton.disabled = false;
+
+      resumeButton.hidden = true;
+      resumeButton.disabled = false;
+
+      cancelButton.hidden = false;
+      cancelButton.disabled = false;
+    }
+
+
+    function setPausedControls() {
+
+      downloadButton.hidden = true;
+      downloadButton.disabled = true;
+
+      pauseButton.hidden = true;
+      pauseButton.disabled = false;
+
+      resumeButton.hidden = false;
+      resumeButton.disabled = false;
+
+      cancelButton.hidden = false;
+      cancelButton.disabled = false;
+    }
+
+
+    function setReadyControls() {
+
+      downloadButton.hidden = false;
+      downloadButton.disabled = false;
+
+      downloadButton.textContent =
+        "Offline-Inhalte aktualisieren";
+
+      pauseButton.hidden = true;
+      pauseButton.disabled = false;
+
+      resumeButton.hidden = true;
+      resumeButton.disabled = false;
+
+      cancelButton.hidden = true;
+      cancelButton.disabled = false;
+    }
+
+
+    /* ========================================
+       Service-worker helper
+       ======================================== */
+
+    async function getServiceWorker() {
+
+      if (
+        !("serviceWorker" in navigator)
+      ) {
+        return null;
+      }
+
+
+      try {
 
         const registration =
           await navigator
             .serviceWorker
             .ready;
 
-        registration.active
-          ?.postMessage({
-            type:
-              "FULL_OFFLINE_STATUS"
-          });
+
+        return (
+          navigator.serviceWorker.controller ||
+          registration.active ||
+          registration.waiting ||
+          registration.installing ||
+          null
+        );
+
+      } catch (error) {
+
+        console.error(
+          "Service Worker nicht verfügbar:",
+          error
+        );
+
+        return null;
+      }
+    }
+
+
+    async function sendOfflineMessage(
+      type
+    ) {
+
+      const worker =
+        await getServiceWorker();
+
+
+      if (!worker) {
+
+        status.textContent =
+          "Die Offline-Funktion ist in diesem Browser nicht verfügbar.";
+
+        return false;
+      }
+
+
+      worker.postMessage({
+        type: type
+      });
+
+
+      return true;
+    }
+
+
+    /* ========================================
+       Status request
+       ======================================== */
+
+    async function requestOfflineStatus() {
+
+      status.textContent =
+        "Status wird geprüft …";
+
+
+      const ok =
+        await sendOfflineMessage(
+          "FULL_OFFLINE_STATUS"
+        );
+
+
+      if (!ok) {
+
+        hideProgress();
+
+        setIdleControls();
+      }
+    }
+
+
+    /* ========================================
+       Open manager
+       ======================================== */
+
+    window.openOfflineManager =
+      async function () {
+
+        if (!dialog.open) {
+
+          dialog.showModal();
+        }
+
+
+        await requestOfflineStatus();
       };
 
+
+    /* ========================================
+       Close manager
+       ======================================== */
 
     closeButton.addEventListener(
       "click",
       function () {
+
+        /*
+         * Closing the dialog does NOT
+         * cancel or pause the download.
+         */
         dialog.close();
       }
     );
 
 
-    downloadButton.addEventListener(
+    /*
+     * Clicking directly on the backdrop
+     * also closes the dialog.
+     */
+    dialog.addEventListener(
       "click",
-      async function () {
+      function (event) {
 
-        const registration =
-          await navigator
-            .serviceWorker
-            .ready;
+        if (
+          event.target === dialog
+        ) {
 
-        progress.hidden = false;
-        progressText.hidden = false;
-
-        downloadButton.disabled = true;
-
-        status.textContent =
-          "Die Inhalte werden für die Offline-Nutzung gespeichert …";
-
-        registration.active
-          ?.postMessage({
-            type:
-              "DOWNLOAD_FULL_OFFLINE"
-          });
+          dialog.close();
+        }
       }
     );
 
 
-    navigator.serviceWorker
-      .addEventListener(
-        "message",
-        function (event) {
+    /* ========================================
+       Start / update download
+       ======================================== */
 
-          const data =
-            event.data || {};
+    downloadButton.addEventListener(
+      "click",
+      async function () {
+
+        status.textContent =
+          "Die Inhalte werden für die Offline-Nutzung gespeichert …";
 
 
-          if (
-            data.type ===
-            "FULL_OFFLINE_STATUS"
-          ) {
+        setProgress(
+          0,
+          0
+        );
 
-            if (data.ready) {
 
+        setRunningControls();
+
+
+        const ok =
+          await sendOfflineMessage(
+            "DOWNLOAD_FULL_OFFLINE"
+          );
+
+
+        if (!ok) {
+
+          hideProgress();
+
+          setIdleControls();
+        }
+      }
+    );
+
+
+    /* ========================================
+       Pause
+       ======================================== */
+
+    pauseButton.addEventListener(
+      "click",
+      async function () {
+
+        pauseButton.disabled = true;
+
+
+        status.textContent =
+          "Download wird pausiert …";
+
+
+        const ok =
+          await sendOfflineMessage(
+            "PAUSE_FULL_OFFLINE"
+          );
+
+
+        if (!ok) {
+
+          pauseButton.disabled = false;
+        }
+      }
+    );
+
+
+    /* ========================================
+       Resume
+       ======================================== */
+
+    resumeButton.addEventListener(
+      "click",
+      async function () {
+
+        status.textContent =
+          "Download wird fortgesetzt …";
+
+
+        setRunningControls();
+
+
+        const ok =
+          await sendOfflineMessage(
+            "RESUME_FULL_OFFLINE"
+          );
+
+
+        if (!ok) {
+
+          setPausedControls();
+        }
+      }
+    );
+
+
+    /* ========================================
+       Cancel
+       ======================================== */
+
+    cancelButton.addEventListener(
+      "click",
+      async function () {
+
+        /*
+         * Optional safety check because
+         * Cancel deletes the partial
+         * full-offline cache.
+         */
+        const confirmed =
+          window.confirm(
+            "Offline-Download wirklich abbrechen?\n\n" +
+            "Die bisher für den vollständigen Offline-Download " +
+            "gespeicherten Dateien werden entfernt."
+          );
+
+
+        if (!confirmed) {
+          return;
+        }
+
+
+        status.textContent =
+          "Offline-Download wird abgebrochen …";
+
+
+        pauseButton.disabled = true;
+
+        resumeButton.disabled = true;
+
+        cancelButton.disabled = true;
+
+
+        const ok =
+          await sendOfflineMessage(
+            "CANCEL_FULL_OFFLINE"
+          );
+
+
+        if (!ok) {
+
+          pauseButton.disabled = false;
+
+          resumeButton.disabled = false;
+
+          cancelButton.disabled = false;
+        }
+      }
+    );
+
+
+    /* ========================================
+       Messages from Service Worker
+       ======================================== */
+
+    if (
+      "serviceWorker" in navigator
+    ) {
+
+      navigator.serviceWorker
+        .addEventListener(
+          "message",
+          function (event) {
+
+            const data =
+              event.data || {};
+
+
+            /* --------------------------------
+               Current status
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_STATUS"
+            ) {
+
+              /*
+               * Complete offline package
+               * already available
+               */
+              if (data.ready) {
+
+                status.textContent =
+                  "Alle Inhalte sind offline verfügbar.";
+
+
+                if (
+                  Number(data.total) > 0
+                ) {
+
+                  setProgress(
+                    data.total,
+                    data.total
+                  );
+
+                  progressText.textContent =
+                    `${data.total} Dateien gespeichert`;
+
+                } else {
+
+                  hideProgress();
+                }
+
+
+                setReadyControls();
+
+                return;
+              }
+
+
+              /*
+               * Download currently running
+               */
+              if (data.running) {
+
+                status.textContent =
+                  "Die Inhalte werden für die Offline-Nutzung gespeichert …";
+
+
+                setProgress(
+                  data.done,
+                  data.total
+                );
+
+
+                setRunningControls();
+
+                return;
+              }
+
+
+              /*
+               * Download paused
+               */
+              if (data.paused) {
+
+                status.textContent =
+                  "Download pausiert. Bereits gespeicherte Inhalte bleiben erhalten.";
+
+
+                setProgress(
+                  data.done,
+                  data.total
+                );
+
+
+                setPausedControls();
+
+                return;
+              }
+
+
+              /*
+               * No full offline package
+               */
               status.textContent =
-                "Alle Inhalte sind offline verfügbar.";
+                "Grundfunktionen und bereits besuchte Seiten sind offline verfügbar.";
+
+
+              hideProgress();
+
 
               downloadButton.textContent =
-                "Offline-Inhalte aktualisieren";
+                "Alle Inhalte herunterladen";
 
-            } else {
+
+              setIdleControls();
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Download started
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_START"
+            ) {
 
               status.textContent =
-                "Grundfunktionen sind offline verfügbar.";
+                "Die Inhalte werden für die Offline-Nutzung gespeichert …";
+
+
+              setProgress(
+                data.done || 0,
+                data.total
+              );
+
+
+              setRunningControls();
+
+              return;
             }
 
 
-            if (data.running) {
+            /* --------------------------------
+               Progress
+               -------------------------------- */
 
-              progress.hidden =
-                false;
+            if (
+              data.type ===
+              "FULL_OFFLINE_PROGRESS"
+            ) {
 
-              progressText.hidden =
-                false;
+              setProgress(
+                data.done,
+                data.total
+              );
+
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Paused
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_PAUSED"
+            ) {
+
+              status.textContent =
+                "Download pausiert. Bereits gespeicherte Inhalte bleiben erhalten.";
+
+
+              setProgress(
+                data.done,
+                data.total
+              );
+
+
+              setPausedControls();
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Cancelled
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_CANCELLED"
+            ) {
+
+              status.textContent =
+                "Offline-Download wurde abgebrochen.";
+
+
+              hideProgress();
+
+
+              downloadButton.textContent =
+                "Alle Inhalte herunterladen";
+
+
+              setIdleControls();
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Complete
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_READY"
+            ) {
+
+              status.textContent =
+                "Alle Inhalte sind jetzt offline verfügbar.";
+
+
+              setProgress(
+                data.total,
+                data.total
+              );
+
+
+              progressText.textContent =
+                `${data.total} Dateien gespeichert`;
+
+
+              setReadyControls();
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Incomplete
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_INCOMPLETE"
+            ) {
+
+              status.textContent =
+                "Der Offline-Download ist noch nicht vollständig. Er kann erneut fortgesetzt werden.";
+
+
+              setProgress(
+                data.done,
+                data.total
+              );
+
+
+              downloadButton.textContent =
+                "Download fortsetzen";
+
+
+              setIdleControls();
+
+              return;
+            }
+
+
+            /* --------------------------------
+               Error
+               -------------------------------- */
+
+            if (
+              data.type ===
+              "FULL_OFFLINE_ERROR"
+            ) {
+
+              status.textContent =
+                "Beim Offline-Download ist ein Fehler aufgetreten.";
+
+
+              downloadButton.textContent =
+                "Erneut versuchen";
+
+
+              setIdleControls();
+
+              return;
             }
           }
+        );
+    }
 
 
-          if (
-            data.type ===
-            "FULL_OFFLINE_START"
-          ) {
+    /* ========================================
+       Initial state
+       ======================================== */
 
-            progress.max =
-              data.total;
+    hideProgress();
 
-            progress.value = 0;
+    setIdleControls();
 
-            progress.hidden =
-              false;
-
-            progressText.hidden =
-              false;
-          }
-
-
-          if (
-            data.type ===
-            "FULL_OFFLINE_PROGRESS"
-          ) {
-
-            progress.max =
-              data.total;
-
-            progress.value =
-              data.done;
-
-            progressText.textContent =
-              `${data.done} von ${data.total} Dateien`;
-          }
-
-
-          if (
-            data.type ===
-            "FULL_OFFLINE_READY"
-          ) {
-
-            progress.value =
-              progress.max;
-
-            status.textContent =
-              "Alle Inhalte sind offline verfügbar.";
-
-            progressText.textContent =
-              `${data.total} Dateien gespeichert`;
-
-            downloadButton.disabled =
-              false;
-
-            downloadButton.textContent =
-              "Offline-Inhalte aktualisieren";
-          }
-        }
-      );
   }
 );
 </script>

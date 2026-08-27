@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `06184d1` **[Templates/Pages, CSS]** updatad offline-button
+
+## 2026-08-27
+
 - `1c255f9` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** updatad cache handling and offline download
 
 ## 2026-08-10

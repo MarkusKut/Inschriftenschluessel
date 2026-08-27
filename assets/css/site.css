@@ -1862,6 +1862,33 @@ body.quarto-dark .footer-offline-button:hover,
 
 
 
+/* Pause */
+#offline-pause {
+  color: var(--bs-body-color);
+  background: var(--bs-tertiary-bg);
+  border: 1px solid var(--bs-border-color);
+}
+
+/* Resume */
+#offline-resume {
+  color: #fff;
+  background: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+}
+
+/* Cancel */
+#offline-cancel {
+  color: var(--bs-danger);
+  background: transparent;
+  border: 1px solid var(--bs-danger);
+}
+
+#offline-cancel:hover {
+  color: #fff;
+  background: var(--bs-danger);
+}
+
+
 
 
 
@@ -1896,3 +1923,8 @@ body.quarto-dark .footer-offline-button:hover,
 
   transform: translateY(-50%);
 }
+
+
+
+
+
