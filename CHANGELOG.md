@@ -2,6 +2,10 @@
 
 ## 2026-08-27
 
+- `dbe227d` **[R code, PWA/Offline]** updated download option
+
+## 2026-08-27
+
 - `5b4e08a` **[Templates/Pages, CSS, PWA/Offline]** removed offline-toast
 
 ## 2026-08-27

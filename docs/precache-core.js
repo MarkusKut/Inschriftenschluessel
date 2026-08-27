@@ -1,11 +1,10 @@
-self.__BUILD_ID = "20260827113229";
+self.__BUILD_ID = "20260827114241";
 
 self.__CORE_URLS = [
   "./assets/branding/Inschriftenschluessel-type.svg",
   "./assets/branding/Inschriftenschluessel-w-logo-col.svg",
   "./assets/branding/Inschriftenschluesselv2-w-logo-col.svg",
   "./assets/branding/Inschriftenschluesselv2-w-logo-col_inverted.svg",
-  "./assets/branding/Inschriftenschlüssel_Logo.ai",
   "./assets/branding/Logo-col-transp.svg",
   "./assets/branding/Logov2-col-transp.svg",
   "./favicon.ico",
