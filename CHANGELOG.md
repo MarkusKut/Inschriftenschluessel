@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `baf4579` **[Templates/Pages, Data]** smaller changes
+
+## 2026-09-11
+
 - `c431154` **[CSS]** adjusted footer buttons
 
 ## 2026-09-11

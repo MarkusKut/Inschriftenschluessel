@@ -5,6 +5,7 @@
 - changed glyphlines appearance
 - updated footer buttons behaviour
 - smaller changes
+- changed order of formulas
 
 ## 2026-08-27
 

@@ -291,6 +291,38 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*mry*
+:::
+
+:::
+
+:::
+
+:::
+
+
+
 ## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
 
 ::: {.glyphline-stacked}
@@ -347,6 +379,70 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ::: {.glyphline-item}
 <b>Tat</b>
+:::
+
+:::
+
+:::
+
+
+
+## [Beischrift](pages/formeln/beischrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+Beziehung
+:::
+
+::: {.glyphline-item}
+Szenentitel
+:::
+
+::: {.glyphline-item}
+[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
+:::
+
+::: {.glyphline-item}
+[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+:::
+
+:::
+
+:::
+
+
+
+## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫr ḥm n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+<b>[narrativer Text]</b>
 :::
 
 :::
@@ -455,102 +551,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ::: {.glyphline-item}
 <b>Lobpreisungen für Gottheit</b>
-:::
-
-:::
-
-:::
-
-
-
-## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
-
-::: {.glyphline-stacked}
-
-::: {.glyphline-part}
-
-::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
-:::
-
-::: {.glyphline-item}
-[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
-:::
-
-::: {.glyphline-sign}
-
-::: {.glyphline-glyphs}
-![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
-:::
-
-::: {.glyphline-transcription}
-*mry*
-:::
-
-:::
-
-:::
-
-:::
-
-
-
-## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
-
-::: {.glyphline-stacked}
-
-::: {.glyphline-part}
-
-::: {.glyphline-item}
-[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum}
-:::
-
-::: {.glyphline-sign}
-
-::: {.glyphline-glyphs}
-![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
-:::
-
-::: {.glyphline-transcription}
-*ḫr ḥm n*
-:::
-
-:::
-
-::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
-:::
-
-::: {.glyphline-item}
-<b>[narrativer Text]</b>
-:::
-
-:::
-
-:::
-
-
-
-## [Beischrift](pages/formeln/beischrift.qmd)
-
-::: {.glyphline-stacked}
-
-::: {.glyphline-part}
-
-::: {.glyphline-item}
-Beziehung
-:::
-
-::: {.glyphline-item}
-Szenentitel
-:::
-
-::: {.glyphline-item}
-[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
-:::
-
-::: {.glyphline-item}
-[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
 :::
 
 :::
