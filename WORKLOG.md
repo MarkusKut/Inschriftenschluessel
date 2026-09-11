@@ -4,6 +4,7 @@
 
 - changed glyphlines appearance
 - updated footer buttons behaviour
+- smaller changes
 
 ## 2026-08-27
 

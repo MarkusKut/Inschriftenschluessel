@@ -123,6 +123,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 [König](../slots/koenig.qmd){.slot-link .slot-k-nig} geliebt von [Gottheit](../slots/gottheit.qmd){.slot-link .slot-gottheit}
 
+## Kommentar
+
+Gottheit aus Verehrungsgründen vorangestellt
+
 ## Schreibvarianten
 
 ::: {.glyphvariants-block}
