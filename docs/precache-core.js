@@ -1,4 +1,4 @@
-self.__BUILD_ID = "20260827131531";
+self.__BUILD_ID = "20260911093806";
 
 self.__CORE_URLS = [
   "./assets/branding/Inschriftenschluessel-type.svg",
@@ -23,17 +23,16 @@ self.__CORE_URLS = [
   "./offline.html",
   "./search.json",
   "./site.webmanifest",
-  "./site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css",
-  "./site_libs/bootstrap/bootstrap-dark-0d4a9d19931feb4fee1ddab4b2489000.min.css",
+  "./site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css",
+  "./site_libs/bootstrap/bootstrap-dark-df07115ad9f15e2ef3479c789e6873c8.min.css",
   "./site_libs/bootstrap/bootstrap-icons.css",
   "./site_libs/bootstrap/bootstrap-icons.woff",
   "./site_libs/bootstrap/bootstrap.min.js",
   "./site_libs/clipboard/clipboard.min.js",
   "./site_libs/quarto-html/anchor.min.js",
-  "./site_libs/quarto-html/axe/axe-check.js",
   "./site_libs/quarto-html/popper.min.js",
-  "./site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css",
-  "./site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css",
+  "./site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css",
+  "./site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css",
   "./site_libs/quarto-html/quarto.js",
   "./site_libs/quarto-html/tabsets/tabsets.js",
   "./site_libs/quarto-html/tippy.css",

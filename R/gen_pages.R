@@ -84,7 +84,7 @@ gen_formula_pages <- function(content) {
       if (b$block_type == "glyphline") {
         line_id <- b$table_id
         line_df <- content$glyphlines %>% filter(line_id == !!line_id) %>% arrange(seq)
-        paste0(render_glyphline_md(line_df), "\n\n")
+        paste0(render_glyphline_stacked_md(line_df), "\n\n")
         
       } else if (b$block_type == "glyphvariants") {
         line_id <- b$table_id
@@ -146,7 +146,7 @@ gen_slot_pages <- function(content) {
           filter(line_id == s$glyphline_id) %>%
           arrange(seq)
         
-        part <- paste0(part, render_glyphline_md(line_df), "\n\n")
+        part <- paste0(part, render_glyphline_stacked_md(line_df), "\n\n")
       }
       
       # glyphvariants
@@ -242,7 +242,7 @@ gen_slot_pages <- function(content) {
 #           filter(line_id == s$glyphline_id) %>%
 #           arrange(seq)
 #         
-#         part <- paste0(part, render_glyphline_md(line_df), "\n\n")
+#         part <- paste0(part, render_glyphline_stacked_md(line_df), "\n\n")
 #       }
 #       
 #       # table

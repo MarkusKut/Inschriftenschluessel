@@ -94,7 +94,54 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Übliche Form
 
-![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph} *sꜣ* ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph} *ꜥnḫ* ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph} ![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/04_=f-nb/0001_=f-nb_01.png){.glyph} *ḥꜣ⸗f nb*
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/01_sA/0010_sA_seit-MR_02.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*sꜣ*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/02_anx/0001_anx_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ꜥnḫ*
+:::
+
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/03_HA/0010_HA_02.png){.glyph}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/04_=f-nb/0001_=f-nb_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḥꜣ⸗f nb*
+:::
+
+:::
+
+:::
+
+:::
+
 
 
 ## Übersetzung

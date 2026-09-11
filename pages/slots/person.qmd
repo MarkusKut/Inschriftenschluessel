@@ -175,13 +175,75 @@ document.addEventListener("DOMContentLoaded", function() {
 wichtiges Bildungsmuster für weibliche Namen:
 
 
-- *tꜣ-di-* ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png){.glyph} ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+*tꜣ-di-*
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_01.png){.glyph}
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Personennamen/Namen/f/01_tA-dj-Gottheit/01_tA-dj_02.png){.glyph}
+:::
+
+::: {.glyphline-item}
++
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+:::
+
+:::
+
 
 
 wichtiges Bildungsmuster für männliche Namen:
 
 
-- *pꜣ-di-* ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_01.png){.glyph} ![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_02.png){.glyph} + [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+*pꜣ-di-*
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_01.png){.glyph}
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Personennamen/Namen/m/01_pA-dj-Gottheit/01_pA-dj_02.png){.glyph}
+:::
+
+::: {.glyphline-item}
++
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+:::
+
+:::
+
 
 
 ## Determinative
@@ -228,19 +290,112 @@ wichtiges Bildungsmuster für männliche Namen:
 AR:
 
 
-- [Person](../slots/person.qmd){.badge-slot .badge-person} (= Vater) *sꜣ⸗f* [Person](../slots/person.qmd){.badge-slot .badge-person} (= Sohn)
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Vater)
+:::
+
+::: {.glyphline-item}
+*sꜣ⸗f*
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Sohn)
+:::
+
+:::
+
+:::
+
 
 
 MR:
 
 
-- [Person](../slots/person.qmd){.badge-slot .badge-person} (= Vater) *sꜣ* [Person](../slots/person.qmd){.badge-slot .badge-person} (= Sohn)
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Vater)
+:::
+
+::: {.glyphline-item}
+*sꜣ*
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Sohn)
+:::
+
+:::
+
+:::
+
 
 
 ab NR:
 
 
-- [Person](../slots/person.qmd){.badge-slot .badge-person} (= Sohn) *sꜣ* [Person](../slots/person.qmd){.badge-slot .badge-person} (= Vater)
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Sohn)
+:::
+
+::: {.glyphline-item}
+*sꜣ*
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-item}
+(= Vater)
+:::
+
+:::
+
+:::
+
 
 
 bei Töchtern: *sꜣ.t* „Tochter“( statt *sꜣ*)

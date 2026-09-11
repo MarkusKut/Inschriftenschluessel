@@ -1,5 +1,8 @@
 # Worklog
 
+## 2026-09-11
+
+- changes glyphlines appearance
 
 ## 2026-08-27
 

@@ -224,10 +224,40 @@ document.addEventListener("DOMContentLoaded", function() {
 1, 10:
 
 
-- ![](/assets/glyphs500px/02_Slots/Datum/05_Zahlen/01_Eins/0020_eins_03.png){.glyph}
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Datum/05_Zahlen/01_Eins/0020_eins_03.png){.glyph}
+:::
+
+:::
+
+:::
 
 
-- ![](/assets/glyphs500px/02_Slots/Datum/05_Zahlen/10_Zehn/0020_zehn_03.png){.glyph}
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+-
+:::
+
+::: {.glyphline-item}
+![](/assets/glyphs500px/02_Slots/Datum/05_Zahlen/10_Zehn/0020_zehn_03.png){.glyph}
+:::
+
+:::
+
+:::
+
 
 
 im Datum auch liegend geschrieben

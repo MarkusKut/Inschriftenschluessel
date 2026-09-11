@@ -2217,3 +2217,138 @@ body.tutorial-embedded main.content {
   margin-top: 0 !important;
   padding-top: 1rem !important;
 }
+
+
+
+
+
+
+
+
+
+/* ========================================
+   Stacked glyphline components
+   ======================================== */
+
+.glyphline-part {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 0.55rem;
+
+  width: 100%;
+
+  margin: 0.35rem 0 0.8rem;
+}
+
+
+/* Glyphs + transcription are one unit */
+
+.glyphline-sign {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+
+/* Hieroglyph row */
+
+.glyphline-glyphs {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.08rem;
+
+  line-height: 1;
+}
+
+
+/* Transcription directly underneath */
+
+.glyphline-transcription {
+  display: block;
+
+  margin-top: 0.18rem;
+
+  font-size: 0.88em;
+  line-height: 1.15;
+
+  text-align: center;
+
+  color: var(--bs-secondary-color);
+}
+
+.glyphline-transcription em {
+  font-style: italic;
+}
+
+
+/* Slot badge to the right of glyphs */
+
+.glyphline-slot {
+  display: inline-flex;
+  align-items: flex-start;
+
+  flex: 0 0 auto;
+
+  padding-top: 0.1rem;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+  .glyphline-part {
+    gap: 0.4rem;
+
+    margin-bottom: 0.9rem;
+  }
+
+  .glyphline-transcription {
+    margin-top: 0.12rem;
+
+    font-size: 0.82em;
+  }
+
+  .glyphline-slot {
+    padding-top: 0;
+  }
+}
+
+
+
+/* ========================================
+   German hyphenation for glyphlines
+   ======================================== */
+
+.glyphline-part,
+.glyphline-sign,
+.glyphline-slot,
+.glyphline-transcription,
+.glyphline-slot .badge-slot {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+
+/* Allow slot badges to wrap/hyphenate */
+
+.glyphline-slot {
+  min-width: 0;
+}
+
+.glyphline-slot .badge-slot {
+  display: inline-block;
+
+  white-space: normal !important;
+
+  max-width: 100%;
+}

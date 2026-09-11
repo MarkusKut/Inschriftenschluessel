@@ -88,7 +88,37 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[Datum](../slots/datum.qmd){.badge-slot .badge-datum} ![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph} *ḫr ḥm n* [König](../slots/koenig.qmd){.badge-slot .badge-k-nig} <b>[narrativer Text]</b>   
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[Datum](../slots/datum.qmd){.badge-slot .badge-datum}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫr ḥm n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[König](../slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+<b>[narrativer Text]</b>
+:::
+
+:::
+
+:::
 
 
 

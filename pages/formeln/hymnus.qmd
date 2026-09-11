@@ -88,7 +88,109 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph} *dwꜣ* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph} *rdi.t iꜣw* ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph} *sn tꜣ n* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph} *in* [Person](../slots/person.qmd){.badge-slot .badge-person} ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph} *ḏd⸗f* <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph} *inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <b>Lobpreisungen für Gottheit</b>   
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*dwꜣ*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*rdi.t iꜣw*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*sn tꜣ n*
+:::
+
+:::
+
+:::
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*in*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḏd⸗f*
+:::
+
+:::
+
+:::
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-item}
+<b>Lobpreisungen für Gottheit</b>
+:::
+
+:::
+
+:::
 
 
 

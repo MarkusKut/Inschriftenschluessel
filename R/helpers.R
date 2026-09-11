@@ -665,6 +665,307 @@ render_glyphline_md <- function(df_line) {
 }
 
 
+
+render_glyphline_stacked_md <- function(df_line) {
+  
+  if (nrow(df_line) == 0) {
+    return("")
+  }
+  
+  
+  # ========================================
+  # Preserve Excel order
+  # ========================================
+  
+  df <- df_line[
+    order(df_line$seq),
+    ,
+    drop = FALSE
+  ]
+  
+  
+  kind <- tolower(
+    trimws(
+      as.character(df$kind)
+    )
+  )
+  
+  
+  text_value <-
+    if ("text" %in% names(df)) {
+      as.character(df$text)
+    } else {
+      rep("", nrow(df))
+    }
+  
+  text_value[
+    is.na(text_value)
+  ] <- ""
+  
+  
+  # ========================================
+  # Detect existing line breaks
+  # ========================================
+  
+  is_break <-
+    kind %in% c(
+      "br",
+      "break",
+      "linebreak",
+      "newline"
+    ) |
+    grepl(
+      "<br",
+      text_value,
+      ignore.case = TRUE,
+      fixed = TRUE
+    )
+  
+  
+  # ========================================
+  # Assign rows to visual lines
+  # ========================================
+  
+  part_id <-
+    rep(
+      NA_integer_,
+      nrow(df)
+    )
+  
+  current_part <- 1L
+  
+  
+  for (i in seq_len(nrow(df))) {
+    
+    if (is_break[i]) {
+      
+      current_part <-
+        current_part + 1L
+      
+    } else {
+      
+      part_id[i] <-
+        current_part
+    }
+  }
+  
+  
+  df$.__part_id <-
+    part_id
+  
+  
+  # Remove only the actual break rows.
+  df <- df[
+    !is.na(df$.__part_id),
+    ,
+    drop = FALSE
+  ]
+  
+  
+  if (nrow(df) == 0) {
+    return("")
+  }
+  
+  
+  # ========================================
+  # Helper:
+  # let the OLD renderer handle individual
+  # rows exactly as before.
+  #
+  # It does not know "transcription",
+  # therefore temporarily turn that kind
+  # back into "text".
+  # ========================================
+  
+  render_existing <- function(x) {
+    
+    x2 <- x
+    
+    k <- tolower(
+      trimws(
+        as.character(x2$kind)
+      )
+    )
+    
+    x2$kind[
+      k == "transcription"
+    ] <- "text"
+    
+    
+    render_glyphline_md(
+      x2
+    )
+  }
+  
+  
+  # ========================================
+  # Render each visual line
+  # ========================================
+  
+  parts <- split(
+    df,
+    df$.__part_id
+  )
+  
+  
+  rendered_parts <- vapply(
+    parts,
+    function(part) {
+      
+      part <- part[
+        order(part$seq),
+        ,
+        drop = FALSE
+      ]
+      
+      
+      items <- character()
+      
+      i <- 1L
+      
+      
+      while (
+        i <= nrow(part)
+      ) {
+        
+        current_kind <- tolower(
+          trimws(
+            as.character(
+              part$kind[i]
+            )
+          )
+        )
+        
+        
+        # ====================================
+        # SPECIAL CASE:
+        #
+        # glyph immediately followed by
+        # transcription
+        #
+        # These two are visually stacked.
+        # ====================================
+        
+        next_is_transcription <-
+          i < nrow(part) &&
+          tolower(
+            trimws(
+              as.character(
+                part$kind[i + 1]
+              )
+            )
+          ) == "transcription"
+        
+        
+        if (
+          current_kind == "glyph" &&
+          next_is_transcription
+        ) {
+          
+          glyph_md <-
+            render_existing(
+              part[
+                i,
+                ,
+                drop = FALSE
+              ]
+            )
+          
+          
+          transcription_md <-
+            render_existing(
+              part[
+                i + 1,
+                ,
+                drop = FALSE
+              ]
+            )
+          
+          
+          items <- c(
+            items,
+            paste0(
+              "::: {.glyphline-sign}\n\n",
+              
+              "::: {.glyphline-glyphs}\n",
+              glyph_md,
+              "\n:::\n\n",
+              
+              "::: {.glyphline-transcription}\n",
+              transcription_md,
+              "\n:::\n\n",
+              
+              ":::\n"
+            )
+          )
+          
+          
+          i <- i + 2L
+          
+          next
+        }
+        
+        
+        # ====================================
+        # EVERYTHING ELSE:
+        #
+        # render exactly where Excel put it
+        # ====================================
+        
+        item_md <-
+          render_existing(
+            part[
+              i,
+              ,
+              drop = FALSE
+            ]
+          )
+        
+        
+        items <- c(
+          items,
+          paste0(
+            "::: {.glyphline-item}\n",
+            item_md,
+            "\n:::\n"
+          )
+        )
+        
+        
+        i <- i + 1L
+      }
+      
+      
+      paste0(
+        "::: {.glyphline-part}\n\n",
+        paste0(
+          items,
+          collapse = "\n"
+        ),
+        "\n:::\n"
+      )
+    },
+    character(1)
+  )
+  
+  
+  # ========================================
+  # Outer wrapper
+  # ========================================
+  
+  paste0(
+    "::: {.glyphline-stacked}\n\n",
+    paste0(
+      rendered_parts,
+      collapse = "\n"
+    ),
+    "\n:::\n"
+  )
+}
+
+
+
+
 tla_badge_html <- function(tla_id) {
   
   if (
@@ -984,7 +1285,7 @@ first_formula_glyphline_md <- function(page_id, content) {
     dplyr::arrange(seq)
   
   # render as markdown (glyphs + linked badges, if your render_glyphline_md does that)
-  paste0(render_glyphline_md(line_df), "\n")
+  paste0(render_glyphline_stacked_md(line_df), "\n")
 }
 
 

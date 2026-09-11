@@ -88,7 +88,33 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-[König](../slots/koenig.qmd){.badge-slot .badge-k-nig} [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} ![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph} *mry*   
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](../slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*mry*
+:::
+
+:::
+
+:::
+
+:::
 
 
 

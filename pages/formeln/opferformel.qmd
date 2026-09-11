@@ -88,7 +88,69 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
-![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph} *ḥtp-di-nsw* [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit} <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph} (*di*) [Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben} <span style="vertical-align:-75%">&nbsp;</span><br/> ![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph} *n* / *n kꜣ n* [Person](../slots/person.qmd){.badge-slot .badge-person}   
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḥtp-di-nsw*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+:::
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+(*di*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gaben](../slots/gaben.qmd){.badge-slot .badge-gaben}
+:::
+
+:::
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*n* / *n kꜣ n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+:::
+
+:::
 
 
 
