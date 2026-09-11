@@ -561,6 +561,53 @@ Szenentitel
 
 ## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
 
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/01_nTr-njw.t-n/0001_nTr-nwj.t_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*nṯr-nw.tj* (*n*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0001_dj.tw-HA=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*di.tw ḥꜣ⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/03_xft-kA=f-m-bAH=f/0001_xft-kA=f-m-bAH=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+ḫft kꜣ⸗f m-bꜣḥ⸗f
+:::
+
+:::
+
+:::
+
+:::
 
 
 

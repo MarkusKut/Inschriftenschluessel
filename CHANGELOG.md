@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `7a61259` **[Templates/Pages, Data]** changed order of formulas
+
+## 2026-09-11
+
 - `baf4579` **[Templates/Pages, Data]** smaller changes
 
 ## 2026-09-11

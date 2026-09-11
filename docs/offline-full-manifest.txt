@@ -153,6 +153,15 @@
 ./assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0050_sA-anx-wAs-HA=f_NR-selten-Gr-oft_01.png
 ./assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0060_sA-anx-Dd-wAs-HA=f_D.18_01.png
 ./assets/glyphs500px/01_Textgattung/07_Beischriften/04_Rueckenschutzformel/formel-gesamt/0070_sA-anx-Dd-wAs-snb-HA=f_D.18_01.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/01_nTr-njw.t-n/0001_nTr-nwj.t_01.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0001_dj.tw-HA=f_01.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0010_dj.tw_01.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0020_dj.tw_02.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0030_dj.tw_03.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0040_dj.tw_04.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0050_dj.tw_05.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0060_dj.tw_06.png
+./assets/glyphs500px/01_Textgattung/08_Saitenformel/03_xft-kA=f-m-bAH=f/0001_xft-kA=f-m-bAH=f_01.png
 ./assets/glyphs500px/02_Slots/Datum/01_Jahr/0001_HA.t-sp_01.png
 ./assets/glyphs500px/02_Slots/Datum/01_Jahr/0010_HA.t-sp_02.png
 ./assets/glyphs500px/02_Slots/Datum/01_Jahr/0020_HA.t-sp_03.png

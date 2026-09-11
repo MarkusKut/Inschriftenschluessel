@@ -1,5 +1,5 @@
 ---
-title: "Saïten-Formel"
+title: "Saïten-Formel"
 ---
 
 ```{=html}
@@ -88,6 +88,53 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 ```
 
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/01_nTr-njw.t-n/0001_nTr-nwj.t_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*nṯr-nw.tj* (*n*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](../slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0001_dj.tw-HA=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*di.tw ḥꜣ⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/03_xft-kA=f-m-bAH=f/0001_xft-kA=f-m-bAH=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+ḫft kꜣ⸗f m-bꜣḥ⸗f
+:::
+
+:::
+
+:::
+
+:::
 
 
 
@@ -100,6 +147,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ::: {.glyphvariants-block}
 
+- <span class='glyphvariant-heading'><span class='glyphvariant-term'><em>*di.tw*</em>:</span></span>
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0010_dj.tw_01.png){.glyph}
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0020_dj.tw_02.png){.glyph}
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0030_dj.tw_03.png){.glyph}
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0040_dj.tw_04.png){.glyph}
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0050_dj.tw_05.png){.glyph}
+
+     - ![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0060_dj.tw_06.png){.glyph}
+
 
 :::
 
@@ -107,11 +168,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Literatur
 
-- Jansen-Winkeln, Karl 2000. Zum Verständnis der "Saitischen Formel". Studien zur Altägyptischen Kultur 28, 83-124.
+- Jansen-Winkeln, Karl 2000. Zum Verständnis der "Saitischen Formel". Studien zur Altägyptischen Kultur 28, 83-124.
 
-- Meulenaere, H. J. A. de 1997–2000. Sculptures mendésiennes de Basse Époque. Jaarbericht van het Vooraziatisch-Egyptisch Genootschap Ex Oriente Lux 35–36, 33–39: F. 81
+- Meulenaere, H. J. A. de 1997–2000. Sculptures mendésiennes de Basse Époque. Jaarbericht van het Vooraziatisch-Egyptisch Genootschap Ex Oriente Lux 35–36, 33–39: F. 81
 
-- NR: Klotz, David 2016. Get thee behind me, City God! New Kingdom versions of the so-called "Saite Formula". Zeitschrift für ägyptische Sprache und Altertumskunde 143 (2), 204-213. DOI: 10.1515/zaes-2016-0014.
+- NR: Klotz, David 2016. Get thee behind me, City God! New Kingdom versions of the so-called “Saite Formula”. *Zeitschrift für ägyptische Sprache und Altertumskunde* 143 (2), 204–213. DOI: [10.1515/zaes-2016-0014](https://doi.org/10.1515/zaes-2016-0014).
 
 
 

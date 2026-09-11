@@ -6,6 +6,7 @@
 - updated footer buttons behaviour
 - smaller changes
 - changed order of formulas
+- updated Saiten-Formel
 
 ## 2026-08-27
 
