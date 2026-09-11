@@ -1,4 +1,4 @@
-self.__BUILD_ID = "20260911094646";
+self.__BUILD_ID = "20260911095835";
 
 self.__CORE_URLS = [
   "./assets/branding/Inschriftenschluessel-type.svg",

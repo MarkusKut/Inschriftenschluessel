@@ -2224,19 +2224,31 @@ body.tutorial-embedded main.content {
 
 
 
-
-
 /* ========================================
    Stacked glyphline components
    ======================================== */
+
+.glyphline-stacked {
+  display: block;
+  width: 100%;
+}
+
+
+/* One glyphline row */
 
 .glyphline-part {
   display: flex;
   align-items: flex-start;
 
+  /* Important:
+     allow content to move to the next line
+     instead of overlapping */
+  flex-wrap: wrap;
+
   gap: 0.55rem;
 
   width: 100%;
+  max-width: 100%;
 
   margin: 0.35rem 0 0.8rem;
 }
@@ -2250,7 +2262,9 @@ body.tutorial-embedded main.content {
   align-items: center;
 
   flex: 0 1 auto;
+
   min-width: 0;
+  max-width: 100%;
 }
 
 
@@ -2261,7 +2275,13 @@ body.tutorial-embedded main.content {
   align-items: center;
   justify-content: center;
 
+  /* If several glyphs become too wide,
+     allow them to wrap safely */
+  flex-wrap: wrap;
+
   gap: 0.08rem;
+
+  max-width: 100%;
 
   line-height: 1;
 }
@@ -2272,6 +2292,8 @@ body.tutorial-embedded main.content {
 .glyphline-transcription {
   display: block;
 
+  max-width: 100%;
+
   margin-top: 0.18rem;
 
   font-size: 0.88em;
@@ -2280,6 +2302,12 @@ body.tutorial-embedded main.content {
   text-align: center;
 
   color: var(--bs-secondary-color);
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .glyphline-transcription em {
@@ -2293,20 +2321,50 @@ body.tutorial-embedded main.content {
   display: inline-flex;
   align-items: flex-start;
 
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+
+  min-width: 0;
+  max-width: 100%;
 
   padding-top: 0.1rem;
 }
 
 
+/* Allow badges to wrap instead of overlapping */
 
+.glyphline-slot .badge-slot {
+  display: inline-block;
+
+  max-width: 100%;
+
+  white-space: normal !important;
+
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+
+/* ========================================
+   Mobile
+   ======================================== */
 
 @media (max-width: 576px) {
 
   .glyphline-part {
-    gap: 0.4rem;
+    gap: 0.3rem 0.4rem;
 
     margin-bottom: 0.9rem;
+  }
+
+  .glyphline-sign {
+    max-width: 100%;
+  }
+
+  .glyphline-glyphs {
+    max-width: 100%;
   }
 
   .glyphline-transcription {
@@ -2316,39 +2374,13 @@ body.tutorial-embedded main.content {
   }
 
   .glyphline-slot {
+    flex: 0 1 auto;
+
+    max-width: 100%;
+
     padding-top: 0;
   }
 }
 
 
 
-/* ========================================
-   German hyphenation for glyphlines
-   ======================================== */
-
-.glyphline-part,
-.glyphline-sign,
-.glyphline-slot,
-.glyphline-transcription,
-.glyphline-slot .badge-slot {
-  -webkit-hyphens: auto;
-  hyphens: auto;
-
-  word-break: normal;
-  overflow-wrap: normal;
-}
-
-
-/* Allow slot badges to wrap/hyphenate */
-
-.glyphline-slot {
-  min-width: 0;
-}
-
-.glyphline-slot .badge-slot {
-  display: inline-block;
-
-  white-space: normal !important;
-
-  max-width: 100%;
-}
