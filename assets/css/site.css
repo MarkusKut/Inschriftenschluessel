@@ -325,7 +325,10 @@ img.glyph {
 
 }
 
-
+/* Hide individual footer buttons when required */
+.footer-nav-hidden {
+  display: none !important;
+}
 
 .tableFixHead .table-subheader th {
   text-align: center !important;

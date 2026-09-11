@@ -433,7 +433,119 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
 </div>
 
+
+
 <script>
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+    const homeButton =
+      document.querySelector(
+        ".footer-nav .btn-home"
+      );
+
+    const backButton =
+      document.querySelector(
+        ".footer-nav .btn-back"
+      );
+
+
+    /* ========================================
+       Is this the Home / index page?
+       ======================================== */
+
+    const isHome =
+      document.body.classList.contains(
+        "home-page"
+      );
+
+
+    /* ========================================
+       Has a content page been visited
+       during this session?
+       ======================================== */
+
+    const hasVisitedContentPage =
+      sessionStorage.getItem(
+        "has-visited-content-page"
+      ) === "true";
+
+
+    /* ========================================
+       HOME PAGE
+       ======================================== */
+
+    if (isHome) {
+
+      /*
+       * Home is always unnecessary
+       * while already on Home.
+       */
+      homeButton?.classList.add(
+        "footer-nav-hidden"
+      );
+
+
+      if (hasVisitedContentPage) {
+
+        /*
+         * STATE 3
+         *
+         * Returned to Home:
+         * Back + Offline
+         */
+
+        backButton?.classList.remove(
+          "footer-nav-hidden"
+        );
+
+      } else {
+
+        /*
+         * STATE 1
+         *
+         * First visit:
+         * Offline only
+         */
+
+        backButton?.classList.add(
+          "footer-nav-hidden"
+        );
+      }
+
+
+    /* ========================================
+       CONTENT PAGE
+       ======================================== */
+
+    } else {
+
+      /*
+       * STATE 2
+       *
+       * Content page:
+       * Home + Back + Offline
+       */
+
+      sessionStorage.setItem(
+        "has-visited-content-page",
+        "true"
+      );
+
+      homeButton?.classList.remove(
+        "footer-nav-hidden"
+      );
+
+      backButton?.classList.remove(
+        "footer-nav-hidden"
+      );
+    }
+
+  }
+);
+
 function setZoom(scale) {
   scale = Number(scale) || 1;
 

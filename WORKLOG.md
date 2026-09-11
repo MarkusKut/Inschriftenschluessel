@@ -3,6 +3,7 @@
 ## 2026-09-11
 
 - changed glyphlines appearance
+- updated footer buttons behaviour
 
 ## 2026-08-27
 

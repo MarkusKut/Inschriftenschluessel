@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `643c9a4` **[CSS]** changed glyphlines appearance modified
+
+## 2026-09-11
+
 - `01b3c8f` **[Other]** changed glyphlines appearance
 
 ## 2026-09-11
