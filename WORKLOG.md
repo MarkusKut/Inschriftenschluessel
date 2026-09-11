@@ -2,7 +2,7 @@
 
 ## 2026-09-11
 
-- changes glyphlines appearance
+- changed glyphlines appearance
 
 ## 2026-08-27
 

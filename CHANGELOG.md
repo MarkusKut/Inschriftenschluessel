@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-11
+
+- `68ab82f` **[R code, Templates/Pages, CSS, Data, PWA/Offline]** changed glyphlines appearance
+
 ## 2026-08-27
 
 - `ffe681f` **[Templates/Pages, CSS]** refined tutorial
