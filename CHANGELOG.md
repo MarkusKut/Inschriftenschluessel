@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `5308647` **[Templates/Pages, CSS]** updated footer buttons behaviour
+
+## 2026-09-11
+
 - `643c9a4` **[CSS]** changed glyphlines appearance modified
 
 ## 2026-09-11

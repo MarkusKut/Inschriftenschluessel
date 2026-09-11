@@ -1852,6 +1852,10 @@ body.quarto-dark .footer-offline-button:hover,
   justify-content: center;
 
   width: 100%;
+
+  /* Keep the footer row at button height,
+     even when Home/Back are hidden */
+  min-height: 2.4rem;
 }
 
 /* Keep Home + Back centered */
@@ -1867,10 +1871,27 @@ body.quarto-dark .footer-offline-button:hover,
   right: 1rem;
   top: 50%;
 
+  margin: 0;
+
   transform: translateY(-50%);
 }
 
 
+.footer-nav .footer-offline-button:active {
+  transform:
+    translateY(-50%)
+    scale(0.96);
+}
+
+
+@media (max-width: 768px) {
+
+  .footer-nav .footer-offline-button {
+    right: calc(
+      0.6rem + env(safe-area-inset-right)
+    );
+  }
+}
 
 
 
