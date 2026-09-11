@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `e73bac7` **[Templates/Pages, Data, PWA/Offline]** updated Saiten-Formel
+
+## 2026-09-11
+
 - `7a61259` **[Templates/Pages, Data]** changed order of formulas
 
 ## 2026-09-11
