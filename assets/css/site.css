@@ -2931,8 +2931,7 @@ body.home-page main.content h2 a:focus-visible {
   gap: 0.45rem;
 }
 
-.overview-offline-actions button,
-.overview-offline-compact {
+.overview-offline-actions button {
   padding: 0.45rem 0.7rem;
 
   font: inherit;
@@ -2973,18 +2972,7 @@ body.home-page main.content h2 a:focus-visible {
 }
 
 
-/* Compact permanent version */
 
-.overview-offline-compact {
-  color: var(--bs-body-color);
-  background: transparent;
-
-  border: 1px dashed var(--bs-secondary-color);
-}
-
-.overview-offline-compact:hover {
-  background: var(--bs-tertiary-bg);
-}
 
 
 /* ========================================

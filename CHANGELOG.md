@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `a121314` **[Templates/Pages, CSS]** added offline option to landing page
+
+## 2026-10-07
+
 - `2547072` **[Templates/Pages, CSS]** changed formula header appearance
 
 ## 2026-10-07

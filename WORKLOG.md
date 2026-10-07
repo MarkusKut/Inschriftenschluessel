@@ -9,6 +9,8 @@
 - added menu page for navigation
 - changed appearance of overview page
 - changed formula header appearance
+- added offline option to landing page
+- added footer to landing page
 - small fixes
 
 ## 2026-09-11

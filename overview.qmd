@@ -2,7 +2,6 @@
 body-classes: overview-page
 ---
 
-
 ```{=html}
 <div
   class="overview-offline"
@@ -43,15 +42,6 @@ body-classes: overview-page
     </div>
 
   </div>
-
-
-  <button
-    type="button"
-    class="overview-offline-compact"
-    onclick="openOfflineManager()"
-    hidden>
-    Offline-Nutzung
-  </button>
 
 </div>
 ```
@@ -133,7 +123,7 @@ body-classes: overview-page
 ::: {.glyphline-part}
 
 ::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+[Konig](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
 :::
 
 ::: {.glyphline-item}
@@ -251,7 +241,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [„Historische“ Königsinschrift →](pages/formeln/koenigsinschrift.qmd)
+### [Historische“ Königsinschrift →](pages/formeln/koenigsinschrift.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -434,7 +424,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*ḫft kꜣ⸗f m-bꜣḥ⸗f*
+*ḫft kf m-bꜣḥ⸗f*
 :::
 
 :::
@@ -448,7 +438,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [Anruf an die Lebenden ](pages/formeln/anruf-an-die-lebenden.qmd)
+### [Anruf an die Lebenden →](pages/formeln/anruf-an-die-lebenden.qmd)
 
 
 
@@ -471,7 +461,7 @@ Szenentitel
 ::: {.overview-info-content}
 Mit dem Inschriftenschlüssel, dessen Erstellung die LMU mit Geldern aus dem Fonds zur Förderung der Lehre ermöglicht hat, werden die wesentlichen ägyptischen Inschriftenformulare in strukturierter Weise für Lernende aufbereitet. So wird ein Hilfsmittel für die Lektüre von Originalinschriften geschaffen.
 
-Erfahrungsgemäß fällt der Übergang von der Grammatikphase zur Lektüre und die Konfrontation mit tatsächlichen Inschriften in Ägypten oder im Museum aus verschiedenen Grunden vielen Studierenden schwer. Teils liegt es an ungewohnten Zeichenformen, die eine weit größere Varianz in ihrem Erscheinungsbild aufweisen als die gedruckten Hieroglyphen der Texteditionen; teils liegt es an den Schreibungen oder Wörtern, die in der Sprachausbildung nicht in der Frequenz vorkamen wie in den Inschriften; teils an der vielleicht suboptimalen Erhaltung; teils sind die Denkmäler aber auch einfach aus jüngeren Epochen und enthalten Phänomene, die im Unterricht noch nicht vorkamen, da sie für das Mittel- oder Altägyptische noch nicht relevant sind, die aber aufgrund der Häufigkeit jüngerer Inschriften in einem Museum prominenter sind.
+Erfahrungsgemäß fällt der Übergang von der Grammatikphase zur Lektüre und die Konfrontation mit tatsächlichen Inschriften in Ägypten oder im Museum aus verschiedenen Gründen vielen Studierenden schwer. Teils liegt es an ungewohnten Zeichenformen, die eine weit größere Varianz in ihrem Erscheinungsbild aufweisen als die gedruckten Hieroglyphen der Texteditionen; teils liegt es an den Schreibungen oder Wörtern, die in der Sprachausbildung nicht in der Frequenz vorkamen wie in den Inschriften; teils an der vielleicht suboptimalen Erhaltung; teils sind die Denkmäler aber auch einfach aus jüngeren Epochen und enthalten Phänomene, die im Unterricht noch nicht vorkamen, da sie für das Mittel- oder Altägyptische noch nicht relevant sind, die aber aufgrund der Häufigkeit jüngerer Inschriften in einem Museum prominenter sind.
 
 Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
 
@@ -502,12 +492,55 @@ Iulia Comşa, Friedhelm Hoffmann, Markus Kutschka
 :::
 
 
+```{=html}
+<div class="footer-nav" id="footer-nav">
+
+  <div class="nav-buttons">
+
+    <a
+      href="menu.html"
+      class="btn-home">
+      Home
+    </a>
+
+    <button
+      type="button"
+      class="btn-back"
+      onclick="
+        if (
+          document.referrer &&
+          document.referrer !== window.location.href
+        ) {
+          history.back();
+        } else {
+          window.location.href = 'index.html';
+        }
+      ">
+      ← Zurück
+    </button>
+
+    <button
+      type="button"
+      class="footer-nav-button footer-offline-button"
+      onclick="openOfflineManager()">
+      Offline
+    </button>
+
+  </div>
+
+</div>
+```
+
 
 ```{=html}
 <script>
 document.addEventListener(
   "DOMContentLoaded",
   function () {
+
+    /* ========================================
+       Information expand / collapse
+       ======================================== */
 
     const box =
       document.querySelector(
@@ -519,32 +552,32 @@ document.addEventListener(
         ".overview-expand-button"
       );
 
-    if (!box || !button) {
-      return;
-    }
+    if (box && button) {
 
-    button.addEventListener(
-      "click",
-      function () {
+      button.addEventListener(
+        "click",
+        function () {
 
-        const expanded =
-          box.classList.toggle(
-            "expanded"
+          const expanded =
+            box.classList.toggle(
+              "expanded"
+            );
+
+          button.setAttribute(
+            "aria-expanded",
+            String(expanded)
           );
 
-        button.setAttribute(
-          "aria-expanded",
-          String(expanded)
-        );
+          button.textContent =
+            expanded
+              ? "Weniger anzeigen"
+              : "Mehr anzeigen";
+        }
+      );
+    }
 
-        button.textContent =
-          expanded
-            ? "Weniger anzeigen"
-            : "Mehr anzeigen";
-      }
-    );
-    
-        /* ========================================
+
+    /* ========================================
        Offline introduction
        ======================================== */
 
@@ -553,31 +586,23 @@ document.addEventListener(
         "overview-offline"
       );
 
-    const offlineMain =
-      offlineBox?.querySelector(
-        ".overview-offline-main"
-      );
-
-    const offlineCompact =
-      offlineBox?.querySelector(
-        ".overview-offline-compact"
-      );
-
     const OFFLINE_INTRO_KEY =
       "offline-intro-seen";
 
 
-    function showCompactOffline() {
+    function hideOfflineIntro() {
 
-      if (offlineMain) {
-        offlineMain.hidden = true;
-      }
-
-      if (offlineCompact) {
-        offlineCompact.hidden = false;
+      if (offlineBox) {
+        offlineBox.hidden = true;
       }
     }
 
+
+    /*
+     * If the introduction has already
+     * been dealt with once, don't show
+     * it again.
+     */
 
     if (
       localStorage.getItem(
@@ -585,9 +610,14 @@ document.addEventListener(
       ) === "true"
     ) {
 
-      showCompactOffline();
+      hideOfflineIntro();
     }
 
+
+    /*
+     * User chooses to configure
+     * offline use.
+     */
 
     window.openOverviewOfflineManager =
       function () {
@@ -597,7 +627,7 @@ document.addEventListener(
           "true"
         );
 
-        showCompactOffline();
+        hideOfflineIntro();
 
         if (
           typeof window.openOfflineManager ===
@@ -608,6 +638,14 @@ document.addEventListener(
       };
 
 
+    /*
+     * User chooses "Später".
+     *
+     * The introduction disappears,
+     * but Offline remains permanently
+     * accessible through the footer.
+     */
+
     window.dismissOverviewOffline =
       function () {
 
@@ -616,7 +654,7 @@ document.addEventListener(
           "true"
         );
 
-        showCompactOffline();
+        hideOfflineIntro();
       };
 
   }
