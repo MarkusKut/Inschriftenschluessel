@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `2547072` **[Templates/Pages, CSS]** changed formula header appearance
+
+## 2026-10-07
+
 - `48ac8ec` **[Templates/Pages, CSS]** changed appearance of overview page
 
 ## 2026-10-07

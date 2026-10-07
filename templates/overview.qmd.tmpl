@@ -3,6 +3,60 @@ body-classes: overview-page
 ---
 
 
+```{=html}
+<div
+  class="overview-offline"
+  id="overview-offline"
+>
+
+  <div class="overview-offline-main">
+
+    <div class="overview-offline-text">
+
+      <strong>
+        Offline nutzen
+      </strong>
+
+      <span>
+        Der Inschriftenschlüssel kann vollständig
+        für die Offline-Nutzung gespeichert werden.
+      </span>
+
+    </div>
+
+    <div class="overview-offline-actions">
+
+      <button
+        type="button"
+        class="overview-offline-open"
+        onclick="openOverviewOfflineManager()">
+        Offline einrichten
+      </button>
+
+      <button
+        type="button"
+        class="overview-offline-later"
+        onclick="dismissOverviewOffline()">
+        Später
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <button
+    type="button"
+    class="overview-offline-compact"
+    onclick="openOfflineManager()"
+    hidden>
+    Offline-Nutzung
+  </button>
+
+</div>
+```
+
+
 ## Formeln
 
 ::: {.formula-preview-slider}
@@ -87,6 +141,81 @@ document.addEventListener(
             : "Mehr anzeigen";
       }
     );
+    
+        /* ========================================
+       Offline introduction
+       ======================================== */
+
+    const offlineBox =
+      document.getElementById(
+        "overview-offline"
+      );
+
+    const offlineMain =
+      offlineBox?.querySelector(
+        ".overview-offline-main"
+      );
+
+    const offlineCompact =
+      offlineBox?.querySelector(
+        ".overview-offline-compact"
+      );
+
+    const OFFLINE_INTRO_KEY =
+      "offline-intro-seen";
+
+
+    function showCompactOffline() {
+
+      if (offlineMain) {
+        offlineMain.hidden = true;
+      }
+
+      if (offlineCompact) {
+        offlineCompact.hidden = false;
+      }
+    }
+
+
+    if (
+      localStorage.getItem(
+        OFFLINE_INTRO_KEY
+      ) === "true"
+    ) {
+
+      showCompactOffline();
+    }
+
+
+    window.openOverviewOfflineManager =
+      function () {
+
+        localStorage.setItem(
+          OFFLINE_INTRO_KEY,
+          "true"
+        );
+
+        showCompactOffline();
+
+        if (
+          typeof window.openOfflineManager ===
+          "function"
+        ) {
+          window.openOfflineManager();
+        }
+      };
+
+
+    window.dismissOverviewOffline =
+      function () {
+
+        localStorage.setItem(
+          OFFLINE_INTRO_KEY,
+          "true"
+        );
+
+        showCompactOffline();
+      };
 
   }
 );

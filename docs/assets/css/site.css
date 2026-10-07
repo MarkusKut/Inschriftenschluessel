@@ -2863,3 +2863,148 @@ body.home-page main.content h2 a:focus-visible {
 
   border-radius: 0.2rem;
 }
+
+
+
+
+
+/* ========================================
+   Overview — Offline introduction
+   ======================================== */
+
+.overview-offline {
+  margin: 0.5rem 0 1.8rem;
+}
+
+
+/* Prominent first-use card */
+
+.overview-offline-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  padding: 0.9rem 1rem;
+
+  color: var(--bs-body-color);
+  background: var(--bs-tertiary-bg);
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.7rem;
+}
+
+
+/* Text */
+
+.overview-offline-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.2rem;
+
+  min-width: 0;
+}
+
+.overview-offline-text strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.overview-offline-text span {
+  color: var(--bs-secondary-color);
+
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+
+/* Actions */
+
+.overview-offline-actions {
+  display: flex;
+  align-items: center;
+
+  flex: 0 0 auto;
+
+  gap: 0.45rem;
+}
+
+.overview-offline-actions button,
+.overview-offline-compact {
+  padding: 0.45rem 0.7rem;
+
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  border-radius: 0.4rem;
+
+  cursor: pointer;
+}
+
+
+/* Main Offline button */
+
+.overview-offline-open {
+  color: #fff;
+  background: var(--bs-primary);
+
+  border: 1px solid var(--bs-primary);
+}
+
+.overview-offline-open:hover {
+  filter: brightness(0.92);
+}
+
+
+/* "Später" */
+
+.overview-offline-later {
+  color: var(--bs-body-color);
+  background: transparent;
+
+  border: 1px solid var(--bs-border-color);
+}
+
+.overview-offline-later:hover {
+  background: var(--bs-secondary-bg);
+}
+
+
+/* Compact permanent version */
+
+.overview-offline-compact {
+  color: var(--bs-body-color);
+  background: transparent;
+
+  border: 1px dashed var(--bs-secondary-color);
+}
+
+.overview-offline-compact:hover {
+  background: var(--bs-tertiary-bg);
+}
+
+
+/* ========================================
+   Mobile
+   ======================================== */
+
+@media (max-width: 576px) {
+
+  .overview-offline-main {
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0.75rem;
+  }
+
+  .overview-offline-actions {
+    width: 100%;
+  }
+
+  .overview-offline-actions button {
+    flex: 1 1 0;
+  }
+}
