@@ -1,5 +1,9 @@
 # Worklog
 
+## 2026-10-07
+
+- changed appearance of formula glyphlines
+
 ## 2026-09-11
 
 - changed glyphlines appearance

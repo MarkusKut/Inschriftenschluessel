@@ -116,10 +116,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}
@@ -135,10 +131,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ::: {.glyphline-item}
 [Gottheit](../slots/gottheit.qmd){.badge-slot .badge-gottheit}
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-item}
 <b>Tat</b>

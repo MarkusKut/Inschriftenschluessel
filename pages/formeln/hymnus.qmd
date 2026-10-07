@@ -132,10 +132,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}
@@ -163,10 +159,6 @@ document.addEventListener("DOMContentLoaded", function() {
 :::
 
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-sign}
 

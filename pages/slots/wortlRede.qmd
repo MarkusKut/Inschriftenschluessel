@@ -142,10 +142,6 @@ document.addEventListener("DOMContentLoaded", function() {
 [Person](../slots/person.qmd){.badge-slot .badge-person}
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}

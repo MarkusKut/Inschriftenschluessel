@@ -2,6 +2,10 @@
 
 ## 2026-09-11
 
+- `b7defb0` **[Templates/Pages, Data]** updated Saiten-Formel
+
+## 2026-09-11
+
 - `e73bac7` **[Templates/Pages, Data, PWA/Offline]** updated Saiten-Formel
 
 ## 2026-09-11

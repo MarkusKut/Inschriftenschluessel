@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function() {
 :::
 
 ::: {.glyphline-transcription}
-*ḥtp-di-nsw*
+*ḥtp-di-nsw*
 :::
 
 :::
@@ -244,10 +244,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ::: {.glyphline-item}
 [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-sign}
 
@@ -264,10 +260,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ::: {.glyphline-item}
 [Gaben](pages/slots/gaben.qmd){.badge-slot .badge-gaben}
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-sign}
 
@@ -291,14 +283,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
 
 ::: {.glyphline-stacked}
 
 ::: {.glyphline-part}
 
 ::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
 :::
 
 ::: {.glyphline-item}
@@ -323,14 +315,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
+## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
 
 ::: {.glyphline-stacked}
 
 ::: {.glyphline-part}
 
 ::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
 :::
 
 ::: {.glyphline-item}
@@ -353,10 +345,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}
@@ -372,10 +360,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ::: {.glyphline-item}
 [Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-item}
 <b>Tat</b>
@@ -402,11 +386,11 @@ Szenentitel
 :::
 
 ::: {.glyphline-item}
-[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
+[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
 :::
 
 ::: {.glyphline-item}
-[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
 :::
 
 :::
@@ -415,7 +399,7 @@ Szenentitel
 
 
 
-## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -432,13 +416,13 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*ḫr ḥm n*
+*ḫr ḥm n*
 :::
 
 :::
 
 ::: {.glyphline-item}
-[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
 :::
 
 ::: {.glyphline-item}
@@ -497,10 +481,6 @@ Szenentitel
 
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}
@@ -524,14 +504,10 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*ḏd⸗f*
+*ḏd⸗f*
 :::
 
 :::
-
-:::
-
-::: {.glyphline-part}
 
 ::: {.glyphline-sign}
 
@@ -540,7 +516,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
+*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
 :::
 
 :::
@@ -550,7 +526,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-item}
-<b>Lobpreisungen für Gottheit</b>
+<b>Lobpreisungen für Gottheit</b>
 :::
 
 :::
@@ -559,7 +535,7 @@ Szenentitel
 
 
 
-## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
+## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -572,7 +548,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*nṯr-nw.tj* (*n*)
+*nṯr-nw.tj* (*n*)
 :::
 
 :::
@@ -588,7 +564,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*di.tw ḥꜣ⸗f*
+*di.tw ḥꜣ⸗f*
 :::
 
 :::
@@ -600,7 +576,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*ḫft kꜣ⸗f m-bꜣḥ⸗f*
+*ḫft kꜣ⸗f m-bꜣḥ⸗f*
 :::
 
 :::

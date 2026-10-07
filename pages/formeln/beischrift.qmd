@@ -220,10 +220,6 @@ im Infinitiv, der die dargestellte Tätigkeit bezeichnet
 [Person](../slots/person.qmd){.badge-slot .badge-person}
 :::
 
-:::
-
-::: {.glyphline-part}
-
 ::: {.glyphline-sign}
 
 ::: {.glyphline-glyphs}
