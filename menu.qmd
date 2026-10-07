@@ -1,0 +1,595 @@
+---
+title: ""
+body-classes: home-page
+---
+
+```{=html}
+<div class="footer-nav" id="footer-nav">
+  <div class="nav-buttons">
+    <a href="/menu.html" class="btn-home">Home</a>
+    <button onclick="
+      if (document.referrer && document.referrer !== window.location.href) {
+        history.back();
+      } else {
+        window.location.href = '/menu.html';
+      }
+    " class="btn-back">← Zurück</button>
+   <button
+  type="button"
+  class="footer-nav-button footer-offline-button"
+  onclick="openOfflineManager()">
+  Offline
+</button>
+  </div>
+</div>
+
+
+
+<div class="zoom-controls">
+  <button
+    type="button"
+    data-scale="0.9"
+    onclick="setZoom(0.9)"
+  >A−</button>
+
+  <button
+    type="button"
+    data-scale="1"
+    onclick="setZoom(1)"
+  >A</button>
+
+  <button
+    type="button"
+    data-scale="1.2"
+    onclick="setZoom(1.2)"
+  >A+</button>
+</div>
+
+<script>
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+    const homeButton =
+      document.querySelector(
+        ".footer-nav .btn-home"
+      );
+
+    const backButton =
+      document.querySelector(
+        ".footer-nav .btn-back"
+      );
+
+
+    /* ========================================
+       Is this the Home / index page?
+       ======================================== */
+
+    const isHome =
+      document.body.classList.contains(
+        "home-page"
+      );
+
+
+    /* ========================================
+       Has a content page been visited
+       during this session?
+       ======================================== */
+
+    const hasVisitedContentPage =
+      sessionStorage.getItem(
+        "has-visited-content-page"
+      ) === "true";
+
+
+    /* ========================================
+       HOME PAGE
+       ======================================== */
+
+    if (isHome) {
+
+      /*
+       * Home is always unnecessary
+       * while already on Home.
+       */
+      homeButton?.classList.add(
+        "footer-nav-hidden"
+      );
+
+
+      if (hasVisitedContentPage) {
+
+        /*
+         * STATE 3
+         *
+         * Returned to Home:
+         * Back + Offline
+         */
+
+        backButton?.classList.remove(
+          "footer-nav-hidden"
+        );
+
+      } else {
+
+        /*
+         * STATE 1
+         *
+         * First visit:
+         * Offline only
+         */
+
+        backButton?.classList.add(
+          "footer-nav-hidden"
+        );
+      }
+
+
+    /* ========================================
+       CONTENT PAGE
+       ======================================== */
+
+    } else {
+
+      /*
+       * STATE 2
+       *
+       * Content page:
+       * Home + Back + Offline
+       */
+
+      sessionStorage.setItem(
+        "has-visited-content-page",
+        "true"
+      );
+
+      homeButton?.classList.remove(
+        "footer-nav-hidden"
+      );
+
+      backButton?.classList.remove(
+        "footer-nav-hidden"
+      );
+    }
+
+  }
+);
+
+function setZoom(scale) {
+  scale = Number(scale) || 1;
+
+  const root = document.documentElement;
+
+  const baseFontSize = 16;
+  const baseGlyphHeight = 30;
+  const baseGlyphRowGap = 7.2;
+
+  root.style.setProperty(
+    "--base-scale",
+    String(scale)
+  );
+
+  root.style.setProperty(
+    "--site-font-size",
+    `${baseFontSize * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-height",
+    `${baseGlyphHeight * scale}px`
+  );
+
+  root.style.setProperty(
+    "--glyph-row-gap",
+    `${baseGlyphRowGap * scale}px`
+  );
+
+  localStorage.setItem(
+    "site-zoom",
+    String(scale)
+  );
+
+  document
+    .querySelectorAll(".zoom-controls button")
+    .forEach(button => {
+      button.classList.toggle(
+        "active",
+        Number(button.dataset.scale) === scale
+      );
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const saved = Number(
+    localStorage.getItem("site-zoom") || 1
+  );
+
+  setZoom(saved);
+
+  const cls = document.querySelector(
+    'meta[name="slot-title-class"]'
+  )?.content;
+
+  const title = document.querySelector("h1.title");
+
+  if (cls && title) {
+    title.classList.add(cls);
+  }
+});
+</script>
+```
+
+
+
+
+## [Opferformel](pages/formeln/opferformel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḥtp-di-nsw*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+(*di*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gaben](pages/slots/gaben.qmd){.badge-slot .badge-gaben}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*n* / *n kꜣ n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+:::
+
+:::
+
+
+
+## [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*mry*
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+## [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+/
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ir.n⸗f mn.w⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*n it / mw.t⸗f*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-item}
+<b>Tat</b>
+:::
+
+:::
+
+:::
+
+
+
+## [Beischrift](pages/formeln/beischrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+Beziehung
+:::
+
+::: {.glyphline-item}
+Szenentitel
+:::
+
+::: {.glyphline-item}
+[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
+:::
+
+::: {.glyphline-item}
+[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+:::
+
+:::
+
+:::
+
+
+
+## [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫr ḥm n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+<b>[narrativer Text]</b>
+:::
+
+:::
+
+:::
+
+
+
+## [Hymnus](pages/formeln/hymnus.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*dwꜣ*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*rdi.t iꜣw*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*sn tꜣ n*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*in*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḏd⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-item}
+<b>Lobpreisungen für Gottheit</b>
+:::
+
+:::
+
+:::
+
+
+
+## [Saïten-Formel](pages/formeln/saiten-formel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/01_nTr-njw.t-n/0001_nTr-nwj.t_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*nṯr-nw.tj* (*n*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0001_dj.tw-HA=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*di.tw ḥꜣ⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/03_xft-kA=f-m-bAH=f/0001_xft-kA=f-m-bAH=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫft kꜣ⸗f m-bꜣḥ⸗f*
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+## [Anruf an die Lebenden](pages/formeln/anruf-an-die-lebenden.qmd)
+
+
+
+
+

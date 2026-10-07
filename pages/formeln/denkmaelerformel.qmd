@@ -246,12 +246,12 @@ Grallert, Silke 2001. Bauen - Stiften - Weihen: ägyptische Bau- und Restaurieru
 ```{=html}
 <div class="footer-nav" id="footer-nav">
   <div class="nav-buttons">
-    <a href="/index.html" class="btn-home">Home</a>
+    <a href="/menu.html" class="btn-home">Home</a>
     <button onclick="
       if (document.referrer && document.referrer !== window.location.href) {
         history.back();
       } else {
-        window.location.href = '/index.html';
+        window.location.href = '/menu.html';
       }
     " class="btn-back">← Zurück</button>
     <button

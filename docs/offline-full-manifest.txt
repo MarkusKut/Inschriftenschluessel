@@ -755,6 +755,7 @@
 ./index.html
 ./info.html
 ./installieren.html
+./menu.html
 ./offline.html
 ./pages/formeln/anruf-an-die-lebenden.html
 ./pages/formeln/beischrift.html

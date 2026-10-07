@@ -62,7 +62,7 @@ gen_landing <- function(content) {
   cards_list <- lapply(seq_len(nrow(cards)), function(i) as.list(cards[i, , drop = FALSE]))
   
   out <- whisker.render(tmpl, list(cards = cards_list))
-  write_qmd("index.qmd", out)
+  write_qmd("menu.qmd", out)
 }
 
 gen_formula_pages <- function(content) {
