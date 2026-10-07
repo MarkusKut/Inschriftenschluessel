@@ -1,9 +1,12 @@
 # Worklog
 
+
+
 ## 2026-10-07
 
 - changed appearance of formula glyphlines
 - added starting page
+- added menu page for navigation
 
 ## 2026-09-11
 

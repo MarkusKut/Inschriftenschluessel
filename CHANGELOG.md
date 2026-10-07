@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `a6c9d87` **[R code, Templates/Pages, CSS, PWA/Offline]** added menu page for navigation
+
+## 2026-10-07
+
 - `ec4cbca` **[R code, Templates/Pages, CSS, PWA/Offline]** added starting page
 
 ## 2026-10-07
