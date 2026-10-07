@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `c9d6e09` **[Other]** optimised touch behaviour
+
+## 2026-10-07
+
 - `39f8827` **[Templates/Pages, CSS]** optimised touch behaviour
 
 ## 2026-10-07
