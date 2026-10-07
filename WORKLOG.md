@@ -7,6 +7,8 @@
 - changed appearance of formula glyphlines
 - added starting page
 - added menu page for navigation
+- changed appearance of overview page
+- small fixes
 
 ## 2026-09-11
 

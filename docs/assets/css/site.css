@@ -2708,13 +2708,51 @@ body.quarto-dark .entry-logo-dark,
   font-size: 1rem;
 }
 
+/* ========================================
+   Clickable formula headings
+   ======================================== */
+
 .formula-preview-card h3 a {
-  color: var(--bs-body-color);
+  display: inline-flex;
+  align-items: center;
+
+  color: var(--bs-link-color);
+
+  font-weight: 600;
   text-decoration: none;
+
+  cursor: pointer;
 }
+
+
+/* Suppress arrows/icons added by other CSS */
+
+.formula-preview-card h3 a::before,
+.formula-preview-card h3 a::after,
+.formula-preview-card h3::before,
+.formula-preview-card h3::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* Hover */
 
 .formula-preview-card h3 a:hover {
   color: var(--bs-link-color);
+
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+
+/* Keyboard accessibility */
+
+.formula-preview-card h3 a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+
+  border-radius: 0.2rem;
 }
 
 

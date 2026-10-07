@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `9ed52be` **[Other]** small fixes
+
+## 2026-10-07
+
 - `01b2be1` **[Other]** added menu page for navigation
 
 ## 2026-10-07

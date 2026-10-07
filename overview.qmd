@@ -9,7 +9,7 @@ body-classes: overview-page
 
 ::: {.formula-preview-card}
 
-### [Opferformel](pages/formeln/opferformel.qmd)
+### [Opferformel →](pages/formeln/opferformel.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -72,7 +72,7 @@ body-classes: overview-page
 :::
 ::: {.formula-preview-card}
 
-### [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+### [König-geliebt-von-Gottheit-Formel →](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -107,7 +107,7 @@ body-classes: overview-page
 :::
 ::: {.formula-preview-card}
 
-### [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
+### [Denkmälerformel →](pages/formeln/denkmaelerformel.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -166,7 +166,7 @@ body-classes: overview-page
 :::
 ::: {.formula-preview-card}
 
-### [Beischrift](pages/formeln/beischrift.qmd)
+### [Beischrift →](pages/formeln/beischrift.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -181,7 +181,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-item}
-[Wortliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
+[Wörtliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
 :::
 
 ::: {.glyphline-item}
@@ -197,7 +197,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+### [„Historische“ Königsinschrift →](pages/formeln/koenigsinschrift.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -236,7 +236,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [Hymnus](pages/formeln/hymnus.qmd)
+### [Hymnus →](pages/formeln/hymnus.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -317,7 +317,7 @@ Szenentitel
 :::
 
 ::: {.glyphline-transcription}
-*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
+*inḏ-ḥr⸗k* / *⸗ṯ* / *tn*
 :::
 
 :::
@@ -339,7 +339,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [Saïten-Formel](pages/formeln/saiten-formel.qmd)
+### [Saïten-Formel →](pages/formeln/saiten-formel.qmd)
 
 ::: {.glyphline-stacked}
 
@@ -394,7 +394,7 @@ Szenentitel
 :::
 ::: {.formula-preview-card}
 
-### [Anruf an die Lebenden](pages/formeln/anruf-an-die-lebenden.qmd)
+### [Anruf an die Lebenden →](pages/formeln/anruf-an-die-lebenden.qmd)
 
 
 
@@ -423,7 +423,7 @@ Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie 
 
 Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
 
-Der Inschriftenschlüssel soll einen Uberblick über die Grundtypen von Inschriften, die in ihnen vorgesehenen Elemente und die häufigsten Ausdrücke, die zur Ausfüllung dieser Positionen in Frage kommen, geben. Das soll in einer Weise geschehen, die strikt den Unterschied zwischen Inschriftentyp, den damit verbundenen Formularen und ihren Leerstellen sowie den konkreten Ausdrücken, die an einer Stelle stehen können, deutlich macht und zugleich je nach Epoche auch typische Schreibungen der für das Formular und seine Erkennbarkeit wichtigen Einzelwörter zeigt.
+Der Inschriftenschlüssel soll einen Überblick über die Grundtypen von Inschriften, die in ihnen vorgesehenen Elemente und die häufigsten Ausdrücke, die zur Ausfüllung dieser Positionen in Frage kommen, geben. Das soll in einer Weise geschehen, die strikt den Unterschied zwischen Inschriftentyp, den damit verbundenen Formularen und ihren Leerstellen sowie den konkreten Ausdrücken, die an einer Stelle stehen können, deutlich macht und zugleich je nach Epoche auch typische Schreibungen der für das Formular und seine Erkennbarkeit wichtigen Einzelwörter zeigt.
 
 Der Inschriftenschlüssel erinnert also zunächst an die häufigsten Formulare und ihren Aufbau und stellt dann die Elemente („Slots“) vor, also über alle Inschriftentypen hinweg im Wesentlichen [Gottheit](pages/slots/gottheit.qmd){.slot-link .slot-gottheit}, [König](pages/slots/koenig.qmd){.slot-link .slot-k-nig}, [Gaben](pages/slots/gaben.qmd){.slot-link .slot-gaben} und [Person](pages/slots/person.qmd){.slot-link .slot-person}. Die Kenntnis der Inschriftenformulare stellt sicher, dass man stets weiß, wo in der Inschrift man sich gerade befindet, dass das Wort, auf das man nicht kommt, z. B. ein Götterepitheton sein muss etc., und verhindert „Flächenschäden“ im Textverständnis, aus denen man nicht mehr herausfindet.
 
