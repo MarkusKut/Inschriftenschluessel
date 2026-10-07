@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `01b2be1` **[Other]** added menu page for navigation
+
+## 2026-10-07
+
 - `a7d3dbe` **[Data]** added menu page for navigation
 
 ## 2026-10-07

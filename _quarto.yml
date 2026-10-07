@@ -20,15 +20,17 @@ website:
   back-to-top-navigation: true
   navbar:
     title: false
-    logo-href: /Inschriftenschluessel/menu.html
+    logo-href: menu.html
     search: true
     tools-collapse: false
     pinned: true
     left:
+      - href: overview.qmd
+        text: "Start"
+      - href: menu.qmd
+        text: "Formeln"
       - href: pages/info.qmd
         text: "Information"
-      - href: pages/seltenHierogl.qmd
-        text: "Seltene Hierogylphen"
       - href: pages/projekt.qmd
         text: "Projekt"
 
