@@ -737,107 +737,103 @@ document.addEventListener(
   "DOMContentLoaded",
   function () {
 
-    const homeButton =
-      document.querySelector(
-        ".footer-nav .btn-home"
-      );
+   /* ========================================
+   Footer navigation state
+   ======================================== */
 
-    const backButton =
-      document.querySelector(
-        ".footer-nav .btn-back"
-      );
+const homeButton =
+  document.querySelector(
+    ".footer-nav .btn-home"
+  );
 
-
-    /* ========================================
-       Is this the Home / index page?
-       ======================================== */
-
-    const isHome =
-      document.body.classList.contains(
-        "home-page"
-      );
+const backButton =
+  document.querySelector(
+    ".footer-nav .btn-back"
+  );
 
 
-    /* ========================================
-       Has a content page been visited
-       during this session?
-       ======================================== */
-
-    const hasVisitedContentPage =
-      sessionStorage.getItem(
-        "has-visited-content-page"
-      ) === "true";
-
-
-    /* ========================================
-       HOME PAGE
-       ======================================== */
-
-    if (isHome) {
-
-      /*
-       * Home is always unnecessary
-       * while already on Home.
-       */
-      homeButton?.classList.add(
-        "footer-nav-hidden"
-      );
+/*
+ * overview.qmd is now the first
+ * functional page of the site.
+ */
+const isOverview =
+  document.body.classList.contains(
+    "overview-page"
+  );
 
 
-      if (hasVisitedContentPage) {
-
-        /*
-         * STATE 3
-         *
-         * Returned to Home:
-         * Back + Offline
-         */
-
-        backButton?.classList.remove(
-          "footer-nav-hidden"
-        );
-
-      } else {
-
-        /*
-         * STATE 1
-         *
-         * First visit:
-         * Offline only
-         */
-
-        backButton?.classList.add(
-          "footer-nav-hidden"
-        );
-      }
+/*
+ * Has the user already left the overview
+ * page during this browser/app session?
+ */
+const hasVisitedContentPage =
+  sessionStorage.getItem(
+    "has-visited-content-page"
+  ) === "true";
 
 
-    /* ========================================
-       CONTENT PAGE
-       ======================================== */
+if (isOverview) {
 
-    } else {
+  if (!hasVisitedContentPage) {
 
-      /*
-       * STATE 2
-       *
-       * Content page:
-       * Home + Back + Offline
-       */
+    /*
+     * STATE 1
+     *
+     * First arrival on overview:
+     * only Offline remains visible.
+     */
 
-      sessionStorage.setItem(
-        "has-visited-content-page",
-        "true"
-      );
+    homeButton?.classList.add(
+      "footer-nav-hidden"
+    );
 
-      homeButton?.classList.remove(
-        "footer-nav-hidden"
-      );
+    backButton?.classList.add(
+      "footer-nav-hidden"
+    );
 
-      backButton?.classList.remove(
-        "footer-nav-hidden"
-      );
-    }
+  } else {
+
+    /*
+     * STATE 3
+     *
+     * User returned to overview:
+     * Home + Back + Offline.
+     */
+
+    homeButton?.classList.remove(
+      "footer-nav-hidden"
+    );
+
+    backButton?.classList.remove(
+      "footer-nav-hidden"
+    );
+  }
+
+} else {
+
+  /*
+   * STATE 2
+   *
+   * Any page after overview:
+   * Home + Back + Offline.
+   *
+   * Also remember that the user has now
+   * moved beyond the overview.
+   */
+
+  sessionStorage.setItem(
+    "has-visited-content-page",
+    "true"
+  );
+
+  homeButton?.classList.remove(
+    "footer-nav-hidden"
+  );
+
+  backButton?.classList.remove(
+    "footer-nav-hidden"
+  );
+}
 
   }
 );

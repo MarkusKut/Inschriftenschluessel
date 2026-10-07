@@ -11,6 +11,7 @@
 - changed formula header appearance
 - added offline option to landing page
 - added footer to landing page
+- changed footer behaviour for first visit on overview page
 - small fixes
 
 ## 2026-09-11

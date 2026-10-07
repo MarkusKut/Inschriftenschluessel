@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `1028397` **[Templates/Pages, CSS]** added footer to landing page
+
+## 2026-10-07
+
 - `a121314` **[Templates/Pages, CSS]** added offline option to landing page
 
 ## 2026-10-07
