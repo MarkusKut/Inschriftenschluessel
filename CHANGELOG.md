@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `48ac8ec` **[Templates/Pages, CSS]** changed appearance of overview page
+
+## 2026-10-07
+
 - `9ed52be` **[Other]** small fixes
 
 ## 2026-10-07

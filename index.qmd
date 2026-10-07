@@ -7,7 +7,7 @@ body-classes: entry-page
 
 ::: {.entry-inner}
 
-![](assets/branding/Inschriftenschluessel-type.svg){.entry-logo .entry-logo-light}
+![](assets/branding/Inschriftenschluesselv2-w-logo-col.svg){.entry-logo .entry-logo-light}
 
 ![](assets/branding/Inschriftenschluesselv2-w-logo-col_inverted.svg){.entry-logo .entry-logo-dark}
 

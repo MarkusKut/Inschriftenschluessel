@@ -2716,7 +2716,7 @@ body.quarto-dark .entry-logo-dark,
   display: inline-flex;
   align-items: center;
 
-  color: var(--bs-link-color);
+  color: var(--bs-body-color);
 
   font-weight: 600;
   text-decoration: none;
@@ -2724,6 +2724,12 @@ body.quarto-dark .entry-logo-dark,
   cursor: pointer;
 }
 
+.formula-preview-card h3 a:hover {
+  color: var(--bs-body-color);
+
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
 
 /* Suppress arrows/icons added by other CSS */
 
@@ -2800,4 +2806,60 @@ body.quarto-dark .entry-logo-dark,
   .formula-preview-card {
     flex-basis: 22rem;
   }
+}
+
+
+
+
+
+/* ========================================
+   Clickable formula headings — menu page
+   ======================================== */
+
+body.home-page main.content h2 a {
+  display: inline-flex;
+  align-items: center;
+
+  color: var(--bs-body-color);
+
+  font-weight: 600;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+body.home-page main.content h2 a:hover {
+  color: var(--bs-body-color);
+
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+/* Prevent another arrow/icon from being
+   added by existing hover CSS */
+
+body.home-page main.content h2 a::before,
+body.home-page main.content h2 a::after {
+  content: none !important;
+  display: none !important;
+}
+
+
+/* Hover */
+
+body.home-page main.content h2 a:hover {
+  color: var(--bs-link-color);
+
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+
+/* Keyboard accessibility */
+
+body.home-page main.content h2 a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+
+  border-radius: 0.2rem;
 }
