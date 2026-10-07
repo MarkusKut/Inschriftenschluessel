@@ -2996,3 +2996,94 @@ body.home-page main.content h2 a:focus-visible {
     flex: 1 1 0;
   }
 }
+
+
+
+
+
+/* ========================================
+   Touch / mobile interaction
+   ======================================== */
+
+/*
+ * Make links and buttons respond directly
+ * to taps instead of waiting for possible
+ * double-tap gestures.
+ */
+a,
+button,
+[role="button"] {
+  touch-action: manipulation;
+}
+
+
+/*
+ * Hover effects should only run on devices
+ * that actually have a mouse/trackpad.
+ */
+@media (hover: hover) and (pointer: fine) {
+
+  .formula-preview-card h3 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  body.home-page main.content h2 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  .overview-formula-link:hover {
+    background: var(--bs-secondary-bg);
+  }
+
+  .entry-menu-button:hover {
+    background: var(--bs-secondary-bg);
+  }
+
+  .overview-expand-button:hover {
+    text-decoration: underline;
+  }
+
+  .footer-offline-button:hover {
+    background: var(--bs-secondary-bg);
+  }
+
+  .badge-slot:hover {
+    /* keep whatever hover styling you currently want */
+  }
+
+}
+
+
+
+@media (hover: none), (pointer: coarse) {
+
+  a,
+  button,
+  [role="button"] {
+    -webkit-tap-highlight-color:
+      rgba(127, 127, 127, 0.18);
+  }
+
+  a:active,
+  button:active,
+  [role="button"]:active {
+    opacity: 0.75;
+  }
+}
+
+
+@media (pointer: coarse) {
+
+  .formula-preview-card h3 a,
+  body.home-page main.content h2 a,
+  .overview-formula-link,
+  .overview-expand-button {
+    min-height: 2.75rem;
+
+    display: inline-flex;
+    align-items: center;
+  }
+
+}

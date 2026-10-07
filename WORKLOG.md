@@ -12,6 +12,7 @@
 - added offline option to landing page
 - added footer to landing page
 - changed footer behaviour for first visit on overview page
+- optimised touch behaviour
 - small fixes
 
 ## 2026-09-11

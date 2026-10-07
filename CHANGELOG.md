@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `ff65584` **[Templates/Pages]** changed footer behaviour for first visit on overview page
+
+## 2026-10-07
+
 - `1028397` **[Templates/Pages, CSS]** added footer to landing page
 
 ## 2026-10-07
