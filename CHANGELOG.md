@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `39f8827` **[Templates/Pages, CSS]** optimised touch behaviour
+
+## 2026-10-07
+
 - `ff65584` **[Templates/Pages]** changed footer behaviour for first visit on overview page
 
 ## 2026-10-07
