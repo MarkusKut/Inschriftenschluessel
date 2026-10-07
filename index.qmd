@@ -11,7 +11,7 @@ body-classes: entry-page
 
 ![](assets/branding/Inschriftenschluesselv2-w-logo-col_inverted.svg){.entry-logo .entry-logo-dark}
 
-[Zum Menü](menu.qmd){.entry-menu-button}
+[Weiter](overview.qmd){.entry-menu-button}
 
 :::
 

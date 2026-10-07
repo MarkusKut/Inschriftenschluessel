@@ -3,6 +3,7 @@
 ## 2026-10-07
 
 - changed appearance of formula glyphlines
+- added starting page
 
 ## 2026-09-11
 

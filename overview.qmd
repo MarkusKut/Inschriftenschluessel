@@ -1,0 +1,496 @@
+---
+body-classes: overview-page
+---
+
+
+## Formeln
+
+::: {.formula-preview-slider}
+
+::: {.formula-preview-card}
+
+### [Opferformel](pages/formeln/opferformel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/01_Htp-dj-nsw/0010_Htp-dj-nsw_AR-MR_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḥtp-di-nsw*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/02_dj/0001_dj_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+(*di*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gaben](pages/slots/gaben.qmd){.badge-slot .badge-gaben}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/01_Opferformel/03_n-kA-n/0001_n-kA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*n* / *n kꜣ n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [König-geliebt-von-Gottheit-Formel](pages/formeln/koenig-geliebt-von-gottheit-formel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/04_Koenig-geliebt-von-Gottheit-Formel/01_mry/0001_mry_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*mry*
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [Denkmälerformel](pages/formeln/denkmaelerformel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+/
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/01_jrj.n=f-m-mn.w=f/0001_jrj.n=f m mn.w=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ir.n⸗f mn.w⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/02_Denkmaelerformel/02_n-jt=f-mwt=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*n it / mw.t⸗f*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-item}
+<b>Tat</b>
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [Beischrift](pages/formeln/beischrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+Beziehung
+:::
+
+::: {.glyphline-item}
+Szenentitel
+:::
+
+::: {.glyphline-item}
+[Wortliche Rede](pages/slots/wortlRede.qmd){.badge-slot .badge-w-rtliche-rede}
+:::
+
+::: {.glyphline-item}
+[Rückenschutzformel](pages/slots/rueckenschutzformel.qmd){.badge-slot .badge-r-ckenschutzformel}
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [„Historische“ Königsinschrift](pages/formeln/koenigsinschrift.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-item}
+[Datum](pages/slots/datum.qmd){.badge-slot .badge-datum}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/05_Historische-Koenigsinschrift/01_xr-Hm-n/0001_xr Hm n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫr ḥm n*
+:::
+
+:::
+
+::: {.glyphline-item}
+[König](pages/slots/koenig.qmd){.badge-slot .badge-k-nig}
+:::
+
+::: {.glyphline-item}
+<b>[narrativer Text]</b>
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [Hymnus](pages/formeln/hymnus.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/01_dwA/0001_dwA_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*dwꜣ*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/02_rDj.t-jAw/0001_rDj.t-jAw_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*rdi.t iꜣw*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/03_sn-tA-n/0001_sn-tA-n_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*sn tꜣ n*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/04_jn/0001_jn_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*in*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/05_Dd=f/0001_Dd=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḏd⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/03_Hymnus/06_jnD-Hr/0001_jnD-Hr_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*inḏ-ḥr⸗k* / *⸗ṯ* / *⸗ṯn*
+:::
+
+:::
+
+::: {.glyphline-item}
+[Gottheit](pages/slots/gottheit.qmd){.badge-slot .badge-gottheit}
+:::
+
+::: {.glyphline-item}
+<b>Lobpreisungen für Gottheit</b>
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [Saïten-Formel](pages/formeln/saiten-formel.qmd)
+
+::: {.glyphline-stacked}
+
+::: {.glyphline-part}
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/01_nTr-njw.t-n/0001_nTr-nwj.t_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*nṯr-nw.tj* (*n*)
+:::
+
+:::
+
+::: {.glyphline-item}
+[Person](pages/slots/person.qmd){.badge-slot .badge-person}
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/02_dj.tw-HA=f/0001_dj.tw-HA=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*di.tw ḥꜣ⸗f*
+:::
+
+:::
+
+::: {.glyphline-sign}
+
+::: {.glyphline-glyphs}
+![](/assets/glyphs500px/01_Textgattung/08_Saitenformel/03_xft-kA=f-m-bAH=f/0001_xft-kA=f-m-bAH=f_01.png){.glyph}
+:::
+
+::: {.glyphline-transcription}
+*ḫft kꜣ⸗f m-bꜣḥ⸗f*
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+:::
+::: {.formula-preview-card}
+
+### [Anruf an die Lebenden](pages/formeln/anruf-an-die-lebenden.qmd)
+
+
+
+
+:::
+
+:::
+
+<p class="formula-slider-hint">
+← Wischen, um weitere Formeln anzuzeigen →
+</p>
+
+[Zu den Formeln →](menu.qmd){.overview-formula-link}
+
+
+## Information
+
+::: {.overview-info}
+
+::: {.overview-info-content}
+Mit dem Inschriftenschlüssel, dessen Erstellung die LMU mit Geldern aus dem Fonds zur Förderung der Lehre ermöglicht hat, werden die wesentlichen ägyptischen Inschriftenformulare in strukturierter Weise für Lernende aufbereitet. So wird ein Hilfsmittel für die Lektüre von Originalinschriften geschaffen.
+
+Erfahrungsgemäß fällt der Übergang von der Grammatikphase zur Lektüre und die Konfrontation mit tatsächlichen Inschriften in Ägypten oder im Museum aus verschiedenen Gründen vielen Studierenden schwer. Teils liegt es an ungewohnten Zeichenformen, die eine weit größere Varianz in ihrem Erscheinungsbild aufweisen als die gedruckten Hieroglyphen der Texteditionen; teils liegt es an den Schreibungen oder Wörtern, die in der Sprachausbildung nicht in der Frequenz vorkamen wie in den Inschriften; teils an der vielleicht suboptimalen Erhaltung; teils sind die Denkmäler aber auch einfach aus jüngeren Epochen und enthalten Phänomene, die im Unterricht noch nicht vorkamen, da sie für das Mittel- oder Altägyptische noch nicht relevant sind, die aber aufgrund der Häufigkeit jüngerer Inschriften in einem Museum prominenter sind.
+
+Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
+
+Andererseits sind Inschriften trotz aller Vielfalt längst nicht so divers wie etwa Literaturwerke, sondern folgen innerhalb einer gewissen Variationsbreite, die je nach Ort, Zeit oder Aufwand unterschiedlich sein kann, bestimmten Formularen. Wenn man die kennt, findet man sich in ägyptischen Inschriften leichter zurecht. Dazu kommt ein gewisser Vorrat an Götterepitheta, und am Schluss bleiben womöglich nur die Titel und Namen des einstigen Stelenbesitzers ungelesen übrig.
+
+Der Inschriftenschlüssel soll einen Uberblick über die Grundtypen von Inschriften, die in ihnen vorgesehenen Elemente und die häufigsten Ausdrücke, die zur Ausfüllung dieser Positionen in Frage kommen, geben. Das soll in einer Weise geschehen, die strikt den Unterschied zwischen Inschriftentyp, den damit verbundenen Formularen und ihren Leerstellen sowie den konkreten Ausdrücken, die an einer Stelle stehen können, deutlich macht und zugleich je nach Epoche auch typische Schreibungen der für das Formular und seine Erkennbarkeit wichtigen Einzelwörter zeigt.
+
+Der Inschriftenschlüssel erinnert also zunächst an die häufigsten Formulare und ihren Aufbau und stellt dann die Elemente („Slots“) vor, also über alle Inschriftentypen hinweg im Wesentlichen [Gottheit](pages/slots/gottheit.qmd){.slot-link .slot-gottheit}, [König](pages/slots/koenig.qmd){.slot-link .slot-k-nig}, [Gaben](pages/slots/gaben.qmd){.slot-link .slot-gaben} und [Person](pages/slots/person.qmd){.slot-link .slot-person}. Die Kenntnis der Inschriftenformulare stellt sicher, dass man stets weiß, wo in der Inschrift man sich gerade befindet, dass das Wort, auf das man nicht kommt, z. B. ein Götterepitheton sein muss etc., und verhindert „Flächenschäden“ im Textverständnis, aus denen man nicht mehr herausfindet.
+
+Ein Verzeichnis von Hieroglyphen, die in Inschriften ggf. späterer Epochen häufig sind, aber etwa im Mittleren Reich noch nicht vorkommen oder aus anderen Gründen ungewohnt sind, rundet zusammen mit einem Wörterverzeichnis den Inschriftenschlüssel ab.
+
+<br>
+
+München 2026
+
+Iulia Comşa, Friedhelm Hoffmann, Markus Kutschka
+:::
+
+```{=html}
+<button
+  type="button"
+  class="overview-expand-button"
+  aria-expanded="false">
+  Mehr anzeigen
+</button>
+```
+
+:::
+
+
+
+```{=html}
+<script>
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+    const box =
+      document.querySelector(
+        ".overview-info"
+      );
+
+    const button =
+      document.querySelector(
+        ".overview-expand-button"
+      );
+
+    if (!box || !button) {
+      return;
+    }
+
+    button.addEventListener(
+      "click",
+      function () {
+
+        const expanded =
+          box.classList.toggle(
+            "expanded"
+          );
+
+        button.setAttribute(
+          "aria-expanded",
+          String(expanded)
+        );
+
+        button.textContent =
+          expanded
+            ? "Weniger anzeigen"
+            : "Mehr anzeigen";
+      }
+    );
+
+  }
+);
+</script>
+```

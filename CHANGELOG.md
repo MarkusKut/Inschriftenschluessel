@@ -2,6 +2,10 @@
 
 ## 2026-10-07
 
+- `ec4cbca` **[R code, Templates/Pages, CSS, PWA/Offline]** added starting page
+
+## 2026-10-07
+
 - `ba5a79e` **[Templates/Pages, Data]** changed appearance of formula glyphlines
 
 ## 2026-09-11

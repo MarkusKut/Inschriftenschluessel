@@ -1,0 +1,94 @@
+---
+body-classes: overview-page
+---
+
+
+## Formeln
+
+::: {.formula-preview-slider}
+
+{{#formula_cards}}
+::: {.formula-preview-card}
+
+### [{{label}}]({{href}})
+
+{{{preview}}}
+
+:::
+{{/formula_cards}}
+
+:::
+
+<p class="formula-slider-hint">
+← Wischen, um weitere Formeln anzuzeigen →
+</p>
+
+[Zu den Formeln →](menu.qmd){.overview-formula-link}
+
+
+## Information
+
+::: {.overview-info}
+
+::: {.overview-info-content}
+{{{information}}}
+:::
+
+```{=html}
+<button
+  type="button"
+  class="overview-expand-button"
+  aria-expanded="false">
+  Mehr anzeigen
+</button>
+```
+
+:::
+
+
+
+```{=html}
+<script>
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+
+    const box =
+      document.querySelector(
+        ".overview-info"
+      );
+
+    const button =
+      document.querySelector(
+        ".overview-expand-button"
+      );
+
+    if (!box || !button) {
+      return;
+    }
+
+    button.addEventListener(
+      "click",
+      function () {
+
+        const expanded =
+          box.classList.toggle(
+            "expanded"
+          );
+
+        button.setAttribute(
+          "aria-expanded",
+          String(expanded)
+        );
+
+        button.textContent =
+          expanded
+            ? "Weniger anzeigen"
+            : "Mehr anzeigen";
+      }
+    );
+
+  }
+);
+</script>
+```

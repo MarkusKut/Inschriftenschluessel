@@ -299,6 +299,142 @@ gen_slot_pages <- function(content) {
 #   }
 # }
 
+gen_overview <- function(content) {
+  
+  tmpl <- readLines(
+    "templates/overview.qmd.tmpl",
+    warn = FALSE
+  ) |>
+    paste(collapse = "\n")
+  
+  
+  # Find the Information page in Excel
+  info_page <- content$pages %>%
+    dplyr::filter(title == "Information") %>%
+    dplyr::slice(1)
+  
+  
+  if (nrow(info_page) == 0) {
+    stop(
+      "No page with title 'Information' found in pages sheet."
+    )
+  }
+  
+  
+  # Get the prose belonging to that page
+  info_rows <- content$slot_content %>%
+    dplyr::filter(
+      page_id == info_page$page_id,
+      block_type == "prose"
+    ) %>%
+    dplyr::arrange(id)
+  
+  
+  information <- paste(
+    info_rows$body_md[
+      !is.na(info_rows$body_md)
+    ],
+    collapse = "\n\n"
+  )
+  
+  
+  # Convert [Gottheit], [König], [Gaben], ...
+  # into the normal slot links
+  
+  slot_map <- make_slot_linker(
+    content$pages
+  )
+  
+  information <- link_slot_tokens(
+    information,
+    slot_map = slot_map,
+    from_slug = "overview"
+  )
+  
+  # ========================================
+  # Formula previews for overview slider
+  # ========================================
+  
+  pages1 <- content$pages %>%
+    dplyr::select(
+      page_id,
+      title,
+      slug,
+      type
+    ) %>%
+    dplyr::distinct(
+      page_id,
+      .keep_all = TRUE
+    )
+  
+  
+  formula_cards <- content$landing_cards %>%
+    dplyr::left_join(
+      pages1,
+      by = c(
+        "href_page_id" = "page_id"
+      )
+    ) %>%
+    dplyr::filter(
+      type == "formula"
+    ) %>%
+    dplyr::mutate(
+      slug = trimws(slug),
+      
+      href = paste0(
+        slug,
+        ".qmd"
+      ),
+      
+      preview = vapply(
+        href_page_id,
+        function(pid) {
+          
+          rewrite_slot_links_for_landing(
+            first_formula_glyphline_md(
+              pid,
+              content
+            )
+          )
+          
+        },
+        character(1)
+      )
+    ) %>%
+    dplyr::arrange(id)
+  
+  
+  formula_cards_list <-
+    lapply(
+      seq_len(
+        nrow(formula_cards)
+      ),
+      function(i) {
+        as.list(
+          formula_cards[
+            i,
+            ,
+            drop = FALSE
+          ]
+        )
+      }
+    )
+  
+  out <- whisker.render(
+    tmpl,
+    list(
+      information = information,
+      formula_cards = formula_cards_list
+    )
+  )
+  
+  
+  write_qmd(
+    "overview.qmd",
+    out
+  )
+}
+
 generate_site_pages <- function() {
   content <- load_content()
   dup <- content$pages %>% count(page_id) %>% filter(n > 1)
@@ -319,6 +455,7 @@ generate_site_pages <- function() {
   # ----------------------------------------
   
   gen_landing(content)
+  gen_overview(content)
   gen_formula_pages(content)
   gen_slot_pages(content)
 }

@@ -2565,3 +2565,201 @@ body.quarto-dark .entry-logo-dark,
     padding: 0.6rem 1.1rem;
   }
 }
+
+
+
+
+
+/* ========================================
+   Overview page
+   ======================================== */
+
+.overview-info {
+  margin-bottom: 2rem;
+}
+
+
+/* Closed state: show approximately 5 lines */
+
+.overview-info-content {
+  position: relative;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+
+  overflow: hidden;
+}
+
+
+/* Expanded state */
+
+.overview-info.expanded
+.overview-info-content {
+  display: block;
+
+  -webkit-line-clamp: unset;
+
+  overflow: visible;
+}
+
+
+/* Expand button */
+
+.overview-expand-button {
+  display: inline-flex;
+  align-items: center;
+
+  margin-top: 0.65rem;
+  padding: 0;
+
+  color: var(--bs-link-color);
+  background: transparent;
+
+  border: 0;
+
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.overview-expand-button:hover {
+  text-decoration: underline;
+}
+
+
+/* Formula link */
+
+.overview-formula-link {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 0.55rem 0.9rem;
+
+  color: var(--bs-body-color);
+  background: var(--bs-tertiary-bg);
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.5rem;
+
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.overview-formula-link:hover {
+  color: var(--bs-body-color);
+  background: var(--bs-secondary-bg);
+
+  text-decoration: none;
+}
+
+
+
+
+/* ========================================
+   Formula preview slider
+   ======================================== */
+
+.formula-preview-slider {
+  display: flex;
+
+  gap: 0.9rem;
+
+  width: 100%;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  padding: 0.25rem 0.15rem 0.9rem;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
+}
+
+
+/* Individual formula card */
+
+.formula-preview-card {
+  flex: 0 0 min(82vw, 23rem);
+
+  scroll-snap-align: start;
+
+  padding: 0.9rem 1rem;
+
+  background: var(--bs-tertiary-bg);
+
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.75rem;
+}
+
+
+/* Formula heading */
+
+.formula-preview-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+
+  font-size: 1rem;
+}
+
+.formula-preview-card h3 a {
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+.formula-preview-card h3 a:hover {
+  color: var(--bs-link-color);
+}
+
+
+/* Keep glyph preview compact */
+
+.formula-preview-card .glyphline-part {
+  margin-bottom: 0.55rem;
+}
+
+.formula-preview-card .glyphline-transcription {
+  font-size: 0.78em;
+}
+
+
+/* Small swipe hint */
+
+.formula-slider-hint {
+  margin: -0.25rem 0 1rem;
+
+  color: var(--bs-secondary-color);
+
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+
+/* Scrollbar */
+
+.formula-preview-slider::-webkit-scrollbar {
+  height: 0.35rem;
+}
+
+.formula-preview-slider::-webkit-scrollbar-thumb {
+  background: var(--bs-border-color);
+  border-radius: 999px;
+}
+
+
+/* ========================================
+   Desktop
+   ======================================== */
+
+@media (min-width: 769px) {
+
+  .formula-preview-card {
+    flex-basis: 22rem;
+  }
+}

@@ -20,6 +20,7 @@ website:
   back-to-top-navigation: true
   navbar:
     title: false
+    logo-href: /Inschriftenschluessel/menu.html
     search: true
     tools-collapse: false
     pinned: true
